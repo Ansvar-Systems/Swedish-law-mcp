@@ -5,6 +5,7 @@
 import { parseCitation } from '../citation/parser.js';
 import { formatCitation } from '../citation/formatter.js';
 import type { CitationFormat } from '../types/index.js';
+import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface FormatCitationInput {
   citation: string;
@@ -21,29 +22,38 @@ export interface FormatCitationResult {
 
 export async function formatCitationTool(
   input: FormatCitationInput
-): Promise<FormatCitationResult> {
+): Promise<ToolResponse<FormatCitationResult>> {
   if (!input.citation || input.citation.trim().length === 0) {
-    return { input: '', formatted: '', type: 'unknown', valid: false, error: 'Empty citation' };
+    return {
+      results: { input: '', formatted: '', type: 'unknown', valid: false, error: 'Empty citation' },
+      _metadata: generateResponseMetadata()
+    };
   }
 
   const parsed = parseCitation(input.citation);
 
   if (!parsed.valid) {
     return {
-      input: input.citation,
-      formatted: input.citation,
-      type: 'unknown',
-      valid: false,
-      error: parsed.error,
+      results: {
+        input: input.citation,
+        formatted: input.citation,
+        type: 'unknown',
+        valid: false,
+        error: parsed.error,
+      },
+      _metadata: generateResponseMetadata()
     };
   }
 
   const formatted = formatCitation(parsed, input.format ?? 'full');
 
   return {
-    input: input.citation,
-    formatted,
-    type: parsed.type,
-    valid: true,
+    results: {
+      input: input.citation,
+      formatted,
+      type: parsed.type,
+      valid: true,
+    },
+    _metadata: generateResponseMetadata()
   };
 }

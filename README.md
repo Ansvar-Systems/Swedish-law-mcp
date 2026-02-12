@@ -4,12 +4,29 @@
 
 [![npm version](https://img.shields.io/npm/v/@ansvar/swedish-law-mcp)](https://www.npmjs.com/package/@ansvar/swedish-law-mcp)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Pilot%20%7C%20Research-yellow)
+
+⚠️ **NOT FOR PRODUCTION LEGAL WORK** — This tool is in pilot/research phase. See [DISCLAIMER.md](DISCLAIMER.md) and [PRIVACY.md](PRIVACY.md) before use.
 
 ---
 
 ## Overview
 
 This MCP (Model Context Protocol) server gives AI assistants direct access to Swedish law from Riksdagen's official database. No more switching between tabs or searching through PDF documents.
+
+### ⚠️ Critical Notices for Professional Use
+
+**Before using this tool professionally, you MUST read:**
+
+- **[DISCLAIMER.md](DISCLAIMER.md)** — Legal disclaimers, professional liability warnings, data authority limitations
+- **[PRIVACY.md](PRIVACY.md)** — Client confidentiality concerns, Advokatsamfundet compliance, on-premise deployment options
+
+**Key Warnings:**
+- ❌ **Not legal advice** — research purposes only
+- ❌ **Not production-ready** — pilot/research phase
+- ❌ **Verify everything** — data may be incomplete, outdated, or incorrect
+- ❌ **Client confidentiality** — queries flow through Claude API; use on-premise for privileged matters
+- ❌ **Coverage gaps** — missing EU law, CJEU case law, historical versions
 
 ### What's Included
 

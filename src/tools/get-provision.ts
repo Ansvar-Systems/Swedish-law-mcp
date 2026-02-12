@@ -4,6 +4,7 @@
 
 import type { Database } from 'better-sqlite3';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
+import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface GetProvisionInput {
   document_id: string;
@@ -51,7 +52,7 @@ interface ProvisionRow {
 export async function getProvision(
   db: Database,
   input: GetProvisionInput
-): Promise<ProvisionResult | ProvisionResult[] | null> {
+): Promise<ToolResponse<ProvisionResult | ProvisionResult[] | null>> {
   if (!input.document_id) {
     throw new Error('document_id is required');
   }
@@ -70,7 +71,10 @@ export async function getProvision(
 
   // If no specific provision, return all provisions for the document
   if (!provisionRef) {
-    return getAllProvisions(db, input.document_id, asOfDate);
+    return {
+      results: getAllProvisions(db, input.document_id, asOfDate),
+      _metadata: generateResponseMetadata(db)
+    };
   }
 
   let row: ProvisionRow | undefined;
@@ -120,7 +124,10 @@ export async function getProvision(
   }
 
   if (!row) {
-    return null;
+    return {
+      results: null,
+      _metadata: generateResponseMetadata(db)
+    };
   }
 
   const crossRefs = db.prepare(`
@@ -130,9 +137,12 @@ export async function getProvision(
   `).all(input.document_id, provisionRef) as CrossRefResult[];
 
   return {
-    ...row,
-    metadata: row.metadata ? JSON.parse(row.metadata) : null,
-    cross_references: crossRefs,
+    results: {
+      ...row,
+      metadata: row.metadata ? JSON.parse(row.metadata) : null,
+      cross_references: crossRefs,
+    },
+    _metadata: generateResponseMetadata(db)
   };
 }
 

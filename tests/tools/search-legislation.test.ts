@@ -15,64 +15,66 @@ describe('search_legislation', () => {
   });
 
   it('should find provisions by keyword', async () => {
-    const results = await searchLegislation(db, { query: 'personuppgifter' });
-    expect(results.length).toBeGreaterThan(0);
-    expect(results[0]).toHaveProperty('document_id');
-    expect(results[0]).toHaveProperty('provision_ref');
-    expect(results[0]).toHaveProperty('snippet');
+    const response = await searchLegislation(db, { query: 'personuppgifter' });
+    expect(response.results.length).toBeGreaterThan(0);
+    expect(response.results[0]).toHaveProperty('document_id');
+    expect(response.results[0]).toHaveProperty('provision_ref');
+    expect(response.results[0]).toHaveProperty('snippet');
+    expect(response._metadata).toHaveProperty('disclaimer');
+    expect(response._metadata).toHaveProperty('data_freshness');
   });
 
   it('should filter by document_id', async () => {
-    const results = await searchLegislation(db, {
+    const response = await searchLegislation(db, {
       query: 'personuppgifter',
       document_id: '2018:218',
     });
-    expect(results.length).toBeGreaterThan(0);
-    for (const r of results) {
+    expect(response.results.length).toBeGreaterThan(0);
+    for (const r of response.results) {
       expect(r.document_id).toBe('2018:218');
     }
   });
 
   it('should filter by status', async () => {
-    const results = await searchLegislation(db, {
+    const response = await searchLegislation(db, {
       query: 'personuppgifter',
       status: 'repealed',
     });
     // PUL (1998:204) is repealed and mentions personuppgifter
-    for (const r of results) {
+    for (const r of response.results) {
       expect(r.document_id).toBe('1998:204');
     }
   });
 
   it('should respect limit', async () => {
-    const results = await searchLegislation(db, {
+    const response = await searchLegislation(db, {
       query: 'personuppgifter',
       limit: 2,
     });
-    expect(results.length).toBeLessThanOrEqual(2);
+    expect(response.results.length).toBeLessThanOrEqual(2);
   });
 
   it('should return empty array for empty query', async () => {
-    const results = await searchLegislation(db, { query: '' });
-    expect(results).toEqual([]);
+    const response = await searchLegislation(db, { query: '' });
+    expect(response.results).toEqual([]);
   });
 
   it('should cap limit at MAX_LIMIT', async () => {
-    const results = await searchLegislation(db, {
+    const response = await searchLegislation(db, {
       query: 'personuppgifter',
       limit: 100, // exceeds MAX_LIMIT of 50
     });
-    expect(results.length).toBeLessThanOrEqual(50);
+    expect(response.results.length).toBeLessThanOrEqual(50);
   });
 
   it('should return historical provision versions for as_of_date', async () => {
-    const results = await searchLegislation(db, {
+    const response = await searchLegislation(db, {
       query: 'Datainspektionen',
       as_of_date: '2019-06-01',
       document_id: '2018:218',
     });
-    expect(results.length).toBeGreaterThan(0);
-    expect(results[0].provision_ref).toBe('3:1');
+    expect(response.results.length).toBeGreaterThan(0);
+    expect(response.results[0].provision_ref).toBe('3:1');
   });
 
   it('should reject invalid as_of_date', async () => {

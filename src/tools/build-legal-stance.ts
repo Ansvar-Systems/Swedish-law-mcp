@@ -8,6 +8,7 @@
 import type { Database } from 'better-sqlite3';
 import { buildFtsQueryVariants } from '../utils/fts-query.js';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
+import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface BuildLegalStanceInput {
   query: string;
@@ -59,9 +60,12 @@ const MAX_LIMIT = 20;
 export async function buildLegalStance(
   db: Database,
   input: BuildLegalStanceInput
-): Promise<LegalStanceResult> {
+): Promise<ToolResponse<LegalStanceResult>> {
   if (!input.query || input.query.trim().length === 0) {
-    return { query: '', provisions: [], case_law: [], preparatory_works: [], total_citations: 0 };
+    return {
+      results: { query: '', provisions: [], case_law: [], preparatory_works: [], total_citations: 0 },
+      _metadata: generateResponseMetadata(db)
+    };
   }
 
   const limit = Math.min(Math.max(input.limit ?? DEFAULT_LIMIT, 1), MAX_LIMIT);
@@ -213,11 +217,14 @@ export async function buildLegalStance(
   }
 
   return {
-    query: input.query,
-    provisions,
-    case_law: caseLaw,
-    preparatory_works: prepWorks,
-    total_citations: provisions.length + caseLaw.length + prepWorks.length,
-    as_of_date: asOfDate,
+    results: {
+      query: input.query,
+      provisions,
+      case_law: caseLaw,
+      preparatory_works: prepWorks,
+      total_citations: provisions.length + caseLaw.length + prepWorks.length,
+      as_of_date: asOfDate,
+    },
+    _metadata: generateResponseMetadata(db)
   };
 }
