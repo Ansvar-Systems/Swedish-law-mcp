@@ -2,6 +2,7 @@
   "id": "1998:808",
   "type": "statute",
   "title": "Miljöbalk (1998:808)",
+  "short_name": "MB",
   "status": "in_force",
   "issued_date": "1998-06-11",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1998-808",
@@ -3631,6 +3632,992 @@
       "chapter": "32",
       "section": "14",
       "content": "Organisationstalan enligt 13 § första eller andra stycket får väckas av en ideell förening som i enlighet med sina stadgar tillvaratar naturskydds- eller miljöskyddsintressen eller av en sammanslutning av yrkesverksamma inom fiske-, jordbruks-, ren- och skogsbruksnäringen. Det som sägs i första stycket gäller också en sammanslutning av sådana organisationer som nämns där. Lag (2002:600)."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1997/98:278",
+      "title": "Proposition 1997/98:278: Riksrevisionens rapport om statens insatser mot invasiva främmande arter"
+    },
+    {
+      "prep_document_id": "1997/98:45",
+      "title": "Proposition 1997/98:45: Reformering av avfallslagstiftningen för ökad materialåtervinning"
+    },
+    {
+      "prep_document_id": "1998/99:122",
+      "title": "Proposition 1998/99:122: Kommunala bostadsföretag"
+    },
+    {
+      "prep_document_id": "1998/99:22",
+      "title": "Proposition 1998/99:22: Sekretess för vissa uppgifter hos uppdragsmyndig- heter m.m."
+    },
+    {
+      "prep_document_id": "1998/99:62",
+      "title": "Proposition 1998/99:62: Vissa byggfrågor m.m."
+    },
+    {
+      "prep_document_id": "1998/99:219",
+      "title": "Proposition 1998/99:219: Proposition 2000/01:1"
+    },
+    {
+      "prep_document_id": "1998/99:64",
+      "title": "Proposition 1998/99:64: Säkrare kemikaliehantering"
+    },
+    {
+      "prep_document_id": "2000/01:28",
+      "title": "Proposition 2000/01:28: Resursfördelningen inom Vetenskapsrådet"
+    },
+    {
+      "prep_document_id": "2000/01:111",
+      "title": "Proposition 2000/01:111: Naturvårdshänsyn vid fiske i havet för att skydda Natura 2000-områden"
+    },
+    {
+      "prep_document_id": "2001/02:31",
+      "title": "Proposition 2001/02:31: Avgasrening, m.m."
+    },
+    {
+      "prep_document_id": "2001/02:162",
+      "title": "Proposition 2001/02:162: Ny lag om tobak och liknande produkter"
+    },
+    {
+      "prep_document_id": "2001/02:65",
+      "title": "Proposition 2001/02:65: Reformering av avfallslagstiftningen för ökad materialåtervinning"
+    },
+    {
+      "prep_document_id": "2001/02:107",
+      "title": "Proposition 2001/02:107: Grupptalan till skydd för konsumenters kollektiva intressen"
+    },
+    {
+      "prep_document_id": "2002/03:151",
+      "title": "Proposition 2002/03:151: Utjämning av vissa kostnader för stöd och service till funktionshindrade"
+    },
+    {
+      "prep_document_id": "2002/03:37",
+      "title": "Proposition 2002/03:37: Reklam för kemiska produkter, m.m."
+    },
+    {
+      "prep_document_id": "2002/03:54",
+      "title": "Proposition 2002/03:54: Tillsyn och sanktioner på miljörättens område"
+    },
+    {
+      "prep_document_id": "2003/04:1",
+      "title": "Proposition 2003/04:1: Riksrevisionens rapport om skolpengen – effektivitet och konsekvenser"
+    },
+    {
+      "prep_document_id": "2002/03:116",
+      "title": "Proposition 2002/03:116: Tredimensionell fastighetsindelning"
+    },
+    {
+      "prep_document_id": "2003/04:24",
+      "title": "Proposition 2003/04:24: Riksrevisionens rapport om statens suicidpreventiva arbete"
+    },
+    {
+      "prep_document_id": "2002/03:119",
+      "title": "Proposition 2002/03:119: En effektivare kommunal räddningstjänst"
+    },
+    {
+      "prep_document_id": "2003/04:56",
+      "title": "Proposition 2003/04:56: Genomförande av balansdirektivet"
+    },
+    {
+      "prep_document_id": "2003/04:2",
+      "title": "Proposition 2003/04:2: Genomförande av EU:s nya dricksvattendirektiv"
+    },
+    {
+      "prep_document_id": "2003/04:13",
+      "title": "Proposition 2003/04:13: Europeiska konventet om EU:s framtid"
+    },
+    {
+      "prep_document_id": "2002/03:117",
+      "title": "Proposition 2002/03:117: Producentansvar och straffansvar för nedskräpning"
+    },
+    {
+      "prep_document_id": "2003/04:178",
+      "title": "Proposition 2003/04:178: Riksrevisionens rapport om det nationella smittskyddet"
+    },
+    {
+      "prep_document_id": "2003/04:30",
+      "title": "Proposition 2003/04:30: Riksrevisionens rapport om det nationella smittskyddet"
+    },
+    {
+      "prep_document_id": "2003/04:174",
+      "title": "Proposition 2003/04:174: Några frågor om ordningslagen"
+    },
+    {
+      "prep_document_id": "2003/04:57",
+      "title": "Proposition 2003/04:57: Genomförande av EU:s nya dricksvattendirektiv"
+    },
+    {
+      "prep_document_id": "2003/04:217",
+      "title": "Proposition 2003/04:217: Ändrad beslutskompetens i vissa ärenden på bank- och försäkringsområdena"
+    },
+    {
+      "prep_document_id": "2002/03:139",
+      "title": "Proposition 2002/03:139: Stärkt konsumentskydd på kreditmarknaden"
+    },
+    {
+      "prep_document_id": "2003/04:99",
+      "title": "Proposition 2003/04:99: Följdändringar med anledning av nya regler för bank- och finansieringsrörelse samt inlåningsverksamhet"
+    },
+    {
+      "prep_document_id": "2003/04:235",
+      "title": "Proposition 2003/04:235: Budgetpropositionen för 2006 Utgiftsområde 20 Allmän miljö- och naturvård"
+    },
+    {
+      "prep_document_id": "2003/04:116",
+      "title": "Proposition 2003/04:116: Miljöbedömningar"
+    },
+    {
+      "prep_document_id": "2003/04:281",
+      "title": "Proposition 2003/04:281: Skatteregler för elcertifikat och utsläppsrätter"
+    },
+    {
+      "prep_document_id": "2003/04:132",
+      "title": "Proposition 2003/04:132: Nytt regelverk för handel med utsläppsrätter"
+    },
+    {
+      "prep_document_id": "2004/05:65",
+      "title": "Proposition 2004/05:65: Anpassningar till EU:s marknadskontrollförordning – del 2"
+    },
+    {
+      "prep_document_id": "2004/05:135",
+      "title": "Proposition 2004/05:135: Ny patentlag"
+    },
+    {
+      "prep_document_id": "2004/05:312",
+      "title": "Proposition 2004/05:312: Miljöbalkens sanktionssystem, m.m."
+    },
+    {
+      "prep_document_id": "2004/05:129",
+      "title": "Proposition 2004/05:129: Steg på vägen mot en mer effektiv miljöprövning"
+    },
+    {
+      "prep_document_id": "2004/05:307",
+      "title": "Proposition 2004/05:307: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2004/05:131",
+      "title": "Proposition 2004/05:131: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2005/06:50",
+      "title": "Proposition 2005/06:50: Lag om estetiska kirurgiska ingrepp och estetiska injektionsbehandlingar"
+    },
+    {
+      "prep_document_id": "2004/05:169",
+      "title": "Proposition 2004/05:169: Tredimensionell fastighetsindelning - kompletterande lagtekniska frågor"
+    },
+    {
+      "prep_document_id": "2005/06:287",
+      "title": "Proposition 2005/06:287: Riksrevisionens rapport om finansieringssystemet för kärnavfallshantering"
+    },
+    {
+      "prep_document_id": "2005/06:200",
+      "title": "Proposition 2005/06:200: Ny patentlag"
+    },
+    {
+      "prep_document_id": "2005/06:357",
+      "title": "Proposition 2005/06:357: Riksrevisionens rapport om granskning av livsmedelskontrollen"
+    },
+    {
+      "prep_document_id": "2005/06:128",
+      "title": "Proposition 2005/06:128: Hund under kontroll"
+    },
+    {
+      "prep_document_id": "2005/06:182",
+      "title": "Proposition 2005/06:182: Skarpare verktyg till Inspektionen för vård och omsorg"
+    },
+    {
+      "prep_document_id": "2006/07:131",
+      "title": "Proposition 2006/07:131: Meddelande om tidigare aviserade förslag om ändringar av skattereglerna för pensionsförsäkring"
+    },
+    {
+      "prep_document_id": "2006/07:40",
+      "title": "Proposition 2006/07:40: Reformering av avfallslagstiftningen för ökad materialåtervinning"
+    },
+    {
+      "prep_document_id": "2006/07:39",
+      "title": "Proposition 2006/07:39: Lagändring med anledning av nya EG-direktiv om avgaskrav för motorer i tunga fordon, m.m."
+    },
+    {
+      "prep_document_id": "2006/07:207",
+      "title": "Proposition 2006/07:207: Riksrevisionens rapport om ekonomiska risker för staten i fråga om gruvavfall"
+    },
+    {
+      "prep_document_id": "2006/07:95",
+      "title": "Proposition 2006/07:95: Reformering av avfallslagstiftningen för ökad materialåtervinning"
+    },
+    {
+      "prep_document_id": "2007/08:80",
+      "title": "Proposition 2007/08:80: Miljöbalken och EG-förordningen om kemikalieregistrering"
+    },
+    {
+      "prep_document_id": "2007/08:134",
+      "title": "Proposition 2007/08:134: Riksrevisionens rapport om ej verkställda beslut - rapporteringsskyldighet och särskild avgift i SoL och LSS"
+    },
+    {
+      "prep_document_id": "2007/08:129",
+      "title": "Proposition 2007/08:129: Producentansvar och straffansvar för nedskräpning"
+    },
+    {
+      "prep_document_id": "2008/09:8",
+      "title": "Proposition 2008/09:8: Kontroll av postförsändelser"
+    },
+    {
+      "prep_document_id": "2007/08:154",
+      "title": "Proposition 2007/08:154: Miljöskyddet i Sveriges ekonomiska zon"
+    },
+    {
+      "prep_document_id": "2008/09:119",
+      "title": "Proposition 2008/09:119: Lättnader i strandskyddet – ett första steg"
+    },
+    {
+      "prep_document_id": "2008/09:1",
+      "title": "Proposition 2008/09:1: Riksrevisionens rapport om statens främjande av de nationella minoritetsspråken"
+    },
+    {
+      "prep_document_id": "2008/09:167",
+      "title": "Proposition 2008/09:167: En strategi för att stärka utvecklingskraften i Sveriges landsbygder"
+    },
+    {
+      "prep_document_id": "2008/09:76",
+      "title": "Proposition 2008/09:76: Riksrevisionens rapport om bildandet av Svevia och Infranord"
+    },
+    {
+      "prep_document_id": "2008/09:210",
+      "title": "Proposition 2008/09:210: En ny rovdjursförvaltning"
+    },
+    {
+      "prep_document_id": "2008/09:110",
+      "title": "Proposition 2008/09:110: Tillfälliga åtgärder i en nationalstadspark"
+    },
+    {
+      "prep_document_id": "2008/09:237",
+      "title": "Proposition 2008/09:237: Förstärkt integritetsskydd vid signalspaning"
+    },
+    {
+      "prep_document_id": "2008/09:150",
+      "title": "Proposition 2008/09:150: Stärkt skydd för barn som riskerar att fara illa"
+    },
+    {
+      "prep_document_id": "2008/09:227",
+      "title": "Proposition 2008/09:227: Förfarandet när ett beslag har hävts"
+    },
+    {
+      "prep_document_id": "2008/09:253",
+      "title": "Proposition 2008/09:253: Budgetpropositionen för 2009",
+      "summary": "UTGIFTSOMRÅDE 18: Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik"
+    },
+    {
+      "prep_document_id": "2008/09:144",
+      "title": "Proposition 2008/09:144: Enklare och bättre täktbestämmelser"
+    },
+    {
+      "prep_document_id": "2008/09:258",
+      "title": "Proposition 2008/09:258: En enklare plan- och bygglag"
+    },
+    {
+      "prep_document_id": "2008/09:146",
+      "title": "Proposition 2008/09:146: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "2009/10:21",
+      "title": "Proposition 2009/10:21: Stärkt skydd för hyresgäster"
+    },
+    {
+      "prep_document_id": "2008/09:229",
+      "title": "Proposition 2008/09:229: Anslutning till och genomförande av barlastvattenkonventionen"
+    },
+    {
+      "prep_document_id": "2009/10:26",
+      "title": "Proposition 2009/10:26: Informationsutbytesavtal och partiellt skatteavtal med Aruba"
+    },
+    {
+      "prep_document_id": "2008/09:217",
+      "title": "Proposition 2008/09:217: Miljöbalkens försäkringar och avhjälpande av förorenade områden m.m."
+    },
+    {
+      "prep_document_id": "2009/10:28",
+      "title": "Proposition 2009/10:28: Riksrevisionens rapport om förvaltningen av skyddad natur"
+    },
+    {
+      "prep_document_id": "2008/09:214",
+      "title": "Proposition 2008/09:214: Riksrevisionens rapport om förvaltningen av skyddad natur"
+    },
+    {
+      "prep_document_id": "2009/10:90",
+      "title": "Proposition 2009/10:90: Riksrevisionens rapport om statens suicidpreventiva arbete"
+    },
+    {
+      "prep_document_id": "2009/10:200",
+      "title": "Proposition 2009/10:200: Fjärde järnvägspaketet"
+    },
+    {
+      "prep_document_id": "2009/10:35",
+      "title": "Proposition 2009/10:35: Riksrevisionens rapport om riktade utbyggnadsuppdrag till universitet och högskolor"
+    },
+    {
+      "prep_document_id": "2009/10:295",
+      "title": "Proposition 2009/10:295: Lag om flygplatsavgifter"
+    },
+    {
+      "prep_document_id": "2009/10:95",
+      "title": "Proposition 2009/10:95: Effektiva sanktioner inom luftfarten"
+    },
+    {
+      "prep_document_id": "2009/10:211",
+      "title": "Proposition 2009/10:211: Sanktioner för överträdelser av nya EU-regler om kemikalier"
+    },
+    {
+      "prep_document_id": "2009/10:362",
+      "title": "Proposition 2009/10:362: Riksrevisionens rapport om statens hantering av markintrång"
+    },
+    {
+      "prep_document_id": "2009/10:162",
+      "title": "Proposition 2009/10:162: Riksrevisionens rapport om statens hantering av markintrång"
+    },
+    {
+      "prep_document_id": "2009/10:184",
+      "title": "Proposition 2009/10:184: Åtgärdsprogram och tillämpningen av miljökvalitetsnormer"
+    },
+    {
+      "prep_document_id": "2009/10:347",
+      "title": "Proposition 2009/10:347: Budgetpropositionen för 2012 Utgiftsområde 2",
+      "summary": "UO 02 Samhällsekonomi och finansförvaltning"
+    },
+    {
+      "prep_document_id": "2009/10:212",
+      "title": "Proposition 2009/10:212: Riksrevisionens rapport om statens arbete med väntetider i vården"
+    },
+    {
+      "prep_document_id": "2009/10:366",
+      "title": "Proposition 2009/10:366: Budgetpropositionen för 2011",
+      "summary": "UTGIFTSOMRÅDE 20 Allmän miljö- och naturvård"
+    },
+    {
+      "prep_document_id": "2009/10:170",
+      "title": "Proposition 2009/10:170: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "2009/10:364",
+      "title": "Proposition 2009/10:364: Ny instansordning för va-målen"
+    },
+    {
+      "prep_document_id": "2009/10:215",
+      "title": "Proposition 2009/10:215: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2009/10:359",
+      "title": "Proposition 2009/10:359: Riksrevisionens rapport om statens arbete för att förhindra och hantera kärntekniska olyckor"
+    },
+    {
+      "prep_document_id": "2009/10:172",
+      "title": "Proposition 2009/10:172: Ny kärnkraft i Sverige – ett första steg"
+    },
+    {
+      "prep_document_id": "2009/10:360",
+      "title": "Proposition 2009/10:360: Framtidens friluftsliv"
+    },
+    {
+      "prep_document_id": "2009/10:173",
+      "title": "Proposition 2009/10:173: Riksrevisionens rapport om reduktionsplikten för bensin och diesel"
+    },
+    {
+      "prep_document_id": "2009/10:181",
+      "title": "Proposition 2009/10:181: Stärkt skydd för demokratin och domstolarnas oberoende"
+    },
+    {
+      "prep_document_id": "2010/11:45",
+      "title": "Proposition 2010/11:45: Kontaktförbud – ett utökat skydd för utsatta personer"
+    },
+    {
+      "prep_document_id": "2009/10:167",
+      "title": "Proposition 2009/10:167: Förbättrad tillsyn på miljöområdet"
+    },
+    {
+      "prep_document_id": "2010/11:51",
+      "title": "Proposition 2010/11:51: Nya lagar om avgasrening och drivmedel"
+    },
+    {
+      "prep_document_id": "2010/11:64",
+      "title": "Proposition 2010/11:64: Två strandskyddsfrågor"
+    },
+    {
+      "prep_document_id": "2010/11:76",
+      "title": "Proposition 2010/11:76: Genomförande av rådets rambeslut om kampen mot organiserad brottslighet"
+    },
+    {
+      "prep_document_id": "2010/11:86",
+      "title": "Proposition 2010/11:86: Havs- och vattenmyndigheten"
+    },
+    {
+      "prep_document_id": "2010/11:276",
+      "title": "Proposition 2010/11:276: Budgetpropositionen för 2012 Utgiftsområde 24",
+      "summary": "UO 24 Näringsliv"
+    },
+    {
+      "prep_document_id": "2010/11:125",
+      "title": "Proposition 2010/11:125: Reformering av avfallslagstiftningen för ökad materialåtervinning"
+    },
+    {
+      "prep_document_id": "2010/11:80",
+      "title": "Proposition 2010/11:80: Ny lag om ackreditering och teknisk kontroll"
+    },
+    {
+      "prep_document_id": "2011/12:12",
+      "title": "Proposition 2011/12:12: Rätt till namn som förvärvats i en annan stat inom EES"
+    },
+    {
+      "prep_document_id": "2010/11:151",
+      "title": "Proposition 2010/11:151: Nytt unionsregister för utsläppsrätter"
+    },
+    {
+      "prep_document_id": "2011/12:171",
+      "title": "Proposition 2011/12:171: Samverkan för att förebygga ungdomsbrottslighet"
+    },
+    {
+      "prep_document_id": "2011/12:59",
+      "title": "Proposition 2011/12:59: Straff för överträdelser av EU-regler om kemikalier"
+    },
+    {
+      "prep_document_id": "2011/12:254",
+      "title": "Proposition 2011/12:254: Säkerhet vid geologisk lagring av koldioxid"
+    },
+    {
+      "prep_document_id": "2011/12:125",
+      "title": "Proposition 2011/12:125: Geologisk lagring av koldioxid"
+    },
+    {
+      "prep_document_id": "2011/12:257",
+      "title": "Proposition 2011/12:257: Riksrevisionens rapport om kostnadskontroll i infrastrukturinvesteringar"
+    },
+    {
+      "prep_document_id": "2011/12:118",
+      "title": "Proposition 2011/12:118: Planeringssystem för transportinfrastruktur"
+    },
+    {
+      "prep_document_id": "2012/13:35",
+      "title": "Proposition 2012/13:35: Nya regler för industriutsläpp."
+    },
+    {
+      "prep_document_id": "2011/12:158",
+      "title": "Proposition 2011/12:158: Sekretessen för djur- och växtarter"
+    },
+    {
+      "prep_document_id": "2012/13:155",
+      "title": "Proposition 2012/13:155: Förvaltare av alternativa investeringsfonder"
+    },
+    {
+      "prep_document_id": "2012/13:17",
+      "title": "Proposition 2012/13:17: Utsläppsrätter och geologisk lagring av koldioxid"
+    },
+    {
+      "prep_document_id": "2012/13:101",
+      "title": "Proposition 2012/13:101: Årsredovisning för staten 2012"
+    },
+    {
+      "prep_document_id": "2012/13:135",
+      "title": "Proposition 2012/13:135: Kompletterande bestämmelser till EU-förordningen om kosmetiska produkter"
+    },
+    {
+      "prep_document_id": "2012/13:81",
+      "title": "Proposition 2012/13:81: Skadeståndsansvar för oljeskador till sjöss"
+    },
+    {
+      "prep_document_id": "2012/13:273",
+      "title": "Proposition 2012/13:273: Budgetpropositionen för 2026 - Utgiftsområde 17 Kultur, medier, trossamfund och fritid"
+    },
+    {
+      "prep_document_id": "2012/13:96",
+      "title": "Proposition 2012/13:96: Kulturmiljöns mångfald"
+    },
+    {
+      "prep_document_id": "2013/14:7",
+      "title": "Proposition 2013/14:7: Ändringar i statistiklagstiftningen"
+    },
+    {
+      "prep_document_id": "2012/13:161",
+      "title": "Proposition 2012/13:161: Bemyndiganden för elektronikavfall och bekämpningsmedel"
+    },
+    {
+      "prep_document_id": "2013/14:155",
+      "title": "Proposition 2013/14:155: Regeringens förvaltningspolitik"
+    },
+    {
+      "prep_document_id": "2013/14:38",
+      "title": "Proposition 2013/14:38: Dammsäkerhet"
+    },
+    {
+      "prep_document_id": "2013/14:185",
+      "title": "Proposition 2013/14:185: Riksrevisionens rapport om Försvarsmaktens förmåga till uthålliga insatser"
+    },
+    {
+      "prep_document_id": "2013/14:39",
+      "title": "Proposition 2013/14:39: På väg mot en giftfri vardag - plattform för kemikaliepolitiken"
+    },
+    {
+      "prep_document_id": "2013/14:221",
+      "title": "Proposition 2013/14:221: Konkurrensbegränsande avtal om tekniköverföring - anpassning till nya EU-regler"
+    },
+    {
+      "prep_document_id": "2013/14:174",
+      "title": "Proposition 2013/14:174: Genomförande av energieffektiviseringsdirektivet"
+    },
+    {
+      "prep_document_id": "2013/14:262",
+      "title": "Proposition 2013/14:262: Några ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2013/14:110",
+      "title": "Proposition 2013/14:110: En ny organisation för polisen"
+    },
+    {
+      "prep_document_id": "2013/14:186",
+      "title": "Proposition 2013/14:186: Hushållning med havsområden"
+    },
+    {
+      "prep_document_id": "2013/14:359",
+      "title": "Proposition 2013/14:359: Riksrevisionens rapport om skyddet av värdefull skog"
+    },
+    {
+      "prep_document_id": "2013/14:141",
+      "title": "Proposition 2013/14:141: En svensk strategi för biologisk mångfald och ekosystemtjänster"
+    },
+    {
+      "prep_document_id": "2013/14:214",
+      "title": "Proposition 2013/14:214: Strandskydd vid små sjöar och vattendrag"
+    },
+    {
+      "prep_document_id": "2013/14:128",
+      "title": "Proposition 2013/14:128: Samordnad prövning av buller enligt miljöbalken och plan- och bygglagen"
+    },
+    {
+      "prep_document_id": "2014/15:168",
+      "title": "Proposition 2014/15:168: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2014/15:60",
+      "title": "Proposition 2014/15:60: Genomförande av Seveso III-direktivet"
+    },
+    {
+      "prep_document_id": "2015/16:18",
+      "title": "Proposition 2015/16:18: Ändringsprotokoll nr 15 - Nya regler för att öka Europadomstolens effektivitet"
+    },
+    {
+      "prep_document_id": "2014/15:122",
+      "title": "Proposition 2014/15:122: Nya steg för en effektivare plan- och bygglag och ökad rättssäkerhet för verksamhetsutövare vid omgivningsbuller"
+    },
+    {
+      "prep_document_id": "2015/16:150",
+      "title": "Proposition 2015/16:150: Straffrättsligt skydd mot olovlig identitetsanvändning"
+    },
+    {
+      "prep_document_id": "2015/16:35",
+      "title": "Proposition 2015/16:35: Utvidgad miljöbrottsbestämmelse"
+    },
+    {
+      "prep_document_id": "2015/16:298",
+      "title": "Proposition 2015/16:298: Riksdagens skrivelser till regeringen - åtgärder under 2016"
+    },
+    {
+      "prep_document_id": "2015/16:160",
+      "title": "Proposition 2015/16:160: Miljöbalken och EU:s kemikalielagstiftning"
+    },
+    {
+      "prep_document_id": "2015/16:299",
+      "title": "Proposition 2015/16:299: Riksdagens skrivelser till regeringen - åtgärder under 2016"
+    },
+    {
+      "prep_document_id": "2015/16:166",
+      "title": "Proposition 2015/16:166: Avfallshierarkin"
+    },
+    {
+      "prep_document_id": "2015/16:307",
+      "title": "Proposition 2015/16:307: Riksdagens skrivelser till regeringen - åtgärder under 2016"
+    },
+    {
+      "prep_document_id": "2015/16:161",
+      "title": "Proposition 2015/16:161: Nagoyaprotokollet om användning av genetiska resurser"
+    },
+    {
+      "prep_document_id": "2016/17:18",
+      "title": "Proposition 2016/17:18: Falska polisbilar"
+    },
+    {
+      "prep_document_id": "2015/16:178",
+      "title": "Proposition 2015/16:178: En samlad torvprövning"
+    },
+    {
+      "prep_document_id": "2016/17:266",
+      "title": "Proposition 2016/17:266: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:147",
+      "title": "Proposition 2016/17:147: Bemyndigande om avfallsförebyggande åtgärder och sanktioner avseende otillåten insamling av elavfall"
+    },
+    {
+      "prep_document_id": "2016/17:335",
+      "title": "Proposition 2016/17:335: Riksrevisionens rapport om räkenskapssammandragets tillförlitlighet"
+    },
+    {
+      "prep_document_id": "2016/17:171",
+      "title": "Proposition 2016/17:171: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2016/17:314",
+      "title": "Proposition 2016/17:314: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:144",
+      "title": "Proposition 2016/17:144: Tillsyn och kontroll på hälso- och miljöområdet inom försvaret"
+    },
+    {
+      "prep_document_id": "2017/18:20",
+      "title": "Proposition 2017/18:20: Ändring i skatteavtalet mellan Sverige och Kina"
+    },
+    {
+      "prep_document_id": "2016/17:200",
+      "title": "Proposition 2016/17:200: Miljöbedömningar"
+    },
+    {
+      "prep_document_id": "2017/18:49",
+      "title": "Proposition 2017/18:49: Ändrade mediegrundlagar"
+    },
+    {
+      "prep_document_id": "2016/17:215",
+      "title": "Proposition 2016/17:215: Sveriges sjöterritorium och maritima zoner"
+    },
+    {
+      "prep_document_id": "2017/18:304",
+      "title": "Proposition 2017/18:304: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:151",
+      "title": "Proposition 2017/18:151: En generell rätt till kommunal avtalssamverkan"
+    },
+    {
+      "prep_document_id": "2017/18:277",
+      "title": "Proposition 2017/18:277: Redovisning av fördelning av medel från Allmänna arvsfonden under budgetåret 2017"
+    },
+    {
+      "prep_document_id": "2017/18:212",
+      "title": "Proposition 2017/18:212: Förbud mot utvinning av uran"
+    },
+    {
+      "prep_document_id": "2017/18:327",
+      "title": "Proposition 2017/18:327: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:235",
+      "title": "Proposition 2017/18:235: Följdändringar till ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2017/18:383",
+      "title": "Proposition 2017/18:383: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:243",
+      "title": "Proposition 2017/18:243: Vattenmiljö och vattenkraft"
+    },
+    {
+      "prep_document_id": "2017/18:402",
+      "title": "Proposition 2017/18:402: Riksrevisionens rapport om statens insatser mot invasiva främmande arter"
+    },
+    {
+      "prep_document_id": "2017/18:211",
+      "title": "Proposition 2017/18:211: Invasiva främmande arter"
+    },
+    {
+      "prep_document_id": "2018/19:32",
+      "title": "Proposition 2018/19:32: Höjda och miljödifferentierade vägavgifter inom eurovinjettsamarbetet"
+    },
+    {
+      "prep_document_id": "2017/18:268",
+      "title": "Proposition 2017/18:268: Skadeståndsansvar vid sjötransport av farliga och skadliga ämnen"
+    },
+    {
+      "prep_document_id": "2018/19:212",
+      "title": "Proposition 2018/19:212: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:64",
+      "title": "Proposition 2018/19:64: Säkerhet vid geologisk lagring av koldioxid"
+    },
+    {
+      "prep_document_id": "2018/19:244",
+      "title": "Proposition 2018/19:244: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:95",
+      "title": "Proposition 2018/19:95: Ansvar för miljöskador i Sveriges ekonomiska zon"
+    },
+    {
+      "prep_document_id": "2018/19:254",
+      "title": "Proposition 2018/19:254: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:79",
+      "title": "Proposition 2018/19:79: Ändamålsenliga sanktioner mot otillåtna avfallstransporter"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2019/20:58",
+      "title": "Proposition 2019/20:58: Reglering av vapenmagasin"
+    },
+    {
+      "prep_document_id": "2019/20:22",
+      "title": "Proposition 2019/20:22: Förbättrat genomförande av avfallsdirektivet"
+    },
+    {
+      "prep_document_id": "2019/20:168",
+      "title": "Proposition 2019/20:168: En moderniserad radio- och tv-lag"
+    },
+    {
+      "prep_document_id": "2019/20:52",
+      "title": "Proposition 2019/20:52: En utvecklad översiktsplanering"
+    },
+    {
+      "prep_document_id": "2019/20:338",
+      "title": "Proposition 2019/20:338: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:156",
+      "title": "Proposition 2019/20:156: Genomförande av EU-direktiv på avfallsområdet"
+    },
+    {
+      "prep_document_id": "2019/20:337",
+      "title": "Proposition 2019/20:337: Riksrevisionens rapport om tillgången till kommunalt vatten och avlopp"
+    },
+    {
+      "prep_document_id": "2019/20:137",
+      "title": "Proposition 2019/20:137: Förbättrad tillsyn på miljöområdet"
+    },
+    {
+      "prep_document_id": "2019/20:308",
+      "title": "Proposition 2019/20:308: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:157",
+      "title": "Proposition 2019/20:157: Ett förtydligat statligt ansvar för vissa kärntekniska verksamheter"
+    },
+    {
+      "prep_document_id": "2020/21:84",
+      "title": "Proposition 2020/21:84: Extra ändringsbudget för 2021 - Förlängda ersättningar på sjukförsäkringsområdet, stöd till företag och andra åtgärder med anledning av coronaviruset"
+    },
+    {
+      "prep_document_id": "2020/21:27",
+      "title": "Proposition 2020/21:27: Nytt regelverk för handel med utsläppsrätter"
+    },
+    {
+      "prep_document_id": "2021/22:4",
+      "title": "Proposition 2021/22:4: Ändring i skatteavtalet mellan Sverige samt Storbritannien och Nordirland"
+    },
+    {
+      "prep_document_id": "2021/22:15",
+      "title": "Proposition 2021/22:15: Regeringsprövning av kalkstenstäkter i undantagsfall"
+    },
+    {
+      "prep_document_id": "2021/22:3",
+      "title": "Proposition 2021/22:3: En förenklingspolitik för stärkt konkurrenskraft, tillväxt och innovationsförmåga"
+    },
+    {
+      "prep_document_id": "2020/21:198",
+      "title": "Proposition 2020/21:198: Producentansvar och straffansvar för nedskräpning"
+    },
+    {
+      "prep_document_id": "2021/22:20",
+      "title": "Proposition 2021/22:20: Avskaffad reklamskatt"
+    },
+    {
+      "prep_document_id": "2020/21:204",
+      "title": "Proposition 2020/21:204: Aggressionsbrottet i svensk rätt och svensk straffrättslig domsrätt"
+    },
+    {
+      "prep_document_id": "2021/22:307",
+      "title": "Proposition 2021/22:307: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:117",
+      "title": "Proposition 2021/22:117: Ändringar i lagar som genomför internationella bestämmelser om radiologiska skador och skador vid sjötransporter"
+    },
+    {
+      "prep_document_id": "2021/22:329",
+      "title": "Proposition 2021/22:329: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:150",
+      "title": "Proposition 2021/22:150: Förbud mot utvinning av kol, olja och naturgas och skärpta regler för utvinning i alunskiffer"
+    },
+    {
+      "prep_document_id": "2021/22:389",
+      "title": "Proposition 2021/22:389: Budgetpropositionen för 2026 - Utgiftsområde 20 Klimat, miljö och natur"
+    },
+    {
+      "prep_document_id": "2021/22:167",
+      "title": "Proposition 2021/22:167: Straffbestämmelser till EU:s förordning om fartygsåtervinning"
+    },
+    {
+      "prep_document_id": "2021/22:415",
+      "title": "Proposition 2021/22:415: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2021/22:219",
+      "title": "Proposition 2021/22:219: Ordning och reda på avfallet"
+    },
+    {
+      "prep_document_id": "2021/22:441",
+      "title": "Proposition 2021/22:441: Riksrevisionens rapport om tillsynen över medicintekniska produkter"
+    },
+    {
+      "prep_document_id": "2021/22:238",
+      "title": "Proposition 2021/22:238: Anpassningar till EU:s marknadskontrollförordning – del 2"
+    },
+    {
+      "prep_document_id": "2021/22:446",
+      "title": "Proposition 2021/22:446: Riksrevisionens rapport om tillgången till kommunalt vatten och avlopp"
+    },
+    {
+      "prep_document_id": "2021/22:208",
+      "title": "Proposition 2021/22:208: Vägar till hållbara vattentjänster"
+    },
+    {
+      "prep_document_id": "2021/22:453",
+      "title": "Proposition 2021/22:453: Riksrevisionens rapport om statens hantering av markintrång"
+    },
+    {
+      "prep_document_id": "2021/22:207",
+      "title": "Proposition 2021/22:207: Tydligare bestämmelser om ersättning vid avslag på ansökningar om tillstånd till avverkning i fjällnära skog"
+    },
+    {
+      "prep_document_id": "2022/23:49",
+      "title": "Proposition 2022/23:49: Avskiljningar vid Statens institutionsstyrelses särskilda ungdomshem"
+    },
+    {
+      "prep_document_id": "2022/23:4",
+      "title": "Proposition 2022/23:4: En särskild straffbestämmelse för otillåten fartygsåtervinning"
+    },
+    {
+      "prep_document_id": "2023/24:17",
+      "title": "Proposition 2023/24:17: Ändrade regler om direkttilldelning av avtal om kollektivtrafik på järnväg"
+    },
+    {
+      "prep_document_id": "2022/23:120",
+      "title": "Proposition 2022/23:120: Effektivare luftkvalitetsarbete"
+    },
+    {
+      "prep_document_id": "2023/24:15",
+      "title": "Proposition 2023/24:15: Vissa skattefrågor med anledning av nya aktiebolagsrättsliga regler om bolags rörlighet över gränserna inom EU"
+    },
+    {
+      "prep_document_id": "2022/23:61",
+      "title": "Proposition 2022/23:61: Ändrade bestämmelser om arbetstid för vattenverksamhet"
+    },
+    {
+      "prep_document_id": "2023/24:45",
+      "title": "Proposition 2023/24:45: 2023 års redogörelse för tillämpningen av lagen om särskild kontroll av vissa utlänningar"
+    },
+    {
+      "prep_document_id": "2023/24:19",
+      "title": "Proposition 2023/24:19: Ny kärnkraft i Sverige – ett första steg"
+    },
+    {
+      "prep_document_id": "2023/24:122",
+      "title": "Proposition 2023/24:122: Riksrevisionens rapport om läkemedelsförskrivningen – statens styrning och tillsyn"
+    },
+    {
+      "prep_document_id": "2023/24:30",
+      "title": "Proposition 2023/24:30: Genomförande av EU:s nya dricksvattendirektiv"
+    },
+    {
+      "prep_document_id": "2023/24:202",
+      "title": "Proposition 2023/24:202: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2023/24:88",
+      "title": "Proposition 2023/24:88: En tydligare process för tillståndsprövning av elnät"
+    },
+    {
+      "prep_document_id": "2024/25:9",
+      "title": "Proposition 2024/25:9: Riksrevisionens rapport om statens insatser för att stärka efterlevnaden av barnkonventionen"
+    },
+    {
+      "prep_document_id": "2023/24:144",
+      "title": "Proposition 2023/24:144: En ny förverkandelagstiftning"
+    },
+    {
+      "prep_document_id": "2024/25:21",
+      "title": "Proposition 2024/25:21: Europeiska gröna obligationer"
+    },
+    {
+      "prep_document_id": "2023/24:152",
+      "title": "Proposition 2023/24:152: Steg på vägen mot en mer effektiv miljöprövning"
+    },
+    {
+      "prep_document_id": "2024/25:132",
+      "title": "Proposition 2024/25:132: Lättnader i byggkraven för studentbostäder"
+    },
+    {
+      "prep_document_id": "2024/25:24",
+      "title": "Proposition 2024/25:24: Naturvårdshänsyn vid fiske i havet för att skydda Natura 2000-områden"
+    },
+    {
+      "prep_document_id": "2024/25:170",
+      "title": "Proposition 2024/25:170: Skärpt kontroll av styrelsen i besiktningsorgan"
+    },
+    {
+      "prep_document_id": "2024/25:81",
+      "title": "Proposition 2024/25:81: Förbud mot bottentrålning i marina skyddade områden"
+    },
+    {
+      "prep_document_id": "2024/25:194",
+      "title": "Proposition 2024/25:194: Kompletterande bestämmelser till EU-förordningen om batterier"
+    },
+    {
+      "prep_document_id": "2024/25:102",
+      "title": "Proposition 2024/25:102: Lättnader i strandskyddet – ett första steg"
+    },
+    {
+      "prep_document_id": "2024/25:272",
+      "title": "Proposition 2024/25:272: Budgetpropositionen för 2026 - Utgiftsområde 23 Areella näringar, landsbygd och livsmedel"
+    },
+    {
+      "prep_document_id": "2024/25:136",
+      "title": "Proposition 2024/25:136: Förbättrade förutsättningar för ett hållbart vattenbruk"
+    },
+    {
+      "prep_document_id": "2024/25:153",
+      "title": "Proposition 2024/25:153: Ett förbättrat genomförande av MKB-direktivet"
+    },
+    {
+      "prep_document_id": "2025/26:22",
+      "title": "Proposition 2025/26:22: Ytterligare kompletteringar till bestämmelserna om tilläggsskatt för företag i stora koncerner"
+    },
+    {
+      "prep_document_id": "2024/25:169",
+      "title": "Proposition 2024/25:169: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "2005/06:176",
+      "title": "Proposition 2005/06:176: Återkallelse av proposition 2005/06:176 Kommunernas roll i avfallshanteringen Skr. 2005/06:211"
+    },
+    {
+      "prep_document_id": "2005/06:183",
+      "title": "Proposition 2005/06:183: Förbudet mot utvinning av uran tas bort"
+    },
+    {
+      "prep_document_id": "2021/22:210",
+      "title": "Proposition 2021/22:210: Tidigt kommunalt ställningstagande till vindkraft"
+    },
+    {
+      "prep_document_id": "2024/25:203",
+      "title": "Proposition 2024/25:203: Förbudet mot utvinning av uran tas bort"
     }
   ]
 }

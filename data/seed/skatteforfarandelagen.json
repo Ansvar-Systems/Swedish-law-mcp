@@ -2,6 +2,7 @@
   "id": "2011:1244",
   "type": "statute",
   "title": "Skatteförfarandelag (2011:1244)",
+  "short_name": "SkL",
   "status": "in_force",
   "issued_date": "2011-12-01",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2011-1244",
@@ -4527,6 +4528,909 @@
       "chapter": "26",
       "section": "13 b",
       "content": "§ inkomstskattelagen (1999:1229). 2024:420 1. Denna lag träder i kraft den 1 januari 2025. 2. Lagen tillämpas första gången i fråga om skattepliktig förmån av hushållsarbete som kommit den skattskyldige till del efter den 31 december 2024. 2024:1018 1. Denna lag träder i kraft den 1 januari 2025. 2. Lagen tillämpas första gången på kontoavgift som tas ut med anledning av brister i skyldigheterna att inhämta, kontrollera och bevara handlingar, uppgifter och annan dokumentation för finansiella konton eller att lämna kontrolluppgift enligt 22 a eller 22 b kap., i fråga om uppgifter som avser kalenderåret 2025. 3. Äldre bestämmelser gäller fortfarande för dokumentationsavgift för rapporteringsskyldiga finansiella institut som tas ut med anledning av brister i skyldigheterna att samla in, kontrollera och bevara handlingar, uppgifter och annan dokumentation, i fråga om uppgifter som avser kalenderår före 2025. 2024:1136 1. Denna lag träder i kraft den 1 januari 2025. 2. För ansökningar som gjorts före ikraftträdandet gäller"
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "2011/12:28",
+      "title": "Proposition 2011/12:28: Ett förstärkt konsumentskydd mot riskfylld kreditgivning och överskuldsättning"
+    },
+    {
+      "prep_document_id": "2010/11:165",
+      "title": "Proposition 2010/11:165: Bättre verktyg för att bekämpa den kriminella ekonomin – betalningssäkring inom socialförsäkringen"
+    },
+    {
+      "prep_document_id": "2011/12:32",
+      "title": "Proposition 2011/12:32: Riksrevisionens rapport om myndigheternas hantering av ekonomisk kompensation på grund av brott"
+    },
+    {
+      "prep_document_id": "2011/12:1",
+      "title": "Proposition 2011/12:1: Budgetpropositionen för 2012 del 1",
+      "summary": "1"
+    },
+    {
+      "prep_document_id": "2011/12:70",
+      "title": "Proposition 2011/12:70: Europeiskt tillsynssamarbete för finansmarknaden"
+    },
+    {
+      "prep_document_id": "2011/12:17",
+      "title": "Proposition 2011/12:17: Slopade Lundinregler och vissa andra skatteåtgärder för företag"
+    },
+    {
+      "prep_document_id": "2011/12:71",
+      "title": "Proposition 2011/12:71: Riksrevisionens rapport om stabilitetsfonden"
+    },
+    {
+      "prep_document_id": "2011/12:15",
+      "title": "Proposition 2011/12:15: Genomförande av det nya EU-direktivet om bistånd med indrivning"
+    },
+    {
+      "prep_document_id": "2011/12:159",
+      "title": "Proposition 2011/12:159: Ett utvidgat skydd mot åldersdiskriminering"
+    },
+    {
+      "prep_document_id": "2011/12:51",
+      "title": "Proposition 2011/12:51: Några begravningsfrågor"
+    },
+    {
+      "prep_document_id": "2011/12:94",
+      "title": "Proposition 2011/12:94: Nya faktureringsregler för mervärdesskatten m.m."
+    },
+    {
+      "prep_document_id": "2011/12:132",
+      "title": "Proposition 2011/12:132: Samordningsförbunds rätt till ersättning för viss mervärdesskatt"
+    },
+    {
+      "prep_document_id": "2012/13:5",
+      "title": "Proposition 2012/13:5: Riksrevisionens rapport om regelförenkling för företag"
+    },
+    {
+      "prep_document_id": "2011/12:155",
+      "title": "Proposition 2011/12:155: Vissa förfarandefrågor på punktskatteområdet"
+    },
+    {
+      "prep_document_id": "2012/13:37",
+      "title": "Proposition 2012/13:37: Kompletterande bestämmelser till EU-förordningen om internationell roaming"
+    },
+    {
+      "prep_document_id": "2012/13:1",
+      "title": "Proposition 2012/13:1: Budgetproposition för 2013 Förslag till statens budget för 2013, finansplan och skattefrågor"
+    },
+    {
+      "prep_document_id": "2012/13:79",
+      "title": "Proposition 2012/13:79: Godkännande av ett irländskt protokoll som ska fogas till EU-fördraget och EUF-fördraget"
+    },
+    {
+      "prep_document_id": "2012/13:18",
+      "title": "Proposition 2012/13:18: Vissa internationella socialavgiftsfrågor."
+    },
+    {
+      "prep_document_id": "2012/13:76",
+      "title": "Proposition 2012/13:76: Ett mer tillförlitligt fastighetsregister"
+    },
+    {
+      "prep_document_id": "2012/13:4",
+      "title": "Proposition 2012/13:4: Rapportering och utbyte av upplysningar om kryptotillgångar och vissa andra ändringar avseende det administrativa samarbetet på skatteområdet"
+    },
+    {
+      "prep_document_id": "2012/13:143",
+      "title": "Proposition 2012/13:143: Effektivare sanktioner för arbetsmiljö- och arbetstidsreglerna"
+    },
+    {
+      "prep_document_id": "2012/13:34",
+      "title": "Proposition 2012/13:34: Personalliggare för tvätteribranschen"
+    },
+    {
+      "prep_document_id": "2012/13:154",
+      "title": "Proposition 2012/13:154: Strategiskt tillväxtarbete för regional konkurrenskraft, entreprenörskap och sysselsättning - en sammanfattning av \"Nationell strategisk rapport för Sverige 2012\""
+    },
+    {
+      "prep_document_id": "2012/13:45",
+      "title": "Proposition 2012/13:45: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2012/13:124",
+      "title": "Proposition 2012/13:124: Begreppet beskattningsbar person - en teknisk anpassning av mervärdesskattelagen"
+    },
+    {
+      "prep_document_id": "2012/13:254",
+      "title": "Proposition 2012/13:254: De kulturhistoriska värdena inom Svenska kyrkan – om förvaltningen av det kyrkliga kulturarvet"
+    },
+    {
+      "prep_document_id": "2012/13:120",
+      "title": "Proposition 2012/13:120: Folkbokföringen i framtiden"
+    },
+    {
+      "prep_document_id": "2012/13:241",
+      "title": "Proposition 2012/13:241: Riksdagens skrivelser till regeringen - åtgärder under 2016"
+    },
+    {
+      "prep_document_id": "2012/13:129",
+      "title": "Proposition 2012/13:129: Förbättrad konkurrens på lika villkor i kontantbranschen"
+    },
+    {
+      "prep_document_id": "2012/13:292",
+      "title": "Proposition 2012/13:292: Vissa skattefrågor"
+    },
+    {
+      "prep_document_id": "2012/13:155",
+      "title": "Proposition 2012/13:155: Förvaltare av alternativa investeringsfonder"
+    },
+    {
+      "prep_document_id": "2013/14:10",
+      "title": "Proposition 2013/14:10: Modernisering av Skatteverkets kontrollverktyg"
+    },
+    {
+      "prep_document_id": "2012/13:134",
+      "title": "Proposition 2012/13:134: Investeraravdrag"
+    },
+    {
+      "prep_document_id": "2013/14:56",
+      "title": "Proposition 2013/14:56: Kontrollköp - ålderskontroll vid försäljning av folköl, tobak och receptfria läkemedel"
+    },
+    {
+      "prep_document_id": "2013/14:1",
+      "title": "Proposition 2013/14:1: Budgetproposition 2014 Förslag till statens budget för 2014, Finansplan och skattefrågor, kapitel 1-6"
+    },
+    {
+      "prep_document_id": "2013/14:91",
+      "title": "Proposition 2013/14:91: Åtgärder för att stärka barnets rättigheter och uppväxtvillkor i Sverige"
+    },
+    {
+      "prep_document_id": "2013/14:28",
+      "title": "Proposition 2013/14:28: Ändrad deklarationstidpunkt för mervärdesskatt"
+    },
+    {
+      "prep_document_id": "2013/14:94",
+      "title": "Proposition 2013/14:94: En ny brottsskadelag"
+    },
+    {
+      "prep_document_id": "2013/14:22",
+      "title": "Proposition 2013/14:22: Undantag från kassaregisterkrav vid obetydlig omfattning"
+    },
+    {
+      "prep_document_id": "2013/14:90",
+      "title": "Proposition 2013/14:90: Nordiskt samarbete 2013"
+    },
+    {
+      "prep_document_id": "2013/14:27",
+      "title": "Proposition 2013/14:27: Vissa skattefrågor"
+    },
+    {
+      "prep_document_id": "2013/14:118",
+      "title": "Proposition 2013/14:118: Privata utförare av kommunal verksamhet"
+    },
+    {
+      "prep_document_id": "2013/14:15",
+      "title": "Proposition 2013/14:15: Ett stärkt konsumentskydd vid distansavtal"
+    },
+    {
+      "prep_document_id": "2013/14:233",
+      "title": "Proposition 2013/14:233: Åtgärdsplanering för transportsystemet 2014 - 2025"
+    },
+    {
+      "prep_document_id": "2013/14:147",
+      "title": "Proposition 2013/14:147: Skattskyldighet till avkastningsskatt och ändrad deklarationstidpunkt för avkastningsskatt för vissa skattskyldiga"
+    },
+    {
+      "prep_document_id": "2013/14:262",
+      "title": "Proposition 2013/14:262: Några ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2013/14:110",
+      "title": "Proposition 2013/14:110: En ny organisation för polisen"
+    },
+    {
+      "prep_document_id": "2013/14:342",
+      "title": "Proposition 2013/14:342: Budgetproposition för 2015"
+    },
+    {
+      "prep_document_id": "2013/14:224",
+      "title": "Proposition 2013/14:224: Nya mervärdesskatteregler om omsättningsland för telekommunikationstjänster, radio- och tv-sändningar och elektroniska tjänster"
+    },
+    {
+      "prep_document_id": "2014/15:12",
+      "title": "Proposition 2014/15:12: Riksrevisionens rapport om förvaltningen av regionala projektmedel"
+    },
+    {
+      "prep_document_id": "2014/15:4",
+      "title": "Proposition 2014/15:4: Inkomstbeskattning, redovisning och revision avseende Eric-konsortier"
+    },
+    {
+      "prep_document_id": "2014/15:29",
+      "title": "Proposition 2014/15:29: Internationell verkställighet i brottmål"
+    },
+    {
+      "prep_document_id": "2014/15:1",
+      "title": "Proposition 2014/15:1: Budgetproposition för 2015"
+    },
+    {
+      "prep_document_id": "2014/15:41",
+      "title": "Proposition 2014/15:41: Rapportering och utbyte av upplysningar om kryptotillgångar och vissa andra ändringar avseende det administrativa samarbetet på skatteområdet"
+    },
+    {
+      "prep_document_id": "2014/15:6",
+      "title": "Proposition 2014/15:6: Minskat svartarbete i byggbranschen"
+    },
+    {
+      "prep_document_id": "2014/15:105",
+      "title": "Proposition 2014/15:105: Arv i internationella situationer"
+    },
+    {
+      "prep_document_id": "2015/16:2",
+      "title": "Proposition 2015/16:2: Höständringsbudget för 2015"
+    },
+    {
+      "prep_document_id": "2014/15:112",
+      "title": "Proposition 2014/15:112: Nordisk balansavräkning"
+    },
+    {
+      "prep_document_id": "2015/16:16",
+      "title": "Proposition 2015/16:16: Senarelagt införande av redovisningscentraler för taxi"
+    },
+    {
+      "prep_document_id": "2014/15:131",
+      "title": "Proposition 2014/15:131: Skattetillägg: Dubbelprövningsförbudet och andra rättssäkerhetsfrågor"
+    },
+    {
+      "prep_document_id": "2015/16:51",
+      "title": "Proposition 2015/16:51: Undantag från mervärdesskatt för vissa posttjänster"
+    },
+    {
+      "prep_document_id": "2015/16:1",
+      "title": "Proposition 2015/16:1: Budgetproposition för 2016"
+    },
+    {
+      "prep_document_id": "2015/16:75",
+      "title": "Proposition 2015/16:75: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2015/16:19",
+      "title": "Proposition 2015/16:19: Vissa frågor på området för indirekta skatter"
+    },
+    {
+      "prep_document_id": "2015/16:66",
+      "title": "Proposition 2015/16:66: Riksrevisionens rapport om samhällets stöd till överskuldsatta"
+    },
+    {
+      "prep_document_id": "2015/16:29",
+      "title": "Proposition 2015/16:29: En global standard för automatiskt utbyte av upplysningar om finansiella konton"
+    },
+    {
+      "prep_document_id": "2015/16:134",
+      "title": "Proposition 2015/16:134: Tilläggsbelopp för särskilt stöd till barn och elever"
+    },
+    {
+      "prep_document_id": "2015/16:10",
+      "title": "Proposition 2015/16:10: Värdepapperscentraler och kontoföring av finansiella instrument"
+    },
+    {
+      "prep_document_id": "2015/16:161",
+      "title": "Proposition 2015/16:161: Nagoyaprotokollet om användning av genetiska resurser"
+    },
+    {
+      "prep_document_id": "2015/16:79",
+      "title": "Proposition 2015/16:79: En ny tullag"
+    },
+    {
+      "prep_document_id": "2016/17:6",
+      "title": "Proposition 2016/17:6: Kompletteringar till EU:s förordning om europeiska politiska partier och europeiska politiska stiftelser"
+    },
+    {
+      "prep_document_id": "2015/16:127",
+      "title": "Proposition 2015/16:127: Ett svenskt tonnagebeskattningssystem"
+    },
+    {
+      "prep_document_id": "2016/17:41",
+      "title": "Proposition 2016/17:41: Maskeringsförbud vid idrottsarrangemang"
+    },
+    {
+      "prep_document_id": "2016/17:49",
+      "title": "Proposition 2016/17:49: Förstärkt konkurrens på lika villkor i kontantbranschen"
+    },
+    {
+      "prep_document_id": "2016/17:1",
+      "title": "Proposition 2016/17:1: Budgetpropositionen för 2017"
+    },
+    {
+      "prep_document_id": "2016/17:160",
+      "title": "Proposition 2016/17:160: Riksrevisionens rapport om exportkontrollen av krigsmateriel"
+    },
+    {
+      "prep_document_id": "2016/17:47",
+      "title": "Proposition 2016/17:47: Dokumentation vid internprissättning och land-för-land-rapportering på skatteområdet"
+    },
+    {
+      "prep_document_id": "2016/17:162",
+      "title": "Proposition 2016/17:162: Nya regler om marknader för finansiella instrument (MiFID II och MiFIR)"
+    },
+    {
+      "prep_document_id": "2016/17:48",
+      "title": "Proposition 2016/17:48: Vissa ändringar vad gäller automatiskt utbyte av upplysningar om finansiella konton"
+    },
+    {
+      "prep_document_id": "2016/17:161",
+      "title": "Proposition 2016/17:161: En försöksverksamhet med branschskolor"
+    },
+    {
+      "prep_document_id": "2016/17:256",
+      "title": "Proposition 2016/17:256: Riksrevisionens rapport om Skatteverkets åtgärder mot svartarbete"
+    },
+    {
+      "prep_document_id": "2016/17:58",
+      "title": "Proposition 2016/17:58: Uppgifter på individnivå i arbetsgivardeklarationen"
+    },
+    {
+      "prep_document_id": "2016/17:268",
+      "title": "Proposition 2016/17:268: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:142",
+      "title": "Proposition 2016/17:142: Skatteförslag med anledning av energiöverenskommelsen"
+    },
+    {
+      "prep_document_id": "2016/17:341",
+      "title": "Proposition 2016/17:341: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2016/17:173",
+      "title": "Proposition 2016/17:173: Ytterligare åtgärder mot penningtvätt och finansiering av terrorism"
+    },
+    {
+      "prep_document_id": "2016/17:353",
+      "title": "Proposition 2016/17:353: En pilotordning för distribuerad databasteknik"
+    },
+    {
+      "prep_document_id": "2017/18:79",
+      "title": "Proposition 2017/18:79: Riksrevisionens rapport om regionala skillnader i effekter av Arbetsförmedlingens arbetsmarknadsutbildning"
+    },
+    {
+      "prep_document_id": "2017/18:16",
+      "title": "Proposition 2017/18:16: Mervärdesskatt vid omsättning som avser fartyg samt deklarationstidpunkt i vissa fall"
+    },
+    {
+      "prep_document_id": "2017/18:54",
+      "title": "Proposition 2017/18:54: Riksrevisionens rapport om regeringens insatser för att uppfylla det bredbandspolitiska målet"
+    },
+    {
+      "prep_document_id": "2017/18:1",
+      "title": "Proposition 2017/18:1: Budgetpropositionen för 2018"
+    },
+    {
+      "prep_document_id": "2017/18:203",
+      "title": "Proposition 2017/18:203: Riksrevisionens rapport om tillämpningen av det finanspolitiska ramverket"
+    },
+    {
+      "prep_document_id": "2017/18:82",
+      "title": "Proposition 2017/18:82: Personalliggare i fler verksamheter"
+    },
+    {
+      "prep_document_id": "2017/18:275",
+      "title": "Proposition 2017/18:275: Fortsatt utbetalning av garantipension inom EES och Schweiz"
+    },
+    {
+      "prep_document_id": "2017/18:131",
+      "title": "Proposition 2017/18:131: Slopad skattefrihet för förmån av hälso- och sjukvård"
+    },
+    {
+      "prep_document_id": "2017/18:286",
+      "title": "Proposition 2017/18:286: Stärkt skydd för valhemligheten"
+    },
+    {
+      "prep_document_id": "2017/18:144",
+      "title": "Proposition 2017/18:144: Skattetillägg vid rättelse på eget initiativ"
+    },
+    {
+      "prep_document_id": "2017/18:287",
+      "title": "Proposition 2017/18:287: Ändringar i regleringen för Sametinget och sametingsvalet"
+    },
+    {
+      "prep_document_id": "2017/18:127",
+      "title": "Proposition 2017/18:127: Återinförande av skattereduktion för fackföreningsavgift"
+    },
+    {
+      "prep_document_id": "2017/18:319",
+      "title": "Proposition 2017/18:319: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:187",
+      "title": "Proposition 2017/18:187: Beskattning av elektroniska cigaretter och vissa andra nikotinhaltiga produkter"
+    },
+    {
+      "prep_document_id": "2017/18:306",
+      "title": "Proposition 2017/18:306: Modernare regler om varumärken och en ny lag om företagsnamn"
+    },
+    {
+      "prep_document_id": "2017/18:185",
+      "title": "Proposition 2017/18:185: En ny lag om ekonomiska föreningar"
+    },
+    {
+      "prep_document_id": "2017/18:363",
+      "title": "Proposition 2017/18:363: Riksrevisionens rapport om Spelinspektionens tillsyn över spelmarknaden"
+    },
+    {
+      "prep_document_id": "2017/18:220",
+      "title": "Proposition 2017/18:220: En omreglerad spelmarknad"
+    },
+    {
+      "prep_document_id": "2017/18:382",
+      "title": "Proposition 2017/18:382: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:253",
+      "title": "Proposition 2017/18:253: Återbetalning av medlemsinsatser i arbetskooperativ"
+    },
+    {
+      "prep_document_id": "2017/18:39",
+      "title": "Proposition 2017/18:39: Extra ändringsbudget för 2017 - Kapitaltillskott till PostNord AB"
+    },
+    {
+      "prep_document_id": "2017/18:245",
+      "title": "Proposition 2017/18:245: Nya skatteregler för företagssektorn"
+    },
+    {
+      "prep_document_id": "2017/18:388",
+      "title": "Proposition 2017/18:388: Budgetpropositionen för 2026 - Utgiftsområde 10 Ekonomisk trygghet vid sjukdom och funktionsnedsättning"
+    },
+    {
+      "prep_document_id": "2017/18:190",
+      "title": "Proposition 2017/18:190: Reformerade stöd till personer med funktionsnedsättning"
+    },
+    {
+      "prep_document_id": "2017/18:435",
+      "title": "Proposition 2017/18:435: Årsredovisning för staten 2024"
+    },
+    {
+      "prep_document_id": "2017/18:99",
+      "title": "Proposition 2017/18:99: Vårändringsbudget för 2018"
+    },
+    {
+      "prep_document_id": "2018/19:26",
+      "title": "Proposition 2018/19:26: Kompletterande bestämmelser till EU:s geoblockeringsförordning"
+    },
+    {
+      "prep_document_id": "2017/18:294",
+      "title": "Proposition 2017/18:294: Vissa kontrollfrågor och andra frågor på punktskatteområdet"
+    },
+    {
+      "prep_document_id": "2018/19:24",
+      "title": "Proposition 2018/19:24: Riksrevisionens rapport om staten som inköpare av konsulttjänster"
+    },
+    {
+      "prep_document_id": "2017/18:261",
+      "title": "Proposition 2017/18:261: Långsiktig finansiering och stärkt oberoende för public service"
+    },
+    {
+      "prep_document_id": "2018/19:60",
+      "title": "Proposition 2018/19:60: Högsta domstolens sammansättning i utlämningsärenden"
+    },
+    {
+      "prep_document_id": "2018/19:9",
+      "title": "Proposition 2018/19:9: Ytterligare ändringar vad gäller automatiskt utbyte av upplysningar om finansiella konton och några andra skattefrågor"
+    },
+    {
+      "prep_document_id": "2018/19:153",
+      "title": "Proposition 2018/19:153: Första kontrollstationen för energiöverenskommelsen"
+    },
+    {
+      "prep_document_id": "2018/19:45",
+      "title": "Proposition 2018/19:45: Avskaffad skattereduktion för fackföreningsavgift"
+    },
+    {
+      "prep_document_id": "2018/19:247",
+      "title": "Proposition 2018/19:247: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:89",
+      "title": "Proposition 2018/19:89: Höjt tak för rutavdrag"
+    },
+    {
+      "prep_document_id": "2018/19:248",
+      "title": "Proposition 2018/19:248: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:92",
+      "title": "Proposition 2018/19:92: Återinförd skattereduktion för gåvor till ideell verksamhet"
+    },
+    {
+      "prep_document_id": "2019/20:28",
+      "title": "Proposition 2019/20:28: Fortsatt svenskt deltagande i den militära utbildningsinsatsen i Irak"
+    },
+    {
+      "prep_document_id": "2018/19:124",
+      "title": "Proposition 2018/19:124: En effektivare flytträtt av försäkringssparande"
+    },
+    {
+      "prep_document_id": "2019/20:32",
+      "title": "Proposition 2019/20:32: Skatt på avfallsförbränning"
+    },
+    {
+      "prep_document_id": "2018/19:160",
+      "title": "Proposition 2018/19:160: Ändrade mervärdesskatteregler vid gränsöverskridande handel mellan företag"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2019/20:71",
+      "title": "Proposition 2019/20:71: Riksrevisionens rapport om stöd till renovering och energieffektivisering"
+    },
+    {
+      "prep_document_id": "2019/20:20",
+      "title": "Proposition 2019/20:20: Nya anståndsregler i vissa gränsöverskridande situationer samt ändring av reglerna om periodiseringsfonder och ersättningsfonder vid utflyttning"
+    },
+    {
+      "prep_document_id": "2019/20:91",
+      "title": "Proposition 2019/20:91: Resultatskrivelse om utvecklingssamarbete och humanitärt bistånd genom multilaterala organisationer"
+    },
+    {
+      "prep_document_id": "2019/20:150",
+      "title": "Proposition 2019/20:150: Mer likabehandling och ett stärkt skydd vid utstationering"
+    },
+    {
+      "prep_document_id": "2019/20:47",
+      "title": "Proposition 2019/20:47: Skatt på plastbärkassar"
+    },
+    {
+      "prep_document_id": "2019/20:292",
+      "title": "Proposition 2019/20:292: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:74",
+      "title": "Proposition 2019/20:74: Genomförande av EU:s direktiv om automatiskt utbyte av upplysningar som rör rapporteringspliktiga gränsöverskridande arrangemang"
+    },
+    {
+      "prep_document_id": "2019/20:340",
+      "title": "Proposition 2019/20:340: Riksrevisionens rapport om generella statsbidrag som stabiliseringspolitiskt instrument"
+    },
+    {
+      "prep_document_id": "2019/20:99",
+      "title": "Proposition 2019/20:99: Vårändringsbudget för 2020"
+    },
+    {
+      "prep_document_id": "2019/20:357",
+      "title": "Proposition 2019/20:357: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:124",
+      "title": "Proposition 2019/20:124: Vissa ändringar i avfallsskattelagen"
+    },
+    {
+      "prep_document_id": "2020/21:26",
+      "title": "Proposition 2020/21:26: Motåtgärder på skatteområdet mot icke samarbetsvilliga jurisdiktioner och vissa andra inkomstskattefrågor"
+    },
+    {
+      "prep_document_id": "2019/20:197",
+      "title": "Proposition 2019/20:197: Delegationsbestämmelser för Skatterättsnämnden och Forskarskattenämnden och några ändringar i fråga om informationsutbyte på skatteområdet"
+    },
+    {
+      "prep_document_id": "2020/21:28",
+      "title": "Proposition 2020/21:28: Riksrevisionens rapport om tillväxthämmande incitament i den kommunala inkomstutjämningen"
+    },
+    {
+      "prep_document_id": "2019/20:175",
+      "title": "Proposition 2019/20:175: Skattereduktion för boende i vissa glest befolkade områden - regional skattereduktion"
+    },
+    {
+      "prep_document_id": "2020/21:33",
+      "title": "Proposition 2020/21:33: Avgifter vid återköp och flytt av fond- och depåförsäkringar"
+    },
+    {
+      "prep_document_id": "2019/20:190",
+      "title": "Proposition 2019/20:190: Ekonomiskt arbetsgivarbegrepp - förändrade skatteregler vid tillfälligt arbete i Sverige"
+    },
+    {
+      "prep_document_id": "2020/21:63",
+      "title": "Proposition 2020/21:63: Redovisning av åtgärder i enlighet med målsättningarna i det nationella brottsförebyggande programmet Tillsammans mot brott"
+    },
+    {
+      "prep_document_id": "2020/21:14",
+      "title": "Proposition 2020/21:14: Bestämmelserna om nedsättning av arbetsgivaravgifterna för den först anställda görs permanenta"
+    },
+    {
+      "prep_document_id": "2020/21:1",
+      "title": "Proposition 2020/21:1: Budgetpropositionen för 2021"
+    },
+    {
+      "prep_document_id": "2019/20:122",
+      "title": "Proposition 2019/20:122: Ändrade mervärdesskatteregler vid e-handel mellan företag och konsumenter"
+    },
+    {
+      "prep_document_id": "2020/21:96",
+      "title": "Proposition 2020/21:96: Dröjsmålstalan vid erkännande av yrkeskvalifikationer"
+    },
+    {
+      "prep_document_id": "2020/21:37",
+      "title": "Proposition 2020/21:37: Skattereduktion för förvärvsinkomster och utvidgad tidsgräns för expertskatt"
+    },
+    {
+      "prep_document_id": "2020/21:301",
+      "title": "Proposition 2020/21:301: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:118",
+      "title": "Proposition 2020/21:118: Tillfällig nedsättning av arbetsgivaravgifter för upp till två anställda"
+    },
+    {
+      "prep_document_id": "2020/21:295",
+      "title": "Proposition 2020/21:295: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:112",
+      "title": "Proposition 2020/21:112: En heltäckande tobaksbeskattning - för ökad tydlighet och enhetlighet"
+    },
+    {
+      "prep_document_id": "2021/22:46",
+      "title": "Proposition 2021/22:46: Lättnader i tillståndsplikten för ljuddämpare"
+    },
+    {
+      "prep_document_id": "2021/22:25",
+      "title": "Proposition 2021/22:25: Utvidgade regler om lättnad i beskattningen av personaloptioner i vissa fall"
+    },
+    {
+      "prep_document_id": "2021/22:16",
+      "title": "Proposition 2021/22:16: Förenklade regler om tjänsteställe och skattefri ersättning vid tillfälliga anställningar och uppdrag"
+    },
+    {
+      "prep_document_id": "2021/22:20",
+      "title": "Proposition 2021/22:20: Avskaffad reklamskatt"
+    },
+    {
+      "prep_document_id": "2021/22:101",
+      "title": "Proposition 2021/22:101: Årsredovisning för staten 2021"
+    },
+    {
+      "prep_document_id": "2021/22:26",
+      "title": "Proposition 2021/22:26: Riskskatt för kreditinstitut"
+    },
+    {
+      "prep_document_id": "2021/22:161",
+      "title": "Proposition 2021/22:161: Ökad likvärdighet för skolhuvudmän"
+    },
+    {
+      "prep_document_id": "2021/22:61",
+      "title": "Proposition 2021/22:61: Nytt punktskattedirektiv och vissa andra ändringar"
+    },
+    {
+      "prep_document_id": "2021/22:291",
+      "title": "Proposition 2021/22:291: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:126",
+      "title": "Proposition 2021/22:126: Skattereduktion för avgift till arbetslöshetskassa"
+    },
+    {
+      "prep_document_id": "2021/22:375",
+      "title": "Proposition 2021/22:375: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:215",
+      "title": "Proposition 2021/22:215: En ny lag om företagsrekonstruktion"
+    },
+    {
+      "prep_document_id": "2021/22:373",
+      "title": "Proposition 2021/22:373: Bibehållet reseavdrag med vissa förstärkningar för arbetsresor, tjänsteresor och hemresor"
+    },
+    {
+      "prep_document_id": "2021/22:228",
+      "title": "Proposition 2021/22:228: Skattelättnad för arbetsresor – ett enklare och färdmedelsneutralt regelverk"
+    },
+    {
+      "prep_document_id": "2022/23:5",
+      "title": "Proposition 2022/23:5: Riksrevisionens rapport om den regionala utvecklingspolitiken"
+    },
+    {
+      "prep_document_id": "2021/22:256",
+      "title": "Proposition 2021/22:256: Leveranser av fartygsbränsle till havs i vissa fall"
+    },
+    {
+      "prep_document_id": "2022/23:29",
+      "title": "Proposition 2022/23:29: Riksrevisionens rapport om regeringens underlag till riksdagen under pandemin"
+    },
+    {
+      "prep_document_id": "2021/22:242",
+      "title": "Proposition 2021/22:242: En förstärkt spelreglering"
+    },
+    {
+      "prep_document_id": "2022/23:39",
+      "title": "Proposition 2022/23:39: En pilotordning för distribuerad databasteknik"
+    },
+    {
+      "prep_document_id": "2022/23:6",
+      "title": "Proposition 2022/23:6: Rapportering och utbyte av upplysningar om inkomster genom digitala plattformar och vissa andra ändringar i EU:s direktiv om administrativt samarbete på direktskatteområdet"
+    },
+    {
+      "prep_document_id": "2022/23:45",
+      "title": "Proposition 2022/23:45: Vissa frågor om hälso- och sjukvårdens försörjningsberedskap"
+    },
+    {
+      "prep_document_id": "2022/23:7",
+      "title": "Proposition 2022/23:7: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "2022/23:51",
+      "title": "Proposition 2022/23:51: Redovisning av verksamheten i Internationella valutafonden, Världsbanksgruppen samt regionala utvecklings- och investeringsbanker 2021 och 2022"
+    },
+    {
+      "prep_document_id": "2022/23:1",
+      "title": "Proposition 2022/23:1: Budgetpropositionen för 2023"
+    },
+    {
+      "prep_document_id": "2022/23:18",
+      "title": "Proposition 2022/23:18: Bibehållet reseavdrag med vissa förstärkningar för arbetsresor, tjänsteresor och hemresor"
+    },
+    {
+      "prep_document_id": "2022/23:110",
+      "title": "Proposition 2022/23:110: Estetiska produkter – en övergångsbestämmelse"
+    },
+    {
+      "prep_document_id": "2022/23:48",
+      "title": "Proposition 2022/23:48: Sekretess vid Försäkringskassans handläggning av ärenden om elstöd samt slopad kontrolluppgiftsskyldighet"
+    },
+    {
+      "prep_document_id": "2022/23:125",
+      "title": "Proposition 2022/23:125: Riksrevisionens rapport om etablering av myndigheter utanför Stockholm"
+    },
+    {
+      "prep_document_id": "2022/23:58",
+      "title": "Proposition 2022/23:58: Extra ändringsbudget för 2023 – Tillfällig skatt på vissa elproducenters överintäkter"
+    },
+    {
+      "prep_document_id": "2022/23:167",
+      "title": "Proposition 2022/23:167: Riksdagens skrivelser till regeringen – åtgärder under 2023"
+    },
+    {
+      "prep_document_id": "2022/23:46",
+      "title": "Proposition 2022/23:46: Ny mervärdesskattelag"
+    },
+    {
+      "prep_document_id": "2023/24:12",
+      "title": "Proposition 2023/24:12: Effektivare verktyg vid inre utlänningskontroll"
+    },
+    {
+      "prep_document_id": "2022/23:121",
+      "title": "Proposition 2022/23:121: Nya krav på betaltjänstleverantörer att lämna uppgifter"
+    },
+    {
+      "prep_document_id": "2023/24:34",
+      "title": "Proposition 2023/24:34: Redogörelse för det svenska ordförandeskapet i Europeiska unionens råd första halvåret 2023"
+    },
+    {
+      "prep_document_id": "2023/24:15",
+      "title": "Proposition 2023/24:15: Vissa skattefrågor med anledning av nya aktiebolagsrättsliga regler om bolags rörlighet över gränserna inom EU"
+    },
+    {
+      "prep_document_id": "2023/24:47",
+      "title": "Proposition 2023/24:47: Redovisning av användningen av hemliga tvångsmedel under 2022"
+    },
+    {
+      "prep_document_id": "2023/24:1",
+      "title": "Proposition 2023/24:1: Budgetpropositionen för 2024"
+    },
+    {
+      "prep_document_id": "2023/24:89",
+      "title": "Proposition 2023/24:89: Anmälan av föreskrifter om att ytterligare kategorier av fördrivna personer ska ges tillfälligt skydd"
+    },
+    {
+      "prep_document_id": "2023/24:32",
+      "title": "Proposition 2023/24:32: Tilläggsskatt för företag i stora koncerner"
+    },
+    {
+      "prep_document_id": "2023/24:215",
+      "title": "Proposition 2023/24:215: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2023/24:86",
+      "title": "Proposition 2023/24:86: Tillfälligt höjt tak för rotavdraget"
+    },
+    {
+      "prep_document_id": "2023/24:270",
+      "title": "Proposition 2023/24:270: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2023/24:137",
+      "title": "Proposition 2023/24:137: Undantag från mervärdesskatt för väpnade styrkor inom Nato"
+    },
+    {
+      "prep_document_id": "2023/24:274",
+      "title": "Proposition 2023/24:274: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2023/24:141",
+      "title": "Proposition 2023/24:141: Avtal om försvarssamarbete med Amerikas förenta stater"
+    },
+    {
+      "prep_document_id": "2024/25:8",
+      "title": "Proposition 2024/25:8: Bolag och brott"
+    },
+    {
+      "prep_document_id": "2023/24:132",
+      "title": "Proposition 2023/24:132: Ny tullbefogenhetslag"
+    },
+    {
+      "prep_document_id": "2024/25:27",
+      "title": "Proposition 2024/25:27: Avskaffat krav på tillstånd för hotell- och pensionatsrörelser"
+    },
+    {
+      "prep_document_id": "2023/24:167",
+      "title": "Proposition 2023/24:167: Justeringar vad gäller det automatiska utbytet av upplysningar om finansiella konton"
+    },
+    {
+      "prep_document_id": "2024/25:49",
+      "title": "Proposition 2024/25:49: En ny ordning för asylsökandes boende"
+    },
+    {
+      "prep_document_id": "2024/25:1",
+      "title": "Proposition 2024/25:1: Budgetpropositionen för 2025"
+    },
+    {
+      "prep_document_id": "2024/25:25",
+      "title": "Proposition 2024/25:25: Utvidgat växa-stöd – nedsättning av arbetsgivaravgifterna för upp till två anställda"
+    },
+    {
+      "prep_document_id": "2024/25:26",
+      "title": "Proposition 2024/25:26: Avtrappat ränteavdrag för lån utan säkerhet"
+    },
+    {
+      "prep_document_id": "2024/25:69",
+      "title": "Proposition 2024/25:69: Fördjupad uppföljning av arbetet med att förebygga och bekämpa mäns våld mot kvinnor"
+    },
+    {
+      "prep_document_id": "2024/25:7",
+      "title": "Proposition 2024/25:7: Kompletteringar till bestämmelserna om tilläggsskatt för företag i stora koncerner"
+    },
+    {
+      "prep_document_id": "2024/25:139",
+      "title": "Proposition 2024/25:139: Uppsägning av avtalet med Organisationen för det globala nätverket för vattenfrågor (GWPO) om immunitet och privilegier för organisationen och dess personal"
+    },
+    {
+      "prep_document_id": "2024/25:47",
+      "title": "Proposition 2024/25:47: Sänkt alkoholskatt för öl från oberoende småbryggerier"
+    },
+    {
+      "prep_document_id": "2024/25:187",
+      "title": "Proposition 2024/25:187: Ett effektivt straffrättsligt skydd för statliga stöd till företag"
+    },
+    {
+      "prep_document_id": "2024/25:156",
+      "title": "Proposition 2024/25:156: Extra ändringsbudget för 2025 – Tillfälligt höjd subventionsgrad för rotavdraget"
+    },
+    {
+      "prep_document_id": "2024/25:199",
+      "title": "Proposition 2024/25:199: Sekretess i vissa ärenden om strategiska nettonollprojekt"
+    },
+    {
+      "prep_document_id": "2024/25:109",
+      "title": "Proposition 2024/25:109: Förändrade skattesubventioner för solceller och mikroproduktion av el"
+    },
+    {
+      "prep_document_id": "2025/26:2",
+      "title": "Proposition 2025/26:2: Höständringsbudget för 2025"
+    },
+    {
+      "prep_document_id": "2024/25:159",
+      "title": "Proposition 2024/25:159: Godkännande för F-skatt – nya hinder och återkallelsegrunder"
+    },
+    {
+      "prep_document_id": "2025/26:15",
+      "title": "Proposition 2025/26:15: Skarpare verktyg till Inspektionen för vård och omsorg"
+    },
+    {
+      "prep_document_id": "2024/25:166",
+      "title": "Proposition 2024/25:166: En lag om public service och riktlinjer för verksamheten 2026–2033"
+    },
+    {
+      "prep_document_id": "2011/12:80",
+      "title": "Proposition 2011/12:80: Nya lagar för yrkestrafik och taxi"
+    },
+    {
+      "prep_document_id": "2015/16:28",
+      "title": "Proposition 2015/16:28: Vissa frågor om behandling av personuppgifter och regleringen av id-kortsverksamheten hos Skatteverket"
     }
   ]
 }

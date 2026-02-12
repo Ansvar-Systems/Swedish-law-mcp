@@ -2,6 +2,7 @@
   "id": "1949:381",
   "type": "statute",
   "title": "Föräldrabalk (1949:381)",
+  "short_name": "FB",
   "status": "in_force",
   "issued_date": "1949-06-10",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1949-381",
@@ -2057,6 +2058,723 @@
       "section": "17 c",
       "title": "Denna lag träder i kraft den 1 mars 2022 i fråga om 6 kap.",
       "content": "och 20 kap. 11 § och i övrigt den 1 juli 2021. 2021:783 1. Denna lag träder i kraft den 1 januari 2022. 2. Äldre föreskrifter gäller fortfarande för en bekräftelse av föräldraskap till ett barn som har fötts före ikraftträdandet. 2022:631 1. Denna lag träder i kraft den 1 juli 2022. 2. Äldre bestämmelser gäller fortfarande för ledamöter som valts före ikraftträdandet. 2022:966 1. Denna lag träder i kraft den 1 augusti 2022. 2. Äldre föreskrifter gäller fortfarande för ett ackord som kommer till stånd enligt den upphävda lagen (1996:764) om företagsrekonstruktion."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:153",
+      "title": "Proposition 1975/76:153: med förslag till lag om ändring i rättegångsbalken m.m."
+    },
+    {
+      "prep_document_id": "1976/77:32",
+      "title": "Proposition 1976/77:32: om ändring i ärvdabalken, m.m."
+    },
+    {
+      "prep_document_id": "1976/77:1",
+      "title": "Proposition 1976/77:1: om minskad statlig detaljreglering av kommunerna m.m."
+    },
+    {
+      "prep_document_id": "1976/77:63",
+      "title": "Proposition 1976/77:63: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1978/79:12",
+      "title": "Proposition 1978/79:12: om underhåll till barn och frånskilda, m.m."
+    },
+    {
+      "prep_document_id": "1978/79:67",
+      "title": "Proposition 1978/79:67: om förbud mot aga"
+    },
+    {
+      "prep_document_id": "1978/79:90",
+      "title": "Proposition 1978/79:90: Riksrevisionens rapport om offentliga biträden i migrationsärenden"
+    },
+    {
+      "prep_document_id": "1978/79:193",
+      "title": "Proposition 1978/79:193: om ersättning för utbetalda underhållsbidrag"
+    },
+    {
+      "prep_document_id": "1979/80:63",
+      "title": "Proposition 1979/80:63: om ändring i föräldrabalken"
+    },
+    {
+      "prep_document_id": "1979/80:80",
+      "title": "Proposition 1979/80:80: Förbättrade förutsättningar för den arbetsmarknadspolitiska verksamheten"
+    },
+    {
+      "prep_document_id": "1979/80:1",
+      "title": "Proposition 1979/80:1: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1980/81:112",
+      "title": "Proposition 1980/81:112: Modernare adoptionsregler"
+    },
+    {
+      "prep_document_id": "1980/81:84",
+      "title": "Proposition 1980/81:84: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1981/82:50",
+      "title": "Proposition 1981/82:50: om sättet att fastställa basbeloppet enligt lagen (1962:381) om allmän försäkring, m.m."
+    },
+    {
+      "prep_document_id": "1981/82:66",
+      "title": "Proposition 1981/82:66: om ändring i lagen (1924:322) om vård av omyndigs värdehandlingar, m.m."
+    },
+    {
+      "prep_document_id": "1982/83:62",
+      "title": "Proposition 1982/83:62: om ändring i föräldrabalken"
+    },
+    {
+      "prep_document_id": "1981/82:168",
+      "title": "Proposition 1981/82:168: Tryggare hem för barn"
+    },
+    {
+      "prep_document_id": "1982/83:127",
+      "title": "Proposition 1982/83:127: om vissa administrativa frågor inom den allmänna försäkringen, m. m."
+    },
+    {
+      "prep_document_id": "1982/83:165",
+      "title": "Proposition 1982/83:165: Ett utvidgat utreseförbud för barn"
+    },
+    {
+      "prep_document_id": "1983/84:128",
+      "title": "Proposition 1983/84:128: med förslag till lag om företagshypotek m.m."
+    },
+    {
+      "prep_document_id": "1984/85:2",
+      "title": "Proposition 1984/85:2: Modernare regler för bekräftelse av föräldraskap, faderskapsundersökningar och för att åstadkomma könsneutral föräldraskapspresumtion"
+    },
+    {
+      "prep_document_id": "1984/85:163",
+      "title": "Proposition 1984/85:163: om barns ansvar för rättegångskostnader i mål om underhåll"
+    },
+    {
+      "prep_document_id": "1984/85:124",
+      "title": "Proposition 1984/85:124: Jämlika regler om föräldraskap i internationella situationer"
+    },
+    {
+      "prep_document_id": "1985/86:7",
+      "title": "Proposition 1985/86:7: om utlänningars rättsliga ställning"
+    },
+    {
+      "prep_document_id": "1986/87:39",
+      "title": "Proposition 1986/87:39: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1986/87:12",
+      "title": "Proposition 1986/87:12: Åtgärder för att säkerställa en sund och säker spelmarknad"
+    },
+    {
+      "prep_document_id": "1986/87:86",
+      "title": "Proposition 1986/87:86: En stärkt rättsprocess och en ökad lagföring"
+    },
+    {
+      "prep_document_id": "1987/88:160",
+      "title": "Proposition 1987/88:160: Modernare regler för bekräftelse av föräldraskap, faderskapsundersökningar och för att åstadkomma könsneutral föräldraskapspresumtion"
+    },
+    {
+      "prep_document_id": "1987/88:124",
+      "title": "Proposition 1987/88:124: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "1986/87:143",
+      "title": "Proposition 1986/87:143: En ny riksbankslag"
+    },
+    {
+      "prep_document_id": "1988/89:78",
+      "title": "Proposition 1988/89:78: En modernare och mer ändamålsenlig prövning av hyres- och arrendeärenden"
+    },
+    {
+      "prep_document_id": "1988/89:152",
+      "title": "Proposition 1988/89:152: Författningsändringar på finansmarknadsområdet med anledning av EU:s dataskyddsförordning"
+    },
+    {
+      "prep_document_id": "1989/90:28",
+      "title": "Proposition 1989/90:28: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1989/90:71",
+      "title": "Proposition 1989/90:71: om några processrjättsliga frågor"
+    },
+    {
+      "prep_document_id": "1990/91:8",
+      "title": "Proposition 1990/91:8: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1990/91:106",
+      "title": "Proposition 1990/91:106: om kontobaserat penningmarknadssystem"
+    },
+    {
+      "prep_document_id": "1990/91:153",
+      "title": "Proposition 1990/91:153: Stärkt kontroll och kvalitet i folkbokföringen"
+    },
+    {
+      "prep_document_id": "1990/91:194",
+      "title": "Proposition 1990/91:194: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "1991/92:17",
+      "title": "Proposition 1991/92:17: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1992/93:89",
+      "title": "Proposition 1992/93:89: Förstärkt reglering av valutaväxlare och andra finansiella institut"
+    },
+    {
+      "prep_document_id": "1992/93:139",
+      "title": "Proposition 1992/93:139: Tryggare hem för barn"
+    },
+    {
+      "prep_document_id": "1993/94:85",
+      "title": "Proposition 1993/94:85: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "1993/94:57",
+      "title": "Proposition 1993/94:57: Vårdnadshavares skadeståndsansvar"
+    },
+    {
+      "prep_document_id": "1993/94:250",
+      "title": "Proposition 1993/94:250: Förvalsalternativet inom premiepensionen"
+    },
+    {
+      "prep_document_id": "1993/94:124",
+      "title": "Proposition 1993/94:124: Riksrevisionens rapport om Allmänna arvsfonden"
+    },
+    {
+      "prep_document_id": "1994/95:29",
+      "title": "Proposition 1994/95:29: Dubbelbeskattningsavtal mellan Sverige och Frankrike beträffande skatter på arv och på gåva"
+    },
+    {
+      "prep_document_id": "1993/94:251",
+      "title": "Proposition 1993/94:251: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "1994/95:69",
+      "title": "Proposition 1994/95:69: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "1994/95:87",
+      "title": "Proposition 1994/95:87: Följdlagstiftning till förlängningen av valperioden och riksmötet"
+    },
+    {
+      "prep_document_id": "1994/95:145",
+      "title": "Proposition 1994/95:145: Ändringar i växtskyddslagen, m.m."
+    },
+    {
+      "prep_document_id": "1994/95:25",
+      "title": "Proposition 1994/95:25: Riksrevisionens rapport om flerbarnstillägget i barnbidraget"
+    },
+    {
+      "prep_document_id": "1995/96:35",
+      "title": "Proposition 1995/96:35: Ny lag om internationella sanktioner"
+    },
+    {
+      "prep_document_id": "1994/95:224",
+      "title": "Proposition 1994/95:224: Ett stärkt barnrättsperspektiv i vårdnadstvister"
+    },
+    {
+      "prep_document_id": "1995/96:78",
+      "title": "Proposition 1995/96:78: Riksrevisionens rapport om fastighetsbildningen i Sverige"
+    },
+    {
+      "prep_document_id": "1995/96:47",
+      "title": "Proposition 1995/96:47: Vissa ändringar i föräldrabalken"
+    },
+    {
+      "prep_document_id": "1995/96:193",
+      "title": "Proposition 1995/96:193: Redogörelse för verksamheten inom Europarådets ministerkommitté under år 1995"
+    },
+    {
+      "prep_document_id": "1995/96:115",
+      "title": "Proposition 1995/96:115: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "1995/96:279",
+      "title": "Proposition 1995/96:279: En kronofogdemyndighet i tiden"
+    },
+    {
+      "prep_document_id": "1995/96:5",
+      "title": "Proposition 1995/96:5: En ny lag om företagsrekonstruktion"
+    },
+    {
+      "prep_document_id": "1996/97:21",
+      "title": "Proposition 1996/97:21: Riksrevisionens rapport om nedsatt moms på livsmedel"
+    },
+    {
+      "prep_document_id": "1995/96:208",
+      "title": "Proposition 1995/96:208: Bättre verktyg för kontroll – uppgiftsinhämtning inom socialförsäkringen och ekonomiskt bistånd"
+    },
+    {
+      "prep_document_id": "1996/97:244",
+      "title": "Proposition 1996/97:244: Stärkt skydd för ensamkommande barn"
+    },
+    {
+      "prep_document_id": "1996/97:113",
+      "title": "Proposition 1996/97:113: God man för ensamma flyktingbarn"
+    },
+    {
+      "prep_document_id": "1996/97:114",
+      "title": "Proposition 1996/97:114: Finansieringsverksamhet i ekonomisk förening m.m."
+    },
+    {
+      "prep_document_id": "1997/98:76",
+      "title": "Proposition 1997/98:76: Skrivelse 1997/98:76"
+    },
+    {
+      "prep_document_id": "1997/98:9",
+      "title": "Proposition 1997/98:9: Säkrare samordningsnummer och bättre förutsättningar för korrekta uppgifter i folkbokföringen"
+    },
+    {
+      "prep_document_id": "1997/98:199",
+      "title": "Proposition 1997/98:199: Budgetpropositionen för 1999",
+      "summary": "Utgiftsområde 1,2,3"
+    },
+    {
+      "prep_document_id": "1997/98:50",
+      "title": "Proposition 1997/98:50: Riksrevisionens rapport om systemet med energideklarationer"
+    },
+    {
+      "prep_document_id": "1997/98:229",
+      "title": "Proposition 1997/98:229: Budgetpropositionen för 1999",
+      "summary": "Utgiftsområde 25,26,27"
+    },
+    {
+      "prep_document_id": "1997/98:7",
+      "title": "Proposition 1997/98:7: Tryggare hem för barn"
+    },
+    {
+      "prep_document_id": "1997/98:226",
+      "title": "Proposition 1997/98:226: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "1997/98:101",
+      "title": "Proposition 1997/98:101: Överlämnande av mål mellan allmänna förvaltningsdomstolar"
+    },
+    {
+      "prep_document_id": "1997/98:134",
+      "title": "Proposition 1997/98:134: Kontrolluppgiftsskyldighet vid options- och terminsaffärer, m.m."
+    },
+    {
+      "prep_document_id": "1998/99:14",
+      "title": "Proposition 1998/99:14: Nya överenskommelser om Nordiska investeringsbanken, Nordiska utvecklingsfonden och Nordiska miljöfinansieringsbolaget"
+    },
+    {
+      "prep_document_id": "1997/98:160",
+      "title": "Proposition 1997/98:160: Värdepapperscentraler och kontoföring av finansiella instrument"
+    },
+    {
+      "prep_document_id": "1998/99:119",
+      "title": "Proposition 1998/99:119: Riksrevisionens rapport om socialförsäkringsskyddet vid internationell rörlighet"
+    },
+    {
+      "prep_document_id": "1998/99:130",
+      "title": "Proposition 1998/99:130: Avskaffat krav på bevarande av räkenskapsinformation i original"
+    },
+    {
+      "prep_document_id": "2000/01:259",
+      "title": "Proposition 2000/01:259: Avgifter inom äldre- och handikappomsorg"
+    },
+    {
+      "prep_document_id": "2000/01:80",
+      "title": "Proposition 2000/01:80: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2001/02:46",
+      "title": "Proposition 2001/02:46: Justering av den utvidgade fåmansföretagsdefinitionen"
+    },
+    {
+      "prep_document_id": "2000/01:134",
+      "title": "Proposition 2000/01:134: Underhåll till barn som fyllt 18 år Prop. 2000/01:134"
+    },
+    {
+      "prep_document_id": "2001/02:89",
+      "title": "Proposition 2001/02:89: Modernare regler om assisterad befruktning och föräldraskap"
+    },
+    {
+      "prep_document_id": "2003/04:17",
+      "title": "Proposition 2003/04:17: Lättnader i 3:12-reglerna och i arvs- och gåvoskattereglerna vid generationsskiften i företag, m.m."
+    },
+    {
+      "prep_document_id": "2002/03:99",
+      "title": "Proposition 2002/03:99: Det nya Skatteverket"
+    },
+    {
+      "prep_document_id": "2003/04:139",
+      "title": "Proposition 2003/04:139: Avtal mellan Sverige och Norge om vitaliserat näringslivssamarbete Prop. 2003/04:139"
+    },
+    {
+      "prep_document_id": "2002/03:150",
+      "title": "Proposition 2002/03:150: Fondfaktablad och tidsfrist vid delning av en fond"
+    },
+    {
+      "prep_document_id": "2003/04:217",
+      "title": "Proposition 2003/04:217: Ändrad beslutskompetens i vissa ärenden på bank- och försäkringsområdena"
+    },
+    {
+      "prep_document_id": "2002/03:139",
+      "title": "Proposition 2002/03:139: Stärkt konsumentskydd på kreditmarknaden"
+    },
+    {
+      "prep_document_id": "2003/04:99",
+      "title": "Proposition 2003/04:99: Följdändringar med anledning av nya regler för bank- och finansieringsrörelse samt inlåningsverksamhet"
+    },
+    {
+      "prep_document_id": "2004/05:10",
+      "title": "Proposition 2004/05:10: En ny luftfartsmyndighet - lagstiftning"
+    },
+    {
+      "prep_document_id": "2003/04:131",
+      "title": "Proposition 2003/04:131: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2004/05:8",
+      "title": "Proposition 2004/05:8: Förlängd försökverksamhet med ändrad regional ansvarsfördelning i Skåne län och Västra Götalands län"
+    },
+    {
+      "prep_document_id": "2003/04:152",
+      "title": "Proposition 2003/04:152: Anpassningar med anledning av en ny statlig myndighet för socialförsäkringens administration"
+    },
+    {
+      "prep_document_id": "2004/05:136",
+      "title": "Proposition 2004/05:136: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "2004/05:137",
+      "title": "Proposition 2004/05:137: Jämlika regler om föräldraskap i internationella situationer"
+    },
+    {
+      "prep_document_id": "2004/05:116",
+      "title": "Proposition 2004/05:116: Åldersdifferentierat underhållsstöd och höjt grundavdrag för bidragsskyldiga föräldrar"
+    },
+    {
+      "prep_document_id": "2004/05:307",
+      "title": "Proposition 2004/05:307: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2004/05:131",
+      "title": "Proposition 2004/05:131: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2005/06:219",
+      "title": "Proposition 2005/06:219: En ny försäkringsrörelselag"
+    },
+    {
+      "prep_document_id": "2005/06:64",
+      "title": "Proposition 2005/06:64: Vissa ändringar som gäller PKU-biobanken"
+    },
+    {
+      "prep_document_id": "2005/06:309",
+      "title": "Proposition 2005/06:309: En modernare rättegång - några ytterligare frågor"
+    },
+    {
+      "prep_document_id": "2005/06:99",
+      "title": "Proposition 2005/06:99: Tryggare hem för barn"
+    },
+    {
+      "prep_document_id": "2005/06:117",
+      "title": "Proposition 2005/06:117: Framtidsfullmakter - en ny form av ställföreträdarskap för vuxna"
+    },
+    {
+      "prep_document_id": "2006/07:211",
+      "title": "Proposition 2006/07:211: Nya skatteregler för pensionsförsäkring m.m."
+    },
+    {
+      "prep_document_id": "2006/07:115",
+      "title": "Proposition 2006/07:115: Digital operativ motståndskraft för finanssektorn"
+    },
+    {
+      "prep_document_id": "2007/08:251",
+      "title": "Proposition 2007/08:251: Budgetpropositionen för 2009",
+      "summary": "Utgiftsområde 4: Rättsväsendet"
+    },
+    {
+      "prep_document_id": "2007/08:139",
+      "title": "Proposition 2007/08:139: En modernare rättegång - några ytterligare frågor"
+    },
+    {
+      "prep_document_id": "2008/09:7",
+      "title": "Proposition 2008/09:7: Riksrevisionens rapport om regeringens skatteutgiftsredovisning"
+    },
+    {
+      "prep_document_id": "2007/08:150",
+      "title": "Proposition 2007/08:150: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "2008/09:208",
+      "title": "Proposition 2008/09:208: Informationsutbytesavtal partiella skatteavtal med Jersey"
+    },
+    {
+      "prep_document_id": "2008/09:237",
+      "title": "Proposition 2008/09:237: Förstärkt integritetsskydd vid signalspaning"
+    },
+    {
+      "prep_document_id": "2008/09:150",
+      "title": "Proposition 2008/09:150: Stärkt skydd för barn som riskerar att fara illa"
+    },
+    {
+      "prep_document_id": "2008/09:290",
+      "title": "Proposition 2008/09:290: Kompletteringar av socialförsäkringsbalken"
+    },
+    {
+      "prep_document_id": "2008/09:165",
+      "title": "Proposition 2008/09:165: En långsiktigt hållbar organisation för de allmänna förvaltningsdomstolarna i första instans"
+    },
+    {
+      "prep_document_id": "2009/10:192",
+      "title": "Proposition 2009/10:192: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2009/10:370",
+      "title": "Proposition 2009/10:370: Riksrevisionens rapport om likvärdighet i förskolan – statens stöd, uppföljning och tillsyn"
+    },
+    {
+      "prep_document_id": "2009/10:165",
+      "title": "Proposition 2009/10:165: Den nya skollagen - för kunskap, valfrihet och trygghet"
+    },
+    {
+      "prep_document_id": "2010/11:7",
+      "title": "Proposition 2010/11:7: Informationsutbytesavtal med Saint Kitts och Nevis"
+    },
+    {
+      "prep_document_id": "2009/10:222",
+      "title": "Proposition 2009/10:222: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2010/11:71",
+      "title": "Proposition 2010/11:71: Lagändring med anledning av att Sveriges allmänna hypoteksbank har trätt i likvidation"
+    },
+    {
+      "prep_document_id": "2011/12:135",
+      "title": "Proposition 2011/12:135: Riksrevisionens rapport om att hantera brottmål effektivt - en utmaning för regeringen och rättsväsendet"
+    },
+    {
+      "prep_document_id": "2011/12:31",
+      "title": "Proposition 2011/12:31: Ändring av viss länsstyrelseverksamhet"
+    },
+    {
+      "prep_document_id": "2011/12:150",
+      "title": "Proposition 2011/12:150: Riksrevisionens rapport om klimatrelaterade skatter"
+    },
+    {
+      "prep_document_id": "2011/12:53",
+      "title": "Proposition 2011/12:53: Barns möjlighet att få vård"
+    },
+    {
+      "prep_document_id": "2011/12:85",
+      "title": "Proposition 2011/12:85: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2012/13:51",
+      "title": "Proposition 2012/13:51: Mål för friluftslivspolitiken"
+    },
+    {
+      "prep_document_id": "2012/13:292",
+      "title": "Proposition 2012/13:292: Vissa skattefrågor"
+    },
+    {
+      "prep_document_id": "2012/13:155",
+      "title": "Proposition 2012/13:155: Förvaltare av alternativa investeringsfonder"
+    },
+    {
+      "prep_document_id": "2013/14:255",
+      "title": "Proposition 2013/14:255: Riksrevisionens rapporter under 2014 om regeringens och Försvarsmaktens genomförande av riksdagens beslut om försvaret"
+    },
+    {
+      "prep_document_id": "2013/14:94",
+      "title": "Proposition 2013/14:94: En ny brottsskadelag"
+    },
+    {
+      "prep_document_id": "2013/14:263",
+      "title": "Proposition 2013/14:263: Riksrevisionens rapport om statens insatser mot ekonomiskt våld i nära relationer"
+    },
+    {
+      "prep_document_id": "2013/14:208",
+      "title": "Proposition 2013/14:208: Stärkt skydd mot tvångsäktenskap och barnäktenskap samt tillträde till Europarådets konvention om våld mot kvinnor"
+    },
+    {
+      "prep_document_id": "2013/14:262",
+      "title": "Proposition 2013/14:262: Några ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2013/14:110",
+      "title": "Proposition 2013/14:110: En ny organisation för polisen"
+    },
+    {
+      "prep_document_id": "2013/14:382",
+      "title": "Proposition 2013/14:382: Riksrevisionens rapport om tillsynen av ställföreträdare och överförmyndare"
+    },
+    {
+      "prep_document_id": "2013/14:225",
+      "title": "Proposition 2013/14:225: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "2015/16:124",
+      "title": "Proposition 2015/16:124: Ökad rättssäkerhet i det enhetliga patentsystemet"
+    },
+    {
+      "prep_document_id": "2014/15:127",
+      "title": "Proposition 2014/15:127: Assisterad befruktning för ensamstående kvinnor"
+    },
+    {
+      "prep_document_id": "2015/16:134",
+      "title": "Proposition 2015/16:134: Tilläggsbelopp för särskilt stöd till barn och elever"
+    },
+    {
+      "prep_document_id": "2015/16:10",
+      "title": "Proposition 2015/16:10: Värdepapperscentraler och kontoföring av finansiella instrument"
+    },
+    {
+      "prep_document_id": "2016/17:141",
+      "title": "Proposition 2016/17:141: Utvidgad skattebefrielse för egenproducerad förnybar el"
+    },
+    {
+      "prep_document_id": "2016/17:43",
+      "title": "Proposition 2016/17:43: En ny hälso- och sjukvårdslag"
+    },
+    {
+      "prep_document_id": "2016/17:221",
+      "title": "Proposition 2016/17:221: Lagändringar till följd av en samlad förordning om EU-varumärken"
+    },
+    {
+      "prep_document_id": "2016/17:30",
+      "title": "Proposition 2016/17:30: Framtidsfullmakter - en ny form av ställföreträdarskap för vuxna"
+    },
+    {
+      "prep_document_id": "2016/17:335",
+      "title": "Proposition 2016/17:335: Riksrevisionens rapport om räkenskapssammandragets tillförlitlighet"
+    },
+    {
+      "prep_document_id": "2016/17:171",
+      "title": "Proposition 2016/17:171: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2017/18:256",
+      "title": "Proposition 2017/18:256: Riksrevisionens rapport om fastställande av föräldrapenning för egenföretagare"
+    },
+    {
+      "prep_document_id": "2017/18:88",
+      "title": "Proposition 2017/18:88: Ordförandeskapet i domstol vid kollegial handläggning"
+    },
+    {
+      "prep_document_id": "2017/18:327",
+      "title": "Proposition 2017/18:327: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:235",
+      "title": "Proposition 2017/18:235: Följdändringar till ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2017/18:368",
+      "title": "Proposition 2017/18:368: Modernare regler för bekräftelse av föräldraskap, faderskapsundersökningar och för att åstadkomma könsneutral föräldraskapspresumtion"
+    },
+    {
+      "prep_document_id": "2017/18:155",
+      "title": "Proposition 2017/18:155: Modernare regler om assisterad befruktning och föräldraskap"
+    },
+    {
+      "prep_document_id": "2017/18:372",
+      "title": "Proposition 2017/18:372: Föräldrapenning för fler familjekonstellationer och reserverad grundnivå"
+    },
+    {
+      "prep_document_id": "2017/18:121",
+      "title": "Proposition 2017/18:121: Modernare adoptionsregler"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2020/21:60",
+      "title": "Proposition 2020/21:60: Forskning, frihet, framtid - kunskap och innovation för Sverige"
+    },
+    {
+      "prep_document_id": "2019/20:195",
+      "title": "Proposition 2019/20:195: Stärkt konsumentskydd på inlåningsmarknaden"
+    },
+    {
+      "prep_document_id": "2020/21:307",
+      "title": "Proposition 2020/21:307: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:139",
+      "title": "Proposition 2020/21:139: Ett modernt regelverk för Allmänna arvsfonden"
+    },
+    {
+      "prep_document_id": "2020/21:315",
+      "title": "Proposition 2020/21:315: Elektronisk inlämning av bouppteckningar"
+    },
+    {
+      "prep_document_id": "2020/21:150",
+      "title": "Proposition 2020/21:150: Ett stärkt barnrättsperspektiv i vårdnadstvister"
+    },
+    {
+      "prep_document_id": "2020/21:404",
+      "title": "Proposition 2020/21:404: Elektronisk inlämning av bouppteckningar"
+    },
+    {
+      "prep_document_id": "2020/21:176",
+      "title": "Proposition 2020/21:176: Modernare regler för bekräftelse av föräldraskap, faderskapsundersökningar och för att åstadkomma könsneutral föräldraskapspresumtion"
+    },
+    {
+      "prep_document_id": "2021/22:316",
+      "title": "Proposition 2021/22:316: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:125",
+      "title": "Proposition 2021/22:125: Val och beslut i kommuner och regioner"
+    },
+    {
+      "prep_document_id": "2021/22:378",
+      "title": "Proposition 2021/22:378: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:189",
+      "title": "Proposition 2021/22:189: Ökad rättssäkerhet och snabbare verkställighet i internationella familjemål"
+    },
+    {
+      "prep_document_id": "2021/22:375",
+      "title": "Proposition 2021/22:375: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:215",
+      "title": "Proposition 2021/22:215: En ny lag om företagsrekonstruktion"
+    },
+    {
+      "prep_document_id": "2022/23:45",
+      "title": "Proposition 2022/23:45: Vissa frågor om hälso- och sjukvårdens försörjningsberedskap"
+    },
+    {
+      "prep_document_id": "2022/23:7",
+      "title": "Proposition 2022/23:7: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "2023/24:130",
+      "title": "Proposition 2023/24:130: Redovisning av AP-fondernas verksamhet t.o.m. 2023"
+    },
+    {
+      "prep_document_id": "2023/24:31",
+      "title": "Proposition 2023/24:31: Stärkta rättigheter för barn och vuxna i skyddat boende"
+    },
+    {
+      "prep_document_id": "2024/25:47",
+      "title": "Proposition 2024/25:47: Sänkt alkoholskatt för öl från oberoende småbryggerier"
+    },
+    {
+      "prep_document_id": "2024/25:10",
+      "title": "Proposition 2024/25:10: Tryggare hem för barn"
+    },
+    {
+      "prep_document_id": "2024/25:210",
+      "title": "Proposition 2024/25:210: Skarpare verktyg till Inspektionen för vård och omsorg"
+    },
+    {
+      "prep_document_id": "2024/25:89",
+      "title": "Proposition 2024/25:89: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
     }
   ]
 }

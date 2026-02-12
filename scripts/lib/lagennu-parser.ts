@@ -167,13 +167,24 @@ export function extractDecisionDateFromCaseId(caseId: CaseId): string {
  * Examples:
  *   HFD 2023:1 -> https://lagen.nu/dom/hfd/2023:1.rdf
  *   AD 2023 nr 57 -> https://lagen.nu/dom/ad/2023:57.rdf
+ *   NJA 2022 s. 45 -> https://lagen.nu/dom/nja/2022s45.rdf (page-based)
  */
 export function caseIdToRdfUrl(caseId: CaseId): string {
   const courtCode = caseId.court.toLowerCase()
     .replace('möd', 'mod')
     .replace('mmd', 'mod');
 
-  const reference = `${caseId.year}:${caseId.number}`;
+  // NJA and HFD page-based references use "s" instead of ":"
+  // Check if this is a page-based reference by looking at the original format
+  let reference: string;
+  if (caseId.original.includes(' s.') || caseId.original.includes(' s ')) {
+    // Page-based reference: "NJA 2022 s. 45" -> "2022s45"
+    reference = `${caseId.year}s${caseId.number}`;
+  } else {
+    // Colon-based reference: "HFD 2023:1" -> "2023:1"
+    reference = `${caseId.year}:${caseId.number}`;
+  }
+
   return `${RDF_BASE_URL}/${courtCode}/${reference}.rdf`;
 }
 
@@ -362,7 +373,12 @@ export function insertOrUpdateCase(
     }
 
     // Insert statute references as cross-references
+    // Only insert if the target statute exists in the database
     if (metadata.cited_statutes.length > 0) {
+      const checkStatute = db.prepare(`
+        SELECT id FROM legal_documents WHERE id = ? AND type = 'statute'
+      `);
+
       const insertXref = db.prepare(`
         INSERT OR IGNORE INTO cross_references
           (source_document_id, target_document_id, ref_type)
@@ -370,7 +386,11 @@ export function insertOrUpdateCase(
       `);
 
       for (const sfs of metadata.cited_statutes) {
-        insertXref.run(metadata.document_id, sfs);
+        // Only insert cross-reference if target statute exists
+        const exists = checkStatute.get(sfs);
+        if (exists) {
+          insertXref.run(metadata.document_id, sfs);
+        }
       }
     }
   } catch (error) {

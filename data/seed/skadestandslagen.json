@@ -2,6 +2,7 @@
   "id": "1972:207",
   "type": "statute",
   "title": "Skadeståndslag (1972:207)",
+  "short_name": "SkadL",
   "status": "in_force",
   "issued_date": "1972-06-02",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1972-207",
@@ -233,6 +234,128 @@
       "chapter": "6",
       "section": "7",
       "content": "I ett mål om ersättning enligt 3 kap. 4 § får rätten besluta att vardera parten ska bära sin rättegångskostnad, om en enskild som har förlorat målet hade skälig anledning att få saken prövad. Lag (2018:23). Övergångsbestämmelser 1994:2065 Denna lag träder i kraft den 1 juli 1995. Äldre bestämmelser tillämpas beträffande den som före ikraftträdandet antagits till grundutbildning enligt lagen (1980:1021) om militär grundutbildning för kvinnor. 1995:24 Denna lag träder i kraft den 1 juli 1995. I fråga om beslut som har meddelats av Försäkringsöverdomstolen före ikraftträdandet gäller 3 kap. 7 § i sin äldre lydelse. 2000:126 Denna lag träder i kraft den 1 maj 2000. Den nya bestämmelsen skall dock endast tillämpas i de fall yrkandet om skadestånd har framställts efter ikraftträdandet. 2010:1213 1. Denna lag träder i kraft den 1 januari 2011. 2. Äldre bestämmelser gäller för förmåner som avser tid före ikraftträdandet."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:15",
+      "title": "Proposition 1975/76:15: Nya trafikförsäkringsregler – stärkt skydd för dem som skadas i trafiken"
+    },
+    {
+      "prep_document_id": "1976/77:64",
+      "title": "Proposition 1976/77:64: om statligt personskadeskydd m.m."
+    },
+    {
+      "prep_document_id": "1980/81:43",
+      "title": "Proposition 1980/81:43: med förslag till lag om militär grundutbildning för kvinnor, m.m."
+    },
+    {
+      "prep_document_id": "1985/86:98",
+      "title": "Proposition 1985/86:98: Nya möjligheter till operativt polissamarbete med andra stater"
+    },
+    {
+      "prep_document_id": "1989/90:42",
+      "title": "Proposition 1989/90:42: Grundlagsskadestånd – ett rättighetsskydd för enskilda"
+    },
+    {
+      "prep_document_id": "1989/90:2",
+      "title": "Proposition 1989/90:2: Stärkta möjligheter att upptäcka narkotikapåverkade förare i trafiken"
+    },
+    {
+      "prep_document_id": "1990/91:194",
+      "title": "Proposition 1990/91:194: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "1994/95:78",
+      "title": "Proposition 1994/95:78: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "1994/95:6",
+      "title": "Proposition 1994/95:6: Totalförsvarsplikt"
+    },
+    {
+      "prep_document_id": "1994/95:165",
+      "title": "Proposition 1994/95:165: Ett högskoleverk"
+    },
+    {
+      "prep_document_id": "1994/95:27",
+      "title": "Proposition 1994/95:27: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1995/96:7",
+      "title": "Proposition 1995/96:7: Meddelande om kommande förslag om ändringar i beskattningen av utländska kapitalförsäkringar"
+    },
+    {
+      "prep_document_id": "1994/95:229",
+      "title": "Proposition 1994/95:229: Vissa avräkningsfrågor vid personskadeersättning"
+    },
+    {
+      "prep_document_id": "1997/98:105",
+      "title": "Proposition 1997/98:105: Polisens användning av skjutvapen"
+    },
+    {
+      "prep_document_id": "1998/99:124",
+      "title": "Proposition 1998/99:124: Statens stöd till trossamfund och civilsamhället – enhetliga och rättssäkra villkor"
+    },
+    {
+      "prep_document_id": "2000/01:216",
+      "title": "Proposition 2000/01:216: Ersättning för trafikskador utomlands"
+    },
+    {
+      "prep_document_id": "2000/01:68",
+      "title": "Proposition 2000/01:68: Stärkt rätt till skadestånd för brottsoffer"
+    },
+    {
+      "prep_document_id": "2009/10:142",
+      "title": "Proposition 2009/10:142: Ett skärpt skadeståndsansvar för vårdnadshavare"
+    },
+    {
+      "prep_document_id": "2010/11:7",
+      "title": "Proposition 2010/11:7: Informationsutbytesavtal med Saint Kitts och Nevis"
+    },
+    {
+      "prep_document_id": "2009/10:222",
+      "title": "Proposition 2009/10:222: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2010/11:31",
+      "title": "Proposition 2010/11:31: Bättre möjlighet till skuldsanering"
+    },
+    {
+      "prep_document_id": "2009/10:181",
+      "title": "Proposition 2009/10:181: Stärkt skydd för demokratin och domstolarnas oberoende"
+    },
+    {
+      "prep_document_id": "2017/18:140",
+      "title": "Proposition 2017/18:140: 2018 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2017/18:7",
+      "title": "Proposition 2017/18:7: Skadestånd och Europakonventionen"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2021/22:326",
+      "title": "Proposition 2021/22:326: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2021/22:198",
+      "title": "Proposition 2021/22:198: Stärkt rätt till skadestånd för brottsoffer"
+    },
+    {
+      "prep_document_id": "2021/22:448",
+      "title": "Proposition 2021/22:448: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:229",
+      "title": "Proposition 2021/22:229: Grundlagsskadestånd – ett rättighetsskydd för enskilda"
     }
   ]
 }

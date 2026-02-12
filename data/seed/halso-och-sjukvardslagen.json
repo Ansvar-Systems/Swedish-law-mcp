@@ -2,6 +2,7 @@
   "id": "2017:30",
   "type": "statute",
   "title": "Hälso- och sjukvårdslag (2017:30)",
+  "short_name": "HSL",
   "status": "in_force",
   "issued_date": "2017-02-09",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2017-30",
@@ -637,6 +638,256 @@
       "chapter": "18",
       "section": "3",
       "content": "Personer som tas emot från en annan kommun eller en annan region enligt 4 kap. 1 § lagen (2006:544) om kommuners och regioners åtgärder inför och vid extraordinära händelser i fredstid och höjd beredskap omfattas av mottagande kommuns och regions skyldigheter enligt denna lag. Lag (2019:973). Övergångsbestämmelser 2017:30 1. Denna lag träder i kraft den 1 april 2017. 2. Genom lagen upphävs hälso- och sjukvårdslagen (1982:763). 3. Bestämmelsen i 8 kap. 3 § första stycket gäller inte vård som ges enligt avtal om hälso- och sjukvårdstjänster som landstinget träffat med vårdgivare före den 1 januari 2015, så länge avtalet gäller. Efter den 1 april 2017 får ett sådant avtal inte förlängas utan att 8 kap. 3 § första stycket beaktas. 4. Bestämmelserna i 17 kap. 5 § gäller inte avgifter för vilka betalningsskyldighet uppkommit före den 1 juni 2010. 5. För den som omfattas av rådets förordning (EEG) nr 1408/71 av den 14 juni 1971 om tillämpningen av systemen för social trygghet när anställda, egenföretagare eller deras familjemedlemmar flyttar inom gemenskapen gäller fortfarande 3 c § den upphävda lagen i dess lydelse före den 1 januari 2011. 6. För sjukgymnaster gäller fortfarande 24 § den upphävda lagen i dess lydelse före den 1 januari 2014. 2018:143 1. Denna lag träder i kraft den 1 juli 2018. 2. För tillstånd som gäller vid tidpunkten för ikraftträdandet och som har beslutats enligt 9 b § den upphävda hälso- och sjukvårdslagen (1982:763) eller enligt 7 kap. 5 § hälso- och sjukvårdslagen (2017:30) i dess lydelse före den 1 juli 2018, gäller vad som föreskrivs för nationell högspecialiserad vård i de nya bestämmelserna och i föreskrifter som meddelats i anslutning till lagen. Sådana tillstånd ska fortsätta att gälla även om tiden för tillståndet har gått ut. 2018:1997 1. Denna lag träder i kraft den 1 juli 2021. Lag (2020:312). 2. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om i vilka fall och på vilket sätt äldre föreskrifter om möjligheter till anställning i landstingen för läkares allmäntjänstgöring ska gälla. 2025:1399 Denna lag träder i kraft den 1 januari 2027 i fråga om 8 kap. 10 § och 12 kap. 7 § och i övrigt den 1 januari 2026."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "2016/17:141",
+      "title": "Proposition 2016/17:141: Utvidgad skattebefrielse för egenproducerad förnybar el"
+    },
+    {
+      "prep_document_id": "2016/17:43",
+      "title": "Proposition 2016/17:43: En ny hälso- och sjukvårdslag"
+    },
+    {
+      "prep_document_id": "2016/17:156",
+      "title": "Proposition 2016/17:156: En skyldighet att erbjuda lovskola"
+    },
+    {
+      "prep_document_id": "2016/17:59",
+      "title": "Proposition 2016/17:59: Trygg och säker vård för barn och unga som vårdas utanför det egna hemmet"
+    },
+    {
+      "prep_document_id": "2016/17:326",
+      "title": "Proposition 2016/17:326: Nästa steg för en god och nära vård"
+    },
+    {
+      "prep_document_id": "2016/17:106",
+      "title": "Proposition 2016/17:106: Samverkan vid utskrivning från sluten hälso- och sjukvård"
+    },
+    {
+      "prep_document_id": "2016/17:336",
+      "title": "Proposition 2016/17:336: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:171",
+      "title": "Proposition 2016/17:171: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2016/17:345",
+      "title": "Proposition 2016/17:345: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:85",
+      "title": "Proposition 2016/17:85: Samverkan om vård, stöd och behandling mot spelmissbruk"
+    },
+    {
+      "prep_document_id": "2017/18:176",
+      "title": "Proposition 2017/18:176: Utökade möjligheter till arbetsplatsinspektioner"
+    },
+    {
+      "prep_document_id": "2017/18:40",
+      "title": "Proposition 2017/18:40: En ny beslutsprocess för den högspecialiserade vården"
+    },
+    {
+      "prep_document_id": "2017/18:294",
+      "title": "Proposition 2017/18:294: Vissa kontrollfrågor och andra frågor på punktskatteområdet"
+    },
+    {
+      "prep_document_id": "2017/18:83",
+      "title": "Proposition 2017/18:83: Styrande principer inom hälso- och sjukvården och en förstärkt vårdgaranti"
+    },
+    {
+      "prep_document_id": "2017/18:317",
+      "title": "Proposition 2017/18:317: Riksrevisionens rapport om statens skydd av hotade personer"
+    },
+    {
+      "prep_document_id": "2017/18:145",
+      "title": "Proposition 2017/18:145: Ökat skydd för hotade och förföljda personer samt några åtgärder för att öka kvaliteten i folkbokföringen"
+    },
+    {
+      "prep_document_id": "2018/19:11",
+      "title": "Proposition 2018/19:11: Ändring i skatteavtalet mellan Sverige och Ryssland och upphävande av förordning"
+    },
+    {
+      "prep_document_id": "2017/18:273",
+      "title": "Proposition 2017/18:273: Biståndsbedömt trygghetsboende för äldre"
+    },
+    {
+      "prep_document_id": "2018/19:50",
+      "title": "Proposition 2018/19:50: Makars och sambors förmögenhetsförhållanden i internationella situationer"
+    },
+    {
+      "prep_document_id": "2017/18:274",
+      "title": "Proposition 2017/18:274: Bastjänstgöring för läkare"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2019/20:158",
+      "title": "Proposition 2019/20:158: Senarelagt införande av nationell läkemedelslista och bastjänstgöring för läkare"
+    },
+    {
+      "prep_document_id": "2020/21:61",
+      "title": "Proposition 2020/21:61: Riksrevisionens rapport om styrning av ämneslärarutbildningen vid Högskolan i Gävle, Linnéuniversitetet och Stockholms universitet"
+    },
+    {
+      "prep_document_id": "2019/20:164",
+      "title": "Proposition 2019/20:164: Inriktningen för en nära och tillgänglig vård - en primärvårdsreform"
+    },
+    {
+      "prep_document_id": "2020/21:350",
+      "title": "Proposition 2020/21:350: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2020/21:163",
+      "title": "Proposition 2020/21:163: Förebyggande av våld i nära relationer"
+    },
+    {
+      "prep_document_id": "2021/22:225",
+      "title": "Proposition 2021/22:225: Den offentliga sektorns tillgängliggörande av data"
+    },
+    {
+      "prep_document_id": "2021/22:72",
+      "title": "Proposition 2021/22:72: Ökad kontinuitet och effektivitet i vården - en primärvårdsreform"
+    },
+    {
+      "prep_document_id": "2021/22:428",
+      "title": "Proposition 2021/22:428: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:244",
+      "title": "Proposition 2021/22:244: Stärkt rätt till personlig assistans vid behov av egenvård"
+    },
+    {
+      "prep_document_id": "2022/23:116",
+      "title": "Proposition 2022/23:116: Ett granskningssystem för utländska direktinvesteringar till skydd för svenska säkerhetsintressen"
+    },
+    {
+      "prep_document_id": "2021/22:260",
+      "title": "Proposition 2021/22:260: Ökad kontroll i hälso- och sjukvården"
+    },
+    {
+      "prep_document_id": "2022/23:164",
+      "title": "Proposition 2022/23:164: Riksrevisionens rapport om det nationella smittskyddet"
+    },
+    {
+      "prep_document_id": "2022/23:45",
+      "title": "Proposition 2022/23:45: Vissa frågor om hälso- och sjukvårdens försörjningsberedskap"
+    },
+    {
+      "prep_document_id": "2023/24:130",
+      "title": "Proposition 2023/24:130: Redovisning av AP-fondernas verksamhet t.o.m. 2023"
+    },
+    {
+      "prep_document_id": "2023/24:31",
+      "title": "Proposition 2023/24:31: Stärkta rättigheter för barn och vuxna i skyddat boende"
+    },
+    {
+      "prep_document_id": "2024/25:210",
+      "title": "Proposition 2024/25:210: Skarpare verktyg till Inspektionen för vård och omsorg"
+    },
+    {
+      "prep_document_id": "2024/25:89",
+      "title": "Proposition 2024/25:89: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1981/82:97",
+      "title": "Proposition 1981/82:97: Nästa steg för en god och nära vård"
+    },
+    {
+      "prep_document_id": "2005/06:73",
+      "title": "Proposition 2005/06:73: En ny beslutsprocess för den högspecialiserade vården"
+    },
+    {
+      "prep_document_id": "1984/85:181",
+      "title": "Proposition 1984/85:181: Inriktningen för en nära och tillgänglig vård - en primärvårdsreform"
+    },
+    {
+      "prep_document_id": "2005/06:50",
+      "title": "Proposition 2005/06:50: Lag om estetiska kirurgiska ingrepp och estetiska injektionsbehandlingar"
+    },
+    {
+      "prep_document_id": "2005/06:115",
+      "title": "Proposition 2005/06:115: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1995/96:176",
+      "title": "Proposition 1995/96:176: Nästa steg för en god och nära vård"
+    },
+    {
+      "prep_document_id": "2024/25:167",
+      "title": "Proposition 2024/25:167: Hälso- och sjukvårdens beredskap"
+    },
+    {
+      "prep_document_id": "1994/95:195",
+      "title": "Proposition 1994/95:195: Nästa steg för en god och nära vård"
+    },
+    {
+      "prep_document_id": "1989/90:81",
+      "title": "Proposition 1989/90:81: En ny hälso- och sjukvårdslag"
+    },
+    {
+      "prep_document_id": "2013/14:106",
+      "title": "Proposition 2013/14:106: Patientlag"
+    },
+    {
+      "prep_document_id": "2001/02:63",
+      "title": "Proposition 2001/02:63: Riksrevisionens rapport om statens subventionering av läkemedel"
+    },
+    {
+      "prep_document_id": "2009/10:67",
+      "title": "Proposition 2009/10:67: Nästa steg för en god och nära vård"
+    },
+    {
+      "prep_document_id": "1998/99:4",
+      "title": "Proposition 1998/99:4: Ett mer ändamålsenligt klagomålssystem i hälso- och sjukvården"
+    },
+    {
+      "prep_document_id": "2013/14:67",
+      "title": "Proposition 2013/14:67: Mer inflytande för den enskilde i valet av hjälpmedel"
+    },
+    {
+      "prep_document_id": "2014/15:76",
+      "title": "Proposition 2014/15:76: Om katastrofmedicin som en del av svenska insatser utomlands m.m."
+    },
+    {
+      "prep_document_id": "1990/91:14",
+      "title": "Proposition 1990/91:14: Nästa steg för en god och nära vård"
+    },
+    {
+      "prep_document_id": "1996/97:27",
+      "title": "Proposition 1996/97:27: Riksrevisionens rapport om läkemedelsförskrivningen – statens styrning och tillsyn"
+    },
+    {
+      "prep_document_id": "2016/17:166",
+      "title": "Proposition 2016/17:166: Privata sjukvårdsförsäkringar inom offentligt finansierad hälso- och sjukvård"
+    },
+    {
+      "prep_document_id": "2016/17:167",
+      "title": "Proposition 2016/17:167: Driftsformer för universitetssjukhus"
+    },
+    {
+      "prep_document_id": "2008/09:193",
+      "title": "Proposition 2008/09:193: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2016/17:1",
+      "title": "Proposition 2016/17:1: Budgetpropositionen för 2017"
+    },
+    {
+      "prep_document_id": "1997/98:183",
+      "title": "Proposition 1997/98:183: Utökade möjligheter att verkställa fängelsestraff med elektronisk övervakning"
+    },
+    {
+      "prep_document_id": "1996/97:5",
+      "title": "Proposition 1996/97:5: Riksrevisionens rapport om skyddet av värdefull skog"
     }
   ]
 }

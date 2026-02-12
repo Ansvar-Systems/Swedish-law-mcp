@@ -2,6 +2,7 @@
   "id": "2016:1145",
   "type": "statute",
   "title": "Lag (2016:1145) om offentlig upphandling",
+  "short_name": "LOU",
   "status": "in_force",
   "issued_date": "2016-12-01",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2016-1145",
@@ -2372,6 +2373,140 @@
       "chapter": "21",
       "section": "15",
       "content": "Tillsynsmyndighetens beslut om upphandlingsskadeavgift eller förelägganden får överklagas till den förvaltningsrätt i vars domkrets den som beslutet riktar sig till har sin hemvist. När ett beslut överklagas är tillsynsmyndigheten motpart i domstolen. Prövningstillstånd krävs vid överklagande till kammarrätten. Lag (2023:815)"
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "2016/17:66",
+      "title": "Proposition 2016/17:66: Forskning och innovation på energiområdet för ekologisk hållbarhet, konkurrenskraft och försörjningstrygghet"
+    },
+    {
+      "prep_document_id": "2015/16:195",
+      "title": "Proposition 2015/16:195: Nytt regelverk om upphandling"
+    },
+    {
+      "prep_document_id": "2016/17:28",
+      "title": "Proposition 2016/17:28: Upphandling av vissa kollektivtrafiktjänster"
+    },
+    {
+      "prep_document_id": "2016/17:242",
+      "title": "Proposition 2016/17:242: Riksrevisionens rapport om arbetsrättsliga villkor i offentlig upphandling"
+    },
+    {
+      "prep_document_id": "2016/17:163",
+      "title": "Proposition 2016/17:163: Arbetsrättsliga villkor vid upphandling"
+    },
+    {
+      "prep_document_id": "2016/17:341",
+      "title": "Proposition 2016/17:341: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2016/17:173",
+      "title": "Proposition 2016/17:173: Ytterligare åtgärder mot penningtvätt och finansiering av terrorism"
+    },
+    {
+      "prep_document_id": "2016/17:335",
+      "title": "Proposition 2016/17:335: Riksrevisionens rapport om räkenskapssammandragets tillförlitlighet"
+    },
+    {
+      "prep_document_id": "2016/17:171",
+      "title": "Proposition 2016/17:171: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2017/18:327",
+      "title": "Proposition 2017/18:327: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:235",
+      "title": "Proposition 2017/18:235: Följdändringar till ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2017/18:356",
+      "title": "Proposition 2017/18:356: Riksrevisionens rapport om likvärdighet i förskolan – statens stöd, uppföljning och tillsyn"
+    },
+    {
+      "prep_document_id": "2017/18:158",
+      "title": "Proposition 2017/18:158: Ökade tillståndskrav och särskilda regler för upphandling inom välfärden"
+    },
+    {
+      "prep_document_id": "2017/18:390",
+      "title": "Proposition 2017/18:390: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:174",
+      "title": "Proposition 2017/18:174: En mer heltäckande terrorismlagstiftning"
+    },
+    {
+      "prep_document_id": "2019/20:18",
+      "title": "Proposition 2019/20:18: Arbetet i frågor som rör Kina"
+    },
+    {
+      "prep_document_id": "2018/19:142",
+      "title": "Proposition 2018/19:142: Statistik på upphandlingsområdet"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2021/22:31",
+      "title": "Proposition 2021/22:31: Riksrevisionens rapport om hållbart företagande och styrning av de statligt ägda bolagen"
+    },
+    {
+      "prep_document_id": "2021/22:5",
+      "title": "Proposition 2021/22:5: Ett förenklat upphandlingsregelverk"
+    },
+    {
+      "prep_document_id": "2021/22:302",
+      "title": "Proposition 2021/22:302: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:136",
+      "title": "Proposition 2021/22:136: Genomförande av direktivet om inrättande av en europeisk kodex för elektronisk kommunikation"
+    },
+    {
+      "prep_document_id": "2021/22:344",
+      "title": "Proposition 2021/22:344: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:120",
+      "title": "Proposition 2021/22:120: En effektivare överprövning av offentliga upphandlingar"
+    },
+    {
+      "prep_document_id": "2021/22:349",
+      "title": "Proposition 2021/22:349: Riksrevisionens rapport om statlig bidragsgivning till civilsamhället"
+    },
+    {
+      "prep_document_id": "2021/22:135",
+      "title": "Proposition 2021/22:135: Idéburen välfärd"
+    },
+    {
+      "prep_document_id": "2021/22:441",
+      "title": "Proposition 2021/22:441: Riksrevisionens rapport om tillsynen över medicintekniska produkter"
+    },
+    {
+      "prep_document_id": "2021/22:238",
+      "title": "Proposition 2021/22:238: Anpassningar till EU:s marknadskontrollförordning – del 2"
+    },
+    {
+      "prep_document_id": "2023/24:61",
+      "title": "Proposition 2023/24:61: Sekretess för uppgifter om jägare hos länsstyrelsen och Polismyndigheten"
+    },
+    {
+      "prep_document_id": "2023/24:3",
+      "title": "Proposition 2023/24:3: En effektivare upphandlingstillsyn"
+    },
+    {
+      "prep_document_id": "2024/25:188",
+      "title": "Proposition 2024/25:188: Ett grundavdrag i riskskatten"
+    },
+    {
+      "prep_document_id": "2024/25:116",
+      "title": "Proposition 2024/25:116: EU:s IPI-förordning och upphandlingslagstiftningen"
     }
   ]
 }

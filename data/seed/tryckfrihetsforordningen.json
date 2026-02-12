@@ -2,6 +2,7 @@
   "id": "1949:105",
   "type": "statute",
   "title": "Tryckfrihetsförordning (1949:105)",
+  "short_name": "TF",
   "status": "in_force",
   "issued_date": "1949-04-05",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1949-105",
@@ -1017,6 +1018,252 @@
       "chapter": "14",
       "section": "6",
       "content": "I frågor som inte har reglerats särskilt i denna grundlag eller i en särskild lag som har meddelats med stöd av grundlagen, gäller vad som annars är föreskrivet i lag eller annan författning. Lag (2018:1801). Övergångsbestämmelser 1976:955 1. Denna lag träder i kraft den 1 januari 1978. 2. De nya bestämmelserna äger ej tillämpning på skrift, som mångfaldigats genom stencilering, fotokopiering eller liknande tekniskt förfarande och som utgivits före ikraftträdandet. 1998:1438 1. Denna lag träder i kraft den 1 januari 1999. 2. Äldre föreskrifter tillämpas på sådana tekniska upptagningar som spritts före ikraftträdandet. 3. De nya föreskrifterna i 1 kap. 7 § samt 5 kap. 5 och 7 §§ gäller även för utgivningsbevis som har utfärdats före ikraftträdandet. I stället för vad som sägs i 5 kap. 5 § fjärde stycket första meningen gäller sådana bevis för en period av tio år från lagens ikraftträdande. 4. I mål som rör skildring av barn i pornografisk bild tillämpas äldre föreskrifter, om talan väckts före ikraftträdandet."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:160",
+      "title": "Proposition 1975/76:160: Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan"
+    },
+    {
+      "prep_document_id": "1975/76:204",
+      "title": "Proposition 1975/76:204: Genomförande av visselblåsardirektivet"
+    },
+    {
+      "prep_document_id": "1978/79:179",
+      "title": "Proposition 1978/79:179: Barnpornografibrottet och preskription av brott mot barn"
+    },
+    {
+      "prep_document_id": "1981/82:77",
+      "title": "Proposition 1981/82:77: om formerna för den kyrkliga lagstiftningen m.m."
+    },
+    {
+      "prep_document_id": "1981/82:37",
+      "title": "Proposition 1981/82:37: om offentlighetsprincipen och ADB"
+    },
+    {
+      "prep_document_id": "1981/82:58",
+      "title": "Proposition 1981/82:58: om ändring i tryckfrihetsförordningen och brottsbalken (hets mot folkgrupp m.m.)"
+    },
+    {
+      "prep_document_id": "1987/88:58",
+      "title": "Proposition 1987/88:58: om rätten att besluta om resning m.m."
+    },
+    {
+      "prep_document_id": "1990/91:64",
+      "title": "Proposition 1990/91:64: En lag om public service och riktlinjer för verksamheten 2026–2033"
+    },
+    {
+      "prep_document_id": "1990/91:60",
+      "title": "Proposition 1990/91:60: Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan"
+    },
+    {
+      "prep_document_id": "1993/94:275",
+      "title": "Proposition 1993/94:275: Ändringar i regeringsformen - samarbetet i EU m.m. Prop. 2001/02:72"
+    },
+    {
+      "prep_document_id": "1993/94:114",
+      "title": "Proposition 1993/94:114: Tillgänglighetskrav för vissa medier"
+    },
+    {
+      "prep_document_id": "1993/94:161",
+      "title": "Proposition 1993/94:161: Kompletterande bestämmelser till EU:s förordning om gasanordningar"
+    },
+    {
+      "prep_document_id": "1993/94:113",
+      "title": "Proposition 1993/94:113: Förvaring av allmänna handlingar hos andra organ än myndigheter"
+    },
+    {
+      "prep_document_id": "1993/94:162",
+      "title": "Proposition 1993/94:162: Riksrevisionens rapport om statens åtgärder för utveckling av elsystemet"
+    },
+    {
+      "prep_document_id": "1993/94:118",
+      "title": "Proposition 1993/94:118: Några rättegångsfrågor i tryckfrihets- och yttrandefrihetsmål m.m."
+    },
+    {
+      "prep_document_id": "1993/94:450",
+      "title": "Proposition 1993/94:450: Tryckfrihetsförordningens och yttrandefrihetsgrund- lagens tillämpningsområden barnpornografifrågan m.m."
+    },
+    {
+      "prep_document_id": "1997/98:214",
+      "title": "Proposition 1997/98:214: Barnpornografibrottet och preskription av brott mot barn"
+    },
+    {
+      "prep_document_id": "1997/98:43",
+      "title": "Proposition 1997/98:43: Barnpornografibrottet och preskription av brott mot barn"
+    },
+    {
+      "prep_document_id": "1997/98:284",
+      "title": "Proposition 1997/98:284: Statens stöd till trossamfund och civilsamhället – enhetliga och rättssäkra villkor"
+    },
+    {
+      "prep_document_id": "1997/98:49",
+      "title": "Proposition 1997/98:49: Statens stöd till trossamfund och civilsamhället – enhetliga och rättssäkra villkor"
+    },
+    {
+      "prep_document_id": "2001/02:234",
+      "title": "Proposition 2001/02:234: Ett starkare skydd mot diskriminering"
+    },
+    {
+      "prep_document_id": "2001/02:59",
+      "title": "Proposition 2001/02:59: En stärkt rättsprocess och en ökad lagföring"
+    },
+    {
+      "prep_document_id": "2002/03:2",
+      "title": "Proposition 2002/03:2: Vissa socialförsäkringsfrågor m.m."
+    },
+    {
+      "prep_document_id": "2001/02:64",
+      "title": "Proposition 2001/02:64: Kompletterande bestämmelser till EU:s förordning om politisk reklam"
+    },
+    {
+      "prep_document_id": "2001/02:233",
+      "title": "Proposition 2001/02:233: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2001/02:74",
+      "title": "Proposition 2001/02:74: Ett ändamålsenligt skydd för tryck- och yttrandefriheten"
+    },
+    {
+      "prep_document_id": "2002/03:7",
+      "title": "Proposition 2002/03:7: Ändring av övergångsbestämmelser för vissa finansiella företag"
+    },
+    {
+      "prep_document_id": "2001/02:70",
+      "title": "Proposition 2001/02:70: Offentlighetsprincipen och informationstekniken Prop. 2001/02:70"
+    },
+    {
+      "prep_document_id": "2002/03:9",
+      "title": "Proposition 2002/03:9: Återkallelse av propositionen Sjukhus med vinstsyfte; förlängd giltighet av lagen (2000:1440) om inskränkning i landstingens rätt att överlämna driften av akutsjukhus till annan (prop. 2002/03:9)"
+    },
+    {
+      "prep_document_id": "2010/11:28",
+      "title": "Proposition 2010/11:28: Ny mervärdesskattelag"
+    },
+    {
+      "prep_document_id": "2009/10:58",
+      "title": "Proposition 2009/10:58: Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan"
+    },
+    {
+      "prep_document_id": "2010/11:26",
+      "title": "Proposition 2010/11:26: Alkolås för rattfylleri"
+    },
+    {
+      "prep_document_id": "2009/10:303",
+      "title": "Proposition 2009/10:303: Ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2009/10:81",
+      "title": "Proposition 2009/10:81: Tillgänglighetskrav för vissa medier"
+    },
+    {
+      "prep_document_id": "2010/11:27",
+      "title": "Proposition 2010/11:27: Redogörelse för svenskt deltagande i den nordiska stridsgruppen 2011"
+    },
+    {
+      "prep_document_id": "2009/10:274",
+      "title": "Proposition 2009/10:274: Barnpornografibrottet och preskription av brott mot barn"
+    },
+    {
+      "prep_document_id": "2009/10:70",
+      "title": "Proposition 2009/10:70: En modern straffrättslig preskriptionslagstiftning"
+    },
+    {
+      "prep_document_id": "2010/11:21",
+      "title": "Proposition 2010/11:21: Anpassningar av reglerna av skogsavdrag till ändringar i fastighetstaxeringslagen"
+    },
+    {
+      "prep_document_id": "2009/10:304",
+      "title": "Proposition 2009/10:304: Riksrevisionens rapport om Samisk utbildning"
+    },
+    {
+      "prep_document_id": "2009/10:80",
+      "title": "Proposition 2009/10:80: En reformerad grundlag"
+    },
+    {
+      "prep_document_id": "2014/15:6",
+      "title": "Proposition 2014/15:6: Minskat svartarbete i byggbranschen"
+    },
+    {
+      "prep_document_id": "2013/14:211",
+      "title": "Proposition 2013/14:211: Riksrevisionens rapport om statens hantering av riksintressen"
+    },
+    {
+      "prep_document_id": "2013/14:47",
+      "title": "Proposition 2013/14:47: Några ändringar på tryck- och yttrandefrihetens område"
+    },
+    {
+      "prep_document_id": "2014/15:7",
+      "title": "Proposition 2014/15:7: Informationsutbytesavtal med Hongkong SAR"
+    },
+    {
+      "prep_document_id": "2013/14:259",
+      "title": "Proposition 2013/14:259: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2013/14:51",
+      "title": "Proposition 2013/14:51: Förstärkt skydd mot främmande makts underrättelseverksamhet"
+    },
+    {
+      "prep_document_id": "2022/23:11",
+      "title": "Proposition 2022/23:11: Stämpelskatt vid förvärv av fast egendom och tomträtter som görs vid delning av aktiebolag genom separation"
+    },
+    {
+      "prep_document_id": "2021/22:222",
+      "title": "Proposition 2021/22:222: Översyn av vissa bestämmelser om tullfrihet"
+    },
+    {
+      "prep_document_id": "2021/22:55",
+      "title": "Proposition 2021/22:55: Utlandsspioneri"
+    },
+    {
+      "prep_document_id": "2022/23:22",
+      "title": "Proposition 2022/23:22: Riksrevisionens rapport om Konsumentverkets tillsyn av marknadsföring och avtalsvillkor"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2022/23:10",
+      "title": "Proposition 2022/23:10: Rätt till betalkonto i fler banker"
+    },
+    {
+      "prep_document_id": "2021/22:283",
+      "title": "Proposition 2021/22:283: Riksrevisionens rapport om statens krisstöd till idrott och kultur under coronapandemin"
+    },
+    {
+      "prep_document_id": "2021/22:59",
+      "title": "Proposition 2021/22:59: Ett ändamålsenligt skydd för tryck- och yttrandefriheten"
+    },
+    {
+      "prep_document_id": "2016/17:222",
+      "title": "Proposition 2016/17:222: Ett starkt straffrättsligt skydd för den personliga integriteten"
+    },
+    {
+      "prep_document_id": "2023/24:93",
+      "title": "Proposition 2023/24:93: En tydligare bestämmelse om hets mot folkgrupp"
+    },
+    {
+      "prep_document_id": "1987/88:32",
+      "title": "Proposition 1987/88:32: Ett modernt offentligt belöningssystem och de allmänna flaggdagarna"
+    },
+    {
+      "prep_document_id": "1986/87:151",
+      "title": "Proposition 1986/87:151: Hårdare regler för nya nikotinprodukter"
+    },
+    {
+      "prep_document_id": "2017/18:59",
+      "title": "Proposition 2017/18:59: Ett utvidgat straffrättsligt skydd för transpersoner"
+    },
+    {
+      "prep_document_id": "2017/18:49",
+      "title": "Proposition 2017/18:49: Ändrade mediegrundlagar"
     }
   ]
 }

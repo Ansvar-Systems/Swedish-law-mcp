@@ -2,6 +2,7 @@
   "id": "1958:637",
   "type": "statute",
   "title": "Ärvdabalk (1958:637)",
+  "short_name": "ÄB",
   "status": "in_force",
   "issued_date": "1958-12-12",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1958-637",
@@ -985,6 +986,236 @@
       "chapter": "24",
       "section": "6",
       "content": "Förordnas om boets avträdande till förvaltning av boutredningsman, är avtal om sammanlevnad i oskiftat bo förfallet. Ej må sådant förordnande meddelas på ansökan av delägare."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:50",
+      "title": "Proposition 1975/76:50: om ändring i ärvdabalken, m.m."
+    },
+    {
+      "prep_document_id": "1976/77:32",
+      "title": "Proposition 1976/77:32: om ändring i ärvdabalken, m.m."
+    },
+    {
+      "prep_document_id": "1976/77:63",
+      "title": "Proposition 1976/77:63: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1978/79:12",
+      "title": "Proposition 1978/79:12: om underhåll till barn och frånskilda, m.m."
+    },
+    {
+      "prep_document_id": "1980/81:48",
+      "title": "Proposition 1980/81:48: om dödsbodelägares ansvar för den dödes skulder m.m."
+    },
+    {
+      "prep_document_id": "1983/84:128",
+      "title": "Proposition 1983/84:128: med förslag till lag om företagshypotek m.m."
+    },
+    {
+      "prep_document_id": "1986/87:1",
+      "title": "Proposition 1986/87:1: En ökad differentiering av strandskyddet"
+    },
+    {
+      "prep_document_id": "1986/87:124",
+      "title": "Proposition 1986/87:124: En tydligare bestämmelse om hets mot folkgrupp"
+    },
+    {
+      "prep_document_id": "1987/88:124",
+      "title": "Proposition 1987/88:124: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "1987/88:58",
+      "title": "Proposition 1987/88:58: om rätten att besluta om resning m.m."
+    },
+    {
+      "prep_document_id": "1988/89:9",
+      "title": "Proposition 1988/89:9: om dödsboägande och samägande av jordbruksfastighet m. m."
+    },
+    {
+      "prep_document_id": "1988/89:88",
+      "title": "Proposition 1988/89:88: om upphävande av reglerna om bevakning av testamente"
+    },
+    {
+      "prep_document_id": "1990/91:47",
+      "title": "Proposition 1990/91:47: Ändrade regler för taxering av lantbruksenheter och för automatiserat beslutsfattande vid fastighetstaxeringen"
+    },
+    {
+      "prep_document_id": "1990/91:153",
+      "title": "Proposition 1990/91:153: Stärkt kontroll och kvalitet i folkbokföringen"
+    },
+    {
+      "prep_document_id": "1990/91:194",
+      "title": "Proposition 1990/91:194: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "1992/93:359",
+      "title": "Proposition 1992/93:359: Kostnadsinformation till fondsparare i det individuella pensionssparandet, m.m."
+    },
+    {
+      "prep_document_id": "1992/93:187",
+      "title": "Proposition 1992/93:187: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "1994/95:29",
+      "title": "Proposition 1994/95:29: Dubbelbeskattningsavtal mellan Sverige och Frankrike beträffande skatter på arv och på gåva"
+    },
+    {
+      "prep_document_id": "1993/94:251",
+      "title": "Proposition 1993/94:251: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "1995/96:193",
+      "title": "Proposition 1995/96:193: Redogörelse för verksamheten inom Europarådets ministerkommitté under år 1995"
+    },
+    {
+      "prep_document_id": "1995/96:115",
+      "title": "Proposition 1995/96:115: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2000/01:134",
+      "title": "Proposition 2000/01:134: Underhåll till barn som fyllt 18 år Prop. 2000/01:134"
+    },
+    {
+      "prep_document_id": "2000/01:21",
+      "title": "Proposition 2000/01:21: Elektronisk inlämning av bouppteckningar"
+    },
+    {
+      "prep_document_id": "2000/01:238",
+      "title": "Proposition 2000/01:238: Ändringar i de särskilda skattereglerna för vissa andelsägare i fåmansföretag, m.m."
+    },
+    {
+      "prep_document_id": "2000/01:117",
+      "title": "Proposition 2000/01:117: Arvs- och gåvoskattens infogning i skattekontosystemet, m.m. Prop. 2000/01:117"
+    },
+    {
+      "prep_document_id": "2002/03:80",
+      "title": "Proposition 2002/03:80: Modernare adoptionsregler"
+    },
+    {
+      "prep_document_id": "2002/03:222",
+      "title": "Proposition 2002/03:222: Riksrevisionens rapport om den statliga lönegarantin"
+    },
+    {
+      "prep_document_id": "2002/03:49",
+      "title": "Proposition 2002/03:49: Riksrevisionens rapport om den statliga lönegarantin"
+    },
+    {
+      "prep_document_id": "2003/04:17",
+      "title": "Proposition 2003/04:17: Lättnader i 3:12-reglerna och i arvs- och gåvoskattereglerna vid generationsskiften i företag, m.m."
+    },
+    {
+      "prep_document_id": "2002/03:99",
+      "title": "Proposition 2002/03:99: Säkrare samordningsnummer och bättre förutsättningar för korrekta uppgifter i folkbokföringen"
+    },
+    {
+      "prep_document_id": "2003/04:99",
+      "title": "Proposition 2003/04:99: Följdändringar med anledning av nya regler för bank- och finansieringsrörelse samt inlåningsverksamhet"
+    },
+    {
+      "prep_document_id": "2004/05:134",
+      "title": "Proposition 2004/05:134: Mer likabehandling och ett stärkt skydd vid utstationering"
+    },
+    {
+      "prep_document_id": "2004/05:25",
+      "title": "Proposition 2004/05:25: Slopad arvsskatt och gåvoskatt"
+    },
+    {
+      "prep_document_id": "2004/05:176",
+      "title": "Proposition 2004/05:176: Utökade möjligheter att verkställa fängelsestraff med elektronisk övervakning"
+    },
+    {
+      "prep_document_id": "2004/05:88",
+      "title": "Proposition 2004/05:88: Nya regler om dödförklaring"
+    },
+    {
+      "prep_document_id": "2004/05:137",
+      "title": "Proposition 2004/05:137: Jämlika regler om föräldraskap i internationella situationer"
+    },
+    {
+      "prep_document_id": "2008/09:34",
+      "title": "Proposition 2008/09:34: Riksrevisionens rapport om jämställdhetsintegrering av integrationspolitiken"
+    },
+    {
+      "prep_document_id": "2007/08:161",
+      "title": "Proposition 2007/08:161: Riksrevisionens rapport om den statliga lönegarantin"
+    },
+    {
+      "prep_document_id": "2010/11:7",
+      "title": "Proposition 2010/11:7: Informationsutbytesavtal med Saint Kitts och Nevis"
+    },
+    {
+      "prep_document_id": "2009/10:222",
+      "title": "Proposition 2009/10:222: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2010/11:30",
+      "title": "Proposition 2010/11:30: Fjärde järnvägspaketet"
+    },
+    {
+      "prep_document_id": "2009/10:237",
+      "title": "Proposition 2009/10:237: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2010/11:119",
+      "title": "Proposition 2010/11:119: Domstolarnas handläggning av ärenden"
+    },
+    {
+      "prep_document_id": "2011/12:220",
+      "title": "Proposition 2011/12:220: Riksrevisionens rapport om statens insatser vid hantering av dödsbon – utredning, förvaltning och skifte"
+    },
+    {
+      "prep_document_id": "2011/12:110",
+      "title": "Proposition 2011/12:110: Riksrevisionens rapport om statens insatser vid hantering av dödsbon – utredning, förvaltning och skifte"
+    },
+    {
+      "prep_document_id": "2013/14:263",
+      "title": "Proposition 2013/14:263: Riksrevisionens rapport om statens insatser mot ekonomiskt våld i nära relationer"
+    },
+    {
+      "prep_document_id": "2013/14:208",
+      "title": "Proposition 2013/14:208: Stärkt skydd mot tvångsäktenskap och barnäktenskap samt tillträde till Europarådets konvention om våld mot kvinnor"
+    },
+    {
+      "prep_document_id": "2014/15:261",
+      "title": "Proposition 2014/15:261: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2014/15:105",
+      "title": "Proposition 2014/15:105: Arv i internationella situationer"
+    },
+    {
+      "prep_document_id": "2016/17:221",
+      "title": "Proposition 2016/17:221: Lagändringar till följd av en samlad förordning om EU-varumärken"
+    },
+    {
+      "prep_document_id": "2016/17:30",
+      "title": "Proposition 2016/17:30: Framtidsfullmakter - en ny form av ställföreträdarskap för vuxna"
+    },
+    {
+      "prep_document_id": "2021/22:375",
+      "title": "Proposition 2021/22:375: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:215",
+      "title": "Proposition 2021/22:215: En ny lag om företagsrekonstruktion"
+    },
+    {
+      "prep_document_id": "2022/23:45",
+      "title": "Proposition 2022/23:45: Vissa frågor om hälso- och sjukvårdens försörjningsberedskap"
+    },
+    {
+      "prep_document_id": "2022/23:7",
+      "title": "Proposition 2022/23:7: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "2022/23:156",
+      "title": "Proposition 2022/23:156: Riksdagens skrivelser till regeringen – åtgärder under 2023"
+    },
+    {
+      "prep_document_id": "2022/23:41",
+      "title": "Proposition 2022/23:41: Bättre möjligheter för Skatteverket att göra dataanalyser och urval i folkbokföringsverksamheten"
     }
   ]
 }
