@@ -2,6 +2,7 @@
   "id": "2005:716",
   "type": "statute",
   "title": "Utlänningslag (2005:716)",
+  "short_name": "UL",
   "status": "in_force",
   "issued_date": "2005-09-29",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2005-716",
@@ -2566,6 +2567,692 @@
       "chapter": "23",
       "section": "5 c",
       "content": "§ i den äldre lydelsen. 2022:1015 1. Denna lag träder i kraft den 1 augusti 2022. 2. Vid tillämpningen av 8 a kap. 13 § ska med beslut som där nämns likställas motsvarande beslut enligt äldre bestämmelser. 2022:1847 1. Denna lag träder i kraft den dag som regeringen bestämmer. 2. Äldre föreskrifter gäller fortfarande vid prövningen av ett överklagande av ett beslut som har meddelats före ikraftträdandet. 2025:225 1. Denna lag träder i kraft den 1 april 2025. 2. I fråga om återkallelse av uppehållstillstånd som har beviljats en familjemedlem till en utlänning med tidsbegränsat uppehållstillstånd för arbete enligt 5 kap. 15 a § gäller"
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "2005/06:1",
+      "title": "Proposition 2005/06:1: Riksrevisionens rapport om migrationsdomstolarnas handläggningstider i asylmål"
+    },
+    {
+      "prep_document_id": "2004/05:170",
+      "title": "Proposition 2004/05:170: Nytt regelverk för kvalificerade säkerhetsärenden"
+    },
+    {
+      "prep_document_id": "2005/06:10",
+      "title": "Proposition 2005/06:10: En modernare och mer ändamålsenlig prövning av hyres- och arrendeärenden"
+    },
+    {
+      "prep_document_id": "2005/06:71",
+      "title": "Proposition 2005/06:71: Partnerskaps- och samarbetsavtal mellan Europeiska gemenskaperna och deras medlemsstater och Tadzjikistan"
+    },
+    {
+      "prep_document_id": "2005/06:6",
+      "title": "Proposition 2005/06:6: Riksrevisionens rapport om konsekvensanalyser inför migrationspolitiska beslut"
+    },
+    {
+      "prep_document_id": "2005/06:91",
+      "title": "Proposition 2005/06:91: Anställningsvillkor i bemanningsföretag"
+    },
+    {
+      "prep_document_id": "2005/06:77",
+      "title": "Proposition 2005/06:77: Riksrevisionens rapport om Migrationsverkets hantering av medborgarskapsärenden"
+    },
+    {
+      "prep_document_id": "2005/06:190",
+      "title": "Proposition 2005/06:190: Skatt på flygresor"
+    },
+    {
+      "prep_document_id": "2005/06:72",
+      "title": "Proposition 2005/06:72: Genomförande av det nya blåkortsdirektivet"
+    },
+    {
+      "prep_document_id": "2005/06:280",
+      "title": "Proposition 2005/06:280: Migration och asylpolitik"
+    },
+    {
+      "prep_document_id": "2005/06:129",
+      "title": "Proposition 2005/06:129: Kustbevakningens sjöövervakning"
+    },
+    {
+      "prep_document_id": "2005/06:194",
+      "title": "Proposition 2005/06:194: Schweiz associering till Schengenregelverket, m.m."
+    },
+    {
+      "prep_document_id": "2006/07:53",
+      "title": "Proposition 2006/07:53: Utvisning på grund av brott – ett skärpt regelverk"
+    },
+    {
+      "prep_document_id": "2007/08:183",
+      "title": "Proposition 2007/08:183: Migration och asylpolitik"
+    },
+    {
+      "prep_document_id": "2007/08:74",
+      "title": "Proposition 2007/08:74: Nya regler om uppehållstillstånd för forskning och studier inom högre utbildning"
+    },
+    {
+      "prep_document_id": "2008/09:37",
+      "title": "Proposition 2008/09:37: Riksrevisionens rapport om spårbyte i migrationsprocessen – kontroller och uppföljning"
+    },
+    {
+      "prep_document_id": "2007/08:147",
+      "title": "Proposition 2007/08:147: Preskription av avlägsnandebeslut och vissa frågor om återreseförbud"
+    },
+    {
+      "prep_document_id": "2008/09:28",
+      "title": "Proposition 2008/09:28: Riksrevisionens rapport om sektorsansvaret i funktionshinderspolitiken"
+    },
+    {
+      "prep_document_id": "2007/08:160",
+      "title": "Proposition 2007/08:160: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2008/09:137",
+      "title": "Proposition 2008/09:137: Sveriges samarbete med Nato inom Euroatlantiska partnerskapsrådet (EAPR), Partnerskap för fred (PFF) och krishanteringsinsatser"
+    },
+    {
+      "prep_document_id": "2008/09:51",
+      "title": "Proposition 2008/09:51: Justering av en straffbestämmelse i utlänningslagen (2005:716)"
+    },
+    {
+      "prep_document_id": "2008/09:290",
+      "title": "Proposition 2008/09:290: Kompletteringar av socialförsäkringsbalken"
+    },
+    {
+      "prep_document_id": "2008/09:165",
+      "title": "Proposition 2008/09:165: En långsiktigt hållbar organisation för de allmänna förvaltningsdomstolarna i första instans"
+    },
+    {
+      "prep_document_id": "2009/10:4",
+      "title": "Proposition 2009/10:4: En förenklad semesterlag, m.m."
+    },
+    {
+      "prep_document_id": "2008/09:202",
+      "title": "Proposition 2008/09:202: Ny ordning för prövning av ärenden som rör statligt personskadeskydd"
+    },
+    {
+      "prep_document_id": "2009/10:133",
+      "title": "Proposition 2009/10:133: Riksrevisionens rapport om statens åtgärder för utveckling av elsystemet"
+    },
+    {
+      "prep_document_id": "2009/10:31",
+      "title": "Proposition 2009/10:31: Nytt regelverk för kvalificerade säkerhetsärenden"
+    },
+    {
+      "prep_document_id": "2009/10:202",
+      "title": "Proposition 2009/10:202: Riksrevisionens rapport om spårbyte i migrationsprocessen – kontroller och uppföljning"
+    },
+    {
+      "prep_document_id": "2009/10:77",
+      "title": "Proposition 2009/10:77: Skärpta och förbättrade regler om arbetskraftsinvandring"
+    },
+    {
+      "prep_document_id": "2009/10:233",
+      "title": "Proposition 2009/10:233: Riksrevisionens rapport om jämställdhetsintegrering av integrationspolitiken"
+    },
+    {
+      "prep_document_id": "2009/10:86",
+      "title": "Proposition 2009/10:86: Anpassningar av svensk lag till EU:s förordningar om Schengens informationssystem"
+    },
+    {
+      "prep_document_id": "2009/10:284",
+      "title": "Proposition 2009/10:284: Särskilt ömmande omständigheter"
+    },
+    {
+      "prep_document_id": "2009/10:137",
+      "title": "Proposition 2009/10:137: Riksrevisionens rapport om konsekvensanalyser inför migrationspolitiska beslut"
+    },
+    {
+      "prep_document_id": "2009/10:30",
+      "title": "Proposition 2009/10:30: Riksbankens finansiering"
+    },
+    {
+      "prep_document_id": "2009/10:190",
+      "title": "Proposition 2009/10:190: Riksrevisionens rapport om tillfälliga anstånd med inbetalning av skatt"
+    },
+    {
+      "prep_document_id": "2009/10:317",
+      "title": "Proposition 2009/10:317: Riksrevisionens rapport om återfall i brott"
+    },
+    {
+      "prep_document_id": "2009/10:135",
+      "title": "Proposition 2009/10:135: Säkerhetsförvaring – en ny tidsobestämd frihetsberövande påföljd"
+    },
+    {
+      "prep_document_id": "2010/11:7",
+      "title": "Proposition 2010/11:7: Informationsutbytesavtal med Saint Kitts och Nevis"
+    },
+    {
+      "prep_document_id": "2009/10:222",
+      "title": "Proposition 2009/10:222: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2010/11:31",
+      "title": "Proposition 2010/11:31: Bättre möjlighet till skuldsanering"
+    },
+    {
+      "prep_document_id": "2009/10:181",
+      "title": "Proposition 2009/10:181: Stärkt skydd för demokratin och domstolarnas oberoende"
+    },
+    {
+      "prep_document_id": "2010/11:121",
+      "title": "Proposition 2010/11:121: EU:s viseringskodex"
+    },
+    {
+      "prep_document_id": "2010/11:123",
+      "title": "Proposition 2010/11:123: Anpassning av svensk rätt till den reviderade VIS-förordningen"
+    },
+    {
+      "prep_document_id": "2011/12:43",
+      "title": "Proposition 2011/12:43: Utvidgade möjligheter till återbetalning av vägavgift"
+    },
+    {
+      "prep_document_id": "2010/11:159",
+      "title": "Proposition 2010/11:159: Liechtensteins associering till Schengenregelverket"
+    },
+    {
+      "prep_document_id": "2011/12:164",
+      "title": "Proposition 2011/12:164: Biståndets resultat - tema demokrati och mänskliga rättigheter"
+    },
+    {
+      "prep_document_id": "2011/12:60",
+      "title": "Proposition 2011/12:60: Preskription av avlägsnandebeslut och vissa frågor om återreseförbud"
+    },
+    {
+      "prep_document_id": "2011/12:85",
+      "title": "Proposition 2011/12:85: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2012/13:154",
+      "title": "Proposition 2012/13:154: Strategiskt tillväxtarbete för regional konkurrenskraft, entreprenörskap och sysselsättning - en sammanfattning av \"Nationell strategisk rapport för Sverige 2012\""
+    },
+    {
+      "prep_document_id": "2012/13:45",
+      "title": "Proposition 2012/13:45: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2012/13:275",
+      "title": "Proposition 2012/13:275: Riksrevisionens rapport om arbetskraftsinvandring"
+    },
+    {
+      "prep_document_id": "2012/13:148",
+      "title": "Proposition 2012/13:148: Genomförande av det nya blåkortsdirektivet"
+    },
+    {
+      "prep_document_id": "2012/13:274",
+      "title": "Proposition 2012/13:274: Migration och asylpolitik"
+    },
+    {
+      "prep_document_id": "2012/13:125",
+      "title": "Proposition 2012/13:125: Genomförande av direktivet om sanktioner mot arbetsgivare"
+    },
+    {
+      "prep_document_id": "2012/13:151",
+      "title": "Proposition 2012/13:151: Överflyttning av vissa utlänningsärenden till den ordinarie migrationsprocessen m.m."
+    },
+    {
+      "prep_document_id": "2013/14:216",
+      "title": "Proposition 2013/14:216: Särskilt ömmande omständigheter"
+    },
+    {
+      "prep_document_id": "2013/14:262",
+      "title": "Proposition 2013/14:262: Några ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2013/14:110",
+      "title": "Proposition 2013/14:110: En ny organisation för polisen"
+    },
+    {
+      "prep_document_id": "2013/14:338",
+      "title": "Proposition 2013/14:338: Riksrevisionens rapport om spårbyte i migrationsprocessen – kontroller och uppföljning"
+    },
+    {
+      "prep_document_id": "2013/14:227",
+      "title": "Proposition 2013/14:227: Åtgärder mot missbruk av reglerna för arbetskraftsinvandring"
+    },
+    {
+      "prep_document_id": "2013/14:337",
+      "title": "Proposition 2013/14:337: Riksrevisionens rapport om arbetskraftsinvandring"
+    },
+    {
+      "prep_document_id": "2013/14:213",
+      "title": "Proposition 2013/14:213: Cirkulär migration och utveckling"
+    },
+    {
+      "prep_document_id": "2013/14:217",
+      "title": "Proposition 2013/14:217: Enklare regler om uppehållstillstånd för vissa vårdnadshavare som sammanbor med barn i Sverige"
+    },
+    {
+      "prep_document_id": "2013/14:197",
+      "title": "Proposition 2013/14:197: Ändringar i utlänningslagen med anledning av den omarbetade Dublinförordningens ikraftträdande"
+    },
+    {
+      "prep_document_id": "2014/15:27",
+      "title": "Proposition 2014/15:27: Integritetsskydd vid signalspaning i försvarsunderrättelseverksamhet"
+    },
+    {
+      "prep_document_id": "2013/14:248",
+      "title": "Proposition 2013/14:248: Genomförande av det omarbetade skyddsgrundsdirektivet"
+    },
+    {
+      "prep_document_id": "2014/15:32",
+      "title": "Proposition 2014/15:32: EU:s gränskodex"
+    },
+    {
+      "prep_document_id": "2015/16:260",
+      "title": "Proposition 2015/16:260: Riksdagens skrivelser till regeringen - åtgärder under 2016"
+    },
+    {
+      "prep_document_id": "2015/16:147",
+      "title": "Proposition 2015/16:147: Ändring av en avvisningsbestämmelse i utlänningslagen"
+    },
+    {
+      "prep_document_id": "2015/16:303",
+      "title": "Proposition 2015/16:303: Riksrevisionens rapport om spårbyte i migrationsprocessen – kontroller och uppföljning"
+    },
+    {
+      "prep_document_id": "2015/16:174",
+      "title": "Proposition 2015/16:174: Tillfälliga begränsningar av möjligheten att få uppehållstillstånd i Sverige"
+    },
+    {
+      "prep_document_id": "2016/17:2",
+      "title": "Proposition 2016/17:2: Höständringsbudget för 2016"
+    },
+    {
+      "prep_document_id": "2016/17:17",
+      "title": "Proposition 2016/17:17: Genomförande av det omarbetade asylprocedurdirektivet"
+    },
+    {
+      "prep_document_id": "2016/17:61",
+      "title": "Proposition 2016/17:61: Uppföljning av återvändandedirektivet och direktivet om varaktigt bosatta tredjelandsmedborgares ställning"
+    },
+    {
+      "prep_document_id": "2016/17:149",
+      "title": "Proposition 2016/17:149: Bokföringsbrott i filialer"
+    },
+    {
+      "prep_document_id": "2016/17:57",
+      "title": "Proposition 2016/17:57: Transporter av frihetsberövade"
+    },
+    {
+      "prep_document_id": "2016/17:204",
+      "title": "Proposition 2016/17:204: Fortsatt giltighet av lagen om vissa register för forskning om vad arv och miljö betyder för människors hälsa"
+    },
+    {
+      "prep_document_id": "2016/17:121",
+      "title": "Proposition 2016/17:121: Åldersbedömning tidigare i asylprocessen"
+    },
+    {
+      "prep_document_id": "2016/17:239",
+      "title": "Proposition 2016/17:239: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:133",
+      "title": "Proposition 2016/17:133: Kompletteringar av den tillfälliga lagen för uppehållstillstånd rörande studier på gymnasienivå"
+    },
+    {
+      "prep_document_id": "2016/17:282",
+      "title": "Proposition 2016/17:282: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:150",
+      "title": "Proposition 2016/17:150: Ytterligare anpassning av svensk rätt till Dublinförordningen"
+    },
+    {
+      "prep_document_id": "2017/18:7",
+      "title": "Proposition 2017/18:7: Skadestånd och Europakonventionen"
+    },
+    {
+      "prep_document_id": "2016/17:191",
+      "title": "Proposition 2016/17:191: Tydligare befogenheter för polisen när beslut om avvisning eller utvisning verkställs"
+    },
+    {
+      "prep_document_id": "2017/18:41",
+      "title": "Proposition 2017/18:41: Ändringar i postlagen"
+    },
+    {
+      "prep_document_id": "2016/17:212",
+      "title": "Proposition 2016/17:212: Möjlighet att avstå från återkallelse av uppehållstillstånd när arbetsgivaren självmant har avhjälpt brister"
+    },
+    {
+      "prep_document_id": "2017/18:144",
+      "title": "Proposition 2017/18:144: Skattetillägg vid rättelse på eget initiativ"
+    },
+    {
+      "prep_document_id": "2017/18:35",
+      "title": "Proposition 2017/18:35: Kontroll av biometriska kännetecken i resehandlingar"
+    },
+    {
+      "prep_document_id": "2017/18:156",
+      "title": "Proposition 2017/18:156: Ny lag om tobak och liknande produkter"
+    },
+    {
+      "prep_document_id": "2017/18:34",
+      "title": "Proposition 2017/18:34: Uppehålls- och arbetstillstånd för företagsintern förflyttning - genomförande av ICT-direktivet"
+    },
+    {
+      "prep_document_id": "2017/18:252",
+      "title": "Proposition 2017/18:252: Extra ändringsbudget för 2018 - Ny möjlighet till uppehållstillstånd"
+    },
+    {
+      "prep_document_id": "2017/18:108",
+      "title": "Proposition 2017/18:108: Genomförande av säsongsanställningsdirektivet"
+    },
+    {
+      "prep_document_id": "2017/18:256",
+      "title": "Proposition 2017/18:256: Riksrevisionens rapport om fastställande av föräldrapenning för egenföretagare"
+    },
+    {
+      "prep_document_id": "2017/18:88",
+      "title": "Proposition 2017/18:88: Ordförandeskapet i domstol vid kollegial handläggning"
+    },
+    {
+      "prep_document_id": "2017/18:348",
+      "title": "Proposition 2017/18:348: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:176",
+      "title": "Proposition 2017/18:176: Utökade möjligheter till arbetsplatsinspektioner"
+    },
+    {
+      "prep_document_id": "2017/18:327",
+      "title": "Proposition 2017/18:327: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:235",
+      "title": "Proposition 2017/18:235: Följdändringar till ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2017/18:372",
+      "title": "Proposition 2017/18:372: Föräldrapenning för fler familjekonstellationer och reserverad grundnivå"
+    },
+    {
+      "prep_document_id": "2017/18:121",
+      "title": "Proposition 2017/18:121: Modernare adoptionsregler"
+    },
+    {
+      "prep_document_id": "2018/19:40",
+      "title": "Proposition 2018/19:40: Återköpsprogram av aktier i Telia Company AB"
+    },
+    {
+      "prep_document_id": "2017/18:279",
+      "title": "Proposition 2017/18:279: Stärkt rättssäkerhet i de allmänna förvaltningsdomstolarna"
+    },
+    {
+      "prep_document_id": "2018/19:130",
+      "title": "Proposition 2018/19:130: Redovisning av AP-fondernas verksamhet t.o.m. 2018"
+    },
+    {
+      "prep_document_id": "2018/19:16",
+      "title": "Proposition 2018/19:16: En ny kustbevakningslag"
+    },
+    {
+      "prep_document_id": "2018/19:37",
+      "title": "Proposition 2018/19:37: Anpassning av lagen om passagerarregister till EU:s dataskyddsreform"
+    },
+    {
+      "prep_document_id": "2018/19:260",
+      "title": "Proposition 2018/19:260: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:119",
+      "title": "Proposition 2018/19:119: Åtgärder som underlättar för brittiska medborgare i Sverige vid ett avtalslöst brexit"
+    },
+    {
+      "prep_document_id": "2018/19:295",
+      "title": "Proposition 2018/19:295: Riksrevisionens rapport om att komma till Sverige som anhörig"
+    },
+    {
+      "prep_document_id": "2018/19:128",
+      "title": "Proposition 2018/19:128: Förlängning av lagen om tillfälliga begränsningar av möjligheten att få uppehållstillstånd i Sverige"
+    },
+    {
+      "prep_document_id": "2019/20:72",
+      "title": "Proposition 2019/20:72: Riksrevisionens rapport om Trafikverkets upphandling av drift och underhåll av statliga vägar"
+    },
+    {
+      "prep_document_id": "2019/20:9",
+      "title": "Proposition 2019/20:9: Nya regler om uppehållstillstånd för forskning och studier inom högre utbildning"
+    },
+    {
+      "prep_document_id": "2019/20:329",
+      "title": "Proposition 2019/20:329: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:150",
+      "title": "Proposition 2019/20:150: Mer likabehandling och ett stärkt skydd vid utstationering"
+    },
+    {
+      "prep_document_id": "2020/21:47",
+      "title": "Proposition 2020/21:47: Uppföljning av vaccinationer mot covid-19"
+    },
+    {
+      "prep_document_id": "2019/20:178",
+      "title": "Proposition 2019/20:178: Kompletterande bestämmelser till utträdesavtalet mellan Förenade kungariket och EU i fråga om medborgarnas rättigheter"
+    },
+    {
+      "prep_document_id": "2020/21:55",
+      "title": "Proposition 2020/21:55: Språkplikt - deltagande i vuxenutbildning i svenska för invandrare (sfi) för rätt till försörjningsstöd"
+    },
+    {
+      "prep_document_id": "2020/21:6",
+      "title": "Proposition 2020/21:6: Ändrade bestämmelser om fotografier och fingeravtryck i SIS II-regelverket"
+    },
+    {
+      "prep_document_id": "2020/21:222",
+      "title": "Proposition 2020/21:222: Anpassningar av svensk lag till EU:s förordningar om Schengens informationssystem"
+    },
+    {
+      "prep_document_id": "2020/21:71",
+      "title": "Proposition 2020/21:71: Uppenbart ogrundade ansökningar och fastställande av säkra ursprungsländer"
+    },
+    {
+      "prep_document_id": "2020/21:299",
+      "title": "Proposition 2020/21:299: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:159",
+      "title": "Proposition 2020/21:159: Vissa identitetsfrågor inom utlänningsrätten"
+    },
+    {
+      "prep_document_id": "2020/21:298",
+      "title": "Proposition 2020/21:298: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:120",
+      "title": "Proposition 2020/21:120: Ökad säkerhet för vissa identitets- och uppehållshandlingar - anpassning av svensk rätt till en ny EU-förordning"
+    },
+    {
+      "prep_document_id": "2020/21:412",
+      "title": "Proposition 2020/21:412: Riksrevisionens rapport om spårbyte i migrationsprocessen – kontroller och uppföljning"
+    },
+    {
+      "prep_document_id": "2020/21:191",
+      "title": "Proposition 2020/21:191: Ändrade regler i utlänningslagen"
+    },
+    {
+      "prep_document_id": "2021/22:59",
+      "title": "Proposition 2021/22:59: Ett ändamålsenligt skydd för tryck- och yttrandefriheten"
+    },
+    {
+      "prep_document_id": "2021/22:195",
+      "title": "Proposition 2021/22:195: Skärpt straff för gravfridsbrott"
+    },
+    {
+      "prep_document_id": "2021/22:81",
+      "title": "Proposition 2021/22:81: Anpassning av svensk rätt till EU:s nya in- och utresesystem"
+    },
+    {
+      "prep_document_id": "2021/22:238",
+      "title": "Proposition 2021/22:238: Anpassningar till EU:s marknadskontrollförordning – del 2"
+    },
+    {
+      "prep_document_id": "2021/22:134",
+      "title": "Proposition 2021/22:134: Skärpta och förbättrade regler om arbetskraftsinvandring"
+    },
+    {
+      "prep_document_id": "2021/22:257",
+      "title": "Proposition 2021/22:257: En ny biobankslag"
+    },
+    {
+      "prep_document_id": "2021/22:121",
+      "title": "Proposition 2021/22:121: Återkallelse av uppehållstillstånd som har meddelats av Regeringskansliet för personer med anknytning till utländska beskickningar, karriärkonsulat eller internationella organ"
+    },
+    {
+      "prep_document_id": "2021/22:323",
+      "title": "Proposition 2021/22:323: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2021/22:131",
+      "title": "Proposition 2021/22:131: Nytt regelverk för kvalificerade säkerhetsärenden"
+    },
+    {
+      "prep_document_id": "2021/22:387",
+      "title": "Proposition 2021/22:387: Riksrevisionens rapport om systemet för återkallelser av uppehållstillstånd"
+    },
+    {
+      "prep_document_id": "2021/22:224",
+      "title": "Proposition 2021/22:224: Utvisning på grund av brott – ett skärpt regelverk"
+    },
+    {
+      "prep_document_id": "2022/23:42",
+      "title": "Proposition 2022/23:42: Genomförande av tillgänglighetsdirektivet"
+    },
+    {
+      "prep_document_id": "2021/22:284",
+      "title": "Proposition 2021/22:284: Ett höjt försörjningskrav för arbetskraftsinvandrare"
+    },
+    {
+      "prep_document_id": "2022/23:198",
+      "title": "Proposition 2022/23:198: Riksdagens skrivelser till regeringen – åtgärder under 2023"
+    },
+    {
+      "prep_document_id": "2022/23:66",
+      "title": "Proposition 2022/23:66: Anpassning av svensk rätt till EU:s nya system för reseuppgifter och resetillstånd"
+    },
+    {
+      "prep_document_id": "2022/23:248",
+      "title": "Proposition 2022/23:248: Riksdagens skrivelser till regeringen – åtgärder under 2023"
+    },
+    {
+      "prep_document_id": "2022/23:109",
+      "title": "Proposition 2022/23:109: Utökade polisiära befogenheter i gränsnära områden"
+    },
+    {
+      "prep_document_id": "2023/24:18",
+      "title": "Proposition 2023/24:18: Vissa skärpta villkor för anhöriginvandring och begränsade möjligheter till uppehållstillstånd av humanitära skäl"
+    },
+    {
+      "prep_document_id": "2023/24:43",
+      "title": "Proposition 2023/24:43: Prövotid för körkortsbehörigheten AM"
+    },
+    {
+      "prep_document_id": "2023/24:12",
+      "title": "Proposition 2023/24:12: Effektivare verktyg vid inre utlänningskontroll"
+    },
+    {
+      "prep_document_id": "2023/24:121",
+      "title": "Proposition 2023/24:121: Riksrevisionens rapport om systemet för återkallelser av uppehållstillstånd"
+    },
+    {
+      "prep_document_id": "2023/24:36",
+      "title": "Proposition 2023/24:36: Vissa ändringar i regelverket om säkerhetsärenden enligt utlänningslagen"
+    },
+    {
+      "prep_document_id": "2024/25:10",
+      "title": "Proposition 2024/25:10: Tryggare hem för barn"
+    },
+    {
+      "prep_document_id": "2023/24:151",
+      "title": "Proposition 2023/24:151: Förbättrade levnadsvillkor för utlänningar med tillfälligt skydd"
+    },
+    {
+      "prep_document_id": "2024/25:9",
+      "title": "Proposition 2024/25:9: Riksrevisionens rapport om statens insatser för att stärka efterlevnaden av barnkonventionen"
+    },
+    {
+      "prep_document_id": "2023/24:144",
+      "title": "Proposition 2023/24:144: En ny förverkandelagstiftning"
+    },
+    {
+      "prep_document_id": "2024/25:65",
+      "title": "Proposition 2024/25:65: Ökat informationsflöde till brottsbekämpningen"
+    },
+    {
+      "prep_document_id": "2024/25:18",
+      "title": "Proposition 2024/25:18: Genomförande av det nya blåkortsdirektivet"
+    },
+    {
+      "prep_document_id": "2024/25:136",
+      "title": "Proposition 2024/25:136: Förbättrade förutsättningar för ett hållbart vattenbruk"
+    },
+    {
+      "prep_document_id": "2024/25:49",
+      "title": "Proposition 2024/25:49: En ny ordning för asylsökandes boende"
+    },
+    {
+      "prep_document_id": "2024/25:158",
+      "title": "Proposition 2024/25:158: Upphävande av lagen om strukturfondspartnerskap"
+    },
+    {
+      "prep_document_id": "2024/25:92",
+      "title": "Proposition 2024/25:92: Preskription av avlägsnandebeslut och vissa frågor om återreseförbud"
+    },
+    {
+      "prep_document_id": "2024/25:186",
+      "title": "Proposition 2024/25:186: Polisens användning av skjutvapen"
+    },
+    {
+      "prep_document_id": "2024/25:126",
+      "title": "Proposition 2024/25:126: Ny lag om internationella sanktioner"
+    },
+    {
+      "prep_document_id": "2024/25:210",
+      "title": "Proposition 2024/25:210: Skarpare verktyg till Inspektionen för vård och omsorg"
+    },
+    {
+      "prep_document_id": "2024/25:89",
+      "title": "Proposition 2024/25:89: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2024/25:161",
+      "title": "Proposition 2024/25:161: Förbättrad ordning och säkerhet vid förvar"
+    },
+    {
+      "prep_document_id": "2017/18:284",
+      "title": "Proposition 2017/18:284: Moderna och rättssäkra regler för att hålla utlänningar i förvar"
+    },
+    {
+      "prep_document_id": "2013/14:81",
+      "title": "Proposition 2013/14:81: Uppföljning av rörlighetsdirektivets genomförande"
+    },
+    {
+      "prep_document_id": "2008/09:179",
+      "title": "Proposition 2008/09:179: Liechtensteins associering till Schengenregelverket"
+    },
+    {
+      "prep_document_id": "1996/97:25",
+      "title": "Proposition 1996/97:25: Förbättrad ordning och säkerhet vid förvar"
+    },
+    {
+      "prep_document_id": "1997/98:36",
+      "title": "Proposition 1997/98:36: Riksrevisionens rapport om systemet för återkallelser av uppehållstillstånd"
+    },
+    {
+      "prep_document_id": "2024/25:176",
+      "title": "Proposition 2024/25:176: Anpassning av svensk rätt till den reviderade VIS-förordningen"
+    },
+    {
+      "prep_document_id": "2004/05:131",
+      "title": "Proposition 2004/05:131: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2013/14:83",
+      "title": "Proposition 2013/14:83: Genomförande av det ändrade direktivet om varaktigt bosatta tredjelandsmedborgares ställning"
+    },
+    {
+      "prep_document_id": "2013/14:82",
+      "title": "Proposition 2013/14:82: Tydligare regler om fri rörlighet för EES-medborgare och deras familjemedlemmar"
     }
   ]
 }

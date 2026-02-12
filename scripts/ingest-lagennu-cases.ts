@@ -35,7 +35,7 @@ const RDF_BASE_URL = 'https://lagen.nu/dom';
 const REQUEST_DELAY_MS = 500;
 const MAX_RETRIES = 3;
 const RETRY_BACKOFF_MS = 1000;
-const BATCH_SIZE = 100;
+// Removed: BATCH_SIZE - now processing cases atomically one at a time
 const USER_AGENT = 'Swedish-Law-MCP/0.1.0 (https://github.com/Ansvar-Systems/swedish-law-mcp)';
 
 const DB_PATH = path.resolve(__dirname, '../data/database.db');
@@ -126,6 +126,11 @@ async function fetchWithRetry(url: string, retries = MAX_RETRIES): Promise<strin
         },
       });
 
+      // Don't retry on 404 - the resource simply doesn't exist
+      if (response.status === 404) {
+        throw new Error(`HTTP 404: NOT FOUND (no retries)`);
+      }
+
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
@@ -133,6 +138,12 @@ async function fetchWithRetry(url: string, retries = MAX_RETRIES): Promise<strin
       return await response.text();
     } catch (error) {
       lastError = error as Error;
+      
+      // Don't retry if it's a 404
+      if (lastError.message.includes('404: NOT FOUND')) {
+        throw lastError;
+      }
+      
       if (attempt < retries - 1) {
         log(`  Retry ${attempt + 1}/${retries - 1} for ${url}`);
       }
@@ -525,9 +536,7 @@ async function ingestCaseLaw(limit?: number): Promise<void> {
     log(`Processing ${casesToProcess.length} cases...`);
     log('');
 
-    // Step 2: Process cases in batches
-    let currentBatch: Array<() => void> = [];
-
+    // Step 2: Process cases one at a time with atomic transactions
     for (let i = 0; i < casesToProcess.length; i++) {
       const caseId = casesToProcess[i];
       const rdfUrl = caseIdToRdfUrl(caseId);
@@ -546,22 +555,20 @@ async function ingestCaseLaw(limit?: number): Promise<void> {
           continue;
         }
 
-        // Queue database operation for batch
-        currentBatch.push(() => {
+        // Insert/update in a single transaction per case
+        const transaction = db.transaction(() => {
           const result = insertOrUpdateCase(db, metadata, insertDoc, insertCase);
           if (result.inserted) stats.inserted++;
           if (result.updated) stats.updated++;
         });
-
-        // Execute batch when full
-        if (currentBatch.length >= BATCH_SIZE || i === casesToProcess.length - 1) {
-          const transaction = db.transaction(() => {
-            for (const op of currentBatch) {
-              op();
-            }
-          });
+        
+        try {
           transaction();
-          currentBatch = [];
+        } catch (dbError) {
+          // Database operation failed - log and continue
+          stats.failed++;
+          logError(`Database error for ${caseId.original}`, dbError as Error);
+          continue;
         }
 
         // Progress reporting every 50 cases
@@ -575,8 +582,17 @@ async function ingestCaseLaw(limit?: number): Promise<void> {
           await delay(REQUEST_DELAY_MS);
         }
       } catch (error) {
-        stats.failed++;
-        logError(`Failed to process ${caseId.original}`, error as Error);
+        const err = error as Error;
+        
+        // Check if it's a 404 - don't count as failure, just skip
+        if (err.message.includes('404: NOT FOUND')) {
+          stats.skipped++;
+          log(`  [${i + 1}/${casesToProcess.length}] SKIPPED: ${caseId.original} (not available on lagen.nu)`);
+        } else {
+          stats.failed++;
+          logError(`Failed to process ${caseId.original}`, err);
+        }
+        
         continue;
       }
     }

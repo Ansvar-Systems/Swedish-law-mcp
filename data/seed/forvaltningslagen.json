@@ -2,6 +2,7 @@
   "id": "2017:900",
   "type": "statute",
   "title": "Förvaltningslag (2017:900)",
+  "short_name": "FL",
   "status": "in_force",
   "issued_date": "2017-09-28",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2017-900",
@@ -251,6 +252,32 @@
       "provision_ref": "49",
       "section": "49",
       "content": "Om en domstol eller en förvaltningsmyndighet bifaller ett överklagande av ett sådant avslagsbeslut som avses i 12 § andra stycket, ska den besluta att förelägga den myndighet som har meddelat avslagsbeslutet att snarast eller inom den tid som överinstansen bestämmer avgöra det ärende som överklagandet avser. Överinstansens beslut får inte överklagas. Övergångsbestämmelser 2017:900 1. Denna lag träder i kraft den 1 juli 2018. 2. Genom lagen upphävs förvaltningslagen (1986:223). 3. Den upphävda lagen gäller dock fortfarande i den utsträckning som det i en annan lag eller förordning finns bestämmelser som innehåller hänvisningar till den lagen."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "2017/18:2",
+      "title": "Proposition 2017/18:2: Höständringsbudget för 2017"
+    },
+    {
+      "prep_document_id": "2016/17:180",
+      "title": "Proposition 2016/17:180: En modern och rättssäker förvaltning - ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2024/25:208",
+      "title": "Proposition 2024/25:208: Ett mer heltäckande straffansvar vid angrepp på företagshemligheter"
+    },
+    {
+      "prep_document_id": "2024/25:141",
+      "title": "Proposition 2024/25:141: Ett starkare skydd för offentliganställda mot våld, hot och trakasserier m.m."
     }
   ]
 }

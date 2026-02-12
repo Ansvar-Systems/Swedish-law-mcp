@@ -2,6 +2,7 @@
   "id": "1971:291",
   "type": "statute",
   "title": "Förvaltningsprocesslag (1971:291)",
+  "short_name": "FPL",
   "status": "in_force",
   "issued_date": "1971-06-04",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1971-291",
@@ -360,6 +361,337 @@
       "chapter": "5",
       "section": "53",
       "content": "Vad i denna lag sägs om enskild part gäller i tillämpliga delar även den som är ställföreträdare för parten. Övergångsbestämmelser 1986:224 Denna lag träder i kraft den 1 januari 1987. Äldre föreskrifter gäller fortfarande i fråga om beslut som har meddelats före ikraftträdandet. 1986:1322 Denna lag träder i kraft den 1 juli 1988. I fråga om besvär över beslut som meddelats före ikraftträdandet gäller den äldre lydelsen av 33 §. 1991:211 Denna lag träder i kraft den dag regeringen bestämmer. Äldre bestämmelser gäller dock fortfarande i mål som handläggs av försäkringsdomstol efter ikraftträdandet. 1993:575 Denna lag träder i kraft den 1 juli 1993. Äldre föreskrifter gäller fortfarande i fråga om mål som avgjorts av kammarrätt före ikraftträdandet. 1994:436 Denna lag träder i kraft, i fråga om 35 § den 1 juli 1994 och i övrigt den 1 oktober 1994. Äldre lydelse av 35 § gäller fortfarande i fråga om mål som avgjorts av kammarrätt före den 1 juli 1994. 1995:22 Denna lag träder i kraft, såvitt gäller 35, 37 b och 37 c §§ samt rubriken närmast före 37 b § den 1 april 1995 och i övrigt den 1 juli 1995. Beslut som har meddelats före den 1 april 1995 överklagas enligt äldre bestämmelser. 1995:1692 Denna lag träder i kraft den 1 maj 1996. För beslut som har meddelats före ikraftträdandet gäller äldre bestämmelser. Detsamma gäller även om beslutet har överprövats av en annan förvaltningsmyndighet efter ikraftträdandet. 1998:374 Denna lag träder i kraft den 1 oktober 1998. Bestämmelsen i förutvarande 7 § första stycket skall tillämpas i fråga om beslut som har meddelats före ikraftträdandet. 33 § fjärde stycket gäller inte om det överklagade avvisningsbeslutet har meddelats före ikraftträdandet. 1998:736 Denna lag träder i kraft den 24 oktober 1998. Om datalagen (1973:289) även efter denna tidpunkt skall tillämpas på viss behandling av person-uppgifter, gäller dock 35 § i dess äldre lydelse för sådan behandling. 1999:98 Denna lag träder i kraft den 1 april 1999. Om lagen (1987:1231) om automatisk databehandling vid taxeringsrevision, m.m. även efter denna tidpunkt skall tillämpas på viss behandling av personuppgifter, gäller dock 35 § i dess äldre lydelse för sådan behandling. 2010:1940 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om ett beslut om delgivning enligt 15-17 §§ delgivningslagen (1970:428) har fattats före den 1 april 2011 eller om en handling har skickats eller lämnats före denna tidpunkt. 2011:1304 1. Denna lag träder i kraft den 1 januari 2012. 2. Äldre bestämmelser gäller fortfarande för beslut i fråga om förlängning av tidsfrist enligt lagen (1978:880) om betalningssäkring för skatter, tullar och avgifter. 2013:86 1. Denna lag träder i kraft den 1 juli 2013. 2. Äldre föreskrifter gäller för beslut som har meddelats före ikraftträdandet. 3. De nya bestämmelserna i 34 a § tredje stycket samt 36 a och 36 b §§ gäller inte i fråga om beslut som en förvaltningsrätt respektive kammarrätt har meddelat före ikraftträdandet."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:64",
+      "title": "Proposition 1975/76:64: med förslag till lag om ändring i rättegångsbalken m.m."
+    },
+    {
+      "prep_document_id": "1977/78:38",
+      "title": "Proposition 1977/78:38: om ändring i lagen (1937:249) om inskränkningar i rätten att utbekomma allmänna handlingar, m.m."
+    },
+    {
+      "prep_document_id": "1977/78:20",
+      "title": "Proposition 1977/78:20: med förslag till ändrad organisation för besvärsprövning inom socialförsäkringen m.m."
+    },
+    {
+      "prep_document_id": "1978/79:86",
+      "title": "Proposition 1978/79:86: om ändring i lagen (1971:380) om allmänna förvaltningsdomstolar, m.m."
+    },
+    {
+      "prep_document_id": "1978/79:90",
+      "title": "Proposition 1978/79:90: Riksrevisionens rapport om offentliga biträden i migrationsärenden"
+    },
+    {
+      "prep_document_id": "1978/79:132",
+      "title": "Proposition 1978/79:132: om tolktaxa"
+    },
+    {
+      "prep_document_id": "1978/79:220",
+      "title": "Proposition 1978/79:220: Stärkt kompetens i vård och omsorg - reglering av undersköterskeyrket"
+    },
+    {
+      "prep_document_id": "1979/80:2",
+      "title": "Proposition 1979/80:2: Förbättrade förutsättningar för Sverige i Nato – en kompletterande sekretessbestämmelse för Natoinformation"
+    },
+    {
+      "prep_document_id": "1979/80:87",
+      "title": "Proposition 1979/80:87: Stärkt ordning och säkerhet i domstol"
+    },
+    {
+      "prep_document_id": "1979/80:105",
+      "title": "Proposition 1979/80:105: om ny instansordning i kommunalbesvärsmål"
+    },
+    {
+      "prep_document_id": "1981/82:88",
+      "title": "Proposition 1981/82:88: om åtgärder for att förbättra försäkringsdomstolarnas arbetsläge m.m."
+    },
+    {
+      "prep_document_id": "1981/82:190",
+      "title": "Proposition 1981/82:190: om ändring i lagen (1971:289) om allmänna förvaltningsdomstolar m.m."
+    },
+    {
+      "prep_document_id": "1982/83:134",
+      "title": "Proposition 1982/83:134: Ny lag om internationella sanktioner"
+    },
+    {
+      "prep_document_id": "1984/85:109",
+      "title": "Proposition 1984/85:109: Kontaktförbud – ett utökat skydd för utsatta personer"
+    },
+    {
+      "prep_document_id": "1985/86:80",
+      "title": "Proposition 1985/86:80: Riksrevisionens rapport om statliga strategiska digitaliseringsprojekt"
+    },
+    {
+      "prep_document_id": "1986/87:47",
+      "title": "Proposition 1986/87:47: om ändringar i taxeringsorganisationen"
+    },
+    {
+      "prep_document_id": "1986/87:113",
+      "title": "Proposition 1986/87:113: om ändring i förvaltningsprocesslagen (1971:291), m.m."
+    },
+    {
+      "prep_document_id": "1986/87:89",
+      "title": "Proposition 1986/87:89: Genomförande av direktivet om skydd för personer som deltar i den offentliga debatten samt införande av en ny tredskodomssanktion"
+    },
+    {
+      "prep_document_id": "1986/87:160",
+      "title": "Proposition 1986/87:160: Aggressionsbrottet i svensk rätt och svensk straffrättslig domsrätt"
+    },
+    {
+      "prep_document_id": "1987/88:67",
+      "title": "Proposition 1987/88:67: om följdlagstiftning till reformen av svenska kyrkans organisation på lokal- och stiftplanet"
+    },
+    {
+      "prep_document_id": "1989/90:3",
+      "title": "Proposition 1989/90:3: Bättre verktyg för att bekämpa den kriminella ekonomin – betalningssäkring inom socialförsäkringen"
+    },
+    {
+      "prep_document_id": "1989/90:71",
+      "title": "Proposition 1989/90:71: om några processrjättsliga frågor"
+    },
+    {
+      "prep_document_id": "1989/90:119",
+      "title": "Proposition 1989/90:119: Ny kamerabevakningslag"
+    },
+    {
+      "prep_document_id": "1990/91:11",
+      "title": "Proposition 1990/91:11: Statlig ersättning för personskada orsakad av vaccin mot sjukdomen covid-19"
+    },
+    {
+      "prep_document_id": "1990/91:80",
+      "title": "Proposition 1990/91:80: 1990/91:80"
+    },
+    {
+      "prep_document_id": "1990/91:68",
+      "title": "Proposition 1990/91:68: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1991/92:17",
+      "title": "Proposition 1991/92:17: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1991/92:85",
+      "title": "Proposition 1991/92:85: Ny kyrkolag"
+    },
+    {
+      "prep_document_id": "1992/93:372",
+      "title": "Proposition 1992/93:372: En effektivare arbetsmarknadspolitik m.m."
+    },
+    {
+      "prep_document_id": "1992/93:215",
+      "title": "Proposition 1992/93:215: om Försiikringsöverdomstolen"
+    },
+    {
+      "prep_document_id": "1993/94:319",
+      "title": "Proposition 1993/94:319: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "1993/94:133",
+      "title": "Proposition 1993/94:133: Instansordningen m.m. i de allmänna förvaltningsdomstolarna"
+    },
+    {
+      "prep_document_id": "1994/95:36",
+      "title": "Proposition 1994/95:36: Övergången från EES till EU vissa kompletterande bestämmelser"
+    },
+    {
+      "prep_document_id": "1993/94:217",
+      "title": "Proposition 1993/94:217: En reformerad datalag"
+    },
+    {
+      "prep_document_id": "1994/95:35",
+      "title": "Proposition 1994/95:35: En ny lag om företagshemligheter"
+    },
+    {
+      "prep_document_id": "1994/95:165",
+      "title": "Proposition 1994/95:165: Ett högskoleverk"
+    },
+    {
+      "prep_document_id": "1994/95:27",
+      "title": "Proposition 1994/95:27: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "1995/96:55",
+      "title": "Proposition 1995/96:55: Dubbelbeskattningsavtal mellan Sverige och Ukraina"
+    },
+    {
+      "prep_document_id": "1995/96:22",
+      "title": "Proposition 1995/96:22: Skolans arbete med trygghet och studiero"
+    },
+    {
+      "prep_document_id": "1996/97:55",
+      "title": "Proposition 1996/97:55: Riksrevisionens rapport om offentliga biträden i migrationsärenden"
+    },
+    {
+      "prep_document_id": "1996/97:9",
+      "title": "Proposition 1996/97:9: Riksrevisionens rapport om offentliga biträden i migrationsärenden"
+    },
+    {
+      "prep_document_id": "1997/98:170",
+      "title": "Proposition 1997/98:170: Ändringar i lagen om offentlig upphandling, m.m."
+    },
+    {
+      "prep_document_id": "1997/98:64",
+      "title": "Proposition 1997/98:64: Kamerabevakning i kollektivtrafik och apotek - ett enklare förfarande"
+    },
+    {
+      "prep_document_id": "1997/98:226",
+      "title": "Proposition 1997/98:226: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "1997/98:101",
+      "title": "Proposition 1997/98:101: Överlämnande av mål mellan allmänna förvaltningsdomstolar"
+    },
+    {
+      "prep_document_id": "1997/98:276",
+      "title": "Proposition 1997/98:276: Vapenregister"
+    },
+    {
+      "prep_document_id": "1997/98:97",
+      "title": "Proposition 1997/98:97: Biometri i brottsbekämpningen"
+    },
+    {
+      "prep_document_id": "1998/99:145",
+      "title": "Proposition 1998/99:145: Ett särskilt brott för hedersförtryck"
+    },
+    {
+      "prep_document_id": "1998/99:34",
+      "title": "Proposition 1998/99:34: Skattebrottsdatalag"
+    },
+    {
+      "prep_document_id": "1998/99:124",
+      "title": "Proposition 1998/99:124: Statens stöd till trossamfund och civilsamhället – enhetliga och rättssäkra villkor"
+    },
+    {
+      "prep_document_id": "2000/01:132",
+      "title": "Proposition 2000/01:132: Ändrade regler om koncessionsavgift på televisionens område"
+    },
+    {
+      "prep_document_id": "2004/05:307",
+      "title": "Proposition 2004/05:307: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2004/05:131",
+      "title": "Proposition 2004/05:131: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2007/08:251",
+      "title": "Proposition 2007/08:251: Budgetpropositionen för 2009",
+      "summary": "Utgiftsområde 4: Rättsväsendet"
+    },
+    {
+      "prep_document_id": "2007/08:139",
+      "title": "Proposition 2007/08:139: En modernare rättegång - några ytterligare frågor"
+    },
+    {
+      "prep_document_id": "2008/09:197",
+      "title": "Proposition 2008/09:197: Redogörelse för verksamheten inom Organisationen för säkerhet och samarbete (OSSE) under år 2008"
+    },
+    {
+      "prep_document_id": "2008/09:94",
+      "title": "Proposition 2008/09:94: Bättre förutsättningar inom djurens hälso- och sjukvård"
+    },
+    {
+      "prep_document_id": "2008/09:237",
+      "title": "Proposition 2008/09:237: Förstärkt integritetsskydd vid signalspaning"
+    },
+    {
+      "prep_document_id": "2008/09:150",
+      "title": "Proposition 2008/09:150: Offentlighets- och sekretesslag"
+    },
+    {
+      "prep_document_id": "2008/09:290",
+      "title": "Proposition 2008/09:290: Kompletteringar av socialförsäkringsbalken"
+    },
+    {
+      "prep_document_id": "2008/09:165",
+      "title": "Proposition 2008/09:165: En långsiktigt hållbar organisation för de allmänna förvaltningsdomstolarna i första instans"
+    },
+    {
+      "prep_document_id": "2010/11:31",
+      "title": "Proposition 2010/11:31: Bättre möjlighet till skuldsanering"
+    },
+    {
+      "prep_document_id": "2009/10:181",
+      "title": "Proposition 2009/10:181: Stärkt skydd för demokratin och domstolarnas oberoende"
+    },
+    {
+      "prep_document_id": "2010/11:30",
+      "title": "Proposition 2010/11:30: Fjärde järnvägspaketet"
+    },
+    {
+      "prep_document_id": "2009/10:237",
+      "title": "Proposition 2009/10:237: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2011/12:29",
+      "title": "Proposition 2011/12:29: Fortsatt svenskt deltagande i den internationella säkerhetsstyrkan i Afghanistan (ISAF)"
+    },
+    {
+      "prep_document_id": "2010/11:166",
+      "title": "Proposition 2010/11:166: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2012/13:154",
+      "title": "Proposition 2012/13:154: Strategiskt tillväxtarbete för regional konkurrenskraft, entreprenörskap och sysselsättning - en sammanfattning av \"Nationell strategisk rapport för Sverige 2012\""
+    },
+    {
+      "prep_document_id": "2012/13:45",
+      "title": "Proposition 2012/13:45: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2012/13:115",
+      "title": "Proposition 2012/13:115: En ny kameraövervakningslag"
+    },
+    {
+      "prep_document_id": "2016/17:335",
+      "title": "Proposition 2016/17:335: Riksrevisionens rapport om räkenskapssammandragets tillförlitlighet"
+    },
+    {
+      "prep_document_id": "2016/17:171",
+      "title": "Proposition 2016/17:171: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2017/18:2",
+      "title": "Proposition 2017/18:2: Höständringsbudget för 2017"
+    },
+    {
+      "prep_document_id": "2016/17:180",
+      "title": "Proposition 2016/17:180: En modern och rättssäker förvaltning - ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2018/19:40",
+      "title": "Proposition 2018/19:40: Återköpsprogram av aktier i Telia Company AB"
+    },
+    {
+      "prep_document_id": "2017/18:279",
+      "title": "Proposition 2017/18:279: Stärkt rättssäkerhet i de allmänna förvaltningsdomstolarna"
+    },
+    {
+      "prep_document_id": "2018/19:227",
+      "title": "Proposition 2018/19:227: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:81",
+      "title": "Proposition 2018/19:81: Stärkt ordning och säkerhet i domstol"
+    },
+    {
+      "prep_document_id": "2019/20:260",
+      "title": "Proposition 2019/20:260: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:88",
+      "title": "Proposition 2019/20:88: Ett förbud mot spridning av bilder från rättegångar"
+    },
+    {
+      "prep_document_id": "2020/21:30",
+      "title": "Proposition 2020/21:30: Totalförsvaret 2021–2025"
+    },
+    {
+      "prep_document_id": "2019/20:189",
+      "title": "Proposition 2019/20:189: Digital kommunikation i domstolsprocesser"
     }
   ]
 }

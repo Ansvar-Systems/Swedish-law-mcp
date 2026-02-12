@@ -609,6 +609,42 @@ function buildDatabase(): void {
       );
     }
 
+    // Create legal_documents entries for preparatory works before inserting them
+    const prepDocIds = new Set<string>();
+    const existingDocIds = new Set<string>(
+      db.prepare('SELECT id FROM legal_documents').all().map((row: { id: string }) => row.id)
+    );
+
+    for (const pw of pendingPrepWorks) {
+      if (!prepDocIds.has(pw.prep_document_id) && !existingDocIds.has(pw.prep_document_id)) {
+        prepDocIds.add(pw.prep_document_id);
+
+        // Determine document type from ID format
+        let docType: 'bill' | 'sou' | 'ds';
+        if (pw.prep_document_id.includes('/')) {
+          docType = 'bill'; // Proposition format: 2017/18:105
+        } else if (pw.title.toLowerCase().includes('sou')) {
+          docType = 'sou'; // SOU format: 2017:39
+        } else {
+          docType = 'ds'; // Ds format: 2017:39
+        }
+
+        // Insert preparatory work as a legal document
+        insertDoc.run(
+          pw.prep_document_id,
+          docType,
+          pw.title,
+          null, // title_en
+          null, // short_name
+          'in_force', // status
+          null, // issued_date
+          null, // in_force_date
+          null, // url
+          pw.summary ?? null // description
+        );
+      }
+    }
+
     for (const pw of pendingPrepWorks) {
       insertPrepWork.run(pw.statute_id, pw.prep_document_id, pw.title, pw.summary ?? null);
     }

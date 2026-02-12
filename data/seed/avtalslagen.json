@@ -2,6 +2,7 @@
   "id": "1915:218",
   "type": "statute",
   "title": "Lag (1915:218) om avtal och andra rättshandlingar på förmögenhetsrättens område",
+  "short_name": "AvtL",
   "status": "in_force",
   "issued_date": "1915-06-11",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1915-218",
@@ -251,6 +252,36 @@
       "chapter": "1",
       "section": "41",
       "content": "Genom denna lag upphävas 1 kap. 1 § och 9 kap. 9 § handelsbalken, 2 och 3 §§ i lagen d. 14 juni 1901 angående ocker samt vad i övrigt finnes i lag eller särskild författning stadgat stridande mot här ovan givna bestämmelser. Övergångsbestämmelser 1987:329 Denna lag träder i kraft den 1 juli 1987. Har en rättshandling tillkommit före ikraftträdandet tillämpas 31 § i dess äldre lydelse. 1994:1513 1. Denna lag träder i kraft den 1 januari 1995. 2. Den nya bestämmelsen tillämpas även på rättshandlingar som har företagits före ikraftträdandet. 3. Mål som vid ikraftträdandet är anhängigt vid domstol prövas enligt äldre bestämmelser."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:81",
+      "title": "Proposition 1975/76:81: En utvidgad rätt till återköp och flytt av fond- och depåförsäkringar"
+    },
+    {
+      "prep_document_id": "1976/77:63",
+      "title": "Proposition 1976/77:63: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1980/81:84",
+      "title": "Proposition 1980/81:84: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1986/87:72",
+      "title": "Proposition 1986/87:72: om ändring i räntelagen (1975:635) m.m."
+    },
+    {
+      "prep_document_id": "1987/88:124",
+      "title": "Proposition 1987/88:124: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "1994/95:76",
+      "title": "Proposition 1994/95:76: Förändring av vissa arbetsrättsliga regler"
+    },
+    {
+      "prep_document_id": "1994/95:17",
+      "title": "Proposition 1994/95:17: Ett moderniserat konsumentskydd"
     }
   ]
 }

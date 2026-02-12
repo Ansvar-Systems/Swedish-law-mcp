@@ -2,6 +2,7 @@
   "id": "1976:580",
   "type": "statute",
   "title": "Lag (1976:580) om medbestämmande i arbetslivet",
+  "short_name": "MBL",
   "status": "in_force",
   "issued_date": "1976-06-10",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1976-580",
@@ -416,6 +417,164 @@
       "provision_ref": "69",
       "section": "69",
       "content": "Föreskrifterna i 33--35 och 39 §§ utgör inte hinder mot beslut enligt 15 kap. rättegångsbalken. Lag (1994:1686). 70 § har upphävts genom lag (1980:238). Övergångsbestämmelser 1984:817 Denna lag träder i kraft den 1 januari 1985. De nya bestämmelserna i 60 § tillämpas när skadeståndsskyldigheten har uppkommit efter ikraftträdandet. I annat fall tillämpas 60 § i dess äldre lydelse. 1992:440 Denna lag träder i kraft den 1 juli 1992. I fråga om skadeståndsansvar som har uppkommit före ikraftträdandet gäller 60 § i sin äldre lydelse. 1994:1686 Denna lag träder i kraft den 1 januari 1995. En arbetsgivare är dock inte skyldig att förhandla eller underrätta enligt de nya bestämmelserna i 13 § andra stycket och 15 § andra stycket, om det skulle innebära att förhandling skulle ha inletts eller underrättelse skulle ha lämnats före ikraftträdandet. 2007:1095 1. Denna lag träder i kraft den 1 januari 2008. 2. Äldre bestämmelser gäller fortfarande i fråga om upphandlingar på vilka lagen (1992:1528) om offentlig upphandling är tillämplig. 2016:1149 1. Denna lag träder i kraft den 1 januari 2017. 2. Äldre bestämmelser gäller fortfarande för upphandlingar som har påbörjats före den 1 januari 2017. 2019:503 1. Denna lag träder i kraft den 1 augusti 2019. 2. Bestämmelserna ska inte tillämpas när det gäller en stridsåtgärd som har påbörjats före ikraftträdandet. 2021:1114 1. Denna lag träder i kraft den 1 februari 2022. 2. Äldre bestämmelser gäller fortfarande för sådana upphandlingar som har påbörjats före ikraftträdandet."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:105",
+      "title": "Proposition 1975/76:105: Flexibilitet, omställningsförmåga och trygghet på arbetsmarknaden"
+    },
+    {
+      "prep_document_id": "1976/77:137",
+      "title": "Proposition 1976/77:137: om ändring i lagen (1976:580) om medbestämmande i arbetslivet"
+    },
+    {
+      "prep_document_id": "1976/77:141",
+      "title": "Proposition 1976/77:141: om ändring i lagen (1974:371) om rättegången i arbetstvister, m.m."
+    },
+    {
+      "prep_document_id": "1979/80:80",
+      "title": "Proposition 1979/80:80: Förbättrade förutsättningar för den arbetsmarknadspolitiska verksamheten"
+    },
+    {
+      "prep_document_id": "1983/84:165",
+      "title": "Proposition 1983/84:165: om ändring i lagen (1976:580) om medbestämmande i arbetslivet, m. m."
+    },
+    {
+      "prep_document_id": "1990/91:68",
+      "title": "Proposition 1990/91:68: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1990/91:162",
+      "title": "Proposition 1990/91:162: om vissa fredspliktsregler"
+    },
+    {
+      "prep_document_id": "1990/91:124",
+      "title": "Proposition 1990/91:124: om privat arbetsförmedling och uthyrning av arbetskraft, m.m."
+    },
+    {
+      "prep_document_id": "1991/92:155",
+      "title": "Proposition 1991/92:155: om skadestånd för arbetstagares deltagande i olovlig stridsåtgärd"
+    },
+    {
+      "prep_document_id": "1992/93:345",
+      "title": "Proposition 1992/93:345: Utvecklingen inom den kommunala sektorn"
+    },
+    {
+      "prep_document_id": "1992/93:218",
+      "title": "Proposition 1992/93:218: Flexibilitet, omställningsförmåga och trygghet på arbetsmarknaden"
+    },
+    {
+      "prep_document_id": "1993/94:67",
+      "title": "Proposition 1993/94:67: Genomförande av arbetsvillkorsdirektivet"
+    },
+    {
+      "prep_document_id": "1994/95:123",
+      "title": "Proposition 1994/95:123: Ett moderniserat konsumentskydd"
+    },
+    {
+      "prep_document_id": "1994/95:76",
+      "title": "Proposition 1994/95:76: Förändring av vissa arbetsrättsliga regler"
+    },
+    {
+      "prep_document_id": "2004/05:148",
+      "title": "Proposition 2004/05:148: Utvidgad rätt till information för arbetstagarorganisationer"
+    },
+    {
+      "prep_document_id": "2006/07:89",
+      "title": "Proposition 2006/07:89: En arbetslöshetsförsäkring baserad på inkomster"
+    },
+    {
+      "prep_document_id": "2007/08:31",
+      "title": "Proposition 2007/08:31: Ändrade regler om gallring av åtalsunderlåtelse för unga lagöverträdare"
+    },
+    {
+      "prep_document_id": "2006/07:128",
+      "title": "Proposition 2006/07:128: Ett förenklat upphandlingsregelverk"
+    },
+    {
+      "prep_document_id": "2009/10:211",
+      "title": "Proposition 2009/10:211: Sanktioner för överträdelser av nya EU-regler om kemikalier"
+    },
+    {
+      "prep_document_id": "2009/10:48",
+      "title": "Proposition 2009/10:48: Mer likabehandling och ett stärkt skydd vid utstationering"
+    },
+    {
+      "prep_document_id": "2009/10:146",
+      "title": "Proposition 2009/10:146: Auktorisationssystem i fråga om tjänster för elektronisk identifiering och digital post"
+    },
+    {
+      "prep_document_id": "2011/12:4",
+      "title": "Proposition 2011/12:4: Utredningar avseende vissa dödsfall"
+    },
+    {
+      "prep_document_id": "2010/11:150",
+      "title": "Proposition 2010/11:150: Upphandling på försvars- och säkerhetsområdet"
+    },
+    {
+      "prep_document_id": "2012/13:53",
+      "title": "Proposition 2012/13:53: Avtal mellan Sveriges regering och PLO, till förmån för Palestinska myndigheten"
+    },
+    {
+      "prep_document_id": "2011/12:178",
+      "title": "Proposition 2011/12:178: Lag om uthyrning av arbetstagare"
+    },
+    {
+      "prep_document_id": "2012/13:284",
+      "title": "Proposition 2012/13:284: Budgetproposition 2015 Utgiftsområde 14: Arbetsmarknad och arbetsliv"
+    },
+    {
+      "prep_document_id": "2012/13:143",
+      "title": "Proposition 2012/13:143: Effektivare sanktioner för arbetsmiljö- och arbetstidsreglerna"
+    },
+    {
+      "prep_document_id": "2016/17:66",
+      "title": "Proposition 2016/17:66: Forskning och innovation på energiområdet för ekologisk hållbarhet, konkurrenskraft och försörjningstrygghet"
+    },
+    {
+      "prep_document_id": "2015/16:195",
+      "title": "Proposition 2015/16:195: Nytt regelverk om upphandling"
+    },
+    {
+      "prep_document_id": "2016/17:226",
+      "title": "Proposition 2016/17:226: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:107",
+      "title": "Proposition 2016/17:107: Nya utstationeringsregler"
+    },
+    {
+      "prep_document_id": "2016/17:241",
+      "title": "Proposition 2016/17:241: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:120",
+      "title": "Proposition 2016/17:120: Genomförande av sjöfolksdirektivet"
+    },
+    {
+      "prep_document_id": "2018/19:283",
+      "title": "Proposition 2018/19:283: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:105",
+      "title": "Proposition 2018/19:105: Utökad fredsplikt på arbetsplatser där det finns kollektivavtal och vid rättstvister"
+    },
+    {
+      "prep_document_id": "2019/20:329",
+      "title": "Proposition 2019/20:329: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:150",
+      "title": "Proposition 2019/20:150: Mer likabehandling och ett stärkt skydd vid utstationering"
+    },
+    {
+      "prep_document_id": "2021/22:31",
+      "title": "Proposition 2021/22:31: Riksrevisionens rapport om hållbart företagande och styrning av de statligt ägda bolagen"
+    },
+    {
+      "prep_document_id": "2021/22:5",
+      "title": "Proposition 2021/22:5: Ett förenklat upphandlingsregelverk"
     }
   ]
 }

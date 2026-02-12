@@ -2,6 +2,7 @@
   "id": "1999:1078",
   "type": "statute",
   "title": "Bokföringslag (1999:1078)",
+  "short_name": "BFL",
   "status": "in_force",
   "issued_date": "1999-12-02",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1999-1078",
@@ -397,6 +398,200 @@
       "chapter": "9",
       "section": "1",
       "content": "En myndighets beslut enligt denna lag får överklagas hos allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten. Övergångsbestämmelser 1999:1078 1. Denna lag träder i kraft den 1 januari 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 1999. I fråga om juridiska personer som avses i 2 kap. 2 § första stycket skall dock lagen tillämpas först från och med det räkenskapsår som inleds närmast efter den 31 december 2000. Detsamma gäller fysiska personer som vid utgången av år 1999 inte var bokföringsskyldiga enligt bokföringslagen (1976:125) och som skulle vara bokföringsskyldiga enligt den nya lagen endast därför att de äger eller brukar en näringsfastighet. 2. Bokföringslagen (1976:125) skall upphöra att gälla vid utgången av år 1999. Lagen skall dock fortfarande tillämpas för räkenskapsår som har inletts före nämnda tidpunkt. I fråga om juridiska personer som avses i 2 kap. 2 § första stycket, med undantag av Svenska kyrkan och dess organisatoriska delar, skall lagen även tillämpas för räkenskapsår som inleds före utgången av år 2000. Lagen skall vidare tillämpas på understödsföreningar som med stöd av punkten 3 i övergångsbestämmelserna till lagen (1999:1114) om ändring i lagen (1995:1560) om årsredovisning i försäkringsföretag alltjämt tillämpar 29 och 30 §§ lagen (1972:262) om understödsföreningar. Bestämmelsen i 16 § andra stycket bokföringslagen får tillämpas även för det räkenskapsår som inleds närmast efter den 31 december 1999. 3. Jordbruksbokföringslagen (1979:141) skall upphöra att gälla vid utgången av år 2000. Lagen skall dock fortfarande tillämpas för räkenskapsår som har inletts före nämnda tidpunkt. 4. Om det i en lag eller i en annan författning hänvisas till någon föreskrift i bokföringslagen (1976:125) eller jordbruksbokföringslagen (1979:141) som har ersatts av en föreskrift i denna lag, tillämpas i stället den nya föreskriften. 1999:1304 Denna lag träder i kraft den 1 januari 2001 och tillämpas på räkenskapsår som avslutas efter utgången av år 2000. 2000:31 1. Denna lag träder i kraft den 1 mars 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2000. 2. Försäkringsbolag som avses i punkt 2 eller 5 i övergångsbestämmelserna till lagen (1999:600) om ändring i försäkringsrörelselagen (1982:713) får, trots bestämmelsen i 4 kap. 6 § första stycket tredje meningen, inte ha euro som redovisningsvaluta. 2003:1135 1. Denna lag träder i kraft den 1 januari 2004. 2. Villkor och begränsningar som följer av ett tillstånd som har lämnats enligt 7 kap. 4 § i sin äldre lydelse behöver inte längre tillämpas om de maskinläsbara medier som tillståndet avser får förvaras med stöd av 7 kap. 3 a §. 2006:874 Denna lag träder i kraft den 1 januari 2007 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2006. 2007:134 Denna lag träder i kraft den 1 maj 2007 och tillämpas första gången för räkenskapsår som inleds närmast efter den 30 april 2007. 2009:249 Denna lag träder i kraft den 1 januari 2010 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2009. 2010:849 Denna lag träder i kraft den 1 november 2010 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 oktober 2010. 2010:1514 1. Denna lag träder i kraft den 1 januari 2011. 2. Bestämmelserna i 1 kap. 2 § och 6 kap. 3-5 §§ i sin nya lydelse tillämpas första gången för årsbokslut som avser räkenskapsår som avslutas närmast efter den 31 december 2010. 2015:821 1. Denna lag träder i kraft den 1 januari 2016. 2. Lagen tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2015. 2020:669 1. Denna lag träder i kraft den 1 januari 2021. 2. Äldre bestämmelser gäller dock fortfarande i fråga om medlemsbanker som är registrerade i bankregistret den 31 december 2020 avseende det räkenskapsår som avslutas närmast efter detta datum. 2024:342 1. Denna lag träder i kraft den 1 juli 2024. 2. Räkenskapsinformation som vid ikraftträdandet bevaras i mikroskrift får fortsatt bevaras i den formen."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1998/99:130",
+      "title": "Proposition 1998/99:130: Avskaffat krav på bevarande av räkenskapsinformation i original"
+    },
+    {
+      "prep_document_id": "2003/04:17",
+      "title": "Proposition 2003/04:17: Lättnader i 3:12-reglerna och i arvs- och gåvoskattereglerna vid generationsskiften i företag, m.m."
+    },
+    {
+      "prep_document_id": "2002/03:99",
+      "title": "Proposition 2002/03:99: Det nya Skatteverket"
+    },
+    {
+      "prep_document_id": "2003/04:82",
+      "title": "Proposition 2003/04:82: Redogörelse för verksamheten inom Organisationen för säkerhet och samarbete i Europa (OSSE) under år 2003"
+    },
+    {
+      "prep_document_id": "2003/04:26",
+      "title": "Proposition 2003/04:26: Ny mervärdesskattelag"
+    },
+    {
+      "prep_document_id": "2004/05:297",
+      "title": "Proposition 2004/05:297: Riksrevisionens rapport om styrningen av Business Sweden"
+    },
+    {
+      "prep_document_id": "2004/05:140",
+      "title": "Proposition 2004/05:140: Riksrevisionens rapport om Teracom och marknäten"
+    },
+    {
+      "prep_document_id": "2005/06:330",
+      "title": "Proposition 2005/06:330: Elektronisk ingivning för ekonomiska föreningar och vissa andra företag, m.m."
+    },
+    {
+      "prep_document_id": "2005/06:116",
+      "title": "Proposition 2005/06:116: Budgetpropositionen för 2025"
+    },
+    {
+      "prep_document_id": "2006/07:126",
+      "title": "Proposition 2006/07:126: Hund under kontroll"
+    },
+    {
+      "prep_document_id": "2006/07:27",
+      "title": "Proposition 2006/07:27: Begreppet nettoomsättning i bokföringslagen och årsredovisningslagen"
+    },
+    {
+      "prep_document_id": "2006/07:211",
+      "title": "Proposition 2006/07:211: Nya skatteregler för pensionsförsäkring m.m."
+    },
+    {
+      "prep_document_id": "2006/07:115",
+      "title": "Proposition 2006/07:115: Digital operativ motståndskraft för finanssektorn"
+    },
+    {
+      "prep_document_id": "2006/07:182",
+      "title": "Proposition 2006/07:182: Riksrevisionens rapport om regelförenkling för företag"
+    },
+    {
+      "prep_document_id": "2006/07:105",
+      "title": "Proposition 2006/07:105: Konkurrens på lika villkor i kontantbranschen"
+    },
+    {
+      "prep_document_id": "2007/08:138",
+      "title": "Proposition 2007/08:138: Katastrofmedicin som en del av svenska insatser utomlands"
+    },
+    {
+      "prep_document_id": "2007/08:45",
+      "title": "Proposition 2007/08:45: En ny lag om ekonomiska föreningar"
+    },
+    {
+      "prep_document_id": "2008/09:185",
+      "title": "Proposition 2008/09:185: En politik för personer med psykisk sjukdom eller psykisk funktionsnedsättning"
+    },
+    {
+      "prep_document_id": "2008/09:84",
+      "title": "Proposition 2008/09:84: Stiftelser - frågor om registrering och tillsyn, m.m."
+    },
+    {
+      "prep_document_id": "2008/09:174",
+      "title": "Proposition 2008/09:174: Riksrevisionens rapport om polisens och åklagarnas arbete mot internetrelaterade sexuella övergrepp mot barn"
+    },
+    {
+      "prep_document_id": "2009/10:368",
+      "title": "Proposition 2009/10:368: Riksrevisionens rapport om avskaffandet av revisionsplikten för små aktiebolag"
+    },
+    {
+      "prep_document_id": "2009/10:204",
+      "title": "Proposition 2009/10:204: Bolag och brott"
+    },
+    {
+      "prep_document_id": "2010/11:39",
+      "title": "Proposition 2010/11:39: 2010 års redogörelse för tillämpningen av lagen (1991:572) om särskild utlänningskontroll"
+    },
+    {
+      "prep_document_id": "2009/10:235",
+      "title": "Proposition 2009/10:235: Enklare redovisning"
+    },
+    {
+      "prep_document_id": "2010/11:62",
+      "title": "Proposition 2010/11:62: Kontroll av färdskrivare"
+    },
+    {
+      "prep_document_id": "2009/10:246",
+      "title": "Proposition 2009/10:246: Bolags rörlighet över gränserna inom EU"
+    },
+    {
+      "prep_document_id": "2011/12:29",
+      "title": "Proposition 2011/12:29: Fortsatt svenskt deltagande i den internationella säkerhetsstyrkan i Afghanistan (ISAF)"
+    },
+    {
+      "prep_document_id": "2010/11:166",
+      "title": "Proposition 2010/11:166: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2014/15:12",
+      "title": "Proposition 2014/15:12: Riksrevisionens rapport om förvaltningen av regionala projektmedel"
+    },
+    {
+      "prep_document_id": "2014/15:4",
+      "title": "Proposition 2014/15:4: Inkomstbeskattning, redovisning och revision avseende Eric-konsortier"
+    },
+    {
+      "prep_document_id": "2015/16:36",
+      "title": "Proposition 2015/16:36: Avskaffande av skattenämnder inom fastighetstaxeringen"
+    },
+    {
+      "prep_document_id": "2015/16:3",
+      "title": "Proposition 2015/16:3: Tydligare redovisningsregler och nya rapporteringskrav för utvinningsindustrin"
+    },
+    {
+      "prep_document_id": "2016/17:41",
+      "title": "Proposition 2016/17:41: Maskeringsförbud vid idrottsarrangemang"
+    },
+    {
+      "prep_document_id": "2016/17:6",
+      "title": "Proposition 2016/17:6: Kompletteringar till EU:s förordning om europeiska politiska partier och europeiska politiska stiftelser"
+    },
+    {
+      "prep_document_id": "2016/17:271",
+      "title": "Proposition 2016/17:271: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:149",
+      "title": "Proposition 2016/17:149: Bokföringsbrott i filialer"
+    },
+    {
+      "prep_document_id": "2017/18:207",
+      "title": "Proposition 2017/18:207: Ramverket för finanspolitiken"
+    },
+    {
+      "prep_document_id": "2017/18:77",
+      "title": "Proposition 2017/18:77: Nya regler om betaltjänster"
+    },
+    {
+      "prep_document_id": "2017/18:363",
+      "title": "Proposition 2017/18:363: Riksrevisionens rapport om Spelinspektionens tillsyn över spelmarknaden"
+    },
+    {
+      "prep_document_id": "2017/18:220",
+      "title": "Proposition 2017/18:220: En omreglerad spelmarknad"
+    },
+    {
+      "prep_document_id": "2019/20:27",
+      "title": "Proposition 2019/20:27: Fortsatt svenskt deltagande i Natos utbildnings- och rådgivningsinsats Resolute Support Mission i Afghanistan"
+    },
+    {
+      "prep_document_id": "2018/19:158",
+      "title": "Proposition 2018/19:158: En ny reglering för tjänstepensionsföretag"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2019/20:346",
+      "title": "Proposition 2019/20:346: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:97",
+      "title": "Proposition 2019/20:97: Ny associationsrätt för medlemsbanker"
+    },
+    {
+      "prep_document_id": "2023/24:193",
+      "title": "Proposition 2023/24:193: Riksdagens skrivelser till regeringen – åtgärder under 2024"
+    },
+    {
+      "prep_document_id": "2023/24:78",
+      "title": "Proposition 2023/24:78: Avskaffat krav på bevarande av räkenskapsinformation i original"
     }
   ]
 }

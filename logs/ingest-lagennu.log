@@ -343,3 +343,84 @@
 [2026-02-12T11:57:00.193Z] ═══════════════════════════════════════════════════════════════
 [2026-02-12T11:57:00.193Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu.log
 [2026-02-12T11:57:00.193Z] 
+[2026-02-12T12:00:56.311Z] Lagen.nu Case Law Ingestion
+[2026-02-12T12:00:56.312Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T12:00:56.312Z]   Limit: 20
+[2026-02-12T12:00:56.312Z] 
+[2026-02-12T12:00:56.320Z] Fetching case list from HTML feed...
+[2026-02-12T12:00:56.644Z]   Found 187 case IDs in feed
+[2026-02-12T12:00:56.645Z] Processing 20 cases...
+[2026-02-12T12:00:56.645Z] 
+[2026-02-12T12:01:07.150Z]   [20/20] Processed AD 2023 nr 43 (inserted: 0, updated: 20, failed: 0)
+[2026-02-12T12:01:07.151Z] 
+[2026-02-12T12:01:07.152Z] Optimizing database...
+[2026-02-12T12:01:07.277Z] 
+[2026-02-12T12:01:07.277Z] ═══════════════════════════════════════════════════════════════
+[2026-02-12T12:01:07.277Z] Ingestion Complete
+[2026-02-12T12:01:07.277Z] ═══════════════════════════════════════════════════════════════
+[2026-02-12T12:01:07.277Z]   Total fetched:  20
+[2026-02-12T12:01:07.277Z]   Inserted:       0
+[2026-02-12T12:01:07.277Z]   Updated:        20
+[2026-02-12T12:01:07.277Z]   Failed:         0
+[2026-02-12T12:01:07.277Z]   Skipped:        0
+[2026-02-12T12:01:07.277Z] ═══════════════════════════════════════════════════════════════
+[2026-02-12T12:01:07.277Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu.log
+[2026-02-12T12:01:07.277Z] 
+[2026-02-12T12:01:20.900Z] Lagen.nu Case Law Ingestion
+[2026-02-12T12:01:20.902Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T12:01:20.902Z]   Limit: none
+[2026-02-12T12:01:20.902Z] 
+[2026-02-12T12:01:20.910Z] Fetching case list from HTML feed...
+[2026-02-12T12:01:21.252Z]   Found 187 case IDs in feed
+[2026-02-12T12:01:21.253Z] Processing 187 cases...
+[2026-02-12T12:01:21.253Z] 
+[2026-02-12T12:01:48.719Z]   [50/187] Processed AD 2023 nr 28 (inserted: 0, updated: 50, failed: 0)
+[2026-02-12T12:02:17.060Z]   [100/187] Processed HFD 2023:4 (inserted: 0, updated: 100, failed: 0)
+[2026-02-12T12:02:24.022Z]   [112/187] SKIPPED: NJA 2022 s. 1130 (not available on lagen.nu)
+[2026-02-12T12:02:24.152Z]   [113/187] SKIPPED: NJA 2022 s. 1136 (not available on lagen.nu)
+[2026-02-12T12:02:24.199Z]   [114/187] SKIPPED: NJA 2022 s. 1110 (not available on lagen.nu)
+[2026-02-12T12:02:24.248Z]   [115/187] SKIPPED: NJA 2022 s. 1115 (not available on lagen.nu)
+[2026-02-12T12:02:24.372Z]   [116/187] SKIPPED: NJA 2022 s. 1094 (not available on lagen.nu)
+[2026-02-12T12:02:24.436Z]   [117/187] SKIPPED: NJA 2022 s. 1088 (not available on lagen.nu)
+[2026-02-12T12:02:24.496Z]   [118/187] SKIPPED: NJA 2022 s. 1080 (not available on lagen.nu)
+[2026-02-12T12:02:24.545Z]   [119/187] SKIPPED: NJA 2022 s. 1071 (not available on lagen.nu)
+[2026-02-12T12:02:25.149Z]   [121/187] SKIPPED: NJA 2022 s. 1063 (not available on lagen.nu)
+[2026-02-12T12:02:28.042Z]   [127/187] SKIPPED: NJA 2022 s. 1051 (not available on lagen.nu)
+[2026-02-12T12:02:28.092Z]   [128/187] SKIPPED: NJA 2022 s. 1045 (not available on lagen.nu)
+[2026-02-12T12:02:29.218Z]   [131/187] SKIPPED: NJA 2022 s. 1003 (not available on lagen.nu)
+[2026-02-12T12:02:29.280Z]   [132/187] SKIPPED: NJA 2022 s. 1034 (not available on lagen.nu)
+[2026-02-12T12:02:30.428Z]   [135/187] SKIPPED: NJA 2022 s. 965 (not available on lagen.nu)
+[2026-02-12T12:02:31.577Z]   [138/187] SKIPPED: NJA 2022 s. 945 (not available on lagen.nu)
+[2026-02-12T12:02:32.799Z]   [141/187] SKIPPED: NJA 2022 s. 934 (not available on lagen.nu)
+[2026-02-12T12:02:32.858Z]   [142/187] SKIPPED: NJA 2022 s. 922 (not available on lagen.nu)
+[2026-02-12T12:02:33.498Z]   [144/187] SKIPPED: NJA 2022 s. 913 (not available on lagen.nu)
+[2026-02-12T12:02:34.104Z]   [146/187] SKIPPED: NJA 2022 s. 905 (not available on lagen.nu)
+[2026-02-12T12:02:34.156Z]   [147/187] SKIPPED: NJA 2022 s. 895 (not available on lagen.nu)
+[2026-02-12T12:02:35.381Z]   [150/187] Processed AD 2022 nr 52 (inserted: 0, updated: 130, failed: 0)
+[2026-02-12T12:02:35.945Z]   [151/187] SKIPPED: NJA 2022 s. 886 (not available on lagen.nu)
+[2026-02-12T12:02:35.988Z]   [152/187] SKIPPED: NJA 2022 s. 869 (not available on lagen.nu)
+[2026-02-12T12:02:36.602Z]   [154/187] SKIPPED: NJA 2022 s. 858 (not available on lagen.nu)
+[2026-02-12T12:02:37.229Z]   [156/187] SKIPPED: NJA 2022 s. 841 (not available on lagen.nu)
+[2026-02-12T12:02:37.278Z]   [157/187] SKIPPED: NJA 2022 s. 826 (not available on lagen.nu)
+[2026-02-12T12:02:38.959Z]   [161/187] SKIPPED: NJA 2022 s. 819 (not available on lagen.nu)
+[2026-02-12T12:02:39.088Z]   [162/187] SKIPPED: NJA 2022 s. 808 (not available on lagen.nu)
+[2026-02-12T12:02:44.618Z]   [173/187] SKIPPED: NJA 2022 s. 796 (not available on lagen.nu)
+[2026-02-12T12:02:44.819Z]   [174/187] SKIPPED: NJA 2022 s. 791 (not available on lagen.nu)
+[2026-02-12T12:02:44.882Z]   [175/187] SKIPPED: NJA 2022 s. 781 (not available on lagen.nu)
+[2026-02-12T12:02:48.214Z]   [182/187] SKIPPED: NJA 2022 s. 757 (not available on lagen.nu)
+[2026-02-12T12:02:48.259Z]   [183/187] SKIPPED: NJA 2022 s. 763 (not available on lagen.nu)
+[2026-02-12T12:02:49.939Z]   [187/187] Processed HFD 2022:42 (inserted: 0, updated: 155, failed: 0)
+[2026-02-12T12:02:49.939Z] 
+[2026-02-12T12:02:49.939Z] Optimizing database...
+[2026-02-12T12:02:50.039Z] 
+[2026-02-12T12:02:50.039Z] ═══════════════════════════════════════════════════════════════
+[2026-02-12T12:02:50.039Z] Ingestion Complete
+[2026-02-12T12:02:50.039Z] ═══════════════════════════════════════════════════════════════
+[2026-02-12T12:02:50.039Z]   Total fetched:  155
+[2026-02-12T12:02:50.039Z]   Inserted:       0
+[2026-02-12T12:02:50.039Z]   Updated:        155
+[2026-02-12T12:02:50.039Z]   Failed:         0
+[2026-02-12T12:02:50.039Z]   Skipped:        32
+[2026-02-12T12:02:50.039Z] ═══════════════════════════════════════════════════════════════
+[2026-02-12T12:02:50.039Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu.log
+[2026-02-12T12:02:50.039Z] 

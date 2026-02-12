@@ -321,5 +321,336 @@
       "section": "30",
       "content": "Närmare föreskrifter för verkställighet av denna lag meddelas av regeringen eller den myndighet som regeringen bestämmer. Lag (1998:27). Övergångsbestämmelser 1984:387 1. Denna lag träder i kraft den dag regeringen bestämmer. 2. Genom lagen upphävs lagen (1972:509) om vad som avses med polismyndighet m. m. och lagen (1973:558) om tillfälligt omhändertagande. 3. Vad som före ikraftträdandet har föreskrivits om polisstyrelse skall i fortsättningen gälla polismyndigheten. 4. De nya bestämmelserna om val av ledamöter och suppleanter i polisstyrelser tillämpas först vid val som avser tid efter utgången av år 1985. I fråga om val till polisstyrelse avseende tid till utgången av år 1985 gäller äldre lag. 5. har upphävts genom lag (1994:1734). 1991:665 1. Denna lag träder i kraft den 1 juli 1991. 2. Under tiden den 1 juli--den 31 december 1991 gäller vad som sägs i 20§ andra stycket om den som genomgår psykiatrisk tvångsvård eller den som överlämnats till rättspsykiatrisk vård i stället den som av domstol med stöd av 31 kap. 3 § brottsbalken överlämnats till sluten psykiatrisk vård eller till vård i specialsjukhus för psykiskt utvecklingsstörda. 2023:425 1. Denna lag träder i kraft den 1 januari 2024. 2. Det som anges om en ordningsvakts förordnande i 29 § tredje stycket gäller fram till utgången av år 2025, om förordnandet inte dessförinnan har återkallats eller annars har upphört att gälla."
     }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1983/84:111",
+      "title": "Proposition 1983/84:111: Polisens användning av skjutvapen"
+    },
+    {
+      "prep_document_id": "1985/86:9",
+      "title": "Proposition 1985/86:9: om lag om disciplinförseelser av krigsmakt m.m."
+    },
+    {
+      "prep_document_id": "1986/87:115",
+      "title": "Proposition 1986/87:115: Säkerhetszoner"
+    },
+    {
+      "prep_document_id": "1987/88:142",
+      "title": "Proposition 1987/88:142: om lokalisering av kustbevakningens centrala och regionala ledning och om lagändring med andledning av att kustbevakningen blir en egen myndighet"
+    },
+    {
+      "prep_document_id": "1988/89:100",
+      "title": "Proposition 1988/89:100: med förslag till statsbudgeten för budåret 1989/90"
+    },
+    {
+      "prep_document_id": "1988/89:108",
+      "title": "Proposition 1988/89:108: Budgetproposition 2016 Utgiftsområde 4: Rättsväsendet"
+    },
+    {
+      "prep_document_id": "1989/90:155",
+      "title": "Proposition 1989/90:155: om förnyelse inom polisen"
+    },
+    {
+      "prep_document_id": "1990/91:86",
+      "title": "Proposition 1990/91:86: Proposition 1990/91:86"
+    },
+    {
+      "prep_document_id": "1990/91:129",
+      "title": "Proposition 1990/91:129: Säkerhetszoner"
+    },
+    {
+      "prep_document_id": "1993/94:67",
+      "title": "Proposition 1993/94:67: Genomförande av arbetsvillkorsdirektivet"
+    },
+    {
+      "prep_document_id": "1993/94:24",
+      "title": "Proposition 1993/94:24: Skolor mot brott"
+    },
+    {
+      "prep_document_id": "1993/94:257",
+      "title": "Proposition 1993/94:257: Regler om avstängning av statligt anställda"
+    },
+    {
+      "prep_document_id": "1993/94:65",
+      "title": "Proposition 1993/94:65: Regler om avstängning av statligt anställda"
+    },
+    {
+      "prep_document_id": "1993/94:377",
+      "title": "Proposition 1993/94:377: En ny lag om domstolsärenden"
+    },
+    {
+      "prep_document_id": "1994/95:80",
+      "title": "Proposition 1994/95:80: Vissa ändringar i kyrkolagen"
+    },
+    {
+      "prep_document_id": "1994/95:7",
+      "title": "Proposition 1994/95:7: Riksrevisionens rapport om distansarbete vid statliga myndigheter"
+    },
+    {
+      "prep_document_id": "1996/97:96",
+      "title": "Proposition 1996/97:96: ILO:s konvention och rekommendation om arbetarskydd i gruvor m.m."
+    },
+    {
+      "prep_document_id": "1996/97:1",
+      "title": "Proposition 1996/97:1: Riksrevisionens rapport om sektorsansvaret i funktionshinderspolitiken"
+    },
+    {
+      "prep_document_id": "1997/98:138",
+      "title": "Proposition 1997/98:138: Meddelande om kommande förslag om ändring av reglerna för överföring av periodiseringsfond och skatteutjämningsreserv"
+    },
+    {
+      "prep_document_id": "1996/97:175",
+      "title": "Proposition 1996/97:175: Ny tullbefogenhetslag"
+    },
+    {
+      "prep_document_id": "1997/98:208",
+      "title": "Proposition 1997/98:208: Åtgärder mot dopning"
+    },
+    {
+      "prep_document_id": "1997/98:95",
+      "title": "Proposition 1997/98:95: Arrestantvakter och transportuppdrag"
+    },
+    {
+      "prep_document_id": "1998/99:36",
+      "title": "Proposition 1998/99:36: Genomförande av ändringarna i vapendirektivet"
+    },
+    {
+      "prep_document_id": "1998/99:1",
+      "title": "Proposition 1998/99:1: Budgetpropositionen för 1999",
+      "summary": "Förslag till statsbudget, finansplan m.m. (1. Reviderad finansplan)"
+    },
+    {
+      "prep_document_id": "1998/99:91",
+      "title": "Proposition 1998/99:91: Vissa trafikfrågor m.m."
+    },
+    {
+      "prep_document_id": "2001/02:130",
+      "title": "Proposition 2001/02:130: En effektivare och mer rättssäker klampning"
+    },
+    {
+      "prep_document_id": "2002/03:225",
+      "title": "Proposition 2002/03:225: Ny smittskyddslag m.m."
+    },
+    {
+      "prep_document_id": "2002/03:53",
+      "title": "Proposition 2002/03:53: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2003/04:15",
+      "title": "Proposition 2003/04:15: Slopad beskattning av arv till make och sambo"
+    },
+    {
+      "prep_document_id": "2002/03:138",
+      "title": "Proposition 2002/03:138: Åtgärder mot klotter och annan skadegörelse"
+    },
+    {
+      "prep_document_id": "2004/05:5",
+      "title": "Proposition 2004/05:5: Genomförande av EU:s nya dricksvattendirektiv"
+    },
+    {
+      "prep_document_id": "2003/04:159",
+      "title": "Proposition 2003/04:159: Ny tullbefogenhetslag"
+    },
+    {
+      "prep_document_id": "2004/05:105",
+      "title": "Proposition 2004/05:105: En lag om public service och riktlinjer för verksamheten 2026–2033"
+    },
+    {
+      "prep_document_id": "2004/05:1",
+      "title": "Proposition 2004/05:1: Riksrevisionens rapport om statens insatser för jordbrukets klimatomställning"
+    },
+    {
+      "prep_document_id": "2004/05:271",
+      "title": "Proposition 2004/05:271: Stärkt rättssäkerhet vid genomförande av särskilda befogenheter på särskilda ungdomshem och LVM-hem"
+    },
+    {
+      "prep_document_id": "2004/05:123",
+      "title": "Proposition 2004/05:123: Begränsningar och kontroll i fråga om elektroniska kommunikationstjänster och besök på särskilda ungdomshem"
+    },
+    {
+      "prep_document_id": "2005/06:113",
+      "title": "Proposition 2005/06:113: Nya regler om husrannsakan för att söka efter vapen och andra farliga föremål"
+    },
+    {
+      "prep_document_id": "2005/06:138",
+      "title": "Proposition 2005/06:138: Stärkt skydd för vissa förtroendevalda och en tydligare intern kontroll i kommuner och regioner"
+    },
+    {
+      "prep_document_id": "2007/08:131",
+      "title": "Proposition 2007/08:131: Riksrevisionens rapport om avskaffandet av revisionsplikten för små aktiebolag"
+    },
+    {
+      "prep_document_id": "2007/08:47",
+      "title": "Proposition 2007/08:47: Utvidgad rätt till biträde vid förhör under förundersökning, m.m."
+    },
+    {
+      "prep_document_id": "2007/08:53",
+      "title": "Proposition 2007/08:53: Ny tullbefogenhetslag"
+    },
+    {
+      "prep_document_id": "2007/08:68",
+      "title": "Proposition 2007/08:68: En ny förverkandelagstiftning"
+    },
+    {
+      "prep_document_id": "2008/09:131",
+      "title": "Proposition 2008/09:131: Utvidgat avlägsnande vid ordningsstörningar"
+    },
+    {
+      "prep_document_id": "2009/10:317",
+      "title": "Proposition 2009/10:317: Riksrevisionens rapport om återfall i brott"
+    },
+    {
+      "prep_document_id": "2009/10:135",
+      "title": "Proposition 2009/10:135: Säkerhetsförvaring – en ny tidsobestämd frihetsberövande påföljd"
+    },
+    {
+      "prep_document_id": "2012/13:60",
+      "title": "Proposition 2012/13:60: Kommunikationsutrustning i fordon"
+    },
+    {
+      "prep_document_id": "2011/12:171",
+      "title": "Proposition 2011/12:171: Samverkan för att förebygga ungdomsbrottslighet"
+    },
+    {
+      "prep_document_id": "2013/14:262",
+      "title": "Proposition 2013/14:262: Några ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2013/14:110",
+      "title": "Proposition 2013/14:110: En ny organisation för polisen"
+    },
+    {
+      "prep_document_id": "2014/15:260",
+      "title": "Proposition 2014/15:260: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2014/15:94",
+      "title": "Proposition 2014/15:94: Den nya polisorganisationen - några frågor om personuppgiftsbehandling m.m."
+    },
+    {
+      "prep_document_id": "2016/17:149",
+      "title": "Proposition 2016/17:149: Bokföringsbrott i filialer"
+    },
+    {
+      "prep_document_id": "2016/17:57",
+      "title": "Proposition 2016/17:57: Transporter av frihetsberövade"
+    },
+    {
+      "prep_document_id": "2017/18:289",
+      "title": "Proposition 2017/18:289: Riksrevisionens rapport om återkrav av bostadsbidrag"
+    },
+    {
+      "prep_document_id": "2017/18:89",
+      "title": "Proposition 2017/18:89: Ett modernt och stärkt skydd för Sveriges säkerhet - ny säkerhetsskyddslag"
+    },
+    {
+      "prep_document_id": "2017/18:394",
+      "title": "Proposition 2017/18:394: Riksrevisionens rapport om Tullverkets kontroll"
+    },
+    {
+      "prep_document_id": "2017/18:234",
+      "title": "Proposition 2017/18:234: Lag om flygpassageraruppgifter i brottsbekämpningen"
+    },
+    {
+      "prep_document_id": "2018/19:10",
+      "title": "Proposition 2018/19:10: Riksrevisionens rapport om deltagarantal i nya arbetsmarknadspolitiska insatser"
+    },
+    {
+      "prep_document_id": "2017/18:269",
+      "title": "Proposition 2017/18:269: Brottsdatalag - kompletterande lagstiftning"
+    },
+    {
+      "prep_document_id": "2018/19:130",
+      "title": "Proposition 2018/19:130: Redovisning av AP-fondernas verksamhet t.o.m. 2018"
+    },
+    {
+      "prep_document_id": "2018/19:16",
+      "title": "Proposition 2018/19:16: En ny kustbevakningslag"
+    },
+    {
+      "prep_document_id": "2020/21:57",
+      "title": "Proposition 2020/21:57: Lag om estetiska kirurgiska ingrepp och estetiska injektionsbehandlingar"
+    },
+    {
+      "prep_document_id": "2019/20:186",
+      "title": "Proposition 2019/20:186: Ett förstärkt medarbetarskydd för polisanställda"
+    },
+    {
+      "prep_document_id": "2021/22:18",
+      "title": "Proposition 2021/22:18: Brott mot djur - skärpta straff och ett mer effektivt sanktionssystem"
+    },
+    {
+      "prep_document_id": "2020/21:216",
+      "title": "Proposition 2020/21:216: Nya regler om husrannsakan för att söka efter vapen och andra farliga föremål"
+    },
+    {
+      "prep_document_id": "2021/22:243",
+      "title": "Proposition 2021/22:243: Pausad höjning av reduktionsplikten för bensin och diesel 2023"
+    },
+    {
+      "prep_document_id": "2021/22:119",
+      "title": "Proposition 2021/22:119: Modernare regler för användningen av tvångsmedel"
+    },
+    {
+      "prep_document_id": "2022/23:17",
+      "title": "Proposition 2022/23:17: Tillfälligt sänkt skatt på drivmedel och sänkt skatt på bränslen i viss värmeproduktion"
+    },
+    {
+      "prep_document_id": "2021/22:275",
+      "title": "Proposition 2021/22:275: Arrestantvakter och transportuppdrag"
+    },
+    {
+      "prep_document_id": "2022/23:216",
+      "title": "Proposition 2022/23:216: Stärkt skydd för barn som riskerar att fara illa"
+    },
+    {
+      "prep_document_id": "2022/23:91",
+      "title": "Proposition 2022/23:91: En ny lag om ordningsvakter"
+    },
+    {
+      "prep_document_id": "2023/24:156",
+      "title": "Proposition 2023/24:156: Ett levande hav – ökat skydd, minskad övergödning och ett hållbart fiske"
+    },
+    {
+      "prep_document_id": "2023/24:84",
+      "title": "Proposition 2023/24:84: Säkerhetszoner"
+    },
+    {
+      "prep_document_id": "2023/24:163",
+      "title": "Proposition 2023/24:163: Nationell säkerhetsstrategi"
+    },
+    {
+      "prep_document_id": "2023/24:102",
+      "title": "Proposition 2023/24:102: Stärkt skydd för vissa polisanställda"
+    },
+    {
+      "prep_document_id": "2024/25:8",
+      "title": "Proposition 2024/25:8: Bolag och brott"
+    },
+    {
+      "prep_document_id": "2023/24:132",
+      "title": "Proposition 2023/24:132: Ny tullbefogenhetslag"
+    },
+    {
+      "prep_document_id": "2024/25:9",
+      "title": "Proposition 2024/25:9: Riksrevisionens rapport om statens insatser för att stärka efterlevnaden av barnkonventionen"
+    },
+    {
+      "prep_document_id": "2023/24:144",
+      "title": "Proposition 2023/24:144: En ny förverkandelagstiftning"
+    },
+    {
+      "prep_document_id": "2024/25:210",
+      "title": "Proposition 2024/25:210: Stärkt skydd för barn som riskerar att fara illa"
+    },
+    {
+      "prep_document_id": "2024/25:89",
+      "title": "Proposition 2024/25:89: En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter"
+    },
+    {
+      "prep_document_id": "2024/25:186",
+      "title": "Proposition 2024/25:186: Polisens användning av skjutvapen"
+    }
   ]
 }

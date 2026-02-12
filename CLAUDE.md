@@ -179,7 +179,7 @@ The MCP server includes Swedish court decisions (rättsfall) from lagen.nu, prov
 - **Provider:** [lagen.nu](https://lagen.nu)
 - **License:** Creative Commons Attribution (CC-BY Domstolsverket)
 - **Attribution:** All case law results include attribution metadata
-- **Coverage:** 10,000+ cases from 1993-present (varies by court)
+- **Coverage:** 2,000+ cases from 2011-present (actively maintained)
 
 **Courts Covered:**
 - **HFD** (Högsta förvaltningsdomstolen) - Supreme Administrative Court
@@ -198,13 +198,18 @@ The MCP server includes Swedish court decisions (rättsfall) from lagen.nu, prov
 
 **Ingestion Commands:**
 ```bash
-# Initial ingestion (fetch all cases)
+# Full archive ingestion (scrape all court archives from 2011+)
+npm run ingest:cases:full-archive
+
+# With options (limit, court filter, year range)
+npm run ingest:cases:full-archive -- --limit 1000
+npm run ingest:cases:full-archive -- --court hfd --year 2023
+npm run ingest:cases:full-archive -- --start-year 2018 --end-year 2024
+
+# Incremental sync (fetch only new cases from feed)
 npm run sync:cases
 
-# Incremental sync (fetch only new cases since last sync)
-npm run sync:cases
-
-# Full refresh (re-fetch all cases)
+# Full refresh (re-fetch all cases from feed)
 npm run sync:cases -- --full
 
 # Dry run (preview changes without writing to database)

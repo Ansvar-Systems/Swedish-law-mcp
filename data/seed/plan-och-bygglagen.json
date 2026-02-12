@@ -2,6 +2,7 @@
   "id": "2010:900",
   "type": "statute",
   "title": "Plan- och bygglag (2010:900)",
+  "short_name": "PBL",
   "status": "in_force",
   "issued_date": "2010-07-01",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2010-900",
@@ -2327,6 +2328,490 @@
       "section": "14",
       "title": "Föreskrifterna om undantag ska vara proportionella i",
       "content": "Om riket är i krig eller krigsfara eller om det råder sådana utomordentliga förhållanden som beror på krig eller krigsfara som riket har befunnit sig i, får regeringen meddela sådana från denna lag avvikande föreskrifter som är av betydelse för totalförsvaret eller som behövs för att nödvändig byggnadsverksamhet i övrigt ska kunna utföras. Övergångsbestämmelser 2010:900 1. Denna lag träder i kraft den 2 maj 2011 då plan- och bygglagen (1987:10) och lagen (1994:847) om tekniska egenskapskrav på byggnadsverk, m.m. ska upphöra att gälla. 2. Äldre föreskrifter ska fortfarande gälla för mål och ärenden som har påbörjats före den 2 maj 2011 och mål och ärenden som avser överklagande av beslut i ett sådant mål eller ärende till dess målet eller ärendet är slutligt avgjort. 3. För överträdelser som har ägt rum före den 2 maj 2011 ska äldre bestämmelser tillämpas på prövningen i sak. Den nya lagen ska dock tillämpas, om den leder till lindrigare påföljd. 4. Generalplaner som den 1 maj 2011 gäller som områdesbestämmelser enligt 17 kap. 3 § första stycket i den upphävda plan- och bygglagen ska även i fortsättningen gälla som områdesbestämmelser. 5. Stadsplaner, byggnadsplaner, avstyckningsplaner och andra planer och bestämmelser som den 1 maj 2011 enligt 17 kap. 4 § i den upphävda plan- och bygglagen ska anses ha antagits med stöd av den upphävda lagen ska även i fortsättningen anses ha antagits med stöd av den upphävda lagen. Bestämmelserna i 17 kap. 4 § sista stycket i den upphävda plan- och bygglagen gäller fortfarande för sådana planer. 6. Bestämmelserna i 6 kap. 15 § gäller inte i fråga om planer som avses i punkten 5. 7. Bestämmelserna i 4 kap. 7 § gäller inte inom områden som omfattas av en byggnadsplan eller avstyckningsplan som avses i punkten 5. Lag (2011:335). 8. Bestämmelserna i 9 kap. 32 § gäller inte inom områden som omfattas av en stadsplan eller byggnadsplan som avses i punkten 5. 9. Fastighetsplaner enligt den upphävda plan- och bygglagen och tomtindelningar som före den 2 maj 2011 gäller som fastighetsplaner enligt 17 kap. 11 § i den upphävda lagen ska i fortsättningen gälla som detaljplanebestämmelser enligt 4 kap. 18 § i den nya lagen. 10. Sådana förbud mot nybyggnad som avses i 17 kap. 14 § i den upphävda plan- och bygglagen ska i fortsättningen gälla som detaljplanebestämmelser enligt 4 kap. 14 § 1 i den nya lagen. 11. I områden som avses i 17 kap. 16 § första stycket i den upphävda plan- och bygglagen ska det som gäller för detaljplaner i 11 kap. 10 och 11 §§ i den nya lagen också tillämpas i fråga om bygglov, marklov och förhandsbesked. 12. Har upphävts genom lag (2025:974). 13. Har upphävts genom lag (2025:974). 14. Har upphävts genom lag (2014:900). 15. Den upphävda plan- och bygglagen gäller fortfarande för ersättning med anledning av a) ett sådant beslut som avses i 14 kap. 3, 5, 7 och 8 §§ i den lagen, om beslutet har meddelats före den 2 maj 2011, och b) en sådan åtgärd som avses i 14 kap. 4 och 6 §§ i den lagen, om åtgärden har utförts före den 2 maj 2011. 16. För sådana mål och ärenden som har påbörjats före den 2 maj 2011 men som vid denna tidpunkt inte har inletts hos en allmän förvaltningsdomstol respektive hos regeringen ska, trots vad som anges i punkten 2, bestämmelserna om instansordningen i den nya lagen tillämpas. Lag (2011:413). 17. Trots de krav som en kontrollansvarig ska uppfylla enligt"
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "2009/10:366",
+      "title": "Proposition 2009/10:366: Budgetpropositionen för 2011",
+      "summary": "UTGIFTSOMRÅDE 20 Allmän miljö- och naturvård"
+    },
+    {
+      "prep_document_id": "2009/10:170",
+      "title": "Proposition 2009/10:170: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "2010/11:30",
+      "title": "Proposition 2010/11:30: Fjärde järnvägspaketet"
+    },
+    {
+      "prep_document_id": "2009/10:237",
+      "title": "Proposition 2009/10:237: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2010/11:199",
+      "title": "Proposition 2010/11:199: Budgetpropositionen för 2012 Utgiftsområde 21",
+      "summary": "UO 21 Energi"
+    },
+    {
+      "prep_document_id": "2010/11:63",
+      "title": "Proposition 2010/11:63: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "2010/11:80",
+      "title": "Proposition 2010/11:80: Ny lag om ackreditering och teknisk kontroll"
+    },
+    {
+      "prep_document_id": "2011/12:54",
+      "title": "Proposition 2011/12:54: Upphävande av lagen om exploateringsamverkan"
+    },
+    {
+      "prep_document_id": "2011/12:257",
+      "title": "Proposition 2011/12:257: Riksrevisionens rapport om kostnadskontroll i infrastrukturinvesteringar"
+    },
+    {
+      "prep_document_id": "2011/12:118",
+      "title": "Proposition 2011/12:118: Planeringssystem för transportinfrastruktur"
+    },
+    {
+      "prep_document_id": "2012/13:68",
+      "title": "Proposition 2012/13:68: Förlängd försöksverksamhet med trafiknykterhetskontrollanter i hamnar"
+    },
+    {
+      "prep_document_id": "2012/13:28",
+      "title": "Proposition 2012/13:28: Förlängning av övergångsperiod för krav på kontrollansvariga enligt plan- och bygglagen"
+    },
+    {
+      "prep_document_id": "2012/13:93",
+      "title": "Proposition 2012/13:93: Anpassning av svensk rätt till EU-förordning om byggprodukter"
+    },
+    {
+      "prep_document_id": "2012/13:104",
+      "title": "Proposition 2012/13:104: Nedsättning av en byggsanktionsavgift"
+    },
+    {
+      "prep_document_id": "2013/14:39",
+      "title": "Proposition 2013/14:39: På väg mot en giftfri vardag - plattform för kemikaliepolitiken"
+    },
+    {
+      "prep_document_id": "2012/13:178",
+      "title": "Proposition 2012/13:178: En tydligare lag om kommunernas bostadsförsörjningsansvar"
+    },
+    {
+      "prep_document_id": "2013/14:205",
+      "title": "Proposition 2013/14:205: Riksrevisionens rapport om regeringens redovisning i budgetpropositionen för 2014"
+    },
+    {
+      "prep_document_id": "2013/14:59",
+      "title": "Proposition 2013/14:59: Fler bostäder åt unga och studenter"
+    },
+    {
+      "prep_document_id": "2013/14:212",
+      "title": "Proposition 2013/14:212: Sveriges tillträde till överenskommelser inom FN om bekämpande av terrorism"
+    },
+    {
+      "prep_document_id": "2013/14:125",
+      "title": "Proposition 2013/14:125: Avskaffande av den obligatoriska byggfelsförsäkringen och ny lag om färdigställandeskydd"
+    },
+    {
+      "prep_document_id": "2013/14:287",
+      "title": "Proposition 2013/14:287: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "2013/14:127",
+      "title": "Proposition 2013/14:127: Nya åtgärder som kan genomföras utan krav på bygglov"
+    },
+    {
+      "prep_document_id": "2013/14:262",
+      "title": "Proposition 2013/14:262: Några ändringar i radio- och tv-lagen"
+    },
+    {
+      "prep_document_id": "2013/14:110",
+      "title": "Proposition 2013/14:110: En ny organisation för polisen"
+    },
+    {
+      "prep_document_id": "2013/14:186",
+      "title": "Proposition 2013/14:186: Hushållning med havsområden"
+    },
+    {
+      "prep_document_id": "2013/14:366",
+      "title": "Proposition 2013/14:366: Budgetproposition 2015 Utgiftsområde 18: Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik"
+    },
+    {
+      "prep_document_id": "2013/14:126",
+      "title": "Proposition 2013/14:126: En enklare planprocess"
+    },
+    {
+      "prep_document_id": "2013/14:128",
+      "title": "Proposition 2013/14:128: Samordnad prövning av buller enligt miljöbalken och plan- och bygglagen"
+    },
+    {
+      "prep_document_id": "2013/14:214",
+      "title": "Proposition 2013/14:214: Strandskydd vid små sjöar och vattendrag"
+    },
+    {
+      "prep_document_id": "2014/15:168",
+      "title": "Proposition 2014/15:168: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2014/15:60",
+      "title": "Proposition 2014/15:60: Genomförande av Seveso III-direktivet"
+    },
+    {
+      "prep_document_id": "2015/16:18",
+      "title": "Proposition 2015/16:18: Ändringsprotokoll nr 15 - Nya regler för att öka Europadomstolens effektivitet"
+    },
+    {
+      "prep_document_id": "2014/15:122",
+      "title": "Proposition 2014/15:122: Nya steg för en effektivare plan- och bygglag och ökad rättssäkerhet för verksamhetsutövare vid omgivningsbuller"
+    },
+    {
+      "prep_document_id": "2015/16:152",
+      "title": "Proposition 2015/16:152: Samförståndsavtal om värdlandsstöd"
+    },
+    {
+      "prep_document_id": "2015/16:59",
+      "title": "Proposition 2015/16:59: Genomförande av hissdirektivet"
+    },
+    {
+      "prep_document_id": "2015/16:166",
+      "title": "Proposition 2015/16:166: Avfallshierarkin"
+    },
+    {
+      "prep_document_id": "2015/16:55",
+      "title": "Proposition 2015/16:55: En kortare instanskedja för detaljplaner och områdesbestämmelser"
+    },
+    {
+      "prep_document_id": "2015/16:246",
+      "title": "Proposition 2015/16:246: Riksdagens skrivelser till regeringen - åtgärder under 2016"
+    },
+    {
+      "prep_document_id": "2015/16:73",
+      "title": "Proposition 2015/16:73: Billigare utbyggnad av bredbandsnät"
+    },
+    {
+      "prep_document_id": "2016/17:163",
+      "title": "Proposition 2016/17:163: Arbetsrättsliga villkor vid upphandling"
+    },
+    {
+      "prep_document_id": "2016/17:45",
+      "title": "Proposition 2016/17:45: Värdeåterföring vid satsningar på transportinfrastruktur"
+    },
+    {
+      "prep_document_id": "2016/17:207",
+      "title": "Proposition 2016/17:207: Tillsyn över vissa installationer för alternativa drivmedel"
+    },
+    {
+      "prep_document_id": "2016/17:137",
+      "title": "Proposition 2016/17:137: Tidsbegränsade bygglov för bostäder"
+    },
+    {
+      "prep_document_id": "2016/17:276",
+      "title": "Proposition 2016/17:276: Riksdagens skrivelser till regeringen - åtgärder under 2017"
+    },
+    {
+      "prep_document_id": "2016/17:151",
+      "title": "Proposition 2016/17:151: Fler steg för en effektivare plan- och bygglag"
+    },
+    {
+      "prep_document_id": "2016/17:281",
+      "title": "Proposition 2016/17:281: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2016/17:116",
+      "title": "Proposition 2016/17:116: Kulturarvspolitik"
+    },
+    {
+      "prep_document_id": "2016/17:335",
+      "title": "Proposition 2016/17:335: Riksrevisionens rapport om räkenskapssammandragets tillförlitlighet"
+    },
+    {
+      "prep_document_id": "2016/17:171",
+      "title": "Proposition 2016/17:171: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2017/18:20",
+      "title": "Proposition 2017/18:20: Ändring i skatteavtalet mellan Sverige och Kina"
+    },
+    {
+      "prep_document_id": "2016/17:200",
+      "title": "Proposition 2016/17:200: Miljöbedömningar"
+    },
+    {
+      "prep_document_id": "2017/18:19",
+      "title": "Proposition 2017/18:19: Barnombudsmannens anmälningsskyldighet"
+    },
+    {
+      "prep_document_id": "2016/17:195",
+      "title": "Proposition 2016/17:195: Undantag från vissa bestämmelser i plan- och bygglagen vid tillströmning av asylsökande"
+    },
+    {
+      "prep_document_id": "2017/18:138",
+      "title": "Proposition 2017/18:138: Legitimation för hälso- och sjukvårdskuratorer"
+    },
+    {
+      "prep_document_id": "2017/18:42",
+      "title": "Proposition 2017/18:42: Anpassning av svensk rätt till EU-förordningen om linbaneanläggningar"
+    },
+    {
+      "prep_document_id": "2017/18:304",
+      "title": "Proposition 2017/18:304: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:151",
+      "title": "Proposition 2017/18:151: En generell rätt till kommunal avtalssamverkan"
+    },
+    {
+      "prep_document_id": "2017/18:301",
+      "title": "Proposition 2017/18:301: Extra ändringsbudget för 2018 - Stöd till djurägare inom lantbruket som drabbats av torkan 2018"
+    },
+    {
+      "prep_document_id": "2017/18:132",
+      "title": "Proposition 2017/18:132: Digitalisering av grundkartor och detaljplaner"
+    },
+    {
+      "prep_document_id": "2017/18:335",
+      "title": "Proposition 2017/18:335: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:240",
+      "title": "Proposition 2017/18:240: Verkställbarhet av beslut om bygglov, rivningslov och marklov"
+    },
+    {
+      "prep_document_id": "2017/18:327",
+      "title": "Proposition 2017/18:327: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:235",
+      "title": "Proposition 2017/18:235: Följdändringar till ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2017/18:366",
+      "title": "Proposition 2017/18:366: Riksrevisionens rapport om stödet till kommuner för ökat bostadsbyggande"
+    },
+    {
+      "prep_document_id": "2017/18:210",
+      "title": "Proposition 2017/18:210: Reduktion av avgift för lov, förhandsbesked och anmälan"
+    },
+    {
+      "prep_document_id": "2017/18:371",
+      "title": "Proposition 2017/18:371: Riksrevisionens rapport om stödet till kommuner för ökat bostadsbyggande"
+    },
+    {
+      "prep_document_id": "2017/18:197",
+      "title": "Proposition 2017/18:197: Fler bygglovsbefriade åtgärder"
+    },
+    {
+      "prep_document_id": "2017/18:403",
+      "title": "Proposition 2017/18:403: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:167",
+      "title": "Proposition 2017/18:167: Ett tydligare och enklare detaljplanekrav"
+    },
+    {
+      "prep_document_id": "2017/18:440",
+      "title": "Proposition 2017/18:440: Riksrevisionens rapport om statens insatser för klimatanpassning av den byggda miljön"
+    },
+    {
+      "prep_document_id": "2017/18:163",
+      "title": "Proposition 2017/18:163: Nationell strategi för klimatanpassning"
+    },
+    {
+      "prep_document_id": "2018/19:31",
+      "title": "Proposition 2018/19:31: Riksrevisionens rapport om nytt signalsystem för järnvägen"
+    },
+    {
+      "prep_document_id": "2017/18:266",
+      "title": "Proposition 2017/18:266: En ny regional planering"
+    },
+    {
+      "prep_document_id": "2018/19:250",
+      "title": "Proposition 2018/19:250: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:112",
+      "title": "Proposition 2018/19:112: Större frihet att bygga altaner"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2019/20:138",
+      "title": "Proposition 2019/20:138: Vissa frågor om försäkring och tjänstepension"
+    },
+    {
+      "prep_document_id": "2019/20:31",
+      "title": "Proposition 2019/20:31: Större komplementbostadshus"
+    },
+    {
+      "prep_document_id": "2019/20:168",
+      "title": "Proposition 2019/20:168: En moderniserad radio- och tv-lag"
+    },
+    {
+      "prep_document_id": "2019/20:52",
+      "title": "Proposition 2019/20:52: En utvecklad översiktsplanering"
+    },
+    {
+      "prep_document_id": "2019/20:203",
+      "title": "Proposition 2019/20:203: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:81",
+      "title": "Proposition 2019/20:81: Genomförande av EU:s ändringsdirektiv om byggnaders energiprestanda"
+    },
+    {
+      "prep_document_id": "2019/20:219",
+      "title": "Proposition 2019/20:219: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:152",
+      "title": "Proposition 2019/20:152: Undantag från plan- och bygglagen vid spridning av en samhällsfarlig sjukdom"
+    },
+    {
+      "prep_document_id": "2019/20:350",
+      "title": "Proposition 2019/20:350: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:338",
+      "title": "Proposition 2019/20:338: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:156",
+      "title": "Proposition 2019/20:156: Genomförande av EU-direktiv på avfallsområdet"
+    },
+    {
+      "prep_document_id": "2020/21:406",
+      "title": "Proposition 2020/21:406: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:131",
+      "title": "Proposition 2020/21:131: Privat initiativrätt - planintressentens medverkan vid detaljplaneläggning"
+    },
+    {
+      "prep_document_id": "2020/21:408",
+      "title": "Proposition 2020/21:408: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:174",
+      "title": "Proposition 2020/21:174: Genomförandet av MKB-direktivet i plan- och bygglagen"
+    },
+    {
+      "prep_document_id": "2020/21:407",
+      "title": "Proposition 2020/21:407: Riksdagens skrivelser till regeringen – åtgärder under 2021"
+    },
+    {
+      "prep_document_id": "2020/21:144",
+      "title": "Proposition 2020/21:144: Klimatdeklaration för byggnader"
+    },
+    {
+      "prep_document_id": "2021/22:254",
+      "title": "Proposition 2021/22:254: Infektion med ett visst orthopoxvirus och ändring i smittskyddslagen"
+    },
+    {
+      "prep_document_id": "2021/22:211",
+      "title": "Proposition 2021/22:211: Insatser på plan- och byggområdet med anledning av invasionen av Ukraina"
+    },
+    {
+      "prep_document_id": "2021/22:379",
+      "title": "Proposition 2021/22:379: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:149",
+      "title": "Proposition 2021/22:149: En effektivisering av byggnadsnämndens tillsyn"
+    },
+    {
+      "prep_document_id": "2021/22:184",
+      "title": "Proposition 2021/22:184: Regional fysisk planering i Hallands län"
+    },
+    {
+      "prep_document_id": "2021/22:444",
+      "title": "Proposition 2021/22:444: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:226",
+      "title": "Proposition 2021/22:226: Aktivitetskravet i plan- och bygglagen"
+    },
+    {
+      "prep_document_id": "2021/22:449",
+      "title": "Proposition 2021/22:449: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:212",
+      "title": "Proposition 2021/22:212: Certifierade byggprojekteringsföretag – en mer förutsägbar byggprocess"
+    },
+    {
+      "prep_document_id": "2021/22:441",
+      "title": "Proposition 2021/22:441: Riksrevisionens rapport om tillsynen över medicintekniska produkter"
+    },
+    {
+      "prep_document_id": "2021/22:238",
+      "title": "Proposition 2021/22:238: Anpassningar till EU:s marknadskontrollförordning – del 2"
+    },
+    {
+      "prep_document_id": "2022/23:153",
+      "title": "Proposition 2022/23:153: Riksdagens skrivelser till regeringen – åtgärder under 2023"
+    },
+    {
+      "prep_document_id": "2022/23:56",
+      "title": "Proposition 2022/23:56: Möjligheten till tidsbegränsade bygglov för bostäder förlängs"
+    },
+    {
+      "prep_document_id": "2023/24:122",
+      "title": "Proposition 2023/24:122: Riksrevisionens rapport om läkemedelsförskrivningen – statens styrning och tillsyn"
+    },
+    {
+      "prep_document_id": "2023/24:30",
+      "title": "Proposition 2023/24:30: Genomförande av EU:s nya dricksvattendirektiv"
+    },
+    {
+      "prep_document_id": "2024/25:17",
+      "title": "Proposition 2024/25:17: Ett förstärkt konsumentskydd mot riskfylld kreditgivning och överskuldsättning"
+    },
+    {
+      "prep_document_id": "2023/24:143",
+      "title": "Proposition 2023/24:143: Aktsamhet vid bygg-, rivnings- och markåtgärder"
+    },
+    {
+      "prep_document_id": "2024/25:137",
+      "title": "Proposition 2024/25:137: Ersättning till radio- och tv-företag vid privatkopiering"
+    },
+    {
+      "prep_document_id": "2024/25:42",
+      "title": "Proposition 2024/25:42: Åtgärder för en bättre bostadsförsörjning"
+    },
+    {
+      "prep_document_id": "2024/25:194",
+      "title": "Proposition 2024/25:194: Kompletterande bestämmelser till EU-förordningen om batterier"
+    },
+    {
+      "prep_document_id": "2024/25:102",
+      "title": "Proposition 2024/25:102: Lättnader i strandskyddet – ett första steg"
+    },
+    {
+      "prep_document_id": "2024/25:212",
+      "title": "Proposition 2024/25:212: Budgetpropositionen för 2026 - Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik"
+    },
+    {
+      "prep_document_id": "2024/25:132",
+      "title": "Proposition 2024/25:132: Lättnader i byggkraven för studentbostäder"
+    },
+    {
+      "prep_document_id": "2025/26:22",
+      "title": "Proposition 2025/26:22: Ytterligare kompletteringar till bestämmelserna om tilläggsskatt för företag i stora koncerner"
+    },
+    {
+      "prep_document_id": "2024/25:169",
+      "title": "Proposition 2024/25:169: Ett nytt regelverk för bygglov"
+    },
+    {
+      "prep_document_id": "1985/86:1",
+      "title": "Proposition 1985/86:1: Ett nytt regelverk för bygglov"
     }
   ]
 }

@@ -2,6 +2,7 @@
   "id": "1990:931",
   "type": "statute",
   "title": "Köplag (1990:931)",
+  "short_name": "KöpL",
   "status": "in_force",
   "issued_date": "1990-09-06",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1990-931",
@@ -497,6 +498,36 @@
       "chapter": "13",
       "section": "82",
       "content": "Har ett meddelande som köparen skall lämna säljaren enligt 23, 24, 29, 32, 35, 39, 47 eller 61 § avsänts på ett ändamålsenligt sätt, får meddelandet åberopas även om det försenas, förvanskas eller inte kommer fram. Detsamma gäller beträffande ett meddelande som säljaren skall lämna köparen enligt 52, 53, 59 eller 61 §. Övergångsbestämmelser 1990:931 Denna lag träder i kraft den 1 januari 1991. Genom lagen upphävs lagen (1905:38 s. 1) om köp och byte av lös egendom med den begränsningen att de hänvisningar till den lagen som finns i lagen (1914:45) om kommission, handelsagentur och handelsresande skall fortsätta att gälla. I fråga om avtal som har ingåtts före ikraftträdandet gäller dock äldre bestämmelser. 1996:776 1. Denna lag träder i kraft den 1 september 1996. 2. Har god man förordnats enligt ackordslagen (1970:847) före ikraftträdandet gäller dock äldre bestämmelser. 2022:262 1. Denna lag träder i kraft den 1 maj 2022. 2. Den äldre lydelsen av 4 § gäller fortfarande om konsumentköplagen (1990:932) gäller för köpet. 2022:981 1. Denna lag träder i kraft den 1 augusti 2022. 2. Äldre föreskrifter gäller fortfarande om varan överlämnats till köparen efter att denne ansökt om företagsrekonstruktion enligt den upphävda lagen (1996:764) om företagsrekonstruktion."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1988/89:76",
+      "title": "Proposition 1988/89:76: Nya regler om betaltjänster"
+    },
+    {
+      "prep_document_id": "1995/96:279",
+      "title": "Proposition 1995/96:279: En kronofogdemyndighet i tiden"
+    },
+    {
+      "prep_document_id": "1995/96:5",
+      "title": "Proposition 1995/96:5: En ny lag om företagsrekonstruktion"
+    },
+    {
+      "prep_document_id": "2021/22:212",
+      "title": "Proposition 2021/22:212: Certifierade byggprojekteringsföretag – en mer förutsägbar byggprocess"
+    },
+    {
+      "prep_document_id": "2021/22:85",
+      "title": "Proposition 2021/22:85: En ny konsumentköplag"
+    },
+    {
+      "prep_document_id": "2021/22:375",
+      "title": "Proposition 2021/22:375: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:215",
+      "title": "Proposition 2021/22:215: En ny lag om företagsrekonstruktion"
     }
   ]
 }

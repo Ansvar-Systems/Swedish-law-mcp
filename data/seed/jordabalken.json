@@ -2,6 +2,7 @@
   "id": "1970:994",
   "type": "statute",
   "title": "Jordabalk (1970:994)",
+  "short_name": "JB",
   "status": "in_force",
   "issued_date": "1970-12-17",
   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1970-994",
@@ -2343,6 +2344,745 @@
       "section": "55 c",
       "title": "En förhandlingsöverenskommelse som träffats enligt 12 kap.",
       "content": "i den äldre lydelsen ska då anses som en överenskommelse enligt 19 a § hyresförhandlingslagen (1978:304). 3. Äldre bestämmelser gäller för tvister om hyran som har inletts hos hyresnämnden före ikraftträdandet."
+    }
+  ],
+  "preparatory_works": [
+    {
+      "prep_document_id": "1975/76:21",
+      "title": "Proposition 1975/76:21: Regeringens proposition med förslag till lag om ändring i jordabalken"
+    },
+    {
+      "prep_document_id": "1975/76:81",
+      "title": "Proposition 1975/76:81: En utvidgad rätt till återköp och flytt av fond- och depåförsäkringar"
+    },
+    {
+      "prep_document_id": "1975/76:105",
+      "title": "Proposition 1975/76:105: Flexibilitet, omställningsförmåga och trygghet på arbetsmarknaden"
+    },
+    {
+      "prep_document_id": "1976/77:72",
+      "title": "Proposition 1976/77:72: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "1976/77:63",
+      "title": "Proposition 1976/77:63: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1977/78:67",
+      "title": "Proposition 1977/78:67: om förslag om ändring i lagen (1974:8) om rättegången i tvistemål om mindre värden, m.m."
+    },
+    {
+      "prep_document_id": "1977/78:175",
+      "title": "Proposition 1977/78:175: En förbättrad modell för presumtionshyra"
+    },
+    {
+      "prep_document_id": "1978/79:28",
+      "title": "Proposition 1978/79:28: Bättre verktyg för att bekämpa den kriminella ekonomin – betalningssäkring inom socialförsäkringen"
+    },
+    {
+      "prep_document_id": "1978/79:89",
+      "title": "Proposition 1978/79:89: om lokalhyra"
+    },
+    {
+      "prep_document_id": "1978/79:105",
+      "title": "Proposition 1978/79:105: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "1978/79:183",
+      "title": "Proposition 1978/79:183: om ändring i arrendelagstiftningen"
+    },
+    {
+      "prep_document_id": "1979/80:72",
+      "title": "Proposition 1979/80:72: om bostadsanvisningslag, m.m.;beslutad den 6 december 1979."
+    },
+    {
+      "prep_document_id": "1979/80:179",
+      "title": "Proposition 1979/80:179: Åtgärder för tryggare bostadsområden"
+    },
+    {
+      "prep_document_id": "1980/81:86",
+      "title": "Proposition 1980/81:86: om ändring i 6 kap. 3 jordabalken"
+    },
+    {
+      "prep_document_id": "1980/81:84",
+      "title": "Proposition 1980/81:84: Ny patentlag"
+    },
+    {
+      "prep_document_id": "1980/81:88",
+      "title": "Proposition 1980/81:88: med förslag till handräckningslag m.m."
+    },
+    {
+      "prep_document_id": "1981/82:169",
+      "title": "Proposition 1981/82:169: Identitetskrav vid lagfart och åtgärder mot kringgåenden av bostadsrättslagen"
+    },
+    {
+      "prep_document_id": "1982/83:26",
+      "title": "Proposition 1982/83:26: med förslag till följdlagstiftning till den nya vattenlagen"
+    },
+    {
+      "prep_document_id": "1982/83:146",
+      "title": "Proposition 1982/83:146: om ändring i 12 kap. 15 § jordabalken"
+    },
+    {
+      "prep_document_id": "1983/84:105",
+      "title": "Proposition 1983/84:105: Skärpt syn på sexuella kränkningar, bedrägerier mot äldre och brott med kön som hatbrottsmotiv"
+    },
+    {
+      "prep_document_id": "1983/84:128",
+      "title": "Proposition 1983/84:128: med förslag till lag om företagshypotek m.m."
+    },
+    {
+      "prep_document_id": "1983/84:136",
+      "title": "Proposition 1983/84:136: Några fastighetsrättsliga frågor"
+    },
+    {
+      "prep_document_id": "1983/84:137",
+      "title": "Proposition 1983/84:137: En förbättrad modell för presumtionshyra"
+    },
+    {
+      "prep_document_id": "1984/85:54",
+      "title": "Proposition 1984/85:54: om panträttsreglerna i jordabalken och sjölagen m.m."
+    },
+    {
+      "prep_document_id": "1984/85:111",
+      "title": "Proposition 1984/85:111: med förslag till lag om vissa bulvanförhållanden m. m."
+    },
+    {
+      "prep_document_id": "1984/85:197",
+      "title": "Proposition 1984/85:197: om arrendeavräkning vid ändrat kostnadsläge"
+    },
+    {
+      "prep_document_id": "1985/86:83",
+      "title": "Proposition 1985/86:83: om ersättning för miljöskador"
+    },
+    {
+      "prep_document_id": "1986/87:37",
+      "title": "Proposition 1986/87:37: om ändringar i hyres- och bostadsrättslagstiftningen."
+    },
+    {
+      "prep_document_id": "1985/86:90",
+      "title": "Proposition 1985/86:90: om följdlagstiftning till den nya plan- och bygglagen, lagen om exploateringssamverkan samt lagen om hushållning med naturresurser m. m."
+    },
+    {
+      "prep_document_id": "1986/87:90",
+      "title": "Proposition 1986/87:90: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "1986/87:86",
+      "title": "Proposition 1986/87:86: En stärkt rättsprocess och en ökad lagföring"
+    },
+    {
+      "prep_document_id": "1987/88:35",
+      "title": "Proposition 1987/88:35: om kommunal bostadsanvisningsrätt m.m."
+    },
+    {
+      "prep_document_id": "1987/88:162",
+      "title": "Proposition 1987/88:162: Åtgärder mot handel med hyreskontrakt"
+    },
+    {
+      "prep_document_id": "1987/88:146",
+      "title": "Proposition 1987/88:146: En förbättrad modell för presumtionshyra"
+    },
+    {
+      "prep_document_id": "1987/88:124",
+      "title": "Proposition 1987/88:124: Ett ställföreträdarskap att lita på"
+    },
+    {
+      "prep_document_id": "1988/89:255",
+      "title": "Proposition 1988/89:255: Översyn av förvaltningsprocessen; en allmän regel om domstolsprövning av förvaltningsbeslut m.m."
+    },
+    {
+      "prep_document_id": "1988/89:77",
+      "title": "Proposition 1988/89:77: om ändringar i fastighetsbildningslagen (1970: 988) m. m."
+    },
+    {
+      "prep_document_id": "1989/90:71",
+      "title": "Proposition 1989/90:71: om några processrjättsliga frågor"
+    },
+    {
+      "prep_document_id": "1989/90:77",
+      "title": "Proposition 1989/90:77: om konsumentskyddet vid förvärv av småhus m. m."
+    },
+    {
+      "prep_document_id": "1990/91:32",
+      "title": "Proposition 1990/91:32: om fastighetsdomstolar, m.m."
+    },
+    {
+      "prep_document_id": "1990/91:47",
+      "title": "Proposition 1990/91:47: Ändrade regler för taxering av lantbruksenheter och för automatiserat beslutsfattande vid fastighetstaxeringen"
+    },
+    {
+      "prep_document_id": "1990/91:109",
+      "title": "Proposition 1990/91:109: om avgifter vid kommunal bostadsförmedling"
+    },
+    {
+      "prep_document_id": "1990/91:92",
+      "title": "Proposition 1990/91:92: Tryggare bostadsrätt"
+    },
+    {
+      "prep_document_id": "1990/91:126",
+      "title": "Proposition 1990/91:126: Löneutmätning och digitala ansökningar i utsökningsförfarandet"
+    },
+    {
+      "prep_document_id": "1990/91:194",
+      "title": "Proposition 1990/91:194: En paneuropeisk privat pensionsprodukt"
+    },
+    {
+      "prep_document_id": "1991/92:84",
+      "title": "Proposition 1991/92:84: om ändring i lagen (1974:371) om rättegången i arbetstvister m.m."
+    },
+    {
+      "prep_document_id": "1991/92:110",
+      "title": "Proposition 1991/92:110: om ändring i jordabalken m.m."
+    },
+    {
+      "prep_document_id": "1992/93:6",
+      "title": "Proposition 1992/93:6: Identitetskrav vid lagfart och åtgärder mot kringgåenden av bostadsrättslagen"
+    },
+    {
+      "prep_document_id": "1992/93:23",
+      "title": "Proposition 1992/93:23: om ändring i jordabalken m.m."
+    },
+    {
+      "prep_document_id": "1992/93:350",
+      "title": "Proposition 1992/93:350: Ändringar i hyreslagen m.m."
+    },
+    {
+      "prep_document_id": "1992/93:115",
+      "title": "Proposition 1992/93:115: Åtgärder för tryggare bostadsområden"
+    },
+    {
+      "prep_document_id": "1992/93:351",
+      "title": "Proposition 1992/93:351: Bostadsförsörjningsfrågor m.m. Prop. 2000/01:26"
+    },
+    {
+      "prep_document_id": "1992/93:242",
+      "title": "Proposition 1992/93:242: om minskad statlig reglering av kommunernas ansvar för boendefrågor"
+    },
+    {
+      "prep_document_id": "1993/94:70",
+      "title": "Proposition 1993/94:70: Bestridande av vissa kostnader med anledning av Trollhätte kanalverks inordnande i Sjöfartsverket"
+    },
+    {
+      "prep_document_id": "1993/94:19",
+      "title": "Proposition 1993/94:19: om vissa kungörandefrågor"
+    },
+    {
+      "prep_document_id": "1993/94:350",
+      "title": "Proposition 1993/94:350: Förslag till statsbudget för budgetåret 1997,m.m.Enligt 9 kap. 6 § regeringsformen avger regeringen härmed sitt förslag till statsbudget för budgetåret 1997 och föreslår att riksdagen beräknar inkom¶ster och beslutar om utgifter för staten i enlighet med despecifikationer som fogats till förslaget.S",
+      "summary": "Utgiftsområde 4 Rättsväsendet. Utgiftsområde 5 Utrikesförvaltning och internationell samverkan"
+    },
+    {
+      "prep_document_id": "1993/94:191",
+      "title": "Proposition 1993/94:191: Exekutiv försäljning av fast egendom"
+    },
+    {
+      "prep_document_id": "1993/94:349",
+      "title": "Proposition 1993/94:349: Borttagande av innehavsanteckningar från inskrivningsregistret"
+    },
+    {
+      "prep_document_id": "1993/94:197",
+      "title": "Proposition 1993/94:197: Datapantbrev"
+    },
+    {
+      "prep_document_id": "1993/94:226",
+      "title": "Proposition 1993/94:226: Placering av medel som deponerats hos myndighet"
+    },
+    {
+      "prep_document_id": "1993/94:422",
+      "title": "Proposition 1993/94:422: Gränsöverskridande fusioner, m.m."
+    },
+    {
+      "prep_document_id": "1993/94:196",
+      "title": "Proposition 1993/94:196: Bolags rörlighet över gränserna inom EU"
+    },
+    {
+      "prep_document_id": "1993/94:373",
+      "title": "Proposition 1993/94:373: Ändring av lagen (1986:1242) om försöksverksamhet med kooperativ hyresrätt"
+    },
+    {
+      "prep_document_id": "1993/94:199",
+      "title": "Proposition 1993/94:199: Ändringar i hyresförhandlingslagen m.m."
+    },
+    {
+      "prep_document_id": "1993/94:377",
+      "title": "Proposition 1993/94:377: En ny lag om domstolsärenden"
+    },
+    {
+      "prep_document_id": "1993/94:190",
+      "title": "Proposition 1993/94:190: Digital kommunikation i domstolsprocesser"
+    },
+    {
+      "prep_document_id": "1994/95:142",
+      "title": "Proposition 1994/95:142: En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap"
+    },
+    {
+      "prep_document_id": "1994/95:70",
+      "title": "Proposition 1994/95:70: Bolags rörlighet över gränserna inom EU"
+    },
+    {
+      "prep_document_id": "1994/95:361",
+      "title": "Proposition 1994/95:361: Vissa stiftelserättsliga frågor m.m."
+    },
+    {
+      "prep_document_id": "1994/95:155",
+      "title": "Proposition 1994/95:155: Investeringar i arrendejordbruket m.m."
+    },
+    {
+      "prep_document_id": "1995/96:102",
+      "title": "Proposition 1995/96:102: Riksrevisionens rapport om fastighetsbildningen i Sverige"
+    },
+    {
+      "prep_document_id": "1995/96:78",
+      "title": "Proposition 1995/96:78: Riksrevisionens rapport om fastighetsbildningen i Sverige"
+    },
+    {
+      "prep_document_id": "1995/96:63",
+      "title": "Proposition 1995/96:63: Ändringar i lagen om allemanssparande, m.m."
+    },
+    {
+      "prep_document_id": "1995/96:193",
+      "title": "Proposition 1995/96:193: Redogörelse för verksamheten inom Europarådets ministerkommitté under år 1995"
+    },
+    {
+      "prep_document_id": "1995/96:115",
+      "title": "Proposition 1995/96:115: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "1996/97:143",
+      "title": "Proposition 1996/97:143: Partnerskaps- och samarbetsavtal med Ukraina"
+    },
+    {
+      "prep_document_id": "1996/97:30",
+      "title": "Proposition 1996/97:30: Riksrevisionens rapport om avgiftsbelagda tjänster – risk för ineffektivitet när myndigheterna bestämmer och disponerar avgifterna"
+    },
+    {
+      "prep_document_id": "1996/97:202",
+      "title": "Proposition 1996/97:202: Översyn av förvaltningsprocessen; en allmän regel om domstolsprövning av förvaltningsbeslut m.m."
+    },
+    {
+      "prep_document_id": "1996/97:92",
+      "title": "Proposition 1996/97:92: Ändring av andelstal i gemensamhetsanläggningar"
+    },
+    {
+      "prep_document_id": "1997/98:152",
+      "title": "Proposition 1997/98:152: Garantipension, m.m. Prop. 1997/98:152"
+    },
+    {
+      "prep_document_id": "1997/98:46",
+      "title": "Proposition 1997/98:46: Åtgärder för tryggare bostadsområden"
+    },
+    {
+      "prep_document_id": "1997/98:279",
+      "title": "Proposition 1997/98:279: Hållbara Sverige uppföljning och fortsatta åtgärder för en ekologisk hållbar utveckling"
+    },
+    {
+      "prep_document_id": "1997/98:90",
+      "title": "Proposition 1997/98:90: Förbättrade förutsättningar för ett hållbart vattenbruk"
+    },
+    {
+      "prep_document_id": "1998/99:23",
+      "title": "Proposition 1998/99:23: Ett samordningskontor i Kalmar för Globala utvärderingen av internationella vatten"
+    },
+    {
+      "prep_document_id": "1997/98:166",
+      "title": "Proposition 1997/98:166: Ny associationsrätt för bankaktiebolag, m.m."
+    },
+    {
+      "prep_document_id": "1998/99:142",
+      "title": "Proposition 1998/99:142: Femprocentsregeln för försäkringsföretag och banker"
+    },
+    {
+      "prep_document_id": "1998/99:35",
+      "title": "Proposition 1998/99:35: Ett oberoende tvistlösningsförfarande för kollektiva hyrestvister"
+    },
+    {
+      "prep_document_id": "2000/01:91",
+      "title": "Proposition 2000/01:91: Övergångsbestämmelserna till polisdatalagen Prop. 2000/01:91"
+    },
+    {
+      "prep_document_id": "2000/01:26",
+      "title": "Proposition 2000/01:26: Åtgärder för en bättre bostadsförsörjning"
+    },
+    {
+      "prep_document_id": "2000/01:61",
+      "title": "Proposition 2000/01:61: Förfalskade fångeshandlingar vid ansökan om lagfart Prop. 2000/01:61"
+    },
+    {
+      "prep_document_id": "2001/02:37",
+      "title": "Proposition 2001/02:37: Sveriges antagande av rambeslut om förstärkning av den straffrättsliga ramen för bekämpande av hjälp till olaglig inresa, transitering och vistelse Prop. 2001/02:37"
+    },
+    {
+      "prep_document_id": "2000/01:138",
+      "title": "Proposition 2000/01:138: Överföring av fastighetstillbehör Prop. 2000/01:138"
+    },
+    {
+      "prep_document_id": "2001/02:143",
+      "title": "Proposition 2001/02:143: Genomförande av elmarknadsdirektivet när det gäller nätverksamhet"
+    },
+    {
+      "prep_document_id": "2001/02:41",
+      "title": "Proposition 2001/02:41: Stärkt skydd för hyresgäster"
+    },
+    {
+      "prep_document_id": "2001/02:161",
+      "title": "Proposition 2001/02:161: Rekryteringsbidrag vid vuxenstudier"
+    },
+    {
+      "prep_document_id": "2001/02:62",
+      "title": "Proposition 2001/02:62: Tryggare bostadsrätt"
+    },
+    {
+      "prep_document_id": "2001/02:160",
+      "title": "Proposition 2001/02:160: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2001/02:58",
+      "title": "Proposition 2001/02:58: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2001/02:132",
+      "title": "Proposition 2001/02:132: Direktivet om sena betalningar"
+    },
+    {
+      "prep_document_id": "2002/03:80",
+      "title": "Proposition 2002/03:80: Modernare adoptionsregler"
+    },
+    {
+      "prep_document_id": "2002/03:222",
+      "title": "Proposition 2002/03:222: Riksrevisionens rapport om den statliga lönegarantin"
+    },
+    {
+      "prep_document_id": "2002/03:49",
+      "title": "Proposition 2002/03:49: Riksrevisionens rapport om den statliga lönegarantin"
+    },
+    {
+      "prep_document_id": "2003/04:1",
+      "title": "Proposition 2003/04:1: Riksrevisionens rapport om skolpengen – effektivitet och konsekvenser"
+    },
+    {
+      "prep_document_id": "2002/03:116",
+      "title": "Proposition 2002/03:116: Tredimensionell fastighetsindelning"
+    },
+    {
+      "prep_document_id": "2003/04:73",
+      "title": "Proposition 2003/04:73: Inteckningsfrihet vid avstyckning, m.m."
+    },
+    {
+      "prep_document_id": "2003/04:99",
+      "title": "Proposition 2003/04:99: Följdändringar med anledning av nya regler för bank- och finansieringsrörelse samt inlåningsverksamhet"
+    },
+    {
+      "prep_document_id": "2003/04:248",
+      "title": "Proposition 2003/04:248: Effektivare handläggning av stämpelskatteärenden"
+    },
+    {
+      "prep_document_id": "2003/04:108",
+      "title": "Proposition 2003/04:108: Inteckning i utländsk valuta"
+    },
+    {
+      "prep_document_id": "2003/04:45",
+      "title": "Proposition 2003/04:45: En ny konsumentköplag"
+    },
+    {
+      "prep_document_id": "2004/05:137",
+      "title": "Proposition 2004/05:137: Jämlika regler om föräldraskap i internationella situationer"
+    },
+    {
+      "prep_document_id": "2004/05:307",
+      "title": "Proposition 2004/05:307: En mer ändamålsenlig förvaltningsprocess"
+    },
+    {
+      "prep_document_id": "2004/05:131",
+      "title": "Proposition 2004/05:131: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2005/06:74",
+      "title": "Proposition 2005/06:74: Kvalificerad yrkesutbildning som uppdragsutbildning"
+    },
+    {
+      "prep_document_id": "2005/06:25",
+      "title": "Proposition 2005/06:25: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2005/06:54",
+      "title": "Proposition 2005/06:54: Ökat informationsflöde till brottsbekämpningen"
+    },
+    {
+      "prep_document_id": "2005/06:13",
+      "title": "Proposition 2005/06:13: Avstående från besittningsskydd"
+    },
+    {
+      "prep_document_id": "2005/06:55",
+      "title": "Proposition 2005/06:55: En ny kommunallag"
+    },
+    {
+      "prep_document_id": "2005/06:10",
+      "title": "Proposition 2005/06:10: En modernare och mer ändamålsenlig prövning av hyres- och arrendeärenden"
+    },
+    {
+      "prep_document_id": "2005/06:142",
+      "title": "Proposition 2005/06:142: Höjt inkomsttak vid beräkning av sjukpenninggrundande inkomst och höjd lägstanivå för hel föräldrapenning"
+    },
+    {
+      "prep_document_id": "2004/05:175",
+      "title": "Proposition 2004/05:175: Riksrevisionens rapport om statliga strategiska digitaliseringsprojekt"
+    },
+    {
+      "prep_document_id": "2005/06:159",
+      "title": "Proposition 2005/06:159: Budgetpropositionen för 2026 - Utgiftsområde 10 Ekonomisk trygghet vid sjukdom och funktionsnedsättning"
+    },
+    {
+      "prep_document_id": "2005/06:28",
+      "title": "Proposition 2005/06:28: Elektroniskt ansökningsförfarande i inskrivningsärenden, m.m."
+    },
+    {
+      "prep_document_id": "2005/06:80",
+      "title": "Proposition 2005/06:80: En förbättrad modell för presumtionshyra"
+    },
+    {
+      "prep_document_id": "2007/08:148",
+      "title": "Proposition 2007/08:148: Meddelande om kommande förslag om ändringar i reglerna om underprisöverlåtelser till och från handelsbolag och i reglerna om nedskrivning och avdrag för värdenedgångar på vissa lageraktier"
+    },
+    {
+      "prep_document_id": "2007/08:54",
+      "title": "Proposition 2007/08:54: Ett register för alla bostadsrätter"
+    },
+    {
+      "prep_document_id": "2007/08:68",
+      "title": "Proposition 2007/08:68: En ny förverkandelagstiftning"
+    },
+    {
+      "prep_document_id": "2007/08:134",
+      "title": "Proposition 2007/08:134: Riksrevisionens rapport om ej verkställda beslut - rapporteringsskyldighet och särskild avgift i SoL och LSS"
+    },
+    {
+      "prep_document_id": "2008/09:34",
+      "title": "Proposition 2008/09:34: Riksrevisionens rapport om jämställdhetsintegrering av integrationspolitiken"
+    },
+    {
+      "prep_document_id": "2007/08:161",
+      "title": "Proposition 2007/08:161: Riksrevisionens rapport om den statliga lönegarantin"
+    },
+    {
+      "prep_document_id": "2008/09:73",
+      "title": "Proposition 2008/09:73: 2024 års redogörelse för företag med statligt ägande"
+    },
+    {
+      "prep_document_id": "2008/09:27",
+      "title": "Proposition 2008/09:27: Åtgärder mot handel med hyreskontrakt"
+    },
+    {
+      "prep_document_id": "2008/09:170",
+      "title": "Proposition 2008/09:170: En sammanhållen svensk havspolitik"
+    },
+    {
+      "prep_document_id": "2008/09:91",
+      "title": "Proposition 2008/09:91: Ägarlägenheter"
+    },
+    {
+      "prep_document_id": "2009/10:216",
+      "title": "Proposition 2009/10:216: Åtgärder för att förhindra illegal handel via post"
+    },
+    {
+      "prep_document_id": "2009/10:82",
+      "title": "Proposition 2009/10:82: Upphävande av förköpslagen"
+    },
+    {
+      "prep_document_id": "2009/10:374",
+      "title": "Proposition 2009/10:374: Budgetproposition 2014 Utgiftsområde 18 Samhällsplanering bostadsförsörjning och byggande samt konsumentpolitik"
+    },
+    {
+      "prep_document_id": "2009/10:185",
+      "title": "Proposition 2009/10:185: En förbättrad modell för presumtionshyra"
+    },
+    {
+      "prep_document_id": "2009/10:364",
+      "title": "Proposition 2009/10:364: Ny instansordning för va-målen"
+    },
+    {
+      "prep_document_id": "2009/10:215",
+      "title": "Proposition 2009/10:215: Ett nytt konkursförfarande"
+    },
+    {
+      "prep_document_id": "2010/11:30",
+      "title": "Proposition 2010/11:30: Fjärde järnvägspaketet"
+    },
+    {
+      "prep_document_id": "2009/10:237",
+      "title": "Proposition 2009/10:237: Regelverket för framtidens el- och gasnät"
+    },
+    {
+      "prep_document_id": "2010/11:62",
+      "title": "Proposition 2010/11:62: Kontroll av färdskrivare"
+    },
+    {
+      "prep_document_id": "2009/10:246",
+      "title": "Proposition 2009/10:246: Bolags rörlighet över gränserna inom EU"
+    },
+    {
+      "prep_document_id": "2010/11:119",
+      "title": "Proposition 2010/11:119: Domstolarnas handläggning av ärenden"
+    },
+    {
+      "prep_document_id": "2012/13:56",
+      "title": "Proposition 2012/13:56: Informationsutbytesavtal med Antigua och Barbuda"
+    },
+    {
+      "prep_document_id": "2012/13:1",
+      "title": "Proposition 2012/13:1: Budgetproposition för 2013 Förslag till statens budget för 2013, finansplan och skattefrågor"
+    },
+    {
+      "prep_document_id": "2012/13:128",
+      "title": "Proposition 2012/13:128: Ny myndighet för hälso- och vårdinfrastruktur"
+    },
+    {
+      "prep_document_id": "2012/13:74",
+      "title": "Proposition 2012/13:74: Förfalsknings- och sanningsbrotten"
+    },
+    {
+      "prep_document_id": "2012/13:76",
+      "title": "Proposition 2012/13:76: Ett mer tillförlitligt fastighetsregister"
+    },
+    {
+      "prep_document_id": "2013/14:236",
+      "title": "Proposition 2013/14:236: Elektronisk ansökan om lantmäteriförrättning"
+    },
+    {
+      "prep_document_id": "2013/14:142",
+      "title": "Proposition 2013/14:142: Ökad uthyrning av bostadsrättslägenheter"
+    },
+    {
+      "prep_document_id": "2013/14:238",
+      "title": "Proposition 2013/14:238: Godkännande av rådets beslut om systemet för EU-budgetens finansiering"
+    },
+    {
+      "prep_document_id": "2013/14:195",
+      "title": "Proposition 2013/14:195: Stärkt besittningsskydd för utsatta hyresgäster"
+    },
+    {
+      "prep_document_id": "2013/14:237",
+      "title": "Proposition 2013/14:237: Hemliga tvångsmedel mot allvarliga brott"
+    },
+    {
+      "prep_document_id": "2013/14:174",
+      "title": "Proposition 2013/14:174: Genomförande av energieffektiviseringsdirektivet"
+    },
+    {
+      "prep_document_id": "2014/15:213",
+      "title": "Proposition 2014/15:213: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2014/15:73",
+      "title": "Proposition 2014/15:73: Modernare lantmäterisammanträden"
+    },
+    {
+      "prep_document_id": "2014/15:261",
+      "title": "Proposition 2014/15:261: Redogörelse för behandlingen av riksdagens skrivelser till regeringen"
+    },
+    {
+      "prep_document_id": "2014/15:105",
+      "title": "Proposition 2014/15:105: Arv i internationella situationer"
+    },
+    {
+      "prep_document_id": "2017/18:232",
+      "title": "Proposition 2017/18:232: Brottsdatalag"
+    },
+    {
+      "prep_document_id": "2017/18:111",
+      "title": "Proposition 2017/18:111: Några civilrättsliga anpassningar till EU:s dataskyddsförordning"
+    },
+    {
+      "prep_document_id": "2017/18:327",
+      "title": "Proposition 2017/18:327: Riksdagens skrivelser till regeringen - åtgärder under 2018"
+    },
+    {
+      "prep_document_id": "2017/18:235",
+      "title": "Proposition 2017/18:235: Följdändringar till ny förvaltningslag"
+    },
+    {
+      "prep_document_id": "2018/19:195",
+      "title": "Proposition 2018/19:195: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:66",
+      "title": "Proposition 2018/19:66: En modernare och mer ändamålsenlig prövning av hyres- och arrendeärenden"
+    },
+    {
+      "prep_document_id": "2018/19:264",
+      "title": "Proposition 2018/19:264: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:107",
+      "title": "Proposition 2018/19:107: Åtgärder mot handel med hyreskontrakt"
+    },
+    {
+      "prep_document_id": "2018/19:266",
+      "title": "Proposition 2018/19:266: Riksdagens skrivelser till regeringen - åtgärder under 2019"
+    },
+    {
+      "prep_document_id": "2018/19:108",
+      "title": "Proposition 2018/19:108: Fler tillval för hyresgäster"
+    },
+    {
+      "prep_document_id": "2019/20:48",
+      "title": "Proposition 2019/20:48: Riksrevisionens rapport om diskrimineringslagens krav på lönekartläggning"
+    },
+    {
+      "prep_document_id": "2018/19:162",
+      "title": "Proposition 2018/19:162: En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning"
+    },
+    {
+      "prep_document_id": "2019/20:283",
+      "title": "Proposition 2019/20:283: Riksdagens skrivelser till regeringen - åtgärder under 2020"
+    },
+    {
+      "prep_document_id": "2019/20:125",
+      "title": "Proposition 2019/20:125: Några fastighetsrättsliga frågor"
+    },
+    {
+      "prep_document_id": "2020/21:30",
+      "title": "Proposition 2020/21:30: Totalförsvaret 2021–2025"
+    },
+    {
+      "prep_document_id": "2019/20:189",
+      "title": "Proposition 2019/20:189: Digital kommunikation i domstolsprocesser"
+    },
+    {
+      "prep_document_id": "2021/22:42",
+      "title": "Proposition 2021/22:42: Föreningsfrihet och terroristorganisationer"
+    },
+    {
+      "prep_document_id": "2020/21:201",
+      "title": "Proposition 2020/21:201: Stärkt skydd för hyresgäster"
+    },
+    {
+      "prep_document_id": "2021/22:375",
+      "title": "Proposition 2021/22:375: Riksdagens skrivelser till regeringen – åtgärder under 2022"
+    },
+    {
+      "prep_document_id": "2021/22:215",
+      "title": "Proposition 2021/22:215: En ny lag om företagsrekonstruktion"
+    },
+    {
+      "prep_document_id": "2023/24:190",
+      "title": "Proposition 2023/24:190: Riksrevisionens rapport om statens insatser mot ekonomiskt våld i nära relationer"
+    },
+    {
+      "prep_document_id": "2023/24:112",
+      "title": "Proposition 2023/24:112: Åtgärder för tryggare bostadsområden"
+    },
+    {
+      "prep_document_id": "2024/25:9",
+      "title": "Proposition 2024/25:9: Riksrevisionens rapport om statens insatser för att stärka efterlevnaden av barnkonventionen"
+    },
+    {
+      "prep_document_id": "2023/24:144",
+      "title": "Proposition 2023/24:144: En ny förverkandelagstiftning"
+    },
+    {
+      "prep_document_id": "1993/94:200",
+      "title": "Proposition 1993/94:200: En modernare och mer ändamålsenlig prövning av hyres- och arrendeärenden"
     }
   ]
 }
