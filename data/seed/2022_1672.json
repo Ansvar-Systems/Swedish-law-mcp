@@ -1,0 +1,45 @@
+{
+  "id": "2022:1672",
+  "type": "statute",
+  "title": "Lag (2022:1672) om skyldighet att lämna uppgifter om utvecklingen på spelmarknaden",
+  "status": "in_force",
+  "issued_date": "2022-12-01",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2022-1672",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Den myndighet som regeringen bestämmer ska följa och informera om utvecklingen på spelmarknaden (spelmarknadsmyndigheten)."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Med spel avses i denna lag detsamma som i spellagen (2018:1138)."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "En licens- eller tillståndshavare enligt spellagen (2018:1138) ska till spelmarknadsmyndigheten lämna de uppgifter om ett visst spel som myndigheten behöver för att följa utvecklingen på spelmarknaden."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Uppgiftsskyldigheten enligt denna lag omfattar inte 1. utredningar i enskilda ärenden som rör tillämpning av spellagen (2018:1138), eller 2. personuppgifter."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "Spelmarknadsmyndigheten får förelägga en licens- eller tillståndshavare enligt spellagen (2018:1138) att lämna uppgifter enligt 3 §. Ett föreläggande får förenas med vite."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "Beslut om föreläggande enligt denna lag får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    },
+    {
+      "provision_ref": "7",
+      "section": "7",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om regelbundet återkommande uppgiftsskyldighet."
+    }
+  ]
+}

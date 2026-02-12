@@ -1,0 +1,51 @@
+{
+  "id": "2022:733",
+  "type": "statute",
+  "title": "Lag (2022:733) med kompletterande bestämmelser till EU:s förordning om Ecris-TCN",
+  "status": "in_force",
+  "issued_date": "2022-06-02",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2022-733",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Lagens innehåll",
+      "content": "Denna lag innehåller kompletterande bestämmelser till Europaparlamentets och rådets förordning (EU) 2019/816 av den 17 april 2019 om inrättande av ett centraliserat system för identifiering av medlemsstater som innehar uppgifter om fällande domar mot tredjelandsmedborgare och statslösa personer (Ecris-TCN) för att komplettera det europeiska informationssystemet för utbyte av uppgifter ur kriminalregister och om ändring av förordning (EU) 2018/1726 (EU:s förordning om Ecris-TCN). Termer och uttryck i lagen"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Termer och uttryck i denna lag har samma betydelse som i EU:s förordning om Ecris-TCN. Vad som sägs om tredjelandsmedborgare gäller också unionsmedborgare som även är medborgare i ett tredjeland. Användning av Ecris-TCN"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Ecris-TCN ska användas endast när det görs en sökning i belastningsregistret efter begäran av en myndighet eller av en enskild som begär uppgifter om sig själv."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Om en myndighet i enlighet med artikel 7.1 andra stycket i EU:s förordning om Ecris-TCN i ett visst fall beslutar att Ecris-TCN inte ska användas, ska den underrätta centralmyndigheten om detta i samband med att den begär uppgifter ur belastningsregistret."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "När en myndighet begär uppgifter ur belastningsregistret om en tredjelandsmedborgare får Ecris-TCN användas även om ändamålet med sökningen inte är sådant som anges i artikel 7.1 i EU:s förordning om Ecris-TCN. I dessa fall ska Ecris-TCN användas endast om det efterfrågas av den myndighet som begär uppgifterna."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "Vid en sökning i belastningsregistret på en unionsmedborgare ska centralmyndigheten använda Ecris-TCN för att kontrollera om han eller hon förekommer där i egenskap av tredjelandsmedborgare om 1. det av lag eller annan författning följer att ett utdrag ur belastningsregistret ska visas upp eller lämnas, eller 2. det efterfrågas av den som begär uppgifter ur belastningsregistret. Fingeravtryck"
+    },
+    {
+      "provision_ref": "7",
+      "section": "7",
+      "content": "Fingeravtryck som behandlas i Polismyndighetens biometriregister med stöd av 5 kap. 3 § andra stycket och 4 § 3 lagen (2018:1693) om polisens behandling av personuppgifter inom brottsdatalagens område ska föras in i Ecris-TCN. Lag (2025:141). Ansiktsbilder"
+    },
+    {
+      "provision_ref": "8",
+      "section": "8",
+      "content": "Ansiktsbilder som behandlas i Polismyndighetens biometriregister med stöd av lagen (2018:1693) om polisens behandling av personuppgifter inom brottsdatalagens område ska föras in i Ecris-TCN. Lag (2025:141)."
+    }
+  ]
+}

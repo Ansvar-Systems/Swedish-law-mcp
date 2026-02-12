@@ -1,0 +1,40 @@
+{
+  "id": "2026:43",
+  "type": "statute",
+  "title": "Lag (2026:43) om registerkontroll vid arbete i hemmet åt äldre personer eller vuxna personer med funktionsnedsättning",
+  "status": "in_force",
+  "issued_date": "2026-01-29",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2026-43",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Den kommun eller annan verksamhetsutövare som erbjuder en person en anställning för att utföra insatser i hemmet åt äldre personer eller personer med funktionsnedsättning som har fyllt 18 år, får begära att den som erbjuds anställningen visar upp ett utdrag ur belastningsregistret och misstankeregistret. Detsamma gäller vid tilldelning av en sådan uppgift inom ramen för en pågående anställning, ett uppdrag eller en praktiktjänstgöring."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Med insatser i hemmet avses insatser i den enskildes hem eller annat boende enligt socialtjänstlagen (2025:400), lagen (1993:387) om stöd och service till vissa funktionshindrade eller 12 kap. hälso- och sjukvårdslagen (2017:30), samt insatsen korttidsvistelse utanför hemmet enligt lagen om stöd och service till vissa funktionshindrade. Med belastningsregistret avses det register som förs enligt lagen (1998:620) om belastningsregister. Med misstankeregistret avses det register som förs enligt lagen (1998:621) om misstankeregister."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "En assistansberättigad som har beviljats ekonomiskt stöd för personlig assistans enligt 9 § 2 lagen (1993:387) om stöd och service till vissa funktionshindrade eller assistansersättning enligt 51 kap. socialförsäkringsbalken, får begära att en person som den assistansberättigade erbjuder en anställning som personlig assistent visar upp ett utdrag ur belastningsregistret och misstankeregistret."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Ett registerutdrag som visas upp får inte vara äldre än sex månader."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "En kontroll av ett registerutdrag får inte dokumenteras på något annat sätt än genom en anteckning om att utdraget har visats upp."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "I lagen (1998:620) om belastningsregister och lagen (1998:621) om misstankeregister finns bestämmelser om att regeringen får meddela föreskrifter om vilka uppgifter ett utdrag enligt denna lag ska innehålla."
+    }
+  ]
+}

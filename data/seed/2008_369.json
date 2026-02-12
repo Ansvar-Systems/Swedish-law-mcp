@@ -1,0 +1,32 @@
+{
+  "id": "2008:369",
+  "type": "statute",
+  "title": "Lag (2008:369) om förfarandet vid förverkande av utbyte av brottslig verksamhet i vissa fall",
+  "status": "repealed",
+  "issued_date": "2008-05-29",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2008-369",
+  "description": "Upphävd 2024-11-08 genom SFS 2024:782",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Har upphävts genom lag (2024:782).",
+      "content": "Denna lag innehåller bestämmelser om förfarandet vid prövning av en fråga om sådant förverkande som avses i 36 kap. 1 b § brottsbalken, när frågan inte rör någon som är tilltalad för brott."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "En fråga som avses i 1 § prövas av tingsrätten efter särskild talan. Om inte annat framgår av denna lag, gäller för en sådan talan i tillämpliga delar reglerna i rättegångsbalken om åtal för brott för vilket är föreskrivet fängelse i ett år eller mer."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "En talan enligt denna lag får inte väckas förrän domen i målet om åtal för det brott som enligt 36 kap. 1 b § brottsbalken kan föranleda förverkandet har vunnit laga kraft. Talan ska väckas inom ett år därefter."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Utfärdas stämning, ska den mot vilken talan riktas kallas till huvudförhandling och erinras om att målet kan komma att avgöras trots att han eller hon uteblir eller inställer sig genom ombud då han eller hon har förelagts att infinna sig personligen. Kan saken utredas tillfredsställande, får målet avgöras trots att den mot vilken talan riktas har inställt sig endast genom ombud eller har uteblivit."
+    }
+  ]
+}

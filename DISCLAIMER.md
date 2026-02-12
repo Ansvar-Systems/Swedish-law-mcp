@@ -42,7 +42,8 @@ This Tool aggregates data from multiple sources with varying levels of authority
 | Source | Authority Level | Use Case |
 |--------|----------------|----------|
 | **Riksdagen API** | Official government source | Statute text (authoritative) |
-| **Lagen.nu** | Community-maintained (CC-BY Domstolsverket) | Case law (supplementary, verify with official sources) |
+| **EUR-Lex** | Official EU legislation database | EU directives/regulations metadata (authoritative) |
+| **Lagen.nu** | Community-maintained (CC-BY Domstolsverket) | Case law (limited coverage, supplementary) |
 
 **CRITICAL**: Lagen.nu is a **community-maintained** resource, NOT an official government publication. While generally reliable, it may contain:
 
@@ -92,7 +93,7 @@ The Tool includes staleness warnings when data is >30 days old. **These warnings
 
 This Tool does **NOT** include:
 
-1. **EU Regulations and Directives** — Swedish law increasingly implements EU law; incomplete without EU sources
+1. **Full EU Law Text** — Only EU metadata included; full directive/regulation text not available
 2. **CJEU Case Law** — Court of Justice of the European Union decisions are binding but not included
 3. **Historical Statute Versions** — Limited availability of historical provision wording
 4. **Legal Commentary** — No editorial annotations, academic commentary, or practice guides
@@ -194,7 +195,7 @@ https://github.com/Ansvar-Systems/swedish-law-mcp/issues
 ---
 
 **Last Updated**: 2026-02-12
-**Tool Version**: 0.1.0 (Pilot/Research)
+**Tool Version**: 1.1.0 (Production-Grade)
 
 ---
 

@@ -1,0 +1,37 @@
+{
+  "id": "2017:1185",
+  "type": "statute",
+  "title": "Lag (2017:1185) med kompletterande bestämmelser till EU:s förordning om referensvärden",
+  "status": "repealed",
+  "issued_date": "2017-11-30",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2017-1185",
+  "description": "Upphävd 2019-01-01 genom SFS 2018:2024",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Inledande bestämmelser",
+      "content": "Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2016/1011 av den 8 juni 2016 om index som används som referensvärden för finansiella instrument och finansiella avtal eller för att mäta investeringsfonders resultat, och om ändring av direktiven 2008/48/EG och 2014/17/EU och förordning (EU) nr 596/2014, i denna lag kallad EU-förordningen. Termer och uttryck i denna lag har samma betydelse som i EU-förordningen. Behörig myndighet"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Finansinspektionen är behörig myndighet enligt EU-förordningen. Avgifter"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Finansinspektionen får ta ut avgifter för prövning av ansökningar, anmälningar och underrättelser enligt EU-förordningen. Regeringen får meddela föreskrifter om avgifterna. Överklagande"
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Finansinspektionens beslut enligt denna lag och enligt EU-förordningen får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "Finansinspektionen får bestämma att ett beslut enligt artikel 32.8, 33.6 eller 35.1 i EU-förordningen ska gälla omedelbart."
+    }
+  ]
+}

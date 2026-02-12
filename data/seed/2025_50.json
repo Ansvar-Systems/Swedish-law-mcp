@@ -1,0 +1,50 @@
+{
+  "id": "2025:50",
+  "type": "statute",
+  "title": "Lag (2025:50) om finansiering av en kapacitetsmekanism för elmarknaden",
+  "status": "in_force",
+  "issued_date": "2025-01-30",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2025-50",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Lagens innehåll",
+      "content": "I denna lag finns bestämmelser om finansiering av en sådan kapacitetsmekanism som avses i artikel 2.22 i Europaparlamentets och rådets förordning (EU) 2019/943 av den 5 juni 2019 om den inre marknaden för el. Ord och uttryck"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Ord och uttryck som används i lagen har samma innebörd som i ellagen (1997:857). Avgift till den systemansvariga myndigheten"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "För att täcka den systemansvariga myndighetens kostnader enligt sådana avtal som myndigheten ingår för att det ska finnas en kapacitetsmekanism, får myndigheten ta ut en avgift av den som har åtagit sig ett sådant balansansvar som enligt"
+    },
+    {
+      "provision_ref": "8:4",
+      "chapter": "8",
+      "section": "4",
+      "content": "Avgiftens storlek ska baseras på den mängd el som tas ut för förbrukning i uttagspunkter som omfattas av balansansvaret under den tidsperiod som avgiften avser."
+    },
+    {
+      "provision_ref": "8:5",
+      "chapter": "8",
+      "section": "5",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela ytterligare föreskrifter om avgifter enligt 3 §."
+    },
+    {
+      "provision_ref": "8:6",
+      "chapter": "8",
+      "section": "6",
+      "content": "Den systemansvariga myndigheten får i enskilda fall besluta om avgifter. Överklagande"
+    },
+    {
+      "provision_ref": "8:7",
+      "chapter": "8",
+      "section": "7",
+      "content": "Den systemansvariga myndighetens beslut enligt 6 § får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    }
+  ]
+}

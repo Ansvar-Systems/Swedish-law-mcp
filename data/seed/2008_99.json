@@ -1,0 +1,37 @@
+{
+  "id": "2008:99",
+  "type": "statute",
+  "title": "Lag (2008:99) om tillämpning av Europaparlamentets och rådets förordning (EG) nr 1781/2006 om information om betalaren som skall åtfölja överföringar av medel",
+  "status": "repealed",
+  "issued_date": "2008-03-06",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2008-99",
+  "description": "Upphävd 2017-08-01 genom SFS 2017:666",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Tillämpningsområde",
+      "content": "I denna lag finns bestämmelser som kompletterar Europaparlamentets och rådets förordning (EG) nr 1781/2006 av den 15 november 2006 om information om betalaren som skall åtfölja överföringar av medel."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Förordning (EG) nr 1781/2006 ska inte tillämpas på överföringar av medel inom Sverige till ett konto som möjliggör betalning för tillhandahållande av varor eller tjänster, om förutsättningarna enligt artikel 3.6 första stycket a-c i förordningen är uppfyllda. Behöriga myndigheter"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Polismyndigheten ska 1. ta emot sådana meddelanden från betalningsmottagarens betalningsleverantör som avses i artikel 9.2 i förordning (EG) nr 1781/2006, och 2. ha rätt att göra sådana förfrågningar som enligt artikel 14 första stycket i förordningen ska besvaras av betalningsleverantörer och som gäller den information om betalaren som åtföljer överföringar och motsvarande bevarade uppgifter. Lag (2014:662)."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Finansinspektionen ska vara den myndighet som enligt artikel 15.3 i förordning (EG) nr 1781/2006 övervakar och vidtar nödvändiga åtgärder för att säkerställa att kraven i förordningen uppfylls. Sanktioner och ingripanden"
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "Bestämmelser om sanktioner och ingripanden som ska tillämpas vid överträdelse av förordning (EG) nr 1781/2006 finns i 15 kap. lagen (2004:297) om bank- och finansieringsrörelse och i 8-11 §§ lagen (1996:1006) om anmälningsplikt avseende viss finansiell verksamhet."
+    }
+  ]
+}

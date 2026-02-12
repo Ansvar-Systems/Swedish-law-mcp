@@ -1,0 +1,15 @@
+{
+  "id": "2008:1048",
+  "type": "statute",
+  "title": "Lag (2008:1048) om skyldighet för kommunerna att lämna uppgifter om djurskydd m.m.",
+  "status": "in_force",
+  "issued_date": "2008-11-27",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2008-1048",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "En kommun är skyldig att på begäran av länsstyrelsen i det län där kommunen är belägen till länsstyrelsen lämna sådana uppgifter från sitt arkiv om djurskyddsverksamhet och om offentlig kontroll av livsmedel och foder i primärproduktionen som kan antas vara av betydelse för länsstyrelsens verksamhet inom dessa områden."
+    }
+  ]
+}

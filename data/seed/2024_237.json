@@ -1,0 +1,21 @@
+{
+  "id": "2024:237",
+  "type": "statute",
+  "title": "Lag (2024:237) om vissa kirurgiska ingrepp i könsorganen",
+  "status": "in_force",
+  "issued_date": "2024-04-25",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2024-237",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Lagens tillämpningsområde",
+      "content": "Denna lag gäller för sådana kirurgiska ingrepp i en persons könsorgan som utförs inom hälso- och sjukvården för att kroppen ska stämma överens med könsidentiteten. Lagen gäller inte för kirurgiska ingrepp på personer som har en medfödd avvikelse i könsutvecklingen. Förutsättningar för kirurgiska ingrepp"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Ett kirurgiskt ingrepp får göras på den som har fyllt 18 år, om personen 1. är folkbokförd i Sverige, 2. sedan en lång tid upplever att kroppen inte stämmer överens med könsidentiteten, och 3. måste antas komma att leva i denna könsidentitet under överskådlig tid. På en person som är under 23 år får dock könskörtlarna avlägsnas endast om det finns synnerliga skäl."
+    }
+  ]
+}

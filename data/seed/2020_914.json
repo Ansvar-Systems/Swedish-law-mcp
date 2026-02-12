@@ -1,0 +1,32 @@
+{
+  "id": "2020:914",
+  "type": "statute",
+  "title": "Lag (2020:914) om tystnadsplikt vid utkontraktering av teknisk bearbetning eller lagring av uppgifter",
+  "status": "in_force",
+  "issued_date": "2020-11-12",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2020-914",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Denna lag tillämpas när en myndighet uppdrar åt ett företag eller en annan enskild (tjänsteleverantör) att endast tekniskt bearbeta eller tekniskt lagra uppgifter."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Vid tillämpningen av denna lag ska med myndigheter jämställas 1. sådana aktiebolag, handelsbolag, ekonomiska föreningar och stiftelser där kommuner, regioner eller kommunalförbund utövar ett rättsligt bestämmande inflytande enligt 2 kap. 3 § offentlighets- och sekretesslagen (2009:400), och 2. de organ som anges i bilagan till offentlighets- och sekretesslagen i fråga om de verksamheter som anges där. Med en myndighet ska också jämställas yrkesmässigt bedriven enskild verksamhet som till någon del är offentligt finansierad och som 1. tillhör skolväsendet, de särskilda utbildningsformerna eller annan pedagogisk verksamhet enligt 1 kap., 24 kap. eller"
+    },
+    {
+      "provision_ref": "25:3",
+      "chapter": "25",
+      "section": "3",
+      "content": "Vid tillämpningen av denna lag ska med en tjänsteleverantör jämställas en underleverantör som medverkar till att fullgöra tjänsteleverantörens uppdrag."
+    },
+    {
+      "provision_ref": "25:4",
+      "chapter": "25",
+      "section": "4",
+      "content": "Den som på grund av anställning eller på något annat sätt deltar i eller har deltagit i en tjänsteleverantörs verksamhet att på uppdrag av en myndighet endast tekniskt bearbeta eller tekniskt lagra uppgifter får inte obehörigen röja eller utnyttja dessa uppgifter. I det allmännas verksamhet tillämpas offentlighets- och sekretesslagen (2009:400)."
+    }
+  ]
+}

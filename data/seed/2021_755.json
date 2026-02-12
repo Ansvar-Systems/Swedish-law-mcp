@@ -1,0 +1,20 @@
+{
+  "id": "2021:755",
+  "type": "statute",
+  "title": "Lag (2021:755) med bemyndiganden att meddela föreskrifter om tidsfrister och kontaktpunkt för vissa ärenden som gäller tillförsel av förnybar energi",
+  "status": "in_force",
+  "issued_date": "2021-06-23",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2021-755",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Regeringen får meddela föreskrifter om tidsfrister för kommuners handläggning av ärenden om tillstånd, anmälningar eller dispenser som gäller 1. uppförande, uppgradering eller drift av anläggningar för produktion av förnybar el, och 2. utrustning för anslutning av sådana anläggningar till elnätet."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Regeringen får meddela föreskrifter om kommuners medverkan i arbetet med en kontaktpunkt för att vägleda sökande i ärenden om tillstånd, anmälningar eller dispenser som gäller 1. uppförande, uppgradering eller drift av anläggningar för tillförsel av förnybar energi, och 2. utrustning för anslutning av sådana anläggningar till nätet."
+    }
+  ]
+}

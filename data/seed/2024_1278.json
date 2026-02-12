@@ -1,0 +1,267 @@
+{
+  "id": "2024:1278",
+  "type": "statute",
+  "title": "Lag (2024:1278) med kompletterande bestämmelser till EU:s förordning om digital operativ motståndskraft för finanssektorn",
+  "status": "in_force",
+  "issued_date": "2024-12-12",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2024-1278",
+  "provisions": [
+    {
+      "provision_ref": "1:1",
+      "chapter": "1",
+      "section": "1",
+      "title": "Lagens syfte",
+      "content": "Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2022/2554 av den 14 december 2022 om digital operativ motståndskraft för finanssektorn och om ändring av förordningarna (EG) nr 1060/2009, (EU) nr 648/2012, (EU) nr 600/2014, (EU) nr 909/2014 och (EU) 2016/1011, i denna lag kallad EU-förordningen. Termer och uttryck i denna lag har samma betydelse som i EU- förordningen. Behörig myndighet"
+    },
+    {
+      "provision_ref": "1:2",
+      "chapter": "1",
+      "section": "2",
+      "content": "Av artikel 46 i EU-förordningen följer att Finansinspektionen är behörig myndighet enligt förordningen. Avgifter till Finansinspektionen"
+    },
+    {
+      "provision_ref": "1:3",
+      "chapter": "1",
+      "section": "3",
+      "content": "För att bekosta Finansinspektionens verksamhet enligt EU- förordningen och denna lag ska de finansiella entiteter som står under inspektionens tillsyn betala årliga avgifter. Regeringen får meddela föreskrifter om avgifterna. Information om allvarliga IKT-relaterade incidenter"
+    },
+    {
+      "provision_ref": "1:4",
+      "chapter": "1",
+      "section": "4",
+      "content": "Finansinspektionen ska i enlighet med artikel 19.6 i EU- förordningen informera Riksbanken om allvarliga IKT-relaterade incidenter hos en finansiell entitet."
+    },
+    {
+      "provision_ref": "2:1",
+      "chapter": "2",
+      "section": "1",
+      "title": "Finansinspektionen",
+      "content": "Finansinspektionen ska besluta om vilka finansiella entiteter som ska genomföra hotbildsstyrda penetrationstester enligt artikel 26 i EU-förordningen. Finansinspektionen ska också besluta om hur ofta en finansiell entitet ska genomföra sådana tester. Riksbanken"
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "content": "Riksbanken ska övervaka och samordna de hotbildsstyrda penetrationstester som ska genomföras enligt artiklarna 26 och 27 i EU-förordningen. Riksbanken ska utfärda sådana intyg som avses i artikel 26.7 i EU-förordningen. Samverkan"
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "content": "Finansinspektionen ska ge Riksbanken tillfälle att yttra sig innan Finansinspektionen fattar beslut enligt 1 §. Riksbanken ska ge Finansinspektionen tillfälle att yttra sig innan Riksbanken fattar beslut om hotbildsstyrda penetrationstester som berör Finansinspektionens tillsynsverksamhet. Detta gäller inte om en samverkan skulle leda till att ett test onödigt fördröjs. I ett sådant fall ska Riksbanken underrätta Finansinspektionen om beslutet. Finansinspektionen och Riksbanken ska lämna varandra de uppgifter som respektive myndighet behöver för samverkan. Uppgiftsskyldighet"
+    },
+    {
+      "provision_ref": "2:4",
+      "chapter": "2",
+      "section": "4",
+      "content": "På begäran av Riksbanken ska finansiella entiteter lämna de uppgifter som är nödvändiga för Riksbankens verksamhet enligt 2 §. Förelägganden"
+    },
+    {
+      "provision_ref": "2:5",
+      "chapter": "2",
+      "section": "5",
+      "content": "Riksbanken får besluta om de förelägganden som behövs för att en finansiell entitet ska följa uppgiftsskyldigheten i 4 §. Avgifter till Riksbanken"
+    },
+    {
+      "provision_ref": "2:6",
+      "chapter": "2",
+      "section": "6",
+      "content": "Riksbanken får ta ut avgifter från de finansiella entiteter som genomför hotbildsstyrda penetrationstester. Riksbanken får meddela föreskrifter om avgifterna."
+    },
+    {
+      "provision_ref": "3:1",
+      "chapter": "3",
+      "section": "1",
+      "title": "Tillsynens omfattning",
+      "content": "Finansinspektionen har tillsyn över att finansiella entiteter följer bestämmelserna i EU-förordningen, denna lag och andra författningar som har meddelats i anslutning till dessa. Föreläggande om att lämna uppgifter"
+    },
+    {
+      "provision_ref": "3:2",
+      "chapter": "3",
+      "section": "2",
+      "content": "För tillsynen enligt 1 § får Finansinspektionen besluta att förelägga 1. en fysisk eller juridisk person att tillhandahålla uppgifter, handlingar eller annat, och 2. den som förväntas kunna lämna upplysningar i saken att inställa sig till förhör på tid och plats som inspektionen bestämmer. Första stycket gäller inte i den utsträckning uppgiftslämnandet skulle strida mot den i lag reglerade tystnadsplikten för advokater. Platsundersökning"
+    },
+    {
+      "provision_ref": "3:3",
+      "chapter": "3",
+      "section": "3",
+      "content": "Finansinspektionen får när det är nödvändigt för tillsynen enligt 1 § genomföra en undersökning i verksamhetslokalerna hos en finansiell entitet."
+    },
+    {
+      "provision_ref": "4:1",
+      "chapter": "4",
+      "section": "1",
+      "title": "Ingripanden mot finansiella entiteter",
+      "content": "Finansinspektionen ska ingripa mot följande finansiella entiteter om de åsidosätter sina skyldigheter enligt EU- förordningen, denna lag eller andra författningar som har meddelats i anslutning till dessa: 1. Svenska skeppshypotekskassan, 2. en leverantör av kryptotillgångstjänster, 3. en emittent av tillgångsanknutna token, 4. en pensionsstiftelse, 5. en administratör av kritiska referensvärden, 6. en leverantör av gräsrotsfinansieringstjänster, och 7. ett transaktionsregister."
+    },
+    {
+      "provision_ref": "4:2",
+      "chapter": "4",
+      "section": "2",
+      "content": "Bestämmelser om ingripanden mot andra finansiella entiteter än de som anges i 1 § och som åsidosätter sina skyldigheter enligt EU-förordningen, denna lag eller andra författningar som har meddelats i anslutning till dessa finns i de lagar som reglerar den berörda verksamheten."
+    },
+    {
+      "provision_ref": "4:3",
+      "chapter": "4",
+      "section": "3",
+      "content": "Ett ingripande enligt 1 § mot Svenska skeppshypotekskassan sker genom beslut om föreläggande att inom en viss tid vidta en viss åtgärd eller upphöra med ett visst agerande."
+    },
+    {
+      "provision_ref": "4:4",
+      "chapter": "4",
+      "section": "4",
+      "content": "Ett ingripande enligt 1 § mot en emittent av tillgångsanknutna token, en pensionsstiftelse eller ett transaktionsregister sker genom beslut om 1. föreläggande att inom en viss tid vidta en viss åtgärd eller upphöra med ett visst agerande, eller 2. anmärkning."
+    },
+    {
+      "provision_ref": "4:5",
+      "chapter": "4",
+      "section": "5",
+      "content": "Ett ingripande enligt 1 § mot en leverantör av kryptotillgångstjänster, en administratör av kritiska referensvärden eller en leverantör av gräsrotsfinansieringstjänster sker genom beslut om 1. föreläggande att inom en viss tid vidta en viss åtgärd eller upphöra med ett visst agerande, eller 2. anmärkning. Om överträdelsen är allvarlig får den finansiella entitetens auktorisation återkallas eller, om det är tillräckligt, en varning meddelas."
+    },
+    {
+      "provision_ref": "4:6",
+      "chapter": "4",
+      "section": "6",
+      "content": "Ett ingripande får inte ske om en överträdelse omfattas av ett föreläggande som har förenats med vite och en ansökan om utdömande av vitet har gjorts."
+    },
+    {
+      "provision_ref": "4:7",
+      "chapter": "4",
+      "section": "7",
+      "content": "Om ett beslut om anmärkning eller varning enligt 4 eller 5 § har meddelats, får Finansinspektionen besluta att den som har gjort sig skyldig till överträdelsen ska betala en sanktionsavgift."
+    },
+    {
+      "provision_ref": "4:8",
+      "chapter": "4",
+      "section": "8",
+      "content": "Om en auktorisation återkallas enligt 5 § får Finansinspektionen bestämma hur verksamheten ska avvecklas. Ett beslut om återkallelse får förenas med förbud att fortsätta med hela eller delar av verksamheten. Ingripanden mot vissa företrädare för finansiella entiteter"
+    },
+    {
+      "provision_ref": "4:9",
+      "chapter": "4",
+      "section": "9",
+      "content": "Finansinspektionen ska ingripa mot någon som ingår i styrelsen för en finansiell entitet som anges i 1 § 2-7 eller är dess verkställande direktör, eller ersättare för någon av dem, om den finansiella entiteten har åsidosatt sina skyldigheter enligt någon av artiklarna 5-10, 11.1-11.10, 12- 14, 16.1, 16.2, 17, 18.1, 18.2, 19.1, 19.3, 19.4, 23-25, 26.1- 26.8, 27, 28.1-28.8, 29, 30.1-30.4, 31.12 eller 45 i EU- förordningen. Ett ingripande får ske genom en eller båda av följande sanktioner: 1. beslut att den fysiska personen under en viss tid, lägst tre och högst tio år, inte får vara styrelseledamot eller verkställande direktör i en sådan finansiell entitet som avses i första stycket, eller ersättare för någon av dem, eller 2. beslut om sanktionsavgift. Ett ingripande får ske bara om den finansiella entitetens överträdelse är allvarlig och den fysiska personen i fråga uppsåtligen eller av grov oaktsamhet orsakat överträdelsen. Sanktionsföreläggande"
+    },
+    {
+      "provision_ref": "4:10",
+      "chapter": "4",
+      "section": "10",
+      "content": "Frågor om ingripande mot fysiska personer enligt 9 § tas upp av Finansinspektionen genom ett sanktionsföreläggande. Ett sanktionsföreläggande innebär att den fysiska personen föreläggs att inom en viss tid godkänna en sanktion som är bestämd till tid eller belopp. När ett sanktionsföreläggande har godkänts, gäller det som ett domstolsavgörande som fått laga kraft. Ett godkännande som görs efter den tid som angetts i föreläggandet är utan verkan."
+    },
+    {
+      "provision_ref": "4:11",
+      "chapter": "4",
+      "section": "11",
+      "content": "Ett sanktionsföreläggande ska innehålla uppgift om 1. den fysiska person som föreläggandet avser, 2. överträdelsen och de omständigheter som behövs för att känneteckna den, 3. de bestämmelser som är tillämpliga på överträdelsen, och 4. den sanktion som föreläggs personen. Sanktionsföreläggandet ska också innehålla en upplysning om att ansökan om sanktion kan komma att ges in till domstol, om sanktionsföreläggandet inte godkänns inom den tid som Finansinspektionen anger."
+    },
+    {
+      "provision_ref": "4:12",
+      "chapter": "4",
+      "section": "12",
+      "content": "Om ett sanktionsföreläggande inte har godkänts inom angiven tid, får Finansinspektionen ansöka hos domstol om att en sanktion ska beslutas. En sådan ansökan ska göras hos den förvaltningsrätt som är behörig att pröva ett överklagande av Finansinspektionens beslut om ingripande mot den finansiella entiteten för samma överträdelse. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    },
+    {
+      "provision_ref": "4:13",
+      "chapter": "4",
+      "section": "13",
+      "content": "Ett sanktionsföreläggande är utan verkan, om föreläggandet inte har delgetts den som det riktas mot inom två år från den tidpunkt då överträdelsen ägde rum. I ett sådant fall får inte heller någon sanktion enligt 12 § första stycket beslutas. Sanktionsavgifter"
+    },
+    {
+      "provision_ref": "4:14",
+      "chapter": "4",
+      "section": "14",
+      "content": "Sanktionsavgiften för en finansiell entitet som anges i 1 § och som är en juridisk person ska som högst fastställas till det högsta av 1. ett belopp som per den 16 januari 2023 i svenska kronor motsvarade en miljon euro, 2. tio procent av den finansiella entitetens omsättning närmast föregående räkenskapsår eller, i förekommande fall, motsvarande omsättning på koncernnivå, eller 3. tre gånger den vinst som den finansiella entiteten har gjort till följd av regelöverträdelsen, om beloppet går att fastställa. Sanktionsavgiften får inte bestämmas till ett lägre belopp än 5 000 kronor. Om en överträdelse har skett under den juridiska personens första verksamhetsår eller om uppgifter om omsättningen annars saknas eller är bristfälliga, får omsättningen uppskattas när den högsta sanktionsavgiften ska beräknas."
+    },
+    {
+      "provision_ref": "4:15",
+      "chapter": "4",
+      "section": "15",
+      "content": "Sanktionsavgiften för en leverantör av kryptotillgångstjänster får inte vara så stor att leverantören därefter inte uppfyller kraven i Europaparlamentets och rådets förordning (EU) 2023/1114 av den 31 maj 2023 om marknader för kryptotillgångar och om ändring av förordningarna (EU) nr 1093/2010 och (EU) nr 1095/2010 samt direktiven 2013/36/EU och (EU) 2019/1937 eller andra bestämmelser om soliditet och likviditet som gäller för leverantören. Sanktionsavgiften för en leverantör av gräsrotsfinansieringstjänster får inte vara så stor att leverantören därefter inte uppfyller kraven enligt artikel 11 i Europaparlamentets och rådets förordning (EU) 2020/1503 av den 7 oktober 2020 om europeiska leverantörer av gräsrotsfinansieringstjänster för företag och om ändring av förordning (EU) 2017/1129 och direktiv (EU) 2019/1937 eller andra bestämmelser om soliditet och likviditet som gäller för leverantören."
+    },
+    {
+      "provision_ref": "4:16",
+      "chapter": "4",
+      "section": "16",
+      "content": "Sanktionsavgiften för en fysisk person ska som högst fastställas till det högsta av 1. ett belopp som per den 16 januari 2023 i svenska kronor motsvarade 500 000 euro, eller 2. tre gånger den vinst som den fysiska personen har gjort till följd av regelöverträdelsen, om beloppet går att fastställa."
+    },
+    {
+      "provision_ref": "4:17",
+      "chapter": "4",
+      "section": "17",
+      "content": "Sanktionsavgifter tillfaller staten. Val av ingripande"
+    },
+    {
+      "provision_ref": "4:18",
+      "chapter": "4",
+      "section": "18",
+      "content": "Vid valet av ingripande ska Finansinspektionen ta hänsyn till hur allvarlig överträdelsen är och hur länge den har pågått. Särskild hänsyn ska tas till överträdelsens art, överträdelsens konkreta och potentiella effekter på det finansiella systemet, skador som uppstått samt graden av ansvar hos den fysiska eller juridiska person som har gjort sig skyldig till överträdelsen."
+    },
+    {
+      "provision_ref": "4:19",
+      "chapter": "4",
+      "section": "19",
+      "content": "Utöver det som anges i 18 § ska det i försvårande riktning beaktas om den som har begått överträdelsen tidigare har begått en överträdelse. Vid denna bedömning ska särskild vikt fästas vid om överträdelserna är likartade och den tid som har gått mellan de olika överträdelserna. I förmildrande riktning ska det beaktas om den som har begått överträdelsen 1. i väsentlig utsträckning genom ett aktivt samarbete har underlättat Finansinspektionens utredning, och 2. snabbt upphört med överträdelsen eller snabbt verkat för att överträdelsen ska upphöra, sedan den anmälts till eller påtalats av Finansinspektionen."
+    },
+    {
+      "provision_ref": "4:20",
+      "chapter": "4",
+      "section": "20",
+      "content": "När sanktionsavgiftens storlek fastställs ska särskild hänsyn tas till sådana omständigheter som anges i 18 och 19 §§ samt till den berörda fysiska eller juridiska personens finansiella ställning och, om det går att fastställa, den vinst som personen gjort till följd av överträdelsen. Möjligheter att avstå från ett ingripande"
+    },
+    {
+      "provision_ref": "4:21",
+      "chapter": "4",
+      "section": "21",
+      "content": "Finansinspektionen får avstå från ingripande, om 1. överträdelsen är ringa eller ursäktlig, 2. den fysiska eller juridiska personen i fråga gör rättelse, 3. den fysiska personen har verkat för att den juridiska personen ska göra rättelse, eller 4. någon annan myndighet eller något annat organ har vidtagit åtgärder mot den fysiska eller juridiska personen och dessa åtgärder bedöms tillräckliga. Verkställighet av beslut om sanktionsavgift"
+    },
+    {
+      "provision_ref": "4:22",
+      "chapter": "4",
+      "section": "22",
+      "content": "En sanktionsavgift ska betalas till Finansinspektionen inom 30 dagar efter det att ett beslut eller en dom om att ta ut avgiften har fått laga kraft eller ett sanktionsföreläggande har godkänts, eller inom den längre tid som anges i beslutet eller föreläggandet."
+    },
+    {
+      "provision_ref": "4:23",
+      "chapter": "4",
+      "section": "23",
+      "content": "Om sanktionsavgiften inte har betalats inom den tid som anges i 22 §, ska Finansinspektionen lämna avgiften för indrivning. Bestämmelser om indrivning finns i lagen (1993:891) om indrivning av statliga fordringar m.m."
+    },
+    {
+      "provision_ref": "4:24",
+      "chapter": "4",
+      "section": "24",
+      "content": "En sanktionsavgift faller bort i den utsträckning verkställighet inte har skett inom fem år från det att beslutet eller domen om att ta ut avgiften fick laga kraft eller sanktionsföreläggandet godkändes."
+    },
+    {
+      "provision_ref": "5:1",
+      "chapter": "5",
+      "section": "1",
+      "title": "Överklagande",
+      "content": "Finansinspektionens beslut om sanktionsföreläggande enligt denna lag får inte överklagas. Andra beslut av Finansinspektionen enligt denna lag och EU- förordningen får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    },
+    {
+      "provision_ref": "5:2",
+      "chapter": "5",
+      "section": "2",
+      "content": "Riksbankens beslut om föreläggande enligt 2 kap. 5 § och beslut om utfärdande av intyg enligt artikel 26.7 i EU- förordningen får överklagas till allmän förvaltningsdomstol. Andra beslut av Riksbanken enligt denna lag och EU- förordningen får inte överklagas. Prövningstillstånd krävs vid överklagande till kammarrätten. Beslut som ska gälla omedelbart"
+    },
+    {
+      "provision_ref": "5:3",
+      "chapter": "5",
+      "section": "3",
+      "content": "Finansinspektionen får bestämma att följande beslut ska gälla omedelbart: 1. beslut om hotbildsstyrda penetrationstester enligt 2 kap. 1 §, 2. beslut om föreläggande enligt 4 kap. 3 §, 4 § 1, 5 § första stycket 1 eller 9 § andra stycket 1, eller 3. beslut om återkallelse enligt 4 kap. 5 § andra stycket. Vite"
+    },
+    {
+      "provision_ref": "5:4",
+      "chapter": "5",
+      "section": "4",
+      "content": "Följande beslut får förenas med vite: 1. Riksbankens beslut om föreläggande enligt 2 kap. 5 §, och 2. Finansinspektionens beslut om föreläggande enligt 3 kap. 2 § första stycket, 4 kap. 3 §, 4 § 1, 5 § första stycket 1, 8 § andra stycket eller 9 § andra stycket 1."
+    },
+    {
+      "provision_ref": "5:5",
+      "chapter": "5",
+      "section": "5",
+      "content": "Beslut om viten enligt EU-förordningen får verkställas enligt utsökningsbalken på samma sätt som en svensk dom som har fått laga kraft."
+    }
+  ]
+}

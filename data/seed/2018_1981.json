@@ -1,0 +1,32 @@
+{
+  "id": "2018:1981",
+  "type": "statute",
+  "title": "Lag (2018:1981) med kompletterande bestämmelser till EU:s förordning om värdepapperisering",
+  "status": "repealed",
+  "issued_date": "2018-11-29",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2018-1981",
+  "description": "Upphävd 2020-02-01 genom SFS 2019:1215",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Inledande bestämmelse",
+      "content": "Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2017/2402 av den 12 december 2017 om ett allmänt ramverk för värdepapperisering och om inrättande av ett särskilt ramverk för enkel, transparent och standardiserad värdepapperisering samt om ändring av direktiven 2009/65/EG, 2009/138/EG och 2011/61/EU och förordningarna (EG) nr 1060/2009 och (EU) nr 648/2012, i denna lag kallad EU-förordningen. Behörig myndighet"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Finansinspektionen är behörig myndighet enligt EU-förordningen. Avgifter"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Finansinspektionen får ta ut avgifter för prövning av ansökningar enligt EU-förordningen. Regeringen får meddela föreskrifter om avgifterna. Vissa beslut"
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Finansinspektionen får bestämma att ett beslut enligt artikel 28.1 andra stycket i EU-förordningen ska gälla omedelbart."
+    }
+  ]
+}

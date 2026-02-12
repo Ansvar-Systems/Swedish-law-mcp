@@ -1,0 +1,30 @@
+{
+  "id": "2018:160",
+  "type": "statute",
+  "title": "Lag (2018:160) om försök med tillgänglighetsdelgivning i brottmål",
+  "status": "in_force",
+  "issued_date": "2018-04-05",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2018-160",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "På försök får vid de tingsrätter som regeringen bestämmer avvikelser enligt denna lag göras från vad som annars gäller för delgivning av handlingar i brottmål."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Den tilltalade får delges stämning och andra handlingar i ett brottmål genom att handlingarna hålls tillgängliga vid tingsrätten från och med en i förväg bestämd tidpunkt (tillgänglighetsdelgivning)."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Tillgänglighetsdelgivning får användas om den tilltalade har fått information om 1. att sådan delgivning kan komma att användas i målet, och 2. från och med vilken tidpunkt och vid vilken tingsrätt handlingarna kommer att hållas tillgängliga. Informationen ska vid ett personligt sammanträffande ha delgetts den tilltalade av en åklagare eller av en polisman eller någon annan anställd vid Polismyndigheten som myndigheten har utsett. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela närmare föreskrifter om information om tillgänglighetsdelgivning."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Tillgänglighetsdelgivning har skett när handlingarna har gjorts tillgängliga vid den tidpunkt och den tingsrätt som den tilltalade har fått information om enligt 3 §."
+    }
+  ]
+}

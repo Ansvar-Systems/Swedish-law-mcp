@@ -11,6 +11,7 @@ This is an MCP server providing Swedish legal citation tools — searching statu
 **Data Sources:**
 - Riksdagen (Swedish Parliament) legal database
 - Svensk Forfattningssamling (SFS) - Swedish Code of Statutes
+- EUR-Lex - Official EU legislation database (metadata)
 
 ## Architecture
 
@@ -37,7 +38,12 @@ src/
     ├── validate-citation.ts     # validate_citation - Zero-hallucination check
     ├── build-legal-stance.ts    # build_legal_stance - Multi-source aggregation
     ├── format-citation.ts       # format_citation - Citation formatting
-    └── check-currency.ts        # check_currency - Is statute in force?
+    ├── check-currency.ts        # check_currency - Is statute in force?
+    ├── get-eu-basis.ts          # get_eu_basis - EU law for Swedish statute
+    ├── get-swedish-implementations.ts # get_swedish_implementations - Swedish laws for EU act
+    ├── search-eu-implementations.ts   # search_eu_implementations - Search EU documents
+    ├── get-provision-eu-basis.ts      # get_provision_eu_basis - EU basis for provision
+    └── validate-eu-compliance.ts      # validate_eu_compliance - Future feature
 
 scripts/
 ├── build-db.ts              # Build SQLite database from seed files
@@ -55,7 +61,9 @@ data/
 └── database.db              # SQLite database
 ```
 
-## MCP Tools (8)
+## MCP Tools (13)
+
+### Core Legal Research Tools (8)
 
 | Tool | Description |
 |------|-------------|
@@ -67,6 +75,16 @@ data/
 | `build_legal_stance` | Aggregate citations from statutes, case law, prep works |
 | `format_citation` | Format citations (full/short/pinpoint) |
 | `check_currency` | Check if statute is in force, amended, or repealed |
+
+### EU Law Integration Tools (5)
+
+| Tool | Description |
+|------|-------------|
+| `get_eu_basis` | Get EU directives/regulations for Swedish statute |
+| `get_swedish_implementations` | Find Swedish laws implementing EU act |
+| `search_eu_implementations` | Search EU documents with Swedish implementation counts |
+| `get_provision_eu_basis` | Get EU law references for specific provision |
+| `validate_eu_compliance` | Check implementation status (future, requires EU MCP) |
 
 ## Swedish Law Structure
 
@@ -132,6 +150,42 @@ CREATE TABLE legal_provisions (
   UNIQUE(document_id, provision_ref)
 );
 
+-- EU directives and regulations (v1.1.0)
+CREATE TABLE eu_documents (
+  id TEXT PRIMARY KEY,          -- "directive:2016/679" or "regulation:2016/679"
+  type TEXT NOT NULL,           -- "directive" | "regulation"
+  year INTEGER NOT NULL,
+  number INTEGER NOT NULL,
+  community TEXT,               -- "EU" | "EG" | "EEG" | "Euratom"
+  celex_number TEXT,            -- "32016R0679" (EUR-Lex standard)
+  title TEXT,
+  title_en TEXT,
+  short_name TEXT,              -- "GDPR", "eIDAS", etc.
+  in_force BOOLEAN DEFAULT 1,
+  adoption_date TEXT,
+  url TEXT,                     -- EUR-Lex URL
+  UNIQUE(type, year, number)
+);
+
+-- Swedish → EU cross-references (v1.1.0)
+CREATE TABLE eu_references (
+  id INTEGER PRIMARY KEY,
+  document_id TEXT NOT NULL REFERENCES legal_documents(id),  -- Swedish SFS number
+  provision_id INTEGER REFERENCES legal_provisions(id),      -- Optional provision link
+  eu_document_id TEXT NOT NULL REFERENCES eu_documents(id),  -- EU directive/regulation
+  eu_article TEXT,              -- "6.1.c", "13-15", etc.
+  reference_type TEXT,          -- "implements", "supplements", "applies", etc.
+  is_primary_implementation BOOLEAN DEFAULT 0,
+  context TEXT,                 -- Surrounding Swedish text
+  UNIQUE(document_id, provision_id, eu_document_id, eu_article)
+);
+
+-- EU reference keywords for classification (v1.1.0)
+CREATE TABLE eu_reference_keywords (
+  keyword TEXT PRIMARY KEY,     -- "genomförande", "kompletterar", etc.
+  reference_type TEXT NOT NULL  -- Maps to eu_references.reference_type
+);
+
 -- FTS5 indexes (content-synced with triggers)
 CREATE VIRTUAL TABLE provisions_fts USING fts5(...);
 CREATE VIRTUAL TABLE case_law_fts USING fts5(...);
@@ -140,6 +194,55 @@ CREATE VIRTUAL TABLE definitions_fts USING fts5(...);
 
 -- Case law, preparatory works, cross-references, definitions
 -- See scripts/build-db.ts for full schema
+```
+
+## EU Integration Architecture (v1.1.0)
+
+### Bi-Directional Reference Model
+
+```
+Swedish Statute ←→ EU Directive/Regulation
+       ↓                      ↓
+  Provisions          EU Articles
+       ↓                      ↓
+    Case Law              CJEU (future)
+```
+
+### Data Flow
+
+1. **Ingestion:** EU references extracted from Swedish statute text via `src/parsers/eu-reference-parser.ts`
+2. **Storage:** Stored in `eu_documents` and `eu_references` tables
+3. **Lookup:** Bi-directional queries via MCP tools
+4. **Validation:** CELEX numbers validated against EUR-Lex format
+
+### Example Queries
+
+**Swedish → EU:**
+```sql
+-- Find EU basis for DSL
+SELECT ed.id, ed.short_name, er.reference_type
+FROM eu_references er
+JOIN eu_documents ed ON er.eu_document_id = ed.id
+WHERE er.document_id = '2018:218';
+```
+
+**EU → Swedish:**
+```sql
+-- Find Swedish implementations of GDPR
+SELECT ld.id, ld.title, er.is_primary_implementation
+FROM eu_references er
+JOIN legal_documents ld ON er.document_id = ld.id
+WHERE er.eu_document_id = 'regulation:2016/679';
+```
+
+**Provision-level:**
+```sql
+-- EU basis for DSL 3:5
+SELECT ed.id, ed.short_name, er.eu_article
+FROM eu_references er
+JOIN eu_documents ed ON er.eu_document_id = ed.id
+JOIN legal_provisions lp ON er.provision_id = lp.id
+WHERE lp.document_id = '2018:218' AND lp.provision_ref = '3:5';
 ```
 
 ## Testing
@@ -163,76 +266,59 @@ describe('search_legislation', () => {
 
 Sample data includes: DSL (2018:218), PUL (1998:204), 2 court decisions, 2 preparatory works, definitions, and cross-references.
 
-## Priority Statutes
+## Database Statistics (v1.1.0)
 
-1. **Dataskyddslagen (2018:218)** - Swedish GDPR implementation
-2. **Offentlighets- och sekretesslagen (2009:400)** - Public access/secrecy
-3. **Arbetsmiljolagen (1977:1160)** - Workplace safety
-4. **Brottsbalken (1962:700)** - Criminal code
-5. **Personuppgiftslagen (1998:204)** - Personal data (historical, repealed)
+- **Statutes:** 717 laws (785% growth from v1.0.0)
+- **Provisions:** 31,198 sections
+- **Preparatory Works:** 3,625 documents
+- **EU Cross-References:** 668 references to 228 EU documents
+- **Legal Definitions:** 615 terms
+- **Database Size:** 64.8 MB
+- **MCP Tools:** 13 (8 core + 5 EU integration)
 
-## Case Law Data
+## EU Law Integration
 
-The MCP server includes Swedish court decisions (rättsfall) from lagen.nu, providing comprehensive case law coverage across multiple courts.
+The MCP server includes comprehensive cross-referencing between Swedish law and EU directives/regulations.
 
 **Data Source:**
-- **Provider:** [lagen.nu](https://lagen.nu)
-- **License:** Creative Commons Attribution (CC-BY Domstolsverket)
-- **Attribution:** All case law results include attribution metadata
-- **Coverage:** 2,000+ cases from 2011-present (actively maintained)
+- **Provider:** [EUR-Lex](https://eur-lex.europa.eu/)
+- **License:** EU public domain
+- **Coverage:** 668 cross-references, 228 EU documents (89 directives, 139 regulations)
+- **Swedish Statutes:** 49 statutes (68% of database) have EU references
+- **Granularity:** Provision-level references to specific EU articles
 
-**Courts Covered:**
-- **HFD** (Högsta förvaltningsdomstolen) - Supreme Administrative Court
-- **HD** (Högsta domstolen) - Supreme Court
-- **AD** (Arbetsdomstolen) - Labour Court
-- **MÖD** (Mark- och miljööverdomstolen) - Land and Environment Court of Appeal
-- **MIG** (Migrationsöverdomstolen) - Migration Court of Appeal
-- **RH** (Riksdagens ombudsmän) - Parliamentary Ombudsmen
-- **NJA** (Nytt Juridiskt Arkiv) - Supreme Court Reports
+**EU Integration Features:**
+- **Bi-directional Lookup:** Find EU basis for Swedish law AND Swedish implementations of EU law
+- **5 Specialized Tools:** `get_eu_basis`, `get_swedish_implementations`, `search_eu_implementations`, `get_provision_eu_basis`, `validate_eu_compliance`
+- **CELEX Numbers:** Official EU document identifiers for all documents
+- **EUR-Lex Metadata:** 47 documents fetched directly from EUR-Lex API
+- **Implementation Tracking:** Primary vs supplementary implementation metadata
+- **Zero-Hallucination:** All references extracted from verified statute text
 
-**Data Freshness:**
-- **Update Frequency:** Weekly scheduled sync
-- **Transparency:** Case law statistics available via MCP resource `case-law-stats://swedish-law-mcp/metadata`
-- **Last Sync Check:** Use `check_currency` tool to see `case_law_stats` field
-- **Search Results:** All results include `_metadata` field with source attribution
-
-**Ingestion Commands:**
+**EU Ingestion Commands:**
 ```bash
-# Full archive ingestion (scrape all court archives from 2011+)
-npm run ingest:cases:full-archive
+# Fetch missing EU documents from EUR-Lex
+npm run fetch:eurlex -- --missing
 
-# With options (limit, court filter, year range)
-npm run ingest:cases:full-archive -- --limit 1000
-npm run ingest:cases:full-archive -- --court hfd --year 2023
-npm run ingest:cases:full-archive -- --start-year 2018 --end-year 2024
+# Fetch single EU document
+npm run fetch:eurlex -- regulation:2016/679
 
-# Incremental sync (fetch only new cases from feed)
-npm run sync:cases
+# Import EUR-Lex documents into database
+npm run import:eurlex-documents
 
-# Full refresh (re-fetch all cases from feed)
-npm run sync:cases -- --full
+# Migrate EU references from seed files
+npm run migrate:eu-references
 
-# Dry run (preview changes without writing to database)
-npm run sync:cases -- --dry-run
-
-# JSON output for automation
-npm run sync:cases -- --json
+# Verify EU coverage
+npm run verify:eu-coverage
 ```
 
 **Data Quality:**
-- Zero-hallucination constraint applies to case law
-- All case IDs, dates, and references verified from RDF metadata
-- Automatic cross-referencing to cited statutes
-- FTS5 full-text search on case summaries and keywords
-
-**MCP Resource:**
-The server exposes a `case-law-stats` resource providing:
-- Last sync timestamp
-- Latest decision date in database
-- Total case count
-- Cases breakdown by court
-- Source attribution and license information
-- Update frequency and coverage details
+- Zero-hallucination constraint applies to EU data
+- All EU references extracted from verified Swedish statute text
+- EUR-Lex metadata validated with CELEX number verification
+- 97.95% reference coverage (668/682 seed references)
+- FTS5 full-text search on EU document metadata
 
 ## Ingestion from Riksdagen
 

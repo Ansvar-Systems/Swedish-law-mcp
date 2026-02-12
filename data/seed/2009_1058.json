@@ -1,0 +1,20 @@
+{
+  "id": "2009:1058",
+  "type": "statute",
+  "title": "Lag (2009:1058) om förtursförklaring i domstol",
+  "status": "in_force",
+  "issued_date": "2009-11-05",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2009-1058",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Om handläggningen av ett mål eller ärende har oskäligt fördröjts, ska domstolen efter skriftlig ansökan från en enskild part förklara att målet eller ärendet ska handläggas med förtur i domstolen (förtursförklaring). Vid bedömningen av om handläggningen har oskäligt fördröjts ska det särskilt beaktas 1. hur komplicerat målet eller ärendet är, 2. hur parterna agerat under förfarandet, 3. hur myndigheter och domstolar handlagt målet eller ärendet, och 4. sakens betydelse för sökanden. En ansökan om förtursförklaring ska handläggas skyndsamt."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Beslut enligt denna lag får inte överklagas."
+    }
+  ]
+}

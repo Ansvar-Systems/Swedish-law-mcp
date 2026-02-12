@@ -1,0 +1,99 @@
+{
+  "id": "2015:632",
+  "type": "statute",
+  "title": "Lag (2015:632) om talan om skattetillägg i vissa fall",
+  "status": "in_force",
+  "issued_date": "2015-11-12",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2015-632",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Inledande bestämmelser",
+      "content": "Denna lag gäller om en felaktighet eller passivitet kan utgöra grund för såväl beslut om skattetillägg enligt skatteförfarandelagen (2011:1244) som åtal för brott enligt skattebrottslagen (1971:69) för samma fysiska person."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "I lagen finns bestämmelser om förfarandet när en fråga om skattetillägg prövas i samma rättegång som ett åtal för skattebrott. Lagen innehåller också bestämmelser om förfarandet hos åklagaren samt vissa bestämmelser om verkställighet."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "När en fråga om skattetillägg ska prövas enligt denna lag, tillämpas bestämmelserna om skattetillägg i 49 kap. och"
+    },
+    {
+      "provision_ref": "49:4",
+      "chapter": "49",
+      "section": "4",
+      "title": "Förfarandet",
+      "content": "Om inte något annat föreskrivs i denna lag, tillämpas i fråga om utredningen och förfarandet beträffande frågan om skattetillägg det som är föreskrivet för det brottmål som frågan om skattetillägg har samband med. Tvångsmedel enligt 24-28 kap. rättegångsbalken får dock inte användas."
+    },
+    {
+      "provision_ref": "49:5",
+      "chapter": "49",
+      "section": "5",
+      "content": "Vid underrättelse enligt 23 kap. 18 § första stycket rättegångsbalken ska den misstänkte också underrättas om att skattetillägg kan komma att tas ut samt om grunderna för detta."
+    },
+    {
+      "provision_ref": "49:6",
+      "chapter": "49",
+      "section": "6",
+      "content": "När åklagaren väcker åtal för brott enligt skattebrottslagen (1971:69), ska åklagaren, om förutsättningarna för detta är uppfyllda, samtidigt framställa ett yrkande om skattetillägg för den person som åtalet gäller, om skattetillägget avser en felaktighet eller passivitet som omfattas av åtalet. När åklagaren framställer ett yrkande om skattetillägg, ska åklagaren i stämningsansökan uppge 1. de bestämmelser som är tillämpliga när det gäller skattetillägget, 2. vilken procentsats som skattetillägget ska tas ut med och vilket underlag det ska beräknas på, 3. de omständigheter som åberopas till stöd för skattetillägget, och 4. de bevis som åberopas och vad som ska styrkas med varje bevis."
+    },
+    {
+      "provision_ref": "49:7",
+      "chapter": "49",
+      "section": "7",
+      "content": "Om åklagaren åberopar en ny felaktighet eller passivitet till stöd för åtalet, får denna felaktighet eller passivitet också åberopas till stöd för talan om skattetillägg."
+    },
+    {
+      "provision_ref": "49:8",
+      "chapter": "49",
+      "section": "8",
+      "content": "Frågan om skattetillägg ska handläggas i samma rättegång som åtalet enligt skattebrottslagen (1971:69) och avgöras genom dom. Särskilt om strafföreläggande"
+    },
+    {
+      "provision_ref": "49:9",
+      "chapter": "49",
+      "section": "9",
+      "content": "Ett strafföreläggande enligt 48 kap. 2 § rättegångsbalken ska, om förutsättningarna för detta är uppfyllda, omfatta även skattetillägg, enligt de förutsättningar som anges i 10 och 11 §§."
+    },
+    {
+      "provision_ref": "49:10",
+      "chapter": "49",
+      "section": "10",
+      "content": "Om ett strafföreläggande ska omfatta även skattetillägg, ska utöver vad som följer av 48 kap. 6 § rättegångsbalken strafföreläggandet innehålla uppgifter om 1. de bestämmelser som är tillämpliga när det gäller skattetillägget, 2. vilken procentsats som skattetillägget ska tas ut med och vilket underlag det ska beräknas på, och 3. de omständigheter som åberopas till stöd för skattetillägget."
+    },
+    {
+      "provision_ref": "49:11",
+      "chapter": "49",
+      "section": "11",
+      "content": "Ett strafföreläggande som omfattar skattetillägg godkänns genom att den misstänkte i förklaringen enligt 48 kap. 9 § rättegångsbalken godtar även det skattetillägg som tagits upp i föreläggandet. Offentlig försvarare"
+    },
+    {
+      "provision_ref": "49:12",
+      "chapter": "49",
+      "section": "12",
+      "content": "Den som har rätt till offentlig försvarare för brott enligt skattebrottslagen (1971:69) har rätt till offentlig försvarare också beträffande den fråga om skattetillägg som har samband med brottmålet. Rätten till offentlig försvarare gäller även om endast frågan om skattetillägg prövas. Rättegångskostnader"
+    },
+    {
+      "provision_ref": "49:13",
+      "chapter": "49",
+      "section": "13",
+      "content": "I fråga om rättegångskostnader ska 31 kap. rättegångsbalken tillämpas. Överklagande"
+    },
+    {
+      "provision_ref": "49:14",
+      "chapter": "49",
+      "section": "14",
+      "content": "I fråga om överklagande ska rättegångsbalkens bestämmelser om överklagande i brottmål tillämpas. Prövningstillstånd krävs inte i hovrätten om endast frågan om skattetillägg överklagas dit. Ansvar, betalning och verkställighet"
+    },
+    {
+      "provision_ref": "49:15",
+      "chapter": "49",
+      "section": "15",
+      "content": "Bestämmelser i följande kapitel i skatteförfarandelagen (2011:1244) som är tillämpliga på skattetillägg beslutade av Skatteverket eller allmän förvaltningsdomstol ska också tillämpas på skattetillägg som kan beslutas enligt denna lag: 1. 46 kap. om betalningssäkring, 2. 61 kap. om skattekonton, 62 kap. om betalning av skatter och avgifter, 63 kap. om anstånd med betalning av skatter och avgifter, 64 kap. om återbetalning av skatter och avgifter och 65 kap. om ränta, och 3. 68 kap. om besluts verkställbarhet, 69 kap. om verkställighet av beslut om bevissäkring och betalningssäkring, 70 kap. om indrivning och 71 kap. om övriga bestämmelser om verkställighet. Övergångsbestämmelser 2015:632 1. Denna lag träder i kraft den 1 januari 2016. 2. Lagen tillämpas i fråga om felaktigheter eller passiviteter som hänför sig till tiden efter den 31 december 2015."
+    }
+  ]
+}

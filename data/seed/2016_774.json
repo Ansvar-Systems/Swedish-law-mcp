@@ -1,0 +1,25 @@
+{
+  "id": "2016:774",
+  "type": "statute",
+  "title": "Lag (2016:774) om uppgiftsskyldighet vid samverkan mot viss organiserad brottslighet",
+  "status": "in_force",
+  "issued_date": "2016-06-22",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2016-774",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Denna lag gäller vid särskilt beslutad samverkan mellan myndigheter för att förebygga, förhindra eller upptäcka brottslig verksamhet som 1. är av allvarlig eller omfattande karaktär, och 2. bedrivs i organiserad form eller systematiskt av en grupp individer."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Inom ramen för samverkan enligt denna lag ska en myndighet trots sekretess lämna uppgift till en annan myndighet om det behövs för den mottagande myndighetens deltagande i samverkan. En uppgift ska inte lämnas om övervägande skäl talar för att det intresse som sekretessen ska skydda har företräde framför intresset av att uppgiften lämnas ut."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Endast myndigheter som regeringen bestämmer ska vara skyldiga att lämna eller ska få ta emot uppgifter enligt denna lag."
+    }
+  ]
+}

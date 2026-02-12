@@ -1,0 +1,81 @@
+{
+  "id": "2016:757",
+  "type": "statute",
+  "title": "Lag (2016:757) om kvarstad på bankmedel inom EU",
+  "status": "in_force",
+  "issued_date": "2016-06-22",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2016-757",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Tillämpningsområde",
+      "content": "Denna lag innehåller bestämmelser som kompletterar Europaparlamentets och rådets förordning (EU) nr 655/2014 av den 15 maj 2014 om inrättande av ett europeiskt förfarande för kvarstad på bankmedel för att underlätta gränsöverskridande skuldindrivning i mål och ärenden av privaträttslig natur (kvarstadsförordningen). Ansökan om kvarstad"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Vid handläggningen av en ansökan om kvarstad enligt kvarstadsförordningen gäller rättegångsbalkens bestämmelser om tvistemål där förlikning om saken är tillåten, om inte något annat följer av förordningen. Inhämtande av bankkontoinformation"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Kronofogdemyndigheten är informationsmyndighet enligt kvarstadsförordningen."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "En bank är skyldig att på begäran av Kronofogdemyndigheten uppge om en gäldenär har ett bankkonto hos banken. En begäran enligt första stycket får förenas med ett föreläggande om vite. En fråga om utdömande av vite som har förelagts enligt andra stycket prövas i den ordning som följer av 2 kap. 15 § andra stycket utsökningsbalken. Om ett vitesföreläggande inte följs kan Kronofogdemyndigheten förelägga ett nytt vite även om det första vitesföreläggandet inte har fått laga kraft."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "Kronofogdemyndigheten får ta ut en avgift av fordringsägaren i ärenden om inhämtande av bankkontoinformation. Regeringen får meddela föreskrifter om avgiftens storlek. Verkställighet"
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "Kronofogdemyndigheten är behörig myndighet och ansvarig verkställande myndighet enligt kvarstadsförordningen."
+    },
+    {
+      "provision_ref": "7",
+      "section": "7",
+      "content": "Vid verkställighet av ett beslut om kvarstad enligt kvarstadsförordningen gäller utsökningsbalken, om inte något annat följer av förordningen eller av denna lag."
+    },
+    {
+      "provision_ref": "8",
+      "section": "8",
+      "content": "För att genomföra ett beslut om kvarstad får banken överföra det kvarstadsbelagda beloppet till ett särskilt konto hos Kronofogdemyndigheten. Rättsmedel"
+    },
+    {
+      "provision_ref": "9",
+      "section": "9",
+      "content": "En ansökan om rättsmedel mot ett beslut om kvarstad enligt artikel 33 i kvarstadsförordningen prövas av den domstol som har meddelat kvarstadsbeslutet. Vid handläggningen av en sådan ansökan tillämpas rättegångsbalkens bestämmelser om tvistemål, om inte något annat följer av kvarstadsförordningen."
+    },
+    {
+      "provision_ref": "10",
+      "section": "10",
+      "content": "En ansökan om rättsmedel mot verkställigheten av ett beslut om kvarstad enligt artikel 34.1, 35.3 eller 35.4 i kvarstadsförordningen prövas av Kronofogdemyndigheten. Vid handläggningen av en sådan ansökan tillämpas utsökningsbalken, om inte något annat följer av kvarstadsförordningen. En ansökan enligt artikel 34.2 i kvarstadsförordningen ska göras hos den tingsrätt som enligt 18 kap. 1 § utsökningsbalken prövar överklaganden av Kronofogdemyndighetens beslut. Vid handläggning av en sådan ansökan tillämpas lagen (1996:242) om domstolsärenden, om inte något annat följer av kvarstadsförordningen. Ansökan om att få ställa säkerhet"
+    },
+    {
+      "provision_ref": "11",
+      "section": "11",
+      "content": "En ansökan av en gäldenär om att få ställa en säkerhet för att avbryta verkställigheten enligt kvarstadsförordningen ska prövas av Kronofogdemyndigheten."
+    },
+    {
+      "provision_ref": "12",
+      "section": "12",
+      "content": "Fordringsägaren ska ges tillfälle att yttra sig över en ställd säkerhet innan den prövas av domstol."
+    },
+    {
+      "provision_ref": "13",
+      "section": "13",
+      "content": "För beskaffenheten av andra säkerheter än kontanta medel som ställs till domstol gäller 2 kap. 25 § utsökningsbalken."
+    },
+    {
+      "provision_ref": "14",
+      "section": "14",
+      "content": "En säkerhet i form av kontanta medel som ställs till domstol ska deponeras av gäldenären hos en länsstyrelse."
+    }
+  ]
+}

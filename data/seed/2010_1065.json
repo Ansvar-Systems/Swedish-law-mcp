@@ -1,0 +1,333 @@
+{
+  "id": "2010:1065",
+  "type": "statute",
+  "title": "Lag (2010:1065) om kollektivtrafik",
+  "status": "in_force",
+  "issued_date": "2010-07-15",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2010-1065",
+  "provisions": [
+    {
+      "provision_ref": "1:1",
+      "chapter": "1",
+      "section": "1",
+      "title": "Lagens tillämpningsområde m.m.",
+      "content": "I denna lag finns bestämmelser om kollektivtrafik på väg, järnväg, vatten, spårväg och med tunnelbana. Bestämmelserna avser 1. ansvar för regional kollektivtrafik och organisering av regionala kollektivtrafikmyndigheter, och 2. allmänna krav på kollektivtrafikföretag. Lagen innehåller även bestämmelser som gäller för dem som är behöriga myndigheter enligt Europaparlamentets och rådets förordning (EG) nr 1370/2007 av den 23 oktober 2007 om kollektivtrafik på järnväg och väg och om upphävande av rådets förordning (EEG) nr 1191/69 och (EEG) nr 1107/70 (EU:s kollektivtrafikförordning). Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "1:1 a",
+      "chapter": "1",
+      "section": "1 a",
+      "content": "I fråga om kollektivtrafik på vatten ska även EU:s kollektivtrafikförordning tillämpas. Lag (2012:437)."
+    },
+    {
+      "provision_ref": "1:2",
+      "chapter": "1",
+      "section": "2",
+      "content": "I EU:s kollektivtrafikförordning finns bestämmelser om behöriga myndigheters möjligheter att vidta åtgärder för att tillgodose behovet av kollektivtrafik på ett sätt som är förenligt med Europeiska unionens bestämmelser om statligt stöd."
+    },
+    {
+      "provision_ref": "1:2 a",
+      "chapter": "1",
+      "section": "2 a",
+      "content": "I rådets förordning (EEG) 3577/92 av den 7 december 1992 om tilllämpning av principen om frihet att tillhandahålla tjänster på sjötransportområdet inom medlemsstaterna (cabotage) finns bestämmelser om tillträde till marknaden på sjötransportområdet och om medlemsstaternas möjligheter att ålägga förpliktelser vid allmän trafik och ingå avtal om allmän trafik avseende vissa sjötransporttjänster. Lag (2012:437)."
+    },
+    {
+      "provision_ref": "1:3",
+      "chapter": "1",
+      "section": "3",
+      "content": "Har upphävts genom lag (2016:1212)."
+    },
+    {
+      "provision_ref": "1:4",
+      "chapter": "1",
+      "section": "4",
+      "content": "I lagen (1979:558) om handikappanpassad kollektivtrafik finns bestämmelser om hur kollektivtrafik ska anpassas med hänsyn till resenärer med funktionshinder. Definitioner"
+    },
+    {
+      "provision_ref": "1:5",
+      "chapter": "1",
+      "section": "5",
+      "content": "I denna lag avses med allmän trafikplikt, avtal om allmän trafik, ensamrätt, kollektivtrafik, kollektivtrafik på järnväg och kollektivtrafikföretag detsamma som i EU:s kollektivtrafikförordning. Lag (2022:378)."
+    },
+    {
+      "provision_ref": "1:6",
+      "chapter": "1",
+      "section": "6",
+      "content": "I denna lag avses med regional kollektivtrafik: sådan kollektivtrafik som 1. äger rum inom ett län eller, 2. om den sträcker sig över flera län, med avseende på trafikutbudet huvudsakligen är ägnad att tillgodose resenärernas behov av arbetspendling eller annat vardagsresande och som med hänsyn till sitt faktiska nyttjande tillgodoser ett sådant behov."
+    },
+    {
+      "provision_ref": "2:1",
+      "chapter": "2",
+      "section": "1",
+      "title": "Ansvar inom ett län",
+      "content": "Regionen och kommunerna inom ett län ansvarar gemensamt för den regionala kollektivtrafiken, om inte annat följer av andra eller tredje stycket. Regionen och kommunerna får dock komma överens om att antingen regionen eller kommunerna ska bära ansvaret. I Stockholms län ansvarar regionen ensam för den regionala kollektivtrafiken, om inte regionen och kommunerna kommer överens om att gemensamt ansvara för denna trafik eller om att endast kommunerna ska bära ansvaret. I Gotlands län ansvarar kommunen för den regionala kollektivtrafiken. Den eller de som ansvarar för kollektivtrafiken enligt första- tredje styckena ansvarar också för persontransporter enligt lagen (1997:736) om färdtjänst eller lagen (1997:735) om riksfärdtjänst i sådana kommuner som överlåtit sina uppgifter enligt någon av dessa lagar till den regionala kollektivtrafikmyndighet som avses i 2 §. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "2:1 a",
+      "chapter": "2",
+      "section": "1 a",
+      "content": "Om regionen och kommunerna i samma län har kommit överens om att regionen ensam ska bära ansvaret för den regionala kollektivtrafiken, får kommunerna lämna ekonomiskt bidrag till varandra, om det behövs för kostnadsutjämningen mellan kommunerna. Sådana bidrag får lämnas längst intill utgången av det femte året från det att ansvaret överfördes. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "2:1 b",
+      "chapter": "2",
+      "section": "1 b",
+      "content": "Om en region ensam ska ansvara för den regionala kollektivtrafiken i länet, får en kommun inom länet träffa avtal med regionen om kostnadsansvar för regional kollektivtrafik som är av bättre kvalitet eller billigare för resenärerna än vad regionen annars skulle tillhandahålla. Lag (2019:950). Regional kollektivtrafikmyndighet"
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "content": "I varje län ska det finnas en regional kollektivtrafikmyndighet. I de län där kommunerna och regionen gemensamt bär ansvaret för den regionala kollektivtrafiken ska den regionala kollektivtrafikmyndigheten organiseras som ett kommunalförbund. Detsamma gäller i de län där kommunerna ensamma bär ansvaret för den regionala kollektivtrafiken. I fall som sägs i andra stycket får de som ansvarar för den regionala kollektivtrafiken i länet komma överens om att organisera den regionala kollektivtrafikmyndigheten som en gemensam nämnd i stället för som ett kommunalförbund. I de län där regionen ensam bär ansvaret för den regionala kollektivtrafiken är regionen också regional kollektivtrafikmyndighet. I Gotlands län är kommunen regional kollektivtrafikmyndighet. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "content": "I fråga om gemensam nämnd gäller vad som föreskrivs i kommunallagen (2017:725). Detsamma gäller i fråga om kommunalförbund om inte annat följer av 4-7 §§. Lag (2017:763)."
+    },
+    {
+      "provision_ref": "2:4",
+      "chapter": "2",
+      "section": "4",
+      "content": "Om enighet inte kan uppnås om förbundsordningen för kommunalförbund som avses i 2 § eller om ändring av förbundsordningen eller om vem som ska vara ordförande i förbundets beslutande församling eller styrelse, beslutar regeringen i dessa frågor. Vid oenighet i de avseenden som anges i 5 eller 6 § gäller dock vad som sägs där, om inte annat följer av 7 §."
+    },
+    {
+      "provision_ref": "2:5",
+      "chapter": "2",
+      "section": "5",
+      "content": "Om enighet inte kan uppnås i fråga om hur antalet ledamöter och ersättare i ett kommunalförbunds beslutande församling ska fördelas mellan regionen och kommunerna i länet, ska regionen utse hälften och kommunerna tillsammans hälften. Antalet ledamöter och ersättare som varje kommun ska utse bestäms av länsstyrelsen i förhållande till folkmängden i kommunerna vid ingången av det år när val av förbundsfullmäktige förrättas. Varje kommun ska dock utse minst en ledamot och en ersättare. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "2:6",
+      "chapter": "2",
+      "section": "6",
+      "content": "Om inte enighet uppnås i fråga om sättet att fördela underskott i förbundsverksamheten mellan medlemmarna i ett kommunalförbund, ska regionen täcka hälften av underskottet och kommunerna i länet tillsammans resten. Varje kommuns skyldighet att tillhandahålla medel ska bestämmas i för- hållande till det trafikarbete som har lagts ned i kommunen under verksamhetsåret. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "2:7",
+      "chapter": "2",
+      "section": "7",
+      "content": "Om det finns synnerliga skäl, får regeringen meddela föreskrifter eller i särskilt fall besluta om undantag från 5 eller 6 §. Regeringen får meddela sådana föreskrifter respektive fatta sådant beslut efter framställning av en region, en kommun som inte tillhör en region eller minst en tredjedel av de kommuner i ett visst län som tillhör en region, om de ansvarar för kollektivtrafiken enligt 1 §. Beslut om undantag får förenas med särskilda villkor. Lag (2019:950). Trafikförsörjningsprogram Den regionala kollektivtrafikmyndighetens ansvar"
+    },
+    {
+      "provision_ref": "2:8",
+      "chapter": "2",
+      "section": "8",
+      "content": "Den regionala kollektivtrafikmyndigheten ska regelbundet i ett trafikförsörjningsprogram fastställa mål för den regionala kollektivtrafiken. Programmet ska vid behov uppdateras. Ett trafikförsörjningsprogram är detsamma som ett policydokument för kollektivtrafik enligt artikel 2a i EU:s kollektivtrafikförordning. Lag (2022:378). Samråd"
+    },
+    {
+      "provision_ref": "2:9",
+      "chapter": "2",
+      "section": "9",
+      "content": "Det regionala trafikförsörjningsprogrammet ska upprättas efter samråd med motsvarande myndigheter i angränsande län. Samråd ska även ske med övriga berörda myndigheter, organisationer, kollektivtrafikföretag samt företrädare för näringsliv och resenärer. I de fall en region ensam är regional kollektivtrafikmyndighet ska samråd även ske med kommunerna i länet. Lag (2019:950). Närmare om innehållet i regionala trafikförsörjningsprogram"
+    },
+    {
+      "provision_ref": "2:10",
+      "chapter": "2",
+      "section": "10",
+      "content": "Ett regionalt trafikförsörjningsprogram ska innehålla en redovisning av 1. behovet av regional kollektivtrafik i länet samt mål för kollektivtrafikförsörjningen, 2. alla former av regional kollektivtrafik i länet, både trafik som bedöms kunna utföras på kommersiell grund och trafik som myndigheten avser att ombesörja på grundval av allmän trafikplikt, 3. åtgärder för att skydda miljön, 4. tidsbestämda mål och åtgärder för anpassning av kollektivtrafik med hänsyn till behov hos personer med funktionsnedsättning, 5. de bytespunkter och linjer som ska vara fullt tillgängliga för alla resenärer, samt 6. omfattningen av trafik enligt lagen (1997:736) om färdtjänst och lagen (1997:735) om riksfärdtjänst och grunderna för prissättningen för resor med sådan trafik, i den mån uppgifter enligt dessa lagar har överlåtits till den regionala kollektivtrafikmyndigheten. En kommuns uppgifter i vissa fall"
+    },
+    {
+      "provision_ref": "2:11",
+      "chapter": "2",
+      "section": "11",
+      "content": "Varje kommun ska regelbundet i ett trafikförsörjningsprogram ange omfattningen av trafik enligt lagen (1997:736) om färdtjänst och lagen (1997:735) om riksfärdtjänst och grunderna för prissättningen för resor med sådan trafik, i den mån kommunen inte överlåtit sina uppgifter enligt dessa lagar till den regionala kollektivtrafikmyndigheten. Kommunen ska anta programmet efter samråd med den regionala kollektivtrafikmyndigheten och, i förekommande fall, regionen. Lag (2019:950). Övriga uppgifter för den regionala kollektivtrafikmyndigheten"
+    },
+    {
+      "provision_ref": "2:12",
+      "chapter": "2",
+      "section": "12",
+      "content": "Efter överenskommelse med regionen eller en kommun i länet får den regionala kollektivtrafikmyndigheten upphandla persontransport- och samordningstjänster för sådana transportändamål som kommunerna eller regionen ska tillgodose samt samordna sådana transporttjänster. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "2:13",
+      "chapter": "2",
+      "section": "13",
+      "content": "Den regionala kollektivtrafikmyndigheten ska verka för att den regionala kollektivtrafiken är tillgänglig för alla resenärsgrupper."
+    },
+    {
+      "provision_ref": "2:14",
+      "chapter": "2",
+      "section": "14",
+      "content": "Den regionala kollektivtrafikmyndigheten ska verka för en tillfredsställande taxiförsörjning i länet. Bemyndigande"
+    },
+    {
+      "provision_ref": "2:15",
+      "chapter": "2",
+      "section": "15",
+      "content": "Regeringen får efter framställning av en regional kollektivtrafikmyndighet, en region eller en kommun meddela föreskrifter om samverkan i fråga om trafik mellan regionala kollektivtrafikmyndigheter i olika län. Lag (2019:950)."
+    },
+    {
+      "provision_ref": "3:1",
+      "chapter": "3",
+      "section": "1",
+      "title": "Beslut om allmän trafikplikt",
+      "content": "Den regionala kollektivtrafikmyndigheten är behörig lokal myndighet enligt EU:s kollektivtrafikförordning och fattar beslut om allmän trafikplikt inom länet. En regional kollektivtrafikmyndighet får även, efter överenskommelse med en eller flera andra sådana myndigheter, fatta beslut om allmän trafikplikt inom myndigheternas gemensamma område. Ett beslut enligt denna paragraf får endast avse regional kollektivtrafik."
+    },
+    {
+      "provision_ref": "3:1 a",
+      "chapter": "3",
+      "section": "1 a",
+      "content": "Ett beslut om allmän trafikplikt enligt 1 § är detsamma som en specifikation för allmän trafikplikt enligt artikel 2a i EU:s kollektivtrafikförordning. Lag (2022:378). Överlämnande av befogenheter"
+    },
+    {
+      "provision_ref": "3:2",
+      "chapter": "3",
+      "section": "2",
+      "content": "En regional kollektivtrafikmyndighet får efter beslut av den beslutande församlingen överlämna befogenheten att ingå avtal om allmän trafik till ett aktiebolag. Om den regionala kollektivtrafikmyndigheten är en gemensam nämnd, överlämnas befogenheten efter samstämmiga beslut av fullmäktige i var och en av de kommuner och, i förekommande fall, den region som samverkar i nämnden. Myndigheten får i samma ordning som föreskrivs i första stycket även överlämna sin befogenhet att ingå avtal om allmän trafik till en kommun inom länet i fråga om kollektivtrafik som bedrivs inom denna kommuns område, inklusive trafik längs eventuella utgående linjer som sträcker sig in i angränsande kommuner. En regional kollektivtrafikmyndighet som överlämnar sin befogenhet enligt första stycket får i samma ordning även överlämna sina befogenheter att upphandla och samordna tjänster enligt 2 kap. 12 § till aktiebolaget. Lag (2019:950). Avtal om allmän trafik"
+    },
+    {
+      "provision_ref": "3:3",
+      "chapter": "3",
+      "section": "3",
+      "content": "Ett avtal om allmän trafik som ingås av en regional kollektivtrafikmyndighet eller av den till vilken befogenhet överlämnats enligt 2 § ska grunda sig på ett beslut om allmän trafikplikt enligt 1 §. Ett sådant avtal får inte ingås för en ny avtalsperiod utan att ett nytt beslut om allmän trafikplikt fattats."
+    },
+    {
+      "provision_ref": "3:3 a",
+      "chapter": "3",
+      "section": "3 a",
+      "content": "En regional kollektivtrafikmyndighet, eller den till vilken befogenhet överlämnats enligt 2 §, får lämna ersättning för kollektivtrafik som sträcker sig in i ett angränsande land, om trafiken omfattas av en allmän trafikplikt. Ersättning enligt första stycket får lämnas endast för sådan kollektivtrafik som är lämplig för att tillgodose resenärernas behov av arbetspendling eller annat vardagsresande och som faktiskt också tillgodoser detta behov. Lag (2012:437). Förbud mot ensamrätt"
+    },
+    {
+      "provision_ref": "3:4",
+      "chapter": "3",
+      "section": "4",
+      "content": "Ensamrätt får inte medges som motprestation för fullgörande av allmän trafikplikt."
+    },
+    {
+      "provision_ref": "4:1",
+      "chapter": "4",
+      "section": "1",
+      "title": "Anmälningsskyldighet",
+      "content": "Ett kollektivtrafikföretag som har för avsikt att på kommersiell grund bedriva kollektivtrafik ska anmäla detta till berörd regional kollektivtrafikmyndighet. Detsamma gäller när ett kollektivtrafikföretag avser att upphöra med att bedriva sådan trafik. Om anmälan berör trafik i fler än ett län, ska den mottagande kollektivtrafikmyndigheten informera övriga berörda myndigheter. Gemensamt system för trafikantinformation"
+    },
+    {
+      "provision_ref": "4:2",
+      "chapter": "4",
+      "section": "2",
+      "content": "Ett kollektivtrafikföretag ska lämna information om sitt trafikutbud till ett gemensamt system för trafikantinformation. Uppföljning och utvärdering"
+    },
+    {
+      "provision_ref": "4:3",
+      "chapter": "4",
+      "section": "3",
+      "content": "Ett kollektivtrafikföretag, en behörig myndighet enligt EU:s kollektivtrafikförordning och den till vilken befogenhet överlämnats enligt 3 kap. 2 § ska till den myndighet regeringen bestämmer lämna de uppgifter som behövs för utvärdering och uppföljning av utvecklingen av marknaden för kollektivtrafik. Lag (2012:437). Bemyndigande m.m."
+    },
+    {
+      "provision_ref": "4:4",
+      "chapter": "4",
+      "section": "4",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om 1. skyldighet att lämna information enligt 2 § och 2. uppgiftsskyldighet enligt 3 §. Regeringen eller den myndighet som regeringen bestämmer meddelar föreskrifter om anmälningsskyldighet enligt 1 §. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter och i enskilda fall besluta om undantag från skyldighet som anges i 1, 2 eller 3 §. Lag (2012:437)."
+    },
+    {
+      "provision_ref": "4:5",
+      "chapter": "4",
+      "section": "5",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om avgifter för tillsyn och ärendehandläggning enligt denna lag och enligt föreskrifter som har meddelats med stöd av lagen. Lag (2012:437). 4 a kap. Upphandling av kollektivtrafik Användningen av vissa termer 1 § I detta kapitel avses med 1. tjänstekontrakt: detsamma som i lagen (2016:1145) om offentlig upphandling och lagen (2016:1146) om upphandling inom försörjningssektorerna, 2. tjänstekoncession: detsamma som i lagen (2016:1147) om upphandling av koncessioner, 3. direkttilldelning, internt företag och värde: detsamma som i EU:s kollektivtrafikförordning, 4. upphandling: de åtgärder som vidtas av en behörig myndighet eller den till vilken befogenhet överlämnats enligt"
+    },
+    {
+      "provision_ref": "4:6",
+      "chapter": "4",
+      "section": "6",
+      "title": "Konkurrensutsättning",
+      "content": "Vid konkurrensutsättning enligt artikel 5.3 i EU:s kollektivtrafikförordning tillämpas följande bestämmelser i lagen (2016:1147) om upphandling av koncessioner: - 4 kap. 1-9 §§ (allmänna bestämmelser), - 5 kap. 3 § (värdetidpunkt), - 6 kap. (förfarandet vid upphandling), - 7 kap. (tekniska krav och funktionskrav), - 8 kap. (annonsering av upphandling), utom 2 och 8 §§, - 9 kap. (tidsfrister för anbudsansökningar och anbud), - 10 kap. (kommunikation, information till leverantörer och dokumentation), - 11 kap. (uteslutning av leverantörer), - 12 kap. (kvalificering), - 13 kap. (utvärdering av anbud och tilldelning av koncessioner), - 14 kap. (fullgörande av koncessioner), utom 9 §, - 16 kap. (avtalsspärr, överprövning och skadestånd), och - 17 kap. 6-15 §§ (upphandlingsskadeavgift). Lag (2023:818) Direkttilldelning och nödåtgärder"
+    },
+    {
+      "provision_ref": "4:7",
+      "chapter": "4",
+      "section": "7",
+      "content": "En behörig myndighet får direkttilldela avtal enligt artikel 5.4 i EU:s kollektivtrafikförordning endast om det årliga genomsnittsvärdet av avtalet uppskattas understiga ett belopp motsvarande 7 500 000 euro i fråga om avtal som avser kollektivtrafik enbart på järnväg, eller 500 000 euro i fråga om andra avtal om kollektivtrafik som inte avser kollektivtrafik på vatten. Lag (2023:687)."
+    },
+    {
+      "provision_ref": "4:7 a",
+      "chapter": "4",
+      "section": "7 a",
+      "content": "Behöriga myndigheter får inte direkttilldela avtal som avser kollektivtrafik på järnväg enligt artikel 5.4a eller 5.4b i EU:s kollektivtrafikförordning. Lag (2022:378)."
+    },
+    {
+      "provision_ref": "4:8",
+      "chapter": "4",
+      "section": "8",
+      "content": "En upphandling får delas upp så att bestämmelserna i 6 § inte blir tillämpliga endast om en sådan uppdelning är berättigad av objektiva skäl. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "4:9",
+      "chapter": "4",
+      "section": "9",
+      "content": "Behöriga myndigheter ska besluta riktlinjer för användning av sådan direkttilldelning som avses i 7 §. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "4:10",
+      "chapter": "4",
+      "section": "10",
+      "content": "Vid sådan direkttilldelning som avses i 7 § tillämpas följande bestämmelser i lagen (2016:1147) om upphandling av koncessioner: - 4 kap. 1 och 3 §§ (principer för upphandling av koncessioner), - 10 kap. 12 § (underrättelse om beslut) och 14 § (dokumentation), - 16 kap. (avtalsspärr, överprövning och skadestånd), utom 2 och 3 §§, och - 17 kap. 6-15 §§ (upphandlingsskadeavgift). När lagen om upphandling av koncessioner tillämpas ska det som sägs i 1. 16 kap. 6 § första stycket om överträdelse av andra bestämmelser i den lagen i stället avse överträdelse av 7 eller 8 §, 2. 16 kap. 13 § första stycket om när rätten ska besluta att ett avtal är ogiltigt, i stället gälla om artikel 7.2 i EU:s kollektivtrafikförordning, i lydelsen enligt Europaparlamentets och rådets förordning (EU) 2016/2338 av den 14 december 2016 om ändring av förordning (EG) nr 1370/2007 vad gäller öppnandet av marknaden för inrikes persontrafik på järnväg, inte har beaktats eller om avtalet har slutits i strid med 7 eller 8 §, och 3. 16 kap. 20 § om skyldigheten att ersätta skada i stället gälla vid överträdelse av de principer för upphandling av koncessioner som gäller enligt första stycket eller vid överträdelse av 7 eller 8 §. Lag (2023:818)."
+    },
+    {
+      "provision_ref": "4:11",
+      "chapter": "4",
+      "section": "11",
+      "content": "Vid direkttilldelning enligt artikel 5.2 eller 5.3a, tilldelning enligt artikel 5.3b eller nödåtgärder enligt artikel 5.5 i EU:s kollektivtrafikförordning tillämpas följande bestämmelser i lagen (2016:1147) om upphandling av koncessioner: - 10 kap. 14 § (dokumentation), - 16 kap. 4-21 §§ (överprövning och skadestånd), och - 17 kap. 6-15 §§ (upphandlingsskadeavgift). Vid direkttilldelning enligt artikel 5.3a, tilldelning enligt artikel 5.3b eller nödåtgärder enligt artikel 5.5 i EU:s kollektivtrafikförordning ska även 4 kap. 3 § (beaktande av miljö, social- och arbetsrättsliga hänsyn) lagen om upphandling av koncessioner tillämpas. När lagen om upphandling av koncessioner tillämpas ska det som sägs i 1. 16 kap. 6 § första stycket om överträdelse av den lagen i stället avse överträdelse av artikel 5.2, 5.3a, 5.3b eller 5.5 i EU:s kollektivtrafikförordning, i lydelsen enligt förordning (EU) 2016/2338, 2. 16 kap. 13 § om när rätten ska besluta att ett avtal är ogiltigt, i stället gälla om avtalet slutits i strid med artikel 5.2, 5.3a, 5.3b eller 5.5 i EU:s kollektivtrafikförordning, i lydelsen enligt förordning (EU) 2016/2338, och 3. 16 kap. 20 § om skyldigheten att ersätta skada i stället gälla om artikel 5.2, 5.3a, 5.3b eller 5.5 i EU:s kollektivtrafikförordning, i lydelsen enligt förordning (EU) 2016/2338, inte följts. Lag (2025:363). Bemyndigande"
+    },
+    {
+      "provision_ref": "4:12",
+      "chapter": "4",
+      "section": "12",
+      "content": "Regeringen får meddela föreskrifter om innehållet i och offentliggörandet av annonser. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "5:1",
+      "chapter": "5",
+      "section": "1",
+      "content": "Den myndighet som regeringen bestämmer ska utöva tillsyn över efterlevnaden av 1. 1-4 kap. och de föreskrifter som har meddelats med stöd av dessa bestämmelser, och 2. artikel 7.1 i EU:s kollektivtrafikförordning. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "5:2",
+      "chapter": "5",
+      "section": "2",
+      "content": "Den tillsynsmyndighet som avses i 1 § har rätt att av behöriga myndigheter enligt EU:s kollektivtrafikförordning, av dem till vilka befogenhet överlämnats enligt 3 kap. 2 § och av kollektivtrafikföretag, på begäran få sådana upplysningar och ta del av sådana handlingar som behövs för tillsynen. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "5:3",
+      "chapter": "5",
+      "section": "3",
+      "content": "Den tillsynsmyndighet som avses i 1 § får meddela de förelägganden och förbud som behövs för efterlevnaden av 1. 1-4 kap. och de föreskrifter som har meddelats med stöd av dessa bestämmelser, 2. 2 §, och 3. artikel 7.1 i EU:s kollektivtrafikförordning. Ett beslut om föreläggande eller förbud får förenas med vite. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "5:4",
+      "chapter": "5",
+      "section": "4",
+      "content": "Den myndighet som regeringen bestämmer ska utöva tillsyn över upphandling av kollektivtrafik enligt 4 a kap. och enligt artikel 5 i EU:s kollektivtrafikförordning. Vid denna tillsyn tillämpas 17 kap. 2-5 och 15 §§ lagen (2016:1147) om upphandling av koncessioner. När lagen om upphandling av koncessioner tillämpas ska det som sägs i 17 kap. 4 § i den lagen om föreläggande gälla i fråga om riktlinjer enligt 4 a kap. 9 §. Lag (2025:363)."
+    },
+    {
+      "provision_ref": "6:1",
+      "chapter": "6",
+      "section": "1",
+      "content": "Den regionala kollektivtrafikmyndigheten ska delge beslutet om allmän trafikplikt enligt 49 § första stycket 1 och andra stycket delgivningslagen (2010:1932). Lag (2010:1985)."
+    },
+    {
+      "provision_ref": "6:2",
+      "chapter": "6",
+      "section": "2",
+      "content": "Den regionala kollektivtrafikmyndighetens beslut om allmän trafikplikt får överklagas hos allmän förvaltningsdomstol av den som på kommersiell grund tillhandahåller eller avser att tillhandahålla kollektivtrafiktjänster som berörs av trafikplikten."
+    },
+    {
+      "provision_ref": "6:3",
+      "chapter": "6",
+      "section": "3",
+      "content": "Tillsynsmyndighetens beslut enligt 5 kap. 3 § får överklagas till allmän förvaltningsdomstol. Lag (2016:1212)."
+    },
+    {
+      "provision_ref": "6:4",
+      "chapter": "6",
+      "section": "4",
+      "content": "Prövningstillstånd krävs vid överklagande till kammarrätten."
+    },
+    {
+      "provision_ref": "6:5",
+      "chapter": "6",
+      "section": "5",
+      "content": "Ett beslut enligt denna lag gäller omedelbart, om inte något annat anges i beslutet. Övergångsbestämmelser 2010:1065 1. Denna lag träder i kraft den 1 januari 2012. 2. Genom lagen upphävs lagen (1997:734) om ansvar för viss kollektiv persontrafik. 3. Trafikförsörjningsprogram som avses i 2 kap. 8 och 11 §§ ska upprättas senast den 1 oktober 2012. 4. Ett avtal om allmän trafik får trots vad som föreskrivs i"
+    }
+  ]
+}

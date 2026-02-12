@@ -16,3 +16,15 @@ export type {
   ParsedCitation,
   ValidationResult,
 } from './citations.js';
+
+export type {
+  EUDocumentType,
+  EUCommunity,
+  ReferenceType,
+  ImplementationStatus,
+  EUDocument,
+  EUReference,
+  EUBasisDocument,
+  SwedishImplementation,
+  ProvisionEUReference,
+} from './eu-references.js';

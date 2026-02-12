@@ -377,7 +377,7 @@ Check [GitHub repository](https://github.com/Ansvar-Systems/swedish-law-mcp) for
 ---
 
 **Last Updated**: 2026-02-12
-**Tool Version**: 0.1.0 (Pilot/Research)
+**Tool Version**: 1.1.0 (Production-Grade)
 
 ---
 
