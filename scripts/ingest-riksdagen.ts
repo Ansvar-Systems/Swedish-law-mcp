@@ -20,6 +20,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { pathToFileURL } from 'url';
 import { parseRiksdagenProvisions } from '../src/parsers/riksdagen-provision-parser.js';
+import { parseStatuteText } from '../src/parsers/provision-parser.js';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Configuration
@@ -266,9 +267,26 @@ export async function ingest(sfsNumber: string, outputPath: string): Promise<voi
   // Step 3: Parse provisions
   console.log('Parsing provisions...');
   const parseResult = parseRiksdagenProvisions(rawText);
-  const provisions = parseResult.provisions as ProvisionOutput[];
+  const fallbackProvisions = parseStatuteText(rawText) as ProvisionOutput[];
+
+  // If the strict parser suppresses many candidates and the generic parser yields
+  // materially better coverage, prefer the generic result for this statute.
+  const shouldUseFallback = (
+    parseResult.diagnostics.ignored_chapter_markers === 0 &&
+    parseResult.diagnostics.suppressed_section_candidates >= 20 &&
+    fallbackProvisions.length >= parseResult.provisions.length + 10 &&
+    fallbackProvisions.length >= Math.ceil(parseResult.provisions.length * 1.25)
+  );
+
+  const provisions = (shouldUseFallback ? fallbackProvisions : parseResult.provisions) as ProvisionOutput[];
   const withTitles = provisions.filter(p => p.title).length;
   console.log(`  Found ${provisions.length} provisions (${withTitles} with titles)`);
+  if (shouldUseFallback) {
+    console.log(
+      `  Parser fallback activated: strict=${parseResult.provisions.length}, ` +
+      `fallback=${fallbackProvisions.length}, suppressed=${parseResult.diagnostics.suppressed_section_candidates}`
+    );
+  }
   if (parseResult.diagnostics.ignored_chapter_markers > 0 || parseResult.diagnostics.suppressed_section_candidates > 0) {
     console.log(
       `  Parser diagnostics: ignored chapters=${parseResult.diagnostics.ignored_chapter_markers}, ` +
