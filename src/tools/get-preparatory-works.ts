@@ -3,6 +3,7 @@
  */
 
 import type { Database } from 'better-sqlite3';
+import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface GetPreparatoryWorksInput {
   document_id: string;
@@ -22,7 +23,7 @@ export interface PreparatoryWorkResult {
 export async function getPreparatoryWorks(
   db: Database,
   input: GetPreparatoryWorksInput
-): Promise<PreparatoryWorkResult[]> {
+): Promise<ToolResponse<PreparatoryWorkResult[]>> {
   if (!input.document_id) {
     throw new Error('document_id is required');
   }
@@ -44,5 +45,10 @@ export async function getPreparatoryWorks(
     ORDER BY prep.issued_date
   `;
 
-  return db.prepare(sql).all(input.document_id) as PreparatoryWorkResult[];
+  const results = db.prepare(sql).all(input.document_id) as PreparatoryWorkResult[];
+
+  return {
+    results,
+    _metadata: generateResponseMetadata(db)
+  };
 }

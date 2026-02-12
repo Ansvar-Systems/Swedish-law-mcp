@@ -5,6 +5,7 @@
 import type { Database } from 'better-sqlite3';
 import { buildFtsQueryVariants } from '../utils/fts-query.js';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
+import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface SearchLegislationInput {
   query: string;
@@ -33,9 +34,12 @@ const MAX_LIMIT = 50;
 export async function searchLegislation(
   db: Database,
   input: SearchLegislationInput
-): Promise<SearchLegislationResult[]> {
+): Promise<ToolResponse<SearchLegislationResult[]>> {
   if (!input.query || input.query.trim().length === 0) {
-    return [];
+    return {
+      results: [],
+      _metadata: generateResponseMetadata(db)
+    };
   }
 
   const limit = Math.min(Math.max(input.limit ?? DEFAULT_LIMIT, 1), MAX_LIMIT);
@@ -141,9 +145,12 @@ export async function searchLegislation(
   };
 
   const primaryResults = runQuery(queryVariants.primary);
-  if (primaryResults.length > 0 || !queryVariants.fallback) {
-    return primaryResults;
-  }
+  const results = (primaryResults.length > 0 || !queryVariants.fallback)
+    ? primaryResults
+    : runQuery(queryVariants.fallback);
 
-  return runQuery(queryVariants.fallback);
+  return {
+    results,
+    _metadata: generateResponseMetadata(db)
+  };
 }

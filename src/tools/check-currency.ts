@@ -4,6 +4,7 @@
 
 import type { Database } from 'better-sqlite3';
 import { extractRepealDateFromDescription, normalizeAsOfDate } from '../utils/as-of-date.js';
+import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface CheckCurrencyInput {
   document_id: string;
@@ -50,7 +51,7 @@ interface DocumentRow {
 export async function checkCurrency(
   db: Database,
   input: CheckCurrencyInput
-): Promise<CurrencyResult | null> {
+): Promise<ToolResponse<CurrencyResult | null>> {
   if (!input.document_id) {
     throw new Error('document_id is required');
   }
@@ -62,7 +63,10 @@ export async function checkCurrency(
   `).get(input.document_id) as DocumentRow | undefined;
 
   if (!doc) {
-    return null;
+    return {
+      results: null,
+      _metadata: generateResponseMetadata(db)
+    };
   }
 
   const warnings: string[] = [];
@@ -136,19 +140,22 @@ export async function checkCurrency(
   }
 
   return {
-    document_id: doc.id,
-    title: doc.title,
-    status: doc.status,
-    type: doc.type,
-    issued_date: doc.issued_date,
-    in_force_date: doc.in_force_date,
-    last_updated: doc.last_updated,
-    is_current: isCurrent,
-    as_of_date: asOfDate,
-    status_as_of: statusAsOf,
-    is_in_force_as_of: isInForceAsOf,
-    provision_exists: provisionExists,
-    warnings,
-    case_law_stats: caseLawStats,
+    results: {
+      document_id: doc.id,
+      title: doc.title,
+      status: doc.status,
+      type: doc.type,
+      issued_date: doc.issued_date,
+      in_force_date: doc.in_force_date,
+      last_updated: doc.last_updated,
+      is_current: isCurrent,
+      as_of_date: asOfDate,
+      status_as_of: statusAsOf,
+      is_in_force_as_of: isInForceAsOf,
+      provision_exists: provisionExists,
+      warnings,
+      case_law_stats: caseLawStats,
+    },
+    _metadata: generateResponseMetadata(db)
   };
 }
