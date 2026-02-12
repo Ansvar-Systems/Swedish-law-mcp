@@ -1,0 +1,61 @@
+{
+  "id": "2008:344",
+  "type": "statute",
+  "title": "Lag (2008:344) om hälso- och sjukvård åt asylsökande m.fl.",
+  "status": "in_force",
+  "issued_date": "2008-05-22",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2008-344",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Inledande bestämmelser",
+      "content": "I denna lag finns bestämmelser om regionernas skyldigheter att, utöver vad som följer av hälso- och sjukvårdslagen (2017:30) och tandvårdslagen (1985:125), erbjuda hälso- och sjukvård och tandvård åt asylsökande och vissa andra utlänningar. Lag (2019:930)."
+    },
+    {
+      "provision_ref": "1 a",
+      "section": "1 a",
+      "content": "Särskilda bestämmelser om regionernas skyldighet att erbjuda hälso- och sjukvård samt tandvård till personer som vistas i Sverige utan stöd av myndighetsbeslut eller författning finns i lagen (2013:407) om hälso- och sjukvård till vissa utlänningar som vistas i Sverige utan nödvändiga tillstånd. Lag (2019:930)."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "De föreskrifter som gäller för vård som ges med stöd av hälso- och sjukvårdslagen (2017:30) eller tandvårdslagen (1985:125) gäller även för vård som ges enligt denna lag, om inte något annat föreskrivs. Lag (2017:59)."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "En regions skyldigheter enligt denna lag gäller endast utlänningar som vistas inom regionen. Med region avses i denna lag även kommun som inte ingår i en region. Lag (2019:930)."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Denna lag omfattar utlänningar som 1. har ansökt om uppehållstillstånd i Sverige som flykting enligt 4 kap. 1 § eller som alternativt skyddsbehövande enligt"
+    },
+    {
+      "provision_ref": "4:5",
+      "chapter": "4",
+      "section": "5",
+      "title": "Vårdens omfattning",
+      "content": "En region ska erbjuda sådana utlänningar som avses i 4 § första stycket 1-3 och som inte har fyllt 18 år, vård i samma omfattning som erbjuds den som är bosatt inom regionen. Vård i den omfattning som avses i första stycket ska även erbjudas utlänningar som avses i 4 § första stycket 4. Lag (2019:930)."
+    },
+    {
+      "provision_ref": "4:6",
+      "chapter": "4",
+      "section": "6",
+      "content": "En region ska erbjuda utlänningar som avses i 4 § första stycket 1-3 och som har fyllt 18 år, vård som inte kan anstå, mödrahälsovård, vård vid abort och preventivmedelsrådgivning. Lag (2019:930). Hälsoundersökning"
+    },
+    {
+      "provision_ref": "4:7",
+      "chapter": "4",
+      "section": "7",
+      "content": "En region ska, om det inte är uppenbart obehövligt, erbjuda utlänningar som avses i 4 § en hälsoundersökning. Ett sådant erbjudande ska lämnas när en utlänning som avses i 4 § första stycket 1 eller 2 har etablerat boende inom regionen. Övriga utlänningar ska erbjudas hälsoundersökning så snart det lämpligen kan ske. Lag (2019:930)."
+    },
+    {
+      "provision_ref": "4:8",
+      "chapter": "4",
+      "section": "8",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer meddelar föreskrifter om hälsoundersökningar."
+    }
+  ]
+}

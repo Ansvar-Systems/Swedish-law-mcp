@@ -1129,3 +1129,2659 @@ Optimizing database...
 [2026-02-12T14:14:20.991Z] ═══════════════════════════════════════════════════════════════════
 [2026-02-12T14:14:20.991Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu-full-archive.log
 [2026-02-12T14:14:20.991Z] 
+[2026-02-12T15:18:16.905Z] Lagen.nu Full Archive Scraper
+[2026-02-12T15:18:16.906Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T15:18:16.906Z]   Year range: 2011-2026
+[2026-02-12T15:18:16.906Z]   Limit: none
+[2026-02-12T15:18:16.906Z]   Dry run: true
+[2026-02-12T15:18:16.906Z] 
+[2026-02-12T15:18:16.914Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:18:16.914Z] Processing: Högsta förvaltningsdomstolen (HFD)
+[2026-02-12T15:18:16.914Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:18:16.914Z]   Year 2026:
+[2026-02-12T15:18:20.160Z] ERROR: Failed to process hfd year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:18:20.164Z]   Year 2025:
+[2026-02-12T15:18:23.345Z] ERROR: Failed to process hfd year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:18:23.345Z]   Year 2024:
+[2026-02-12T15:18:26.670Z] ERROR: Failed to process hfd year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:18:26.671Z]   Year 2023:
+[2026-02-12T15:18:26.876Z]     Found 36 cases
+[2026-02-12T15:18:26.876Z]       - HFD 2023:1
+[2026-02-12T15:18:26.876Z]       - HFD 2023:2
+[2026-02-12T15:18:26.876Z]       - HFD 2023:3
+[2026-02-12T15:18:26.876Z]       - HFD 2023:4
+[2026-02-12T15:18:26.877Z]       - HFD 2023:5
+[2026-02-12T15:18:26.877Z]       ... and 31 more
+[2026-02-12T15:18:26.877Z]   Year 2022:
+[2026-02-12T15:18:26.984Z]     Found 54 cases
+[2026-02-12T15:18:26.984Z]       - HFD 2022:1
+[2026-02-12T15:18:26.984Z]       - HFD 2022:2
+[2026-02-12T15:18:26.984Z]       - HFD 2022:3
+[2026-02-12T15:18:26.984Z]       - HFD 2022:4
+[2026-02-12T15:18:26.984Z]       - HFD 2022:5
+[2026-02-12T15:18:26.984Z]       ... and 49 more
+[2026-02-12T15:18:26.984Z]   Year 2021:
+[2026-02-12T15:18:27.123Z]     Found 72 cases
+[2026-02-12T15:18:27.123Z]       - HFD 2021:1
+[2026-02-12T15:18:27.124Z]       - HFD 2021:2
+[2026-02-12T15:18:27.124Z]       - HFD 2021:3
+[2026-02-12T15:18:27.124Z]       - HFD 2021:4
+[2026-02-12T15:18:27.124Z]       - HFD 2021:5
+[2026-02-12T15:18:27.124Z]       ... and 67 more
+[2026-02-12T15:18:27.124Z]   Year 2020:
+[2026-02-12T15:18:27.189Z]     Found 70 cases
+[2026-02-12T15:18:27.189Z]       - HFD 2020:1
+[2026-02-12T15:18:27.189Z]       - HFD 2020:2
+[2026-02-12T15:18:27.189Z]       - HFD 2020:3
+[2026-02-12T15:18:27.189Z]       - HFD 2020:4
+[2026-02-12T15:18:27.189Z]       - HFD 2020:5
+[2026-02-12T15:18:27.189Z]       ... and 65 more
+[2026-02-12T15:18:27.189Z]   Year 2019:
+[2026-02-12T15:18:27.246Z]     Found 72 cases
+[2026-02-12T15:18:27.246Z]       - HFD 2019:1
+[2026-02-12T15:18:27.247Z]       - HFD 2019:2
+[2026-02-12T15:18:27.247Z]       - HFD 2019:3
+[2026-02-12T15:18:27.247Z]       - HFD 2019:4
+[2026-02-12T15:18:27.247Z]       - HFD 2019:5
+[2026-02-12T15:18:27.247Z]       ... and 67 more
+[2026-02-12T15:18:27.247Z]   Year 2018:
+[2026-02-12T15:18:27.387Z]     Found 83 cases
+[2026-02-12T15:18:27.387Z]       - HFD 2018:1
+[2026-02-12T15:18:27.387Z]       - HFD 2018:2
+[2026-02-12T15:18:27.388Z]       - HFD 2018:3
+[2026-02-12T15:18:27.388Z]       - HFD 2018:4
+[2026-02-12T15:18:27.388Z]       - HFD 2018:5
+[2026-02-12T15:18:27.388Z]       ... and 78 more
+[2026-02-12T15:18:27.388Z]   Year 2017:
+[2026-02-12T15:18:27.442Z]     Found 74 cases
+[2026-02-12T15:18:27.442Z]       - HFD 2017:1
+[2026-02-12T15:18:27.442Z]       - HFD 2017:2
+[2026-02-12T15:18:27.442Z]       - HFD 2017:3
+[2026-02-12T15:18:27.442Z]       - HFD 2017:4
+[2026-02-12T15:18:27.442Z]       - HFD 2017:5
+[2026-02-12T15:18:27.442Z]       ... and 69 more
+[2026-02-12T15:18:27.442Z]   Year 2016:
+[2026-02-12T15:18:27.506Z]     Found 89 cases
+[2026-02-12T15:18:27.506Z]       - HFD 2016:1
+[2026-02-12T15:18:27.506Z]       - HFD 2016:2
+[2026-02-12T15:18:27.507Z]       - HFD 2016:3
+[2026-02-12T15:18:27.507Z]       - HFD 2016:4
+[2026-02-12T15:18:27.507Z]       - HFD 2016:5
+[2026-02-12T15:18:27.507Z]       ... and 84 more
+[2026-02-12T15:18:27.507Z]   Year 2015:
+[2026-02-12T15:18:48.993Z] Lagen.nu Full Archive Scraper
+[2026-02-12T15:18:48.994Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T15:18:48.994Z]   Year range: 2011-2026
+[2026-02-12T15:18:48.994Z]   Limit: 10
+[2026-02-12T15:18:48.994Z]   Dry run: true
+[2026-02-12T15:18:48.994Z] 
+[2026-02-12T15:18:48.997Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:18:48.997Z] Processing: Högsta förvaltningsdomstolen (HFD)
+[2026-02-12T15:18:48.997Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:18:48.997Z]   Year 2026:
+[2026-02-12T15:18:52.209Z] ERROR: Failed to process hfd year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:18:52.220Z]   Year 2025:
+[2026-02-12T15:18:55.402Z] ERROR: Failed to process hfd year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:18:55.402Z]   Year 2024:
+[2026-02-12T15:18:58.493Z] ERROR: Failed to process hfd year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:18:58.494Z]   Year 2023:
+[2026-02-12T15:18:58.638Z]     Found 36 cases
+[2026-02-12T15:18:58.639Z]       - HFD 2023:1
+[2026-02-12T15:18:58.639Z]       - HFD 2023:2
+[2026-02-12T15:18:58.639Z]       - HFD 2023:3
+[2026-02-12T15:18:58.639Z]       - HFD 2023:4
+[2026-02-12T15:18:58.639Z]       - HFD 2023:5
+[2026-02-12T15:18:58.639Z]       ... and 31 more
+[2026-02-12T15:18:58.639Z]   Year 2022:
+[2026-02-12T15:18:58.859Z]     Found 54 cases
+[2026-02-12T15:18:58.859Z]       - HFD 2022:1
+[2026-02-12T15:18:58.859Z]       - HFD 2022:2
+[2026-02-12T15:18:58.860Z]       - HFD 2022:3
+[2026-02-12T15:18:58.860Z]       - HFD 2022:4
+[2026-02-12T15:18:58.860Z]       - HFD 2022:5
+[2026-02-12T15:18:58.860Z]       ... and 49 more
+[2026-02-12T15:18:58.860Z]   Year 2021:
+[2026-02-12T15:18:58.965Z]     Found 72 cases
+[2026-02-12T15:18:58.965Z]       - HFD 2021:1
+[2026-02-12T15:18:58.966Z]       - HFD 2021:2
+[2026-02-12T15:18:58.966Z]       - HFD 2021:3
+[2026-02-12T15:18:58.966Z]       - HFD 2021:4
+[2026-02-12T15:18:58.966Z]       - HFD 2021:5
+[2026-02-12T15:18:58.966Z]       ... and 67 more
+[2026-02-12T15:18:58.966Z]   Year 2020:
+[2026-02-12T15:18:59.250Z]     Found 70 cases
+[2026-02-12T15:18:59.250Z]       - HFD 2020:1
+[2026-02-12T15:18:59.251Z]       - HFD 2020:2
+[2026-02-12T15:18:59.251Z]       - HFD 2020:3
+[2026-02-12T15:18:59.251Z]       - HFD 2020:4
+[2026-02-12T15:18:59.251Z]       - HFD 2020:5
+[2026-02-12T15:18:59.251Z]       ... and 65 more
+[2026-02-12T15:18:59.251Z]   Year 2019:
+[2026-02-12T15:18:59.384Z]     Found 72 cases
+[2026-02-12T15:18:59.385Z]       - HFD 2019:1
+[2026-02-12T15:18:59.385Z]       - HFD 2019:2
+[2026-02-12T15:18:59.385Z]       - HFD 2019:3
+[2026-02-12T15:18:59.385Z]       - HFD 2019:4
+[2026-02-12T15:18:59.385Z]       - HFD 2019:5
+[2026-02-12T15:18:59.385Z]       ... and 67 more
+[2026-02-12T15:18:59.385Z]   Year 2018:
+[2026-02-12T15:18:59.506Z]     Found 83 cases
+[2026-02-12T15:18:59.506Z]       - HFD 2018:1
+[2026-02-12T15:18:59.506Z]       - HFD 2018:2
+[2026-02-12T15:18:59.506Z]       - HFD 2018:3
+[2026-02-12T15:18:59.506Z]       - HFD 2018:4
+[2026-02-12T15:18:59.506Z]       - HFD 2018:5
+[2026-02-12T15:18:59.507Z]       ... and 78 more
+[2026-02-12T15:18:59.507Z]   Year 2017:
+[2026-02-12T15:18:59.578Z]     Found 74 cases
+[2026-02-12T15:18:59.579Z]       - HFD 2017:1
+[2026-02-12T15:18:59.579Z]       - HFD 2017:2
+[2026-02-12T15:18:59.579Z]       - HFD 2017:3
+[2026-02-12T15:18:59.579Z]       - HFD 2017:4
+[2026-02-12T15:18:59.579Z]       - HFD 2017:5
+[2026-02-12T15:18:59.579Z]       ... and 69 more
+[2026-02-12T15:18:59.579Z]   Year 2016:
+[2026-02-12T15:18:59.675Z]     Found 89 cases
+[2026-02-12T15:18:59.675Z]       - HFD 2016:1
+[2026-02-12T15:18:59.675Z]       - HFD 2016:2
+[2026-02-12T15:18:59.675Z]       - HFD 2016:3
+[2026-02-12T15:18:59.675Z]       - HFD 2016:4
+[2026-02-12T15:18:59.675Z]       - HFD 2016:5
+[2026-02-12T15:18:59.675Z]       ... and 84 more
+[2026-02-12T15:18:59.675Z]   Year 2015:
+[2026-02-12T15:18:59.760Z]     Found 81 cases
+[2026-02-12T15:18:59.760Z]       - HFD 2015:1
+[2026-02-12T15:18:59.760Z]       - HFD 2015:2
+[2026-02-12T15:18:59.760Z]       - HFD 2015:3
+[2026-02-12T15:18:59.760Z]       - HFD 2015:4
+[2026-02-12T15:18:59.761Z]       - HFD 2015:5
+[2026-02-12T15:18:59.761Z]       ... and 76 more
+[2026-02-12T15:18:59.761Z]   Year 2014:
+[2026-02-12T15:18:59.914Z]     Found 82 cases
+[2026-02-12T15:18:59.914Z]       - HFD 2014:1
+[2026-02-12T15:18:59.914Z]       - HFD 2014:2
+[2026-02-12T15:18:59.914Z]       - HFD 2014:3
+[2026-02-12T15:18:59.914Z]       - HFD 2014:4
+[2026-02-12T15:18:59.914Z]       - HFD 2014:5
+[2026-02-12T15:18:59.914Z]       ... and 77 more
+[2026-02-12T15:18:59.915Z]   Year 2013:
+[2026-02-12T15:18:59.982Z]     Found 87 cases
+[2026-02-12T15:18:59.982Z]       - HFD 2013:1
+[2026-02-12T15:18:59.982Z]       - HFD 2013:2
+[2026-02-12T15:18:59.982Z]       - HFD 2013:3
+[2026-02-12T15:18:59.982Z]       - HFD 2013:4
+[2026-02-12T15:18:59.982Z]       - HFD 2013:5
+[2026-02-12T15:18:59.982Z]       ... and 82 more
+[2026-02-12T15:18:59.982Z]   Year 2012:
+[2026-02-12T15:19:00.043Z]     Found 75 cases
+[2026-02-12T15:19:00.043Z]       - HFD 2012:1
+[2026-02-12T15:19:00.044Z]       - HFD 2012:2
+[2026-02-12T15:19:00.044Z]       - HFD 2012:3
+[2026-02-12T15:19:00.044Z]       - HFD 2012:4
+[2026-02-12T15:19:00.044Z]       - HFD 2012:5
+[2026-02-12T15:19:00.044Z]       ... and 70 more
+[2026-02-12T15:19:00.044Z]   Year 2011:
+[2026-02-12T15:19:00.132Z]     Found 90 cases
+[2026-02-12T15:19:00.132Z]       - HFD 2011:1
+[2026-02-12T15:19:00.133Z]       - HFD 2011:2
+[2026-02-12T15:19:00.133Z]       - HFD 2011:3
+[2026-02-12T15:19:00.133Z]       - HFD 2011:4
+[2026-02-12T15:19:00.133Z]       - HFD 2011:5
+[2026-02-12T15:19:00.133Z]       ... and 85 more
+[2026-02-12T15:19:00.133Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:19:00.133Z] Processing: Högsta domstolen (NJA)
+[2026-02-12T15:19:00.133Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:19:00.133Z]   Year 2026:
+[2026-02-12T15:19:03.275Z] ERROR: Failed to process nja year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:03.276Z]   Year 2025:
+[2026-02-12T15:19:06.670Z] ERROR: Failed to process nja year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:06.671Z]   Year 2024:
+[2026-02-12T15:19:09.830Z] ERROR: Failed to process nja year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:09.830Z]   Year 2023:
+[2026-02-12T15:19:12.989Z] ERROR: Failed to process nja year 2023
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:12.989Z]   Year 2022:
+[2026-02-12T15:19:13.125Z]     Found 94 cases
+[2026-02-12T15:19:13.125Z]       - NJA 2022 s. 3
+[2026-02-12T15:19:13.125Z]       - NJA 2022 s. 14
+[2026-02-12T15:19:13.125Z]       - NJA 2022 s. 23
+[2026-02-12T15:19:13.125Z]       - NJA 2022 s. 42
+[2026-02-12T15:19:13.125Z]       - NJA 2022 s. 62
+[2026-02-12T15:19:13.125Z]       ... and 89 more
+[2026-02-12T15:19:13.125Z]   Year 2021:
+[2026-02-12T15:19:13.241Z]     Found 101 cases
+[2026-02-12T15:19:13.242Z]       - NJA 2021 s. 3
+[2026-02-12T15:19:13.242Z]       - NJA 2021 s. 10
+[2026-02-12T15:19:13.242Z]       - NJA 2021 s. 32
+[2026-02-12T15:19:13.242Z]       - NJA 2021 s. 46
+[2026-02-12T15:19:13.242Z]       - NJA 2021 s. 56
+[2026-02-12T15:19:13.242Z]       ... and 96 more
+[2026-02-12T15:19:13.242Z]   Year 2020:
+[2026-02-12T15:19:13.311Z]     Found 93 cases
+[2026-02-12T15:19:13.312Z]       - NJA 2020 s. 3
+[2026-02-12T15:19:13.312Z]       - NJA 2020 s. 115
+[2026-02-12T15:19:13.312Z]       - NJA 2020 s. 134
+[2026-02-12T15:19:13.312Z]       - NJA 2020 s. 141
+[2026-02-12T15:19:13.312Z]       - NJA 2020 s. 147
+[2026-02-12T15:19:13.312Z]       ... and 88 more
+[2026-02-12T15:19:13.312Z]   Year 2019:
+[2026-02-12T15:19:13.366Z]     Found 87 cases
+[2026-02-12T15:19:13.366Z]       - NJA 2019 s. 3
+[2026-02-12T15:19:13.366Z]       - NJA 2019 s. 15
+[2026-02-12T15:19:13.366Z]       - NJA 2019 s. 23
+[2026-02-12T15:19:13.366Z]       - NJA 2019 s. 43
+[2026-02-12T15:19:13.366Z]       - NJA 2019 s. 47
+[2026-02-12T15:19:13.366Z]       ... and 82 more
+[2026-02-12T15:19:13.366Z]   Year 2018:
+[2026-02-12T15:19:13.482Z]     Found 93 cases
+[2026-02-12T15:19:13.482Z]       - NJA 2018 s. 3
+[2026-02-12T15:19:13.483Z]       - NJA 2018 s. 9
+[2026-02-12T15:19:13.483Z]       - NJA 2018 s. 19
+[2026-02-12T15:19:13.483Z]       - NJA 2018 s. 49
+[2026-02-12T15:19:13.483Z]       - NJA 2018 s. 61
+[2026-02-12T15:19:13.483Z]       ... and 88 more
+[2026-02-12T15:19:13.483Z]   Year 2017:
+[2026-02-12T15:19:13.552Z]     Found 108 cases
+[2026-02-12T15:19:13.552Z]       - NJA 2017 s. 3
+[2026-02-12T15:19:13.552Z]       - NJA 2017 s. 9
+[2026-02-12T15:19:13.552Z]       - NJA 2017 s. 45
+[2026-02-12T15:19:13.552Z]       - NJA 2017 s. 55
+[2026-02-12T15:19:13.552Z]       - NJA 2017 s. 61
+[2026-02-12T15:19:13.552Z]       ... and 103 more
+[2026-02-12T15:19:13.552Z]   Year 2016:
+[2026-02-12T15:19:13.614Z]     Found 104 cases
+[2026-02-12T15:19:13.615Z]       - NJA 2016 s. 3
+[2026-02-12T15:19:13.615Z]       - NJA 2016 s. 18
+[2026-02-12T15:19:13.615Z]       - NJA 2016 s. 30
+[2026-02-12T15:19:13.615Z]       - NJA 2016 s. 39
+[2026-02-12T15:19:13.615Z]       - NJA 2016 s. 51
+[2026-02-12T15:19:13.615Z]       ... and 99 more
+[2026-02-12T15:19:13.615Z]   Year 2015:
+[2026-02-12T15:19:13.698Z]     Found 97 cases
+[2026-02-12T15:19:13.698Z]       - NJA 2015 s. 3
+[2026-02-12T15:19:13.699Z]       - NJA 2015 s. 24
+[2026-02-12T15:19:13.699Z]       - NJA 2015 s. 31
+[2026-02-12T15:19:13.699Z]       - NJA 2015 s. 41
+[2026-02-12T15:19:13.699Z]       - NJA 2015 s. 45
+[2026-02-12T15:19:13.699Z]       ... and 92 more
+[2026-02-12T15:19:13.699Z]   Year 2014:
+[2026-02-12T15:19:13.763Z]     Found 87 cases
+[2026-02-12T15:19:13.764Z]       - NJA 2014 s. 3
+[2026-02-12T15:19:13.764Z]       - NJA 2014 s. 14
+[2026-02-12T15:19:13.764Z]       - NJA 2014 s. 23
+[2026-02-12T15:19:13.764Z]       - NJA 2014 s. 27
+[2026-02-12T15:19:13.764Z]       - NJA 2014 s. 29
+[2026-02-12T15:19:13.764Z]       ... and 82 more
+[2026-02-12T15:19:13.764Z]   Year 2013:
+[2026-02-12T15:19:13.820Z]     Found 113 cases
+[2026-02-12T15:19:13.821Z]       - NJA 2013 s. 3
+[2026-02-12T15:19:13.821Z]       - NJA 2013 s. 7
+[2026-02-12T15:19:13.821Z]       - NJA 2013 s. 22
+[2026-02-12T15:19:13.821Z]       - NJA 2013 s. 31
+[2026-02-12T15:19:13.821Z]       - NJA 2013 s. 38
+[2026-02-12T15:19:13.821Z]       ... and 108 more
+[2026-02-12T15:19:13.821Z]   Year 2012:
+[2026-02-12T15:19:14.292Z]     Found 96 cases
+[2026-02-12T15:19:14.292Z]       - NJA 2012 s. 3
+[2026-02-12T15:19:14.292Z]       - NJA 2012 s. 16
+[2026-02-12T15:19:14.292Z]       - NJA 2012 s. 22
+[2026-02-12T15:19:14.292Z]       - NJA 2012 s. 30
+[2026-02-12T15:19:14.292Z]       - NJA 2012 s. 35
+[2026-02-12T15:19:14.293Z]       ... and 91 more
+[2026-02-12T15:19:14.293Z]   Year 2011:
+[2026-02-12T15:19:14.429Z]     Found 83 cases
+[2026-02-12T15:19:14.429Z]       - NJA 2011 s. 3
+[2026-02-12T15:19:14.429Z]       - NJA 2011 s. 10
+[2026-02-12T15:19:14.429Z]       - NJA 2011 s. 13
+[2026-02-12T15:19:14.429Z]       - NJA 2011 s. 15
+[2026-02-12T15:19:14.429Z]       - NJA 2011 s. 24
+[2026-02-12T15:19:14.429Z]       ... and 78 more
+[2026-02-12T15:19:14.429Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:19:14.430Z] Processing: Arbetsdomstolen (AD)
+[2026-02-12T15:19:14.430Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:19:14.430Z]   Year 2026:
+[2026-02-12T15:19:17.679Z] ERROR: Failed to process ad year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:17.680Z]   Year 2025:
+[2026-02-12T15:19:20.847Z] ERROR: Failed to process ad year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:20.848Z]   Year 2024:
+[2026-02-12T15:19:23.986Z] ERROR: Failed to process ad year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:23.987Z]   Year 2023:
+[2026-02-12T15:19:24.111Z]     Found 57 cases
+[2026-02-12T15:19:24.111Z]       - AD 2023 nr 1
+[2026-02-12T15:19:24.111Z]       - AD 2023 nr 2
+[2026-02-12T15:19:24.111Z]       - AD 2023 nr 3
+[2026-02-12T15:19:24.111Z]       - AD 2023 nr 4
+[2026-02-12T15:19:24.111Z]       - AD 2023 nr 5
+[2026-02-12T15:19:24.111Z]       ... and 52 more
+[2026-02-12T15:19:24.111Z]   Year 2022:
+[2026-02-12T15:19:24.254Z]     Found 60 cases
+[2026-02-12T15:19:24.254Z]       - AD 2022 nr 1
+[2026-02-12T15:19:24.254Z]       - AD 2022 nr 2
+[2026-02-12T15:19:24.254Z]       - AD 2022 nr 3
+[2026-02-12T15:19:24.254Z]       - AD 2022 nr 4
+[2026-02-12T15:19:24.254Z]       - AD 2022 nr 5
+[2026-02-12T15:19:24.254Z]       ... and 55 more
+[2026-02-12T15:19:24.254Z]   Year 2021:
+[2026-02-12T15:19:24.322Z]     Found 69 cases
+[2026-02-12T15:19:24.322Z]       - AD 2021 nr 1
+[2026-02-12T15:19:24.323Z]       - AD 2021 nr 2
+[2026-02-12T15:19:24.323Z]       - AD 2021 nr 3
+[2026-02-12T15:19:24.323Z]       - AD 2021 nr 4
+[2026-02-12T15:19:24.323Z]       - AD 2021 nr 5
+[2026-02-12T15:19:24.323Z]       ... and 64 more
+[2026-02-12T15:19:24.323Z]   Year 2020:
+[2026-02-12T15:19:24.493Z]     Found 70 cases
+[2026-02-12T15:19:24.493Z]       - AD 2020 nr 1
+[2026-02-12T15:19:24.493Z]       - AD 2020 nr 2
+[2026-02-12T15:19:24.493Z]       - AD 2020 nr 3
+[2026-02-12T15:19:24.493Z]       - AD 2020 nr 4
+[2026-02-12T15:19:24.494Z]       - AD 2020 nr 5
+[2026-02-12T15:19:24.494Z]       ... and 65 more
+[2026-02-12T15:19:24.494Z]   Year 2019:
+[2026-02-12T15:19:24.560Z]     Found 57 cases
+[2026-02-12T15:19:24.560Z]       - AD 2019 nr 1
+[2026-02-12T15:19:24.560Z]       - AD 2019 nr 2
+[2026-02-12T15:19:24.561Z]       - AD 2019 nr 3
+[2026-02-12T15:19:24.561Z]       - AD 2019 nr 4
+[2026-02-12T15:19:24.561Z]       - AD 2019 nr 5
+[2026-02-12T15:19:24.561Z]       ... and 52 more
+[2026-02-12T15:19:24.561Z]   Year 2018:
+[2026-02-12T15:19:24.622Z]     Found 81 cases
+[2026-02-12T15:19:24.623Z]       - AD 2018 nr 1
+[2026-02-12T15:19:24.623Z]       - AD 2018 nr 2
+[2026-02-12T15:19:24.623Z]       - AD 2018 nr 3
+[2026-02-12T15:19:24.623Z]       - AD 2018 nr 4
+[2026-02-12T15:19:24.623Z]       - AD 2018 nr 5
+[2026-02-12T15:19:24.623Z]       ... and 76 more
+[2026-02-12T15:19:24.623Z]   Year 2017:
+[2026-02-12T15:19:24.723Z]     Found 67 cases
+[2026-02-12T15:19:24.723Z]       - AD 2017 nr 1
+[2026-02-12T15:19:24.723Z]       - AD 2017 nr 2
+[2026-02-12T15:19:24.723Z]       - AD 2017 nr 3
+[2026-02-12T15:19:24.723Z]       - AD 2017 nr 4
+[2026-02-12T15:19:24.723Z]       - AD 2017 nr 5
+[2026-02-12T15:19:24.724Z]       ... and 62 more
+[2026-02-12T15:19:24.724Z]   Year 2016:
+[2026-02-12T15:19:24.789Z]     Found 77 cases
+[2026-02-12T15:19:24.789Z]       - AD 2016 nr 1
+[2026-02-12T15:19:24.789Z]       - AD 2016 nr 2
+[2026-02-12T15:19:24.789Z]       - AD 2016 nr 3
+[2026-02-12T15:19:24.789Z]       - AD 2016 nr 4
+[2026-02-12T15:19:24.789Z]       - AD 2016 nr 5
+[2026-02-12T15:19:24.789Z]       ... and 72 more
+[2026-02-12T15:19:24.789Z]   Year 2015:
+[2026-02-12T15:19:25.025Z]     Found 76 cases
+[2026-02-12T15:19:25.025Z]       - AD 2015 nr 1
+[2026-02-12T15:19:25.025Z]       - AD 2015 nr 2
+[2026-02-12T15:19:25.025Z]       - AD 2015 nr 3
+[2026-02-12T15:19:25.025Z]       - AD 2015 nr 4
+[2026-02-12T15:19:25.026Z]       - AD 2015 nr 5
+[2026-02-12T15:19:25.026Z]       ... and 71 more
+[2026-02-12T15:19:25.026Z]   Year 2014:
+[2026-02-12T15:19:25.190Z]     Found 91 cases
+[2026-02-12T15:19:25.190Z]       - AD 2014 nr 1
+[2026-02-12T15:19:25.190Z]       - AD 2014 nr 2
+[2026-02-12T15:19:25.190Z]       - AD 2014 nr 3
+[2026-02-12T15:19:25.191Z]       - AD 2014 nr 4
+[2026-02-12T15:19:25.191Z]       - AD 2014 nr 5
+[2026-02-12T15:19:25.191Z]       ... and 86 more
+[2026-02-12T15:19:25.191Z]   Year 2013:
+[2026-02-12T15:19:25.559Z]     Found 94 cases
+[2026-02-12T15:19:25.562Z]       - AD 2013 nr 1
+[2026-02-12T15:19:25.563Z]       - AD 2013 nr 2
+[2026-02-12T15:19:25.563Z]       - AD 2013 nr 3
+[2026-02-12T15:19:25.563Z]       - AD 2013 nr 4
+[2026-02-12T15:19:25.563Z]       - AD 2013 nr 5
+[2026-02-12T15:19:25.563Z]       ... and 89 more
+[2026-02-12T15:19:25.563Z]   Year 2012:
+[2026-02-12T15:19:25.689Z]     Found 91 cases
+[2026-02-12T15:19:25.690Z]       - AD 2012 nr 1
+[2026-02-12T15:19:25.690Z]       - AD 2012 nr 2
+[2026-02-12T15:19:25.690Z]       - AD 2012 nr 3
+[2026-02-12T15:19:25.690Z]       - AD 2012 nr 4
+[2026-02-12T15:19:25.690Z]       - AD 2012 nr 5
+[2026-02-12T15:19:25.690Z]       ... and 86 more
+[2026-02-12T15:19:25.690Z]   Year 2011:
+[2026-02-12T15:19:25.804Z]     Found 95 cases
+[2026-02-12T15:19:25.804Z]       - AD 2011 nr 1
+[2026-02-12T15:19:25.804Z]       - AD 2011 nr 2
+[2026-02-12T15:19:25.804Z]       - AD 2011 nr 3
+[2026-02-12T15:19:25.804Z]       - AD 2011 nr 4
+[2026-02-12T15:19:25.805Z]       - AD 2011 nr 5
+[2026-02-12T15:19:25.805Z]       ... and 90 more
+[2026-02-12T15:19:25.805Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:19:25.805Z] Processing: Mark- och miljööverdomstolen (MÖD)
+[2026-02-12T15:19:25.805Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:19:25.805Z]   Year 2026:
+[2026-02-12T15:19:28.921Z] ERROR: Failed to process mod year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:28.921Z]   Year 2025:
+[2026-02-12T15:19:32.013Z] ERROR: Failed to process mod year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:32.014Z]   Year 2024:
+[2026-02-12T15:19:35.129Z] ERROR: Failed to process mod year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:35.129Z]   Year 2023:
+[2026-02-12T15:19:35.213Z]     Found 6 cases
+[2026-02-12T15:19:35.214Z]       - MÖD 2023:1
+[2026-02-12T15:19:35.214Z]       - MÖD 2023:2
+[2026-02-12T15:19:35.214Z]       - MÖD 2023:3
+[2026-02-12T15:19:35.214Z]       - MÖD 2023:4
+[2026-02-12T15:19:35.214Z]       - MÖD 2023:5
+[2026-02-12T15:19:35.214Z]       ... and 1 more
+[2026-02-12T15:19:35.214Z]   Year 2022:
+[2026-02-12T15:19:35.355Z]     Found 29 cases
+[2026-02-12T15:19:35.356Z]       - MÖD 2022:1
+[2026-02-12T15:19:35.356Z]       - MÖD 2022:2
+[2026-02-12T15:19:35.356Z]       - MÖD 2022:3
+[2026-02-12T15:19:35.356Z]       - MÖD 2022:4
+[2026-02-12T15:19:35.356Z]       - MÖD 2022:5
+[2026-02-12T15:19:35.356Z]       ... and 24 more
+[2026-02-12T15:19:35.356Z]   Year 2021:
+[2026-02-12T15:19:35.523Z]     Found 35 cases
+[2026-02-12T15:19:35.523Z]       - MÖD 2021:1
+[2026-02-12T15:19:35.523Z]       - MÖD 2021:2
+[2026-02-12T15:19:35.523Z]       - MÖD 2021:3
+[2026-02-12T15:19:35.523Z]       - MÖD 2021:4
+[2026-02-12T15:19:35.523Z]       - MÖD 2021:5
+[2026-02-12T15:19:35.523Z]       ... and 30 more
+[2026-02-12T15:19:35.523Z]   Year 2020:
+[2026-02-12T15:19:35.595Z]     Found 54 cases
+[2026-02-12T15:19:35.595Z]       - MÖD 2020:1
+[2026-02-12T15:19:35.596Z]       - MÖD 2020:2
+[2026-02-12T15:19:35.596Z]       - MÖD 2020:3
+[2026-02-12T15:19:35.596Z]       - MÖD 2020:4
+[2026-02-12T15:19:35.596Z]       - MÖD 2020:5
+[2026-02-12T15:19:35.596Z]       ... and 49 more
+[2026-02-12T15:19:35.596Z]   Year 2019:
+[2026-02-12T15:19:35.651Z]     Found 36 cases
+[2026-02-12T15:19:35.651Z]       - MÖD 2019:1
+[2026-02-12T15:19:35.651Z]       - MÖD 2019:2
+[2026-02-12T15:19:35.651Z]       - MÖD 2019:3
+[2026-02-12T15:19:35.651Z]       - MÖD 2019:4
+[2026-02-12T15:19:35.651Z]       - MÖD 2019:5
+[2026-02-12T15:19:35.651Z]       ... and 31 more
+[2026-02-12T15:19:35.651Z]   Year 2018:
+[2026-02-12T15:19:35.698Z]     Found 28 cases
+[2026-02-12T15:19:35.698Z]       - MÖD 2018:1
+[2026-02-12T15:19:35.698Z]       - MÖD 2018:2
+[2026-02-12T15:19:35.698Z]       - MÖD 2018:3
+[2026-02-12T15:19:35.698Z]       - MÖD 2018:4
+[2026-02-12T15:19:35.698Z]       - MÖD 2018:5
+[2026-02-12T15:19:35.698Z]       ... and 23 more
+[2026-02-12T15:19:35.698Z]   Year 2017:
+[2026-02-12T15:19:35.749Z]     Found 70 cases
+[2026-02-12T15:19:35.749Z]       - MÖD 2017:1
+[2026-02-12T15:19:35.749Z]       - MÖD 2017:2
+[2026-02-12T15:19:35.749Z]       - MÖD 2017:3
+[2026-02-12T15:19:35.749Z]       - MÖD 2017:4
+[2026-02-12T15:19:35.749Z]       - MÖD 2017:5
+[2026-02-12T15:19:35.749Z]       ... and 65 more
+[2026-02-12T15:19:35.749Z]   Year 2016:
+[2026-02-12T15:19:35.799Z]     Found 43 cases
+[2026-02-12T15:19:35.800Z]       - MÖD 2016:1
+[2026-02-12T15:19:35.800Z]       - MÖD 2016:2
+[2026-02-12T15:19:35.800Z]       - MÖD 2016:3
+[2026-02-12T15:19:35.800Z]       - MÖD 2016:4
+[2026-02-12T15:19:35.800Z]       - MÖD 2016:5
+[2026-02-12T15:19:35.800Z]       ... and 38 more
+[2026-02-12T15:19:35.800Z]   Year 2015:
+[2026-02-12T15:19:35.864Z]     Found 53 cases
+[2026-02-12T15:19:35.864Z]       - MÖD 2015:1
+[2026-02-12T15:19:35.864Z]       - MÖD 2015:2
+[2026-02-12T15:19:35.864Z]       - MÖD 2015:3
+[2026-02-12T15:19:35.864Z]       - MÖD 2015:4
+[2026-02-12T15:19:35.864Z]       - MÖD 2015:5
+[2026-02-12T15:19:35.864Z]       ... and 48 more
+[2026-02-12T15:19:35.864Z]   Year 2014:
+[2026-02-12T15:19:35.925Z]     Found 53 cases
+[2026-02-12T15:19:35.925Z]       - MÖD 2014:1
+[2026-02-12T15:19:35.925Z]       - MÖD 2014:2
+[2026-02-12T15:19:35.925Z]       - MÖD 2014:3
+[2026-02-12T15:19:35.925Z]       - MÖD 2014:4
+[2026-02-12T15:19:35.925Z]       - MÖD 2014:5
+[2026-02-12T15:19:35.925Z]       ... and 48 more
+[2026-02-12T15:19:35.925Z]   Year 2013:
+[2026-02-12T15:19:36.079Z]     Found 50 cases
+[2026-02-12T15:19:36.080Z]       - MÖD 2013:1
+[2026-02-12T15:19:36.080Z]       - MÖD 2013:2
+[2026-02-12T15:19:36.080Z]       - MÖD 2013:3
+[2026-02-12T15:19:36.080Z]       - MÖD 2013:4
+[2026-02-12T15:19:36.080Z]       - MÖD 2013:5
+[2026-02-12T15:19:36.080Z]       ... and 45 more
+[2026-02-12T15:19:36.080Z]   Year 2012:
+[2026-02-12T15:19:36.150Z]     Found 59 cases
+[2026-02-12T15:19:36.150Z]       - MÖD 2012:1
+[2026-02-12T15:19:36.150Z]       - MÖD 2012:2
+[2026-02-12T15:19:36.150Z]       - MÖD 2012:3
+[2026-02-12T15:19:36.151Z]       - MÖD 2012:4
+[2026-02-12T15:19:36.151Z]       - MÖD 2012:5
+[2026-02-12T15:19:36.151Z]       ... and 54 more
+[2026-02-12T15:19:36.151Z]   Year 2011:
+[2026-02-12T15:19:36.219Z]     Found 52 cases
+[2026-02-12T15:19:36.219Z]       - MÖD 2011:1
+[2026-02-12T15:19:36.219Z]       - MÖD 2011:2
+[2026-02-12T15:19:36.219Z]       - MÖD 2011:3
+[2026-02-12T15:19:36.219Z]       - MÖD 2011:4
+[2026-02-12T15:19:36.220Z]       - MÖD 2011:5
+[2026-02-12T15:19:36.220Z]       ... and 47 more
+[2026-02-12T15:19:36.220Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:19:36.220Z] Processing: Migrationsöverdomstolen (MIG)
+[2026-02-12T15:19:36.220Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:19:36.220Z]   Year 2026:
+[2026-02-12T15:19:39.389Z] ERROR: Failed to process mig year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:39.390Z]   Year 2025:
+[2026-02-12T15:19:42.493Z] ERROR: Failed to process mig year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:42.494Z]   Year 2024:
+[2026-02-12T15:19:45.571Z] ERROR: Failed to process mig year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:45.572Z]   Year 2023:
+[2026-02-12T15:19:45.696Z]     Found 12 cases
+[2026-02-12T15:19:45.696Z]       - MIG 2023:1
+[2026-02-12T15:19:45.697Z]       - MIG 2023:2
+[2026-02-12T15:19:45.697Z]       - MIG 2023:3
+[2026-02-12T15:19:45.697Z]       - MIG 2023:4
+[2026-02-12T15:19:45.697Z]       - MIG 2023:5
+[2026-02-12T15:19:45.697Z]       ... and 7 more
+[2026-02-12T15:19:45.697Z]   Year 2022:
+[2026-02-12T15:19:45.775Z]     Found 9 cases
+[2026-02-12T15:19:45.776Z]       - MIG 2022:2
+[2026-02-12T15:19:45.776Z]       - MIG 2022:3
+[2026-02-12T15:19:45.776Z]       - MIG 2022:4
+[2026-02-12T15:19:45.776Z]       - MIG 2022:5
+[2026-02-12T15:19:45.776Z]       - MIG 2022:6
+[2026-02-12T15:19:45.776Z]       ... and 4 more
+[2026-02-12T15:19:45.776Z]   Year 2021:
+[2026-02-12T15:19:45.842Z]     Found 20 cases
+[2026-02-12T15:19:45.842Z]       - MIG 2021:1
+[2026-02-12T15:19:45.842Z]       - MIG 2021:2
+[2026-02-12T15:19:45.842Z]       - MIG 2021:3
+[2026-02-12T15:19:45.842Z]       - MIG 2021:4
+[2026-02-12T15:19:45.842Z]       - MIG 2021:5
+[2026-02-12T15:19:45.842Z]       ... and 15 more
+[2026-02-12T15:19:45.842Z]   Year 2020:
+[2026-02-12T15:19:46.043Z]     Found 25 cases
+[2026-02-12T15:19:46.043Z]       - MIG 2020:1
+[2026-02-12T15:19:46.044Z]       - MIG 2020:2
+[2026-02-12T15:19:46.044Z]       - MIG 2020:3
+[2026-02-12T15:19:46.044Z]       - MIG 2020:4
+[2026-02-12T15:19:46.044Z]       - MIG 2020:5
+[2026-02-12T15:19:46.044Z]       ... and 20 more
+[2026-02-12T15:19:46.044Z]   Year 2019:
+[2026-02-12T15:19:46.097Z]     Found 26 cases
+[2026-02-12T15:19:46.097Z]       - MIG 2019:1
+[2026-02-12T15:19:46.097Z]       - MIG 2019:2
+[2026-02-12T15:19:46.098Z]       - MIG 2019:3
+[2026-02-12T15:19:46.098Z]       - MIG 2019:4
+[2026-02-12T15:19:46.098Z]       - MIG 2019:5
+[2026-02-12T15:19:46.098Z]       ... and 21 more
+[2026-02-12T15:19:46.098Z]   Year 2018:
+[2026-02-12T15:19:46.165Z]     Found 23 cases
+[2026-02-12T15:19:46.165Z]       - MIG 2018:1
+[2026-02-12T15:19:46.165Z]       - MIG 2018:2
+[2026-02-12T15:19:46.166Z]       - MIG 2018:3
+[2026-02-12T15:19:46.166Z]       - MIG 2018:4
+[2026-02-12T15:19:46.166Z]       - MIG 2018:5
+[2026-02-12T15:19:46.166Z]       ... and 18 more
+[2026-02-12T15:19:46.166Z]   Year 2017:
+[2026-02-12T15:19:46.221Z]     Found 29 cases
+[2026-02-12T15:19:46.221Z]       - MIG 2017:1
+[2026-02-12T15:19:46.221Z]       - MIG 2017:2
+[2026-02-12T15:19:46.221Z]       - MIG 2017:3
+[2026-02-12T15:19:46.221Z]       - MIG 2017:4
+[2026-02-12T15:19:46.221Z]       - MIG 2017:5
+[2026-02-12T15:19:46.221Z]       ... and 24 more
+[2026-02-12T15:19:46.221Z]   Year 2016:
+[2026-02-12T15:19:46.302Z]     Found 30 cases
+[2026-02-12T15:19:46.302Z]       - MIG 2016:1
+[2026-02-12T15:19:46.302Z]       - MIG 2016:2
+[2026-02-12T15:19:46.302Z]       - MIG 2016:3
+[2026-02-12T15:19:46.302Z]       - MIG 2016:4
+[2026-02-12T15:19:46.302Z]       - MIG 2016:5
+[2026-02-12T15:19:46.302Z]       ... and 25 more
+[2026-02-12T15:19:46.302Z]   Year 2015:
+[2026-02-12T15:19:46.393Z]     Found 27 cases
+[2026-02-12T15:19:46.394Z]       - MIG 2015:1
+[2026-02-12T15:19:46.394Z]       - MIG 2015:2
+[2026-02-12T15:19:46.394Z]       - MIG 2015:3
+[2026-02-12T15:19:46.394Z]       - MIG 2015:4
+[2026-02-12T15:19:46.394Z]       - MIG 2015:5
+[2026-02-12T15:19:46.394Z]       ... and 22 more
+[2026-02-12T15:19:46.394Z]   Year 2014:
+[2026-02-12T15:19:46.533Z]     Found 30 cases
+[2026-02-12T15:19:46.533Z]       - MIG 2014:1
+[2026-02-12T15:19:46.533Z]       - MIG 2014:2
+[2026-02-12T15:19:46.533Z]       - MIG 2014:3
+[2026-02-12T15:19:46.533Z]       - MIG 2014:4
+[2026-02-12T15:19:46.533Z]       - MIG 2014:5
+[2026-02-12T15:19:46.533Z]       ... and 25 more
+[2026-02-12T15:19:46.533Z]   Year 2013:
+[2026-02-12T15:19:46.610Z]     Found 26 cases
+[2026-02-12T15:19:46.610Z]       - MIG 2013:1
+[2026-02-12T15:19:46.610Z]       - MIG 2013:2
+[2026-02-12T15:19:46.610Z]       - MIG 2013:3
+[2026-02-12T15:19:46.610Z]       - MIG 2013:4
+[2026-02-12T15:19:46.610Z]       - MIG 2013:5
+[2026-02-12T15:19:46.610Z]       ... and 21 more
+[2026-02-12T15:19:46.610Z]   Year 2012:
+[2026-02-12T15:19:46.675Z]     Found 21 cases
+[2026-02-12T15:19:46.675Z]       - MIG 2012:1
+[2026-02-12T15:19:46.675Z]       - MIG 2012:2
+[2026-02-12T15:19:46.675Z]       - MIG 2012:3
+[2026-02-12T15:19:46.675Z]       - MIG 2012:4
+[2026-02-12T15:19:46.675Z]       - MIG 2012:5
+[2026-02-12T15:19:46.675Z]       ... and 16 more
+[2026-02-12T15:19:46.675Z]   Year 2011:
+[2026-02-12T15:19:46.727Z]     Found 30 cases
+[2026-02-12T15:19:46.727Z]       - MIG 2011:1
+[2026-02-12T15:19:46.727Z]       - MIG 2011:2
+[2026-02-12T15:19:46.727Z]       - MIG 2011:3
+[2026-02-12T15:19:46.727Z]       - MIG 2011:4
+[2026-02-12T15:19:46.727Z]       - MIG 2011:5
+[2026-02-12T15:19:46.727Z]       ... and 25 more
+[2026-02-12T15:19:46.727Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:19:46.727Z] Processing: Riksdagens ombudsmän (RH)
+[2026-02-12T15:19:46.727Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:19:46.727Z]   Year 2026:
+[2026-02-12T15:19:49.826Z] ERROR: Failed to process rh year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:49.827Z]   Year 2025:
+[2026-02-12T15:19:53.007Z] ERROR: Failed to process rh year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:53.008Z]   Year 2024:
+[2026-02-12T15:19:56.215Z] ERROR: Failed to process rh year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:56.216Z]   Year 2023:
+[2026-02-12T15:19:59.344Z] ERROR: Failed to process rh year 2023
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:19:59.344Z]   Year 2022:
+[2026-02-12T15:19:59.441Z]     Found 46 cases
+[2026-02-12T15:19:59.441Z]       - RH 2022:1
+[2026-02-12T15:19:59.441Z]       - RH 2022:2
+[2026-02-12T15:19:59.441Z]       - RH 2022:3
+[2026-02-12T15:19:59.441Z]       - RH 2022:4
+[2026-02-12T15:19:59.442Z]       - RH 2022:5
+[2026-02-12T15:19:59.442Z]       ... and 41 more
+[2026-02-12T15:19:59.442Z]   Year 2021:
+[2026-02-12T15:19:59.661Z]     Found 55 cases
+[2026-02-12T15:19:59.662Z]       - RH 2021:1
+[2026-02-12T15:19:59.662Z]       - RH 2021:2
+[2026-02-12T15:19:59.662Z]       - RH 2021:3
+[2026-02-12T15:19:59.662Z]       - RH 2021:4
+[2026-02-12T15:19:59.662Z]       - RH 2021:5
+[2026-02-12T15:19:59.662Z]       ... and 50 more
+[2026-02-12T15:19:59.662Z]   Year 2020:
+[2026-02-12T15:19:59.810Z]     Found 43 cases
+[2026-02-12T15:19:59.810Z]       - RH 2020:1
+[2026-02-12T15:19:59.810Z]       - RH 2020:2
+[2026-02-12T15:19:59.810Z]       - RH 2020:3
+[2026-02-12T15:19:59.811Z]       - RH 2020:4
+[2026-02-12T15:19:59.811Z]       - RH 2020:5
+[2026-02-12T15:19:59.811Z]       ... and 38 more
+[2026-02-12T15:19:59.811Z]   Year 2019:
+[2026-02-12T15:19:59.927Z]     Found 49 cases
+[2026-02-12T15:19:59.927Z]       - RH 2019:1
+[2026-02-12T15:19:59.928Z]       - RH 2019:2
+[2026-02-12T15:19:59.928Z]       - RH 2019:3
+[2026-02-12T15:19:59.928Z]       - RH 2019:4
+[2026-02-12T15:19:59.928Z]       - RH 2019:5
+[2026-02-12T15:19:59.928Z]       ... and 44 more
+[2026-02-12T15:19:59.928Z]   Year 2018:
+[2026-02-12T15:20:00.002Z]     Found 48 cases
+[2026-02-12T15:20:00.002Z]       - RH 2018:1
+[2026-02-12T15:20:00.002Z]       - RH 2018:2
+[2026-02-12T15:20:00.002Z]       - RH 2018:3
+[2026-02-12T15:20:00.002Z]       - RH 2018:4
+[2026-02-12T15:20:00.002Z]       - RH 2018:5
+[2026-02-12T15:20:00.002Z]       ... and 43 more
+[2026-02-12T15:20:00.002Z]   Year 2017:
+[2026-02-12T15:20:00.161Z]     Found 62 cases
+[2026-02-12T15:20:00.161Z]       - RH 2017:1
+[2026-02-12T15:20:00.161Z]       - RH 2017:2
+[2026-02-12T15:20:00.161Z]       - RH 2017:3
+[2026-02-12T15:20:00.161Z]       - RH 2017:4
+[2026-02-12T15:20:00.161Z]       - RH 2017:5
+[2026-02-12T15:20:00.161Z]       ... and 57 more
+[2026-02-12T15:20:00.161Z]   Year 2016:
+[2026-02-12T15:20:00.241Z]     Found 85 cases
+[2026-02-12T15:20:00.241Z]       - RH 2016:1
+[2026-02-12T15:20:00.241Z]       - RH 2016:2
+[2026-02-12T15:20:00.241Z]       - RH 2016:3
+[2026-02-12T15:20:00.241Z]       - RH 2016:4
+[2026-02-12T15:20:00.241Z]       - RH 2016:5
+[2026-02-12T15:20:00.241Z]       ... and 80 more
+[2026-02-12T15:20:00.242Z]   Year 2015:
+[2026-02-12T15:20:00.357Z]     Found 71 cases
+[2026-02-12T15:20:00.357Z]       - RH 2015:1
+[2026-02-12T15:20:00.357Z]       - RH 2015:2
+[2026-02-12T15:20:00.357Z]       - RH 2015:3
+[2026-02-12T15:20:00.357Z]       - RH 2015:4
+[2026-02-12T15:20:00.358Z]       - RH 2015:5
+[2026-02-12T15:20:00.358Z]       ... and 66 more
+[2026-02-12T15:20:00.358Z]   Year 2014:
+[2026-02-12T15:20:00.415Z]     Found 68 cases
+[2026-02-12T15:20:00.415Z]       - RH 2014:1
+[2026-02-12T15:20:00.415Z]       - RH 2014:2
+[2026-02-12T15:20:00.415Z]       - RH 2014:3
+[2026-02-12T15:20:00.415Z]       - RH 2014:4
+[2026-02-12T15:20:00.415Z]       - RH 2014:5
+[2026-02-12T15:20:00.415Z]       ... and 63 more
+[2026-02-12T15:20:00.415Z]   Year 2013:
+[2026-02-12T15:20:00.495Z]     Found 79 cases
+[2026-02-12T15:20:00.495Z]       - RH 2013:1
+[2026-02-12T15:20:00.496Z]       - RH 2013:2
+[2026-02-12T15:20:00.496Z]       - RH 2013:3
+[2026-02-12T15:20:00.496Z]       - RH 2013:4
+[2026-02-12T15:20:00.496Z]       - RH 2013:5
+[2026-02-12T15:20:00.496Z]       ... and 74 more
+[2026-02-12T15:20:00.496Z]   Year 2012:
+[2026-02-12T15:20:00.552Z]     Found 146 cases
+[2026-02-12T15:20:00.552Z]       - RH 2012:1
+[2026-02-12T15:20:00.553Z]       - RH 2012:2
+[2026-02-12T15:20:00.553Z]       - RH 2012:3
+[2026-02-12T15:20:00.553Z]       - RH 2012:4
+[2026-02-12T15:20:00.553Z]       - RH 2012:5
+[2026-02-12T15:20:00.553Z]       ... and 141 more
+[2026-02-12T15:20:00.553Z]   Year 2011:
+[2026-02-12T15:20:00.734Z]     Found 93 cases
+[2026-02-12T15:20:00.735Z]       - RH 2011:1
+[2026-02-12T15:20:00.735Z]       - RH 2011:2
+[2026-02-12T15:20:00.735Z]       - RH 2011:3
+[2026-02-12T15:20:00.735Z]       - RH 2011:4
+[2026-02-12T15:20:00.735Z]       - RH 2011:5
+[2026-02-12T15:20:00.735Z]       ... and 88 more
+[2026-02-12T15:20:00.735Z] 
+[2026-02-12T15:20:00.735Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:20:00.735Z] Full Archive Scraping Complete
+[2026-02-12T15:20:00.735Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:20:00.735Z]   Courts processed:   6
+[2026-02-12T15:20:00.736Z]   Years processed:    76
+[2026-02-12T15:20:00.736Z]   Cases found:        4827
+[2026-02-12T15:20:00.736Z]   Cases fetched:      0
+[2026-02-12T15:20:00.736Z]   Cases inserted:     0
+[2026-02-12T15:20:00.736Z]   Cases updated:      0
+[2026-02-12T15:20:00.736Z]   Cases failed:       0
+[2026-02-12T15:20:00.736Z]   Cases skipped:      0
+[2026-02-12T15:20:00.736Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:20:00.736Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu-full-archive.log
+[2026-02-12T15:20:00.736Z] 
+[2026-02-12T15:22:28.667Z] Lagen.nu Full Archive Scraper
+[2026-02-12T15:22:28.668Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T15:22:28.668Z]   Year range: 2024-2026
+[2026-02-12T15:22:28.668Z]   Limit: none
+[2026-02-12T15:22:28.668Z]   Dry run: true
+[2026-02-12T15:22:28.668Z] 
+[2026-02-12T15:22:28.671Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:22:28.671Z] Processing: Högsta förvaltningsdomstolen (HFD)
+[2026-02-12T15:22:28.671Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:22:28.671Z]   Year 2026:
+[2026-02-12T15:22:31.917Z] ERROR: Failed to process hfd year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:31.922Z]   Year 2025:
+[2026-02-12T15:22:35.311Z] ERROR: Failed to process hfd year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:35.311Z]   Year 2024:
+[2026-02-12T15:22:38.480Z] ERROR: Failed to process hfd year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:38.481Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:22:38.481Z] Processing: Högsta domstolen (NJA)
+[2026-02-12T15:22:38.481Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:22:38.482Z]   Year 2026:
+[2026-02-12T15:22:41.624Z] ERROR: Failed to process nja year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:41.625Z]   Year 2025:
+[2026-02-12T15:22:44.800Z] ERROR: Failed to process nja year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:44.800Z]   Year 2024:
+[2026-02-12T15:22:47.919Z] ERROR: Failed to process nja year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:47.920Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:22:47.920Z] Processing: Arbetsdomstolen (AD)
+[2026-02-12T15:22:47.920Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:22:47.920Z]   Year 2026:
+[2026-02-12T15:22:51.078Z] ERROR: Failed to process ad year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:51.079Z]   Year 2025:
+[2026-02-12T15:22:54.463Z] ERROR: Failed to process ad year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:54.464Z]   Year 2024:
+[2026-02-12T15:22:57.879Z] ERROR: Failed to process ad year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:22:57.880Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:22:57.880Z] Processing: Mark- och miljööverdomstolen (MÖD)
+[2026-02-12T15:22:57.882Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:22:57.882Z]   Year 2026:
+[2026-02-12T15:23:30.345Z] Lagen.nu Full Archive Scraper
+[2026-02-12T15:23:30.345Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T15:23:30.346Z]   Year range: 2011-2026
+[2026-02-12T15:23:30.346Z]   Limit: 500
+[2026-02-12T15:23:30.346Z]   Dry run: true
+[2026-02-12T15:23:30.346Z] 
+[2026-02-12T15:23:30.349Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:23:30.349Z] Processing: Högsta förvaltningsdomstolen (HFD)
+[2026-02-12T15:23:30.349Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:23:30.349Z]   Year 2026:
+[2026-02-12T15:23:33.593Z] ERROR: Failed to process hfd year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:33.596Z]   Year 2025:
+[2026-02-12T15:23:36.765Z] ERROR: Failed to process hfd year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:36.765Z]   Year 2024:
+[2026-02-12T15:23:39.935Z] ERROR: Failed to process hfd year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:39.935Z]   Year 2023:
+[2026-02-12T15:23:40.100Z]     Found 36 cases
+[2026-02-12T15:23:40.100Z]       - HFD 2023:1
+[2026-02-12T15:23:40.101Z]       - HFD 2023:2
+[2026-02-12T15:23:40.101Z]       - HFD 2023:3
+[2026-02-12T15:23:40.101Z]       - HFD 2023:4
+[2026-02-12T15:23:40.101Z]       - HFD 2023:5
+[2026-02-12T15:23:40.101Z]       ... and 31 more
+[2026-02-12T15:23:40.101Z]   Year 2022:
+[2026-02-12T15:23:40.217Z]     Found 54 cases
+[2026-02-12T15:23:40.218Z]       - HFD 2022:1
+[2026-02-12T15:23:40.218Z]       - HFD 2022:2
+[2026-02-12T15:23:40.218Z]       - HFD 2022:3
+[2026-02-12T15:23:40.218Z]       - HFD 2022:4
+[2026-02-12T15:23:40.218Z]       - HFD 2022:5
+[2026-02-12T15:23:40.218Z]       ... and 49 more
+[2026-02-12T15:23:40.218Z]   Year 2021:
+[2026-02-12T15:23:40.390Z]     Found 72 cases
+[2026-02-12T15:23:40.390Z]       - HFD 2021:1
+[2026-02-12T15:23:40.391Z]       - HFD 2021:2
+[2026-02-12T15:23:40.391Z]       - HFD 2021:3
+[2026-02-12T15:23:40.391Z]       - HFD 2021:4
+[2026-02-12T15:23:40.391Z]       - HFD 2021:5
+[2026-02-12T15:23:40.391Z]       ... and 67 more
+[2026-02-12T15:23:40.391Z]   Year 2020:
+[2026-02-12T15:23:40.631Z]     Found 70 cases
+[2026-02-12T15:23:40.632Z]       - HFD 2020:1
+[2026-02-12T15:23:40.632Z]       - HFD 2020:2
+[2026-02-12T15:23:40.632Z]       - HFD 2020:3
+[2026-02-12T15:23:40.632Z]       - HFD 2020:4
+[2026-02-12T15:23:40.632Z]       - HFD 2020:5
+[2026-02-12T15:23:40.632Z]       ... and 65 more
+[2026-02-12T15:23:40.632Z]   Year 2019:
+[2026-02-12T15:23:40.716Z]     Found 72 cases
+[2026-02-12T15:23:40.716Z]       - HFD 2019:1
+[2026-02-12T15:23:40.716Z]       - HFD 2019:2
+[2026-02-12T15:23:40.716Z]       - HFD 2019:3
+[2026-02-12T15:23:40.716Z]       - HFD 2019:4
+[2026-02-12T15:23:40.716Z]       - HFD 2019:5
+[2026-02-12T15:23:40.716Z]       ... and 67 more
+[2026-02-12T15:23:40.716Z]   Year 2018:
+[2026-02-12T15:23:40.773Z]     Found 83 cases
+[2026-02-12T15:23:40.773Z]       - HFD 2018:1
+[2026-02-12T15:23:40.773Z]       - HFD 2018:2
+[2026-02-12T15:23:40.773Z]       - HFD 2018:3
+[2026-02-12T15:23:40.773Z]       - HFD 2018:4
+[2026-02-12T15:23:40.773Z]       - HFD 2018:5
+[2026-02-12T15:23:40.773Z]       ... and 78 more
+[2026-02-12T15:23:40.773Z]   Year 2017:
+[2026-02-12T15:23:40.898Z]     Found 74 cases
+[2026-02-12T15:23:40.899Z]       - HFD 2017:1
+[2026-02-12T15:23:40.899Z]       - HFD 2017:2
+[2026-02-12T15:23:40.899Z]       - HFD 2017:3
+[2026-02-12T15:23:40.899Z]       - HFD 2017:4
+[2026-02-12T15:23:40.899Z]       - HFD 2017:5
+[2026-02-12T15:23:40.899Z]       ... and 69 more
+[2026-02-12T15:23:40.899Z]   Year 2016:
+[2026-02-12T15:23:40.960Z]     Found 89 cases
+[2026-02-12T15:23:40.960Z]       - HFD 2016:1
+[2026-02-12T15:23:40.960Z]       - HFD 2016:2
+[2026-02-12T15:23:40.961Z]       - HFD 2016:3
+[2026-02-12T15:23:40.961Z]       - HFD 2016:4
+[2026-02-12T15:23:40.961Z]       - HFD 2016:5
+[2026-02-12T15:23:40.961Z]       ... and 84 more
+[2026-02-12T15:23:40.961Z]   Year 2015:
+[2026-02-12T15:23:41.032Z]     Found 81 cases
+[2026-02-12T15:23:41.032Z]       - HFD 2015:1
+[2026-02-12T15:23:41.032Z]       - HFD 2015:2
+[2026-02-12T15:23:41.032Z]       - HFD 2015:3
+[2026-02-12T15:23:41.032Z]       - HFD 2015:4
+[2026-02-12T15:23:41.032Z]       - HFD 2015:5
+[2026-02-12T15:23:41.032Z]       ... and 76 more
+[2026-02-12T15:23:41.033Z]   Year 2014:
+[2026-02-12T15:23:41.119Z]     Found 82 cases
+[2026-02-12T15:23:41.120Z]       - HFD 2014:1
+[2026-02-12T15:23:41.120Z]       - HFD 2014:2
+[2026-02-12T15:23:41.120Z]       - HFD 2014:3
+[2026-02-12T15:23:41.120Z]       - HFD 2014:4
+[2026-02-12T15:23:41.120Z]       - HFD 2014:5
+[2026-02-12T15:23:41.120Z]       ... and 77 more
+[2026-02-12T15:23:41.120Z]   Year 2013:
+[2026-02-12T15:23:41.175Z]     Found 87 cases
+[2026-02-12T15:23:41.175Z]       - HFD 2013:1
+[2026-02-12T15:23:41.176Z]       - HFD 2013:2
+[2026-02-12T15:23:41.176Z]       - HFD 2013:3
+[2026-02-12T15:23:41.176Z]       - HFD 2013:4
+[2026-02-12T15:23:41.176Z]       - HFD 2013:5
+[2026-02-12T15:23:41.176Z]       ... and 82 more
+[2026-02-12T15:23:41.176Z]   Year 2012:
+[2026-02-12T15:23:41.229Z]     Found 75 cases
+[2026-02-12T15:23:41.229Z]       - HFD 2012:1
+[2026-02-12T15:23:41.229Z]       - HFD 2012:2
+[2026-02-12T15:23:41.229Z]       - HFD 2012:3
+[2026-02-12T15:23:41.229Z]       - HFD 2012:4
+[2026-02-12T15:23:41.229Z]       - HFD 2012:5
+[2026-02-12T15:23:41.229Z]       ... and 70 more
+[2026-02-12T15:23:41.229Z]   Year 2011:
+[2026-02-12T15:23:41.400Z]     Found 90 cases
+[2026-02-12T15:23:41.401Z]       - HFD 2011:1
+[2026-02-12T15:23:41.401Z]       - HFD 2011:2
+[2026-02-12T15:23:41.401Z]       - HFD 2011:3
+[2026-02-12T15:23:41.401Z]       - HFD 2011:4
+[2026-02-12T15:23:41.401Z]       - HFD 2011:5
+[2026-02-12T15:23:41.401Z]       ... and 85 more
+[2026-02-12T15:23:41.401Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:23:41.401Z] Processing: Högsta domstolen (NJA)
+[2026-02-12T15:23:41.401Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:23:41.401Z]   Year 2026:
+[2026-02-12T15:23:44.624Z] ERROR: Failed to process nja year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:44.625Z]   Year 2025:
+[2026-02-12T15:23:47.777Z] ERROR: Failed to process nja year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:47.777Z]   Year 2024:
+[2026-02-12T15:23:50.969Z] ERROR: Failed to process nja year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:50.970Z]   Year 2023:
+[2026-02-12T15:23:54.096Z] ERROR: Failed to process nja year 2023
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:54.099Z]   Year 2022:
+[2026-02-12T15:23:54.258Z]     Found 94 cases
+[2026-02-12T15:23:54.258Z]       - NJA 2022 s. 3
+[2026-02-12T15:23:54.258Z]       - NJA 2022 s. 14
+[2026-02-12T15:23:54.258Z]       - NJA 2022 s. 23
+[2026-02-12T15:23:54.258Z]       - NJA 2022 s. 42
+[2026-02-12T15:23:54.258Z]       - NJA 2022 s. 62
+[2026-02-12T15:23:54.259Z]       ... and 89 more
+[2026-02-12T15:23:54.259Z]   Year 2021:
+[2026-02-12T15:23:54.371Z]     Found 101 cases
+[2026-02-12T15:23:54.371Z]       - NJA 2021 s. 3
+[2026-02-12T15:23:54.371Z]       - NJA 2021 s. 10
+[2026-02-12T15:23:54.371Z]       - NJA 2021 s. 32
+[2026-02-12T15:23:54.372Z]       - NJA 2021 s. 46
+[2026-02-12T15:23:54.372Z]       - NJA 2021 s. 56
+[2026-02-12T15:23:54.372Z]       ... and 96 more
+[2026-02-12T15:23:54.372Z]   Year 2020:
+[2026-02-12T15:23:54.531Z]     Found 93 cases
+[2026-02-12T15:23:54.531Z]       - NJA 2020 s. 3
+[2026-02-12T15:23:54.531Z]       - NJA 2020 s. 115
+[2026-02-12T15:23:54.531Z]       - NJA 2020 s. 134
+[2026-02-12T15:23:54.531Z]       - NJA 2020 s. 141
+[2026-02-12T15:23:54.531Z]       - NJA 2020 s. 147
+[2026-02-12T15:23:54.531Z]       ... and 88 more
+[2026-02-12T15:23:54.531Z]   Year 2019:
+[2026-02-12T15:23:54.585Z]     Found 87 cases
+[2026-02-12T15:23:54.585Z]       - NJA 2019 s. 3
+[2026-02-12T15:23:54.586Z]       - NJA 2019 s. 15
+[2026-02-12T15:23:54.586Z]       - NJA 2019 s. 23
+[2026-02-12T15:23:54.586Z]       - NJA 2019 s. 43
+[2026-02-12T15:23:54.586Z]       - NJA 2019 s. 47
+[2026-02-12T15:23:54.586Z]       ... and 82 more
+[2026-02-12T15:23:54.586Z]   Year 2018:
+[2026-02-12T15:23:54.641Z]     Found 93 cases
+[2026-02-12T15:23:54.641Z]       - NJA 2018 s. 3
+[2026-02-12T15:23:54.642Z]       - NJA 2018 s. 9
+[2026-02-12T15:23:54.642Z]       - NJA 2018 s. 19
+[2026-02-12T15:23:54.642Z]       - NJA 2018 s. 49
+[2026-02-12T15:23:54.642Z]       - NJA 2018 s. 61
+[2026-02-12T15:23:54.642Z]       ... and 88 more
+[2026-02-12T15:23:54.642Z]   Year 2017:
+[2026-02-12T15:23:54.699Z]     Found 108 cases
+[2026-02-12T15:23:54.699Z]       - NJA 2017 s. 3
+[2026-02-12T15:23:54.699Z]       - NJA 2017 s. 9
+[2026-02-12T15:23:54.699Z]       - NJA 2017 s. 45
+[2026-02-12T15:23:54.699Z]       - NJA 2017 s. 55
+[2026-02-12T15:23:54.700Z]       - NJA 2017 s. 61
+[2026-02-12T15:23:54.700Z]       ... and 103 more
+[2026-02-12T15:23:54.700Z]   Year 2016:
+[2026-02-12T15:23:54.774Z]     Found 104 cases
+[2026-02-12T15:23:54.775Z]       - NJA 2016 s. 3
+[2026-02-12T15:23:54.775Z]       - NJA 2016 s. 18
+[2026-02-12T15:23:54.775Z]       - NJA 2016 s. 30
+[2026-02-12T15:23:54.775Z]       - NJA 2016 s. 39
+[2026-02-12T15:23:54.775Z]       - NJA 2016 s. 51
+[2026-02-12T15:23:54.775Z]       ... and 99 more
+[2026-02-12T15:23:54.775Z]   Year 2015:
+[2026-02-12T15:23:54.827Z]     Found 97 cases
+[2026-02-12T15:23:54.827Z]       - NJA 2015 s. 3
+[2026-02-12T15:23:54.827Z]       - NJA 2015 s. 24
+[2026-02-12T15:23:54.827Z]       - NJA 2015 s. 31
+[2026-02-12T15:23:54.827Z]       - NJA 2015 s. 41
+[2026-02-12T15:23:54.827Z]       - NJA 2015 s. 45
+[2026-02-12T15:23:54.827Z]       ... and 92 more
+[2026-02-12T15:23:54.827Z]   Year 2014:
+[2026-02-12T15:23:54.893Z]     Found 87 cases
+[2026-02-12T15:23:54.893Z]       - NJA 2014 s. 3
+[2026-02-12T15:23:54.893Z]       - NJA 2014 s. 14
+[2026-02-12T15:23:54.893Z]       - NJA 2014 s. 23
+[2026-02-12T15:23:54.893Z]       - NJA 2014 s. 27
+[2026-02-12T15:23:54.893Z]       - NJA 2014 s. 29
+[2026-02-12T15:23:54.894Z]       ... and 82 more
+[2026-02-12T15:23:54.894Z]   Year 2013:
+[2026-02-12T15:23:55.030Z]     Found 113 cases
+[2026-02-12T15:23:55.030Z]       - NJA 2013 s. 3
+[2026-02-12T15:23:55.030Z]       - NJA 2013 s. 7
+[2026-02-12T15:23:55.030Z]       - NJA 2013 s. 22
+[2026-02-12T15:23:55.030Z]       - NJA 2013 s. 31
+[2026-02-12T15:23:55.030Z]       - NJA 2013 s. 38
+[2026-02-12T15:23:55.030Z]       ... and 108 more
+[2026-02-12T15:23:55.030Z]   Year 2012:
+[2026-02-12T15:23:55.113Z]     Found 96 cases
+[2026-02-12T15:23:55.114Z]       - NJA 2012 s. 3
+[2026-02-12T15:23:55.114Z]       - NJA 2012 s. 16
+[2026-02-12T15:23:55.114Z]       - NJA 2012 s. 22
+[2026-02-12T15:23:55.114Z]       - NJA 2012 s. 30
+[2026-02-12T15:23:55.114Z]       - NJA 2012 s. 35
+[2026-02-12T15:23:55.114Z]       ... and 91 more
+[2026-02-12T15:23:55.114Z]   Year 2011:
+[2026-02-12T15:23:55.175Z]     Found 83 cases
+[2026-02-12T15:23:55.175Z]       - NJA 2011 s. 3
+[2026-02-12T15:23:55.175Z]       - NJA 2011 s. 10
+[2026-02-12T15:23:55.176Z]       - NJA 2011 s. 13
+[2026-02-12T15:23:55.176Z]       - NJA 2011 s. 15
+[2026-02-12T15:23:55.176Z]       - NJA 2011 s. 24
+[2026-02-12T15:23:55.176Z]       ... and 78 more
+[2026-02-12T15:23:55.176Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:23:55.176Z] Processing: Arbetsdomstolen (AD)
+[2026-02-12T15:23:55.176Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:23:55.176Z]   Year 2026:
+[2026-02-12T15:23:58.291Z] ERROR: Failed to process ad year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:23:58.292Z]   Year 2025:
+[2026-02-12T15:24:01.414Z] ERROR: Failed to process ad year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:01.414Z]   Year 2024:
+[2026-02-12T15:24:04.731Z] ERROR: Failed to process ad year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:04.731Z]   Year 2023:
+[2026-02-12T15:24:04.825Z]     Found 57 cases
+[2026-02-12T15:24:04.825Z]       - AD 2023 nr 1
+[2026-02-12T15:24:04.826Z]       - AD 2023 nr 2
+[2026-02-12T15:24:04.826Z]       - AD 2023 nr 3
+[2026-02-12T15:24:04.826Z]       - AD 2023 nr 4
+[2026-02-12T15:24:04.826Z]       - AD 2023 nr 5
+[2026-02-12T15:24:04.826Z]       ... and 52 more
+[2026-02-12T15:24:04.826Z]   Year 2022:
+[2026-02-12T15:24:05.007Z]     Found 60 cases
+[2026-02-12T15:24:05.007Z]       - AD 2022 nr 1
+[2026-02-12T15:24:05.007Z]       - AD 2022 nr 2
+[2026-02-12T15:24:05.007Z]       - AD 2022 nr 3
+[2026-02-12T15:24:05.007Z]       - AD 2022 nr 4
+[2026-02-12T15:24:05.007Z]       - AD 2022 nr 5
+[2026-02-12T15:24:05.007Z]       ... and 55 more
+[2026-02-12T15:24:05.007Z]   Year 2021:
+[2026-02-12T15:24:05.274Z]     Found 69 cases
+[2026-02-12T15:24:05.274Z]       - AD 2021 nr 1
+[2026-02-12T15:24:05.274Z]       - AD 2021 nr 2
+[2026-02-12T15:24:05.274Z]       - AD 2021 nr 3
+[2026-02-12T15:24:05.274Z]       - AD 2021 nr 4
+[2026-02-12T15:24:05.274Z]       - AD 2021 nr 5
+[2026-02-12T15:24:05.274Z]       ... and 64 more
+[2026-02-12T15:24:05.274Z]   Year 2020:
+[2026-02-12T15:24:05.357Z]     Found 70 cases
+[2026-02-12T15:24:05.358Z]       - AD 2020 nr 1
+[2026-02-12T15:24:05.358Z]       - AD 2020 nr 2
+[2026-02-12T15:24:05.358Z]       - AD 2020 nr 3
+[2026-02-12T15:24:05.358Z]       - AD 2020 nr 4
+[2026-02-12T15:24:05.358Z]       - AD 2020 nr 5
+[2026-02-12T15:24:05.358Z]       ... and 65 more
+[2026-02-12T15:24:05.358Z]   Year 2019:
+[2026-02-12T15:24:05.409Z]     Found 57 cases
+[2026-02-12T15:24:05.410Z]       - AD 2019 nr 1
+[2026-02-12T15:24:05.410Z]       - AD 2019 nr 2
+[2026-02-12T15:24:05.410Z]       - AD 2019 nr 3
+[2026-02-12T15:24:05.410Z]       - AD 2019 nr 4
+[2026-02-12T15:24:05.410Z]       - AD 2019 nr 5
+[2026-02-12T15:24:05.410Z]       ... and 52 more
+[2026-02-12T15:24:05.410Z]   Year 2018:
+[2026-02-12T15:24:05.546Z]     Found 81 cases
+[2026-02-12T15:24:05.546Z]       - AD 2018 nr 1
+[2026-02-12T15:24:05.547Z]       - AD 2018 nr 2
+[2026-02-12T15:24:05.547Z]       - AD 2018 nr 3
+[2026-02-12T15:24:05.547Z]       - AD 2018 nr 4
+[2026-02-12T15:24:05.547Z]       - AD 2018 nr 5
+[2026-02-12T15:24:05.547Z]       ... and 76 more
+[2026-02-12T15:24:05.547Z]   Year 2017:
+[2026-02-12T15:24:05.625Z]     Found 67 cases
+[2026-02-12T15:24:05.625Z]       - AD 2017 nr 1
+[2026-02-12T15:24:05.625Z]       - AD 2017 nr 2
+[2026-02-12T15:24:05.626Z]       - AD 2017 nr 3
+[2026-02-12T15:24:05.626Z]       - AD 2017 nr 4
+[2026-02-12T15:24:05.626Z]       - AD 2017 nr 5
+[2026-02-12T15:24:05.626Z]       ... and 62 more
+[2026-02-12T15:24:05.626Z]   Year 2016:
+[2026-02-12T15:24:05.700Z]     Found 77 cases
+[2026-02-12T15:24:05.700Z]       - AD 2016 nr 1
+[2026-02-12T15:24:05.701Z]       - AD 2016 nr 2
+[2026-02-12T15:24:05.701Z]       - AD 2016 nr 3
+[2026-02-12T15:24:05.701Z]       - AD 2016 nr 4
+[2026-02-12T15:24:05.701Z]       - AD 2016 nr 5
+[2026-02-12T15:24:05.701Z]       ... and 72 more
+[2026-02-12T15:24:05.701Z]   Year 2015:
+[2026-02-12T15:24:05.779Z]     Found 76 cases
+[2026-02-12T15:24:05.779Z]       - AD 2015 nr 1
+[2026-02-12T15:24:05.779Z]       - AD 2015 nr 2
+[2026-02-12T15:24:05.779Z]       - AD 2015 nr 3
+[2026-02-12T15:24:05.779Z]       - AD 2015 nr 4
+[2026-02-12T15:24:05.779Z]       - AD 2015 nr 5
+[2026-02-12T15:24:05.779Z]       ... and 71 more
+[2026-02-12T15:24:05.779Z]   Year 2014:
+[2026-02-12T15:24:05.847Z]     Found 91 cases
+[2026-02-12T15:24:05.847Z]       - AD 2014 nr 1
+[2026-02-12T15:24:05.847Z]       - AD 2014 nr 2
+[2026-02-12T15:24:05.847Z]       - AD 2014 nr 3
+[2026-02-12T15:24:05.847Z]       - AD 2014 nr 4
+[2026-02-12T15:24:05.847Z]       - AD 2014 nr 5
+[2026-02-12T15:24:05.847Z]       ... and 86 more
+[2026-02-12T15:24:05.847Z]   Year 2013:
+[2026-02-12T15:24:05.910Z]     Found 94 cases
+[2026-02-12T15:24:05.910Z]       - AD 2013 nr 1
+[2026-02-12T15:24:05.910Z]       - AD 2013 nr 2
+[2026-02-12T15:24:05.910Z]       - AD 2013 nr 3
+[2026-02-12T15:24:05.910Z]       - AD 2013 nr 4
+[2026-02-12T15:24:05.910Z]       - AD 2013 nr 5
+[2026-02-12T15:24:05.911Z]       ... and 89 more
+[2026-02-12T15:24:05.911Z]   Year 2012:
+[2026-02-12T15:24:06.038Z]     Found 91 cases
+[2026-02-12T15:24:06.039Z]       - AD 2012 nr 1
+[2026-02-12T15:24:06.039Z]       - AD 2012 nr 2
+[2026-02-12T15:24:06.039Z]       - AD 2012 nr 3
+[2026-02-12T15:24:06.039Z]       - AD 2012 nr 4
+[2026-02-12T15:24:06.039Z]       - AD 2012 nr 5
+[2026-02-12T15:24:06.039Z]       ... and 86 more
+[2026-02-12T15:24:06.039Z]   Year 2011:
+[2026-02-12T15:24:06.115Z]     Found 95 cases
+[2026-02-12T15:24:06.115Z]       - AD 2011 nr 1
+[2026-02-12T15:24:06.115Z]       - AD 2011 nr 2
+[2026-02-12T15:24:06.115Z]       - AD 2011 nr 3
+[2026-02-12T15:24:06.115Z]       - AD 2011 nr 4
+[2026-02-12T15:24:06.116Z]       - AD 2011 nr 5
+[2026-02-12T15:24:06.116Z]       ... and 90 more
+[2026-02-12T15:24:06.116Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:06.116Z] Processing: Mark- och miljööverdomstolen (MÖD)
+[2026-02-12T15:24:06.116Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:24:06.116Z]   Year 2026:
+[2026-02-12T15:24:09.265Z] ERROR: Failed to process mod year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:09.265Z]   Year 2025:
+[2026-02-12T15:24:12.411Z] ERROR: Failed to process mod year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:12.412Z]   Year 2024:
+[2026-02-12T15:24:15.550Z] ERROR: Failed to process mod year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:15.551Z]   Year 2023:
+[2026-02-12T15:24:15.632Z]     Found 6 cases
+[2026-02-12T15:24:15.632Z]       - MÖD 2023:1
+[2026-02-12T15:24:15.633Z]       - MÖD 2023:2
+[2026-02-12T15:24:15.633Z]       - MÖD 2023:3
+[2026-02-12T15:24:15.633Z]       - MÖD 2023:4
+[2026-02-12T15:24:15.633Z]       - MÖD 2023:5
+[2026-02-12T15:24:15.633Z]       ... and 1 more
+[2026-02-12T15:24:15.633Z]   Year 2022:
+[2026-02-12T15:24:15.786Z]     Found 29 cases
+[2026-02-12T15:24:15.786Z]       - MÖD 2022:1
+[2026-02-12T15:24:15.787Z]       - MÖD 2022:2
+[2026-02-12T15:24:15.787Z]       - MÖD 2022:3
+[2026-02-12T15:24:15.787Z]       - MÖD 2022:4
+[2026-02-12T15:24:15.787Z]       - MÖD 2022:5
+[2026-02-12T15:24:15.787Z]       ... and 24 more
+[2026-02-12T15:24:15.787Z]   Year 2021:
+[2026-02-12T15:24:16.017Z]     Found 35 cases
+[2026-02-12T15:24:16.017Z]       - MÖD 2021:1
+[2026-02-12T15:24:16.017Z]       - MÖD 2021:2
+[2026-02-12T15:24:16.017Z]       - MÖD 2021:3
+[2026-02-12T15:24:16.017Z]       - MÖD 2021:4
+[2026-02-12T15:24:16.017Z]       - MÖD 2021:5
+[2026-02-12T15:24:16.017Z]       ... and 30 more
+[2026-02-12T15:24:16.018Z]   Year 2020:
+[2026-02-12T15:24:16.094Z]     Found 54 cases
+[2026-02-12T15:24:16.095Z]       - MÖD 2020:1
+[2026-02-12T15:24:16.095Z]       - MÖD 2020:2
+[2026-02-12T15:24:16.095Z]       - MÖD 2020:3
+[2026-02-12T15:24:16.095Z]       - MÖD 2020:4
+[2026-02-12T15:24:16.095Z]       - MÖD 2020:5
+[2026-02-12T15:24:16.095Z]       ... and 49 more
+[2026-02-12T15:24:16.095Z]   Year 2019:
+[2026-02-12T15:24:16.262Z]     Found 36 cases
+[2026-02-12T15:24:16.262Z]       - MÖD 2019:1
+[2026-02-12T15:24:16.262Z]       - MÖD 2019:2
+[2026-02-12T15:24:16.262Z]       - MÖD 2019:3
+[2026-02-12T15:24:16.263Z]       - MÖD 2019:4
+[2026-02-12T15:24:16.263Z]       - MÖD 2019:5
+[2026-02-12T15:24:16.263Z]       ... and 31 more
+[2026-02-12T15:24:16.263Z]   Year 2018:
+[2026-02-12T15:24:16.354Z]     Found 28 cases
+[2026-02-12T15:24:16.354Z]       - MÖD 2018:1
+[2026-02-12T15:24:16.354Z]       - MÖD 2018:2
+[2026-02-12T15:24:16.354Z]       - MÖD 2018:3
+[2026-02-12T15:24:16.355Z]       - MÖD 2018:4
+[2026-02-12T15:24:16.355Z]       - MÖD 2018:5
+[2026-02-12T15:24:16.355Z]       ... and 23 more
+[2026-02-12T15:24:16.355Z]   Year 2017:
+[2026-02-12T15:24:16.419Z]     Found 70 cases
+[2026-02-12T15:24:16.419Z]       - MÖD 2017:1
+[2026-02-12T15:24:16.419Z]       - MÖD 2017:2
+[2026-02-12T15:24:16.419Z]       - MÖD 2017:3
+[2026-02-12T15:24:16.419Z]       - MÖD 2017:4
+[2026-02-12T15:24:16.419Z]       - MÖD 2017:5
+[2026-02-12T15:24:16.419Z]       ... and 65 more
+[2026-02-12T15:24:16.419Z]   Year 2016:
+[2026-02-12T15:24:16.556Z]     Found 43 cases
+[2026-02-12T15:24:16.556Z]       - MÖD 2016:1
+[2026-02-12T15:24:16.556Z]       - MÖD 2016:2
+[2026-02-12T15:24:16.556Z]       - MÖD 2016:3
+[2026-02-12T15:24:16.556Z]       - MÖD 2016:4
+[2026-02-12T15:24:16.556Z]       - MÖD 2016:5
+[2026-02-12T15:24:16.556Z]       ... and 38 more
+[2026-02-12T15:24:16.556Z]   Year 2015:
+[2026-02-12T15:24:16.609Z]     Found 53 cases
+[2026-02-12T15:24:16.609Z]       - MÖD 2015:1
+[2026-02-12T15:24:16.609Z]       - MÖD 2015:2
+[2026-02-12T15:24:16.609Z]       - MÖD 2015:3
+[2026-02-12T15:24:16.609Z]       - MÖD 2015:4
+[2026-02-12T15:24:16.609Z]       - MÖD 2015:5
+[2026-02-12T15:24:16.609Z]       ... and 48 more
+[2026-02-12T15:24:16.609Z]   Year 2014:
+[2026-02-12T15:24:16.682Z]     Found 53 cases
+[2026-02-12T15:24:16.682Z]       - MÖD 2014:1
+[2026-02-12T15:24:16.682Z]       - MÖD 2014:2
+[2026-02-12T15:24:16.682Z]       - MÖD 2014:3
+[2026-02-12T15:24:16.682Z]       - MÖD 2014:4
+[2026-02-12T15:24:16.682Z]       - MÖD 2014:5
+[2026-02-12T15:24:16.682Z]       ... and 48 more
+[2026-02-12T15:24:16.682Z]   Year 2013:
+[2026-02-12T15:24:16.764Z]     Found 50 cases
+[2026-02-12T15:24:16.764Z]       - MÖD 2013:1
+[2026-02-12T15:24:16.765Z]       - MÖD 2013:2
+[2026-02-12T15:24:16.765Z]       - MÖD 2013:3
+[2026-02-12T15:24:16.765Z]       - MÖD 2013:4
+[2026-02-12T15:24:16.765Z]       - MÖD 2013:5
+[2026-02-12T15:24:16.765Z]       ... and 45 more
+[2026-02-12T15:24:16.765Z]   Year 2012:
+[2026-02-12T15:24:16.815Z]     Found 59 cases
+[2026-02-12T15:24:16.815Z]       - MÖD 2012:1
+[2026-02-12T15:24:16.815Z]       - MÖD 2012:2
+[2026-02-12T15:24:16.815Z]       - MÖD 2012:3
+[2026-02-12T15:24:16.815Z]       - MÖD 2012:4
+[2026-02-12T15:24:16.815Z]       - MÖD 2012:5
+[2026-02-12T15:24:16.815Z]       ... and 54 more
+[2026-02-12T15:24:16.815Z]   Year 2011:
+[2026-02-12T15:24:16.879Z]     Found 52 cases
+[2026-02-12T15:24:16.879Z]       - MÖD 2011:1
+[2026-02-12T15:24:16.879Z]       - MÖD 2011:2
+[2026-02-12T15:24:16.879Z]       - MÖD 2011:3
+[2026-02-12T15:24:16.879Z]       - MÖD 2011:4
+[2026-02-12T15:24:16.879Z]       - MÖD 2011:5
+[2026-02-12T15:24:16.879Z]       ... and 47 more
+[2026-02-12T15:24:16.879Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:16.879Z] Processing: Migrationsöverdomstolen (MIG)
+[2026-02-12T15:24:16.879Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:24:16.879Z]   Year 2026:
+[2026-02-12T15:24:19.987Z] ERROR: Failed to process mig year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:19.988Z]   Year 2025:
+[2026-02-12T15:24:23.154Z] ERROR: Failed to process mig year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:23.154Z]   Year 2024:
+[2026-02-12T15:24:26.264Z] ERROR: Failed to process mig year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:26.265Z]   Year 2023:
+[2026-02-12T15:24:26.368Z]     Found 12 cases
+[2026-02-12T15:24:26.368Z]       - MIG 2023:1
+[2026-02-12T15:24:26.368Z]       - MIG 2023:2
+[2026-02-12T15:24:26.368Z]       - MIG 2023:3
+[2026-02-12T15:24:26.368Z]       - MIG 2023:4
+[2026-02-12T15:24:26.368Z]       - MIG 2023:5
+[2026-02-12T15:24:26.368Z]       ... and 7 more
+[2026-02-12T15:24:26.368Z]   Year 2022:
+[2026-02-12T15:24:26.535Z]     Found 9 cases
+[2026-02-12T15:24:26.535Z]       - MIG 2022:2
+[2026-02-12T15:24:26.536Z]       - MIG 2022:3
+[2026-02-12T15:24:26.536Z]       - MIG 2022:4
+[2026-02-12T15:24:26.536Z]       - MIG 2022:5
+[2026-02-12T15:24:26.536Z]       - MIG 2022:6
+[2026-02-12T15:24:26.536Z]       ... and 4 more
+[2026-02-12T15:24:26.536Z]   Year 2021:
+[2026-02-12T15:24:26.648Z]     Found 20 cases
+[2026-02-12T15:24:26.648Z]       - MIG 2021:1
+[2026-02-12T15:24:26.648Z]       - MIG 2021:2
+[2026-02-12T15:24:26.648Z]       - MIG 2021:3
+[2026-02-12T15:24:26.648Z]       - MIG 2021:4
+[2026-02-12T15:24:26.648Z]       - MIG 2021:5
+[2026-02-12T15:24:26.649Z]       ... and 15 more
+[2026-02-12T15:24:26.649Z]   Year 2020:
+[2026-02-12T15:24:26.702Z]     Found 25 cases
+[2026-02-12T15:24:26.702Z]       - MIG 2020:1
+[2026-02-12T15:24:26.702Z]       - MIG 2020:2
+[2026-02-12T15:24:26.702Z]       - MIG 2020:3
+[2026-02-12T15:24:26.702Z]       - MIG 2020:4
+[2026-02-12T15:24:26.703Z]       - MIG 2020:5
+[2026-02-12T15:24:26.703Z]       ... and 20 more
+[2026-02-12T15:24:26.703Z]   Year 2019:
+[2026-02-12T15:24:26.765Z]     Found 26 cases
+[2026-02-12T15:24:26.765Z]       - MIG 2019:1
+[2026-02-12T15:24:26.765Z]       - MIG 2019:2
+[2026-02-12T15:24:26.765Z]       - MIG 2019:3
+[2026-02-12T15:24:26.765Z]       - MIG 2019:4
+[2026-02-12T15:24:26.765Z]       - MIG 2019:5
+[2026-02-12T15:24:26.765Z]       ... and 21 more
+[2026-02-12T15:24:26.765Z]   Year 2018:
+[2026-02-12T15:24:27.045Z]     Found 23 cases
+[2026-02-12T15:24:27.045Z]       - MIG 2018:1
+[2026-02-12T15:24:27.045Z]       - MIG 2018:2
+[2026-02-12T15:24:27.045Z]       - MIG 2018:3
+[2026-02-12T15:24:27.045Z]       - MIG 2018:4
+[2026-02-12T15:24:27.045Z]       - MIG 2018:5
+[2026-02-12T15:24:27.045Z]       ... and 18 more
+[2026-02-12T15:24:27.045Z]   Year 2017:
+[2026-02-12T15:24:27.094Z]     Found 29 cases
+[2026-02-12T15:24:27.094Z]       - MIG 2017:1
+[2026-02-12T15:24:27.095Z]       - MIG 2017:2
+[2026-02-12T15:24:27.095Z]       - MIG 2017:3
+[2026-02-12T15:24:27.095Z]       - MIG 2017:4
+[2026-02-12T15:24:27.095Z]       - MIG 2017:5
+[2026-02-12T15:24:27.095Z]       ... and 24 more
+[2026-02-12T15:24:27.095Z]   Year 2016:
+[2026-02-12T15:24:27.140Z]     Found 30 cases
+[2026-02-12T15:24:27.140Z]       - MIG 2016:1
+[2026-02-12T15:24:27.140Z]       - MIG 2016:2
+[2026-02-12T15:24:27.140Z]       - MIG 2016:3
+[2026-02-12T15:24:27.140Z]       - MIG 2016:4
+[2026-02-12T15:24:27.140Z]       - MIG 2016:5
+[2026-02-12T15:24:27.140Z]       ... and 25 more
+[2026-02-12T15:24:27.140Z]   Year 2015:
+[2026-02-12T15:24:27.188Z]     Found 27 cases
+[2026-02-12T15:24:27.188Z]       - MIG 2015:1
+[2026-02-12T15:24:27.188Z]       - MIG 2015:2
+[2026-02-12T15:24:27.188Z]       - MIG 2015:3
+[2026-02-12T15:24:27.188Z]       - MIG 2015:4
+[2026-02-12T15:24:27.188Z]       - MIG 2015:5
+[2026-02-12T15:24:27.188Z]       ... and 22 more
+[2026-02-12T15:24:27.188Z]   Year 2014:
+[2026-02-12T15:24:27.242Z]     Found 30 cases
+[2026-02-12T15:24:27.243Z]       - MIG 2014:1
+[2026-02-12T15:24:27.243Z]       - MIG 2014:2
+[2026-02-12T15:24:27.243Z]       - MIG 2014:3
+[2026-02-12T15:24:27.243Z]       - MIG 2014:4
+[2026-02-12T15:24:27.243Z]       - MIG 2014:5
+[2026-02-12T15:24:27.243Z]       ... and 25 more
+[2026-02-12T15:24:27.243Z]   Year 2013:
+[2026-02-12T15:24:27.295Z]     Found 26 cases
+[2026-02-12T15:24:27.295Z]       - MIG 2013:1
+[2026-02-12T15:24:27.295Z]       - MIG 2013:2
+[2026-02-12T15:24:27.296Z]       - MIG 2013:3
+[2026-02-12T15:24:27.296Z]       - MIG 2013:4
+[2026-02-12T15:24:27.296Z]       - MIG 2013:5
+[2026-02-12T15:24:27.296Z]       ... and 21 more
+[2026-02-12T15:24:27.296Z]   Year 2012:
+[2026-02-12T15:24:27.346Z]     Found 21 cases
+[2026-02-12T15:24:27.346Z]       - MIG 2012:1
+[2026-02-12T15:24:27.346Z]       - MIG 2012:2
+[2026-02-12T15:24:27.346Z]       - MIG 2012:3
+[2026-02-12T15:24:27.346Z]       - MIG 2012:4
+[2026-02-12T15:24:27.346Z]       - MIG 2012:5
+[2026-02-12T15:24:27.346Z]       ... and 16 more
+[2026-02-12T15:24:27.346Z]   Year 2011:
+[2026-02-12T15:24:27.392Z]     Found 30 cases
+[2026-02-12T15:24:27.392Z]       - MIG 2011:1
+[2026-02-12T15:24:27.392Z]       - MIG 2011:2
+[2026-02-12T15:24:27.392Z]       - MIG 2011:3
+[2026-02-12T15:24:27.392Z]       - MIG 2011:4
+[2026-02-12T15:24:27.392Z]       - MIG 2011:5
+[2026-02-12T15:24:27.392Z]       ... and 25 more
+[2026-02-12T15:24:27.392Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:27.392Z] Processing: Riksdagens ombudsmän (RH)
+[2026-02-12T15:24:27.392Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:24:27.392Z]   Year 2026:
+[2026-02-12T15:24:30.674Z] ERROR: Failed to process rh year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:30.674Z]   Year 2025:
+[2026-02-12T15:24:33.820Z] ERROR: Failed to process rh year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:33.821Z]   Year 2024:
+[2026-02-12T15:24:36.978Z] ERROR: Failed to process rh year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:36.978Z]   Year 2023:
+[2026-02-12T15:24:40.172Z] ERROR: Failed to process rh year 2023
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:40.173Z]   Year 2022:
+[2026-02-12T15:24:40.301Z]     Found 46 cases
+[2026-02-12T15:24:40.302Z]       - RH 2022:1
+[2026-02-12T15:24:40.302Z]       - RH 2022:2
+[2026-02-12T15:24:40.302Z]       - RH 2022:3
+[2026-02-12T15:24:40.302Z]       - RH 2022:4
+[2026-02-12T15:24:40.302Z]       - RH 2022:5
+[2026-02-12T15:24:40.302Z]       ... and 41 more
+[2026-02-12T15:24:40.302Z]   Year 2021:
+[2026-02-12T15:24:40.451Z]     Found 55 cases
+[2026-02-12T15:24:40.451Z]       - RH 2021:1
+[2026-02-12T15:24:40.451Z]       - RH 2021:2
+[2026-02-12T15:24:40.451Z]       - RH 2021:3
+[2026-02-12T15:24:40.451Z]       - RH 2021:4
+[2026-02-12T15:24:40.451Z]       - RH 2021:5
+[2026-02-12T15:24:40.451Z]       ... and 50 more
+[2026-02-12T15:24:40.451Z]   Year 2020:
+[2026-02-12T15:24:40.647Z]     Found 43 cases
+[2026-02-12T15:24:40.647Z]       - RH 2020:1
+[2026-02-12T15:24:40.647Z]       - RH 2020:2
+[2026-02-12T15:24:40.647Z]       - RH 2020:3
+[2026-02-12T15:24:40.647Z]       - RH 2020:4
+[2026-02-12T15:24:40.647Z]       - RH 2020:5
+[2026-02-12T15:24:40.647Z]       ... and 38 more
+[2026-02-12T15:24:40.647Z]   Year 2019:
+[2026-02-12T15:24:40.754Z]     Found 49 cases
+[2026-02-12T15:24:40.754Z]       - RH 2019:1
+[2026-02-12T15:24:40.754Z]       - RH 2019:2
+[2026-02-12T15:24:40.754Z]       - RH 2019:3
+[2026-02-12T15:24:40.754Z]       - RH 2019:4
+[2026-02-12T15:24:40.754Z]       - RH 2019:5
+[2026-02-12T15:24:40.755Z]       ... and 44 more
+[2026-02-12T15:24:40.755Z]   Year 2018:
+[2026-02-12T15:24:40.822Z]     Found 48 cases
+[2026-02-12T15:24:40.822Z]       - RH 2018:1
+[2026-02-12T15:24:40.822Z]       - RH 2018:2
+[2026-02-12T15:24:40.823Z]       - RH 2018:3
+[2026-02-12T15:24:40.823Z]       - RH 2018:4
+[2026-02-12T15:24:40.823Z]       - RH 2018:5
+[2026-02-12T15:24:40.823Z]       ... and 43 more
+[2026-02-12T15:24:40.823Z]   Year 2017:
+[2026-02-12T15:24:40.898Z]     Found 62 cases
+[2026-02-12T15:24:40.899Z]       - RH 2017:1
+[2026-02-12T15:24:40.899Z]       - RH 2017:2
+[2026-02-12T15:24:40.899Z]       - RH 2017:3
+[2026-02-12T15:24:40.899Z]       - RH 2017:4
+[2026-02-12T15:24:40.899Z]       - RH 2017:5
+[2026-02-12T15:24:40.899Z]       ... and 57 more
+[2026-02-12T15:24:40.899Z]   Year 2016:
+[2026-02-12T15:24:40.970Z]     Found 85 cases
+[2026-02-12T15:24:40.970Z]       - RH 2016:1
+[2026-02-12T15:24:40.971Z]       - RH 2016:2
+[2026-02-12T15:24:40.971Z]       - RH 2016:3
+[2026-02-12T15:24:40.971Z]       - RH 2016:4
+[2026-02-12T15:24:40.971Z]       - RH 2016:5
+[2026-02-12T15:24:40.971Z]       ... and 80 more
+[2026-02-12T15:24:40.971Z]   Year 2015:
+[2026-02-12T15:24:41.028Z]     Found 71 cases
+[2026-02-12T15:24:41.028Z]       - RH 2015:1
+[2026-02-12T15:24:41.028Z]       - RH 2015:2
+[2026-02-12T15:24:41.028Z]       - RH 2015:3
+[2026-02-12T15:24:41.029Z]       - RH 2015:4
+[2026-02-12T15:24:41.029Z]       - RH 2015:5
+[2026-02-12T15:24:41.029Z]       ... and 66 more
+[2026-02-12T15:24:41.029Z]   Year 2014:
+[2026-02-12T15:24:41.161Z]     Found 68 cases
+[2026-02-12T15:24:41.162Z]       - RH 2014:1
+[2026-02-12T15:24:41.162Z]       - RH 2014:2
+[2026-02-12T15:24:41.162Z]       - RH 2014:3
+[2026-02-12T15:24:41.162Z]       - RH 2014:4
+[2026-02-12T15:24:41.162Z]       - RH 2014:5
+[2026-02-12T15:24:41.162Z]       ... and 63 more
+[2026-02-12T15:24:41.162Z]   Year 2013:
+[2026-02-12T15:24:41.221Z]     Found 79 cases
+[2026-02-12T15:24:41.221Z]       - RH 2013:1
+[2026-02-12T15:24:41.222Z]       - RH 2013:2
+[2026-02-12T15:24:41.222Z]       - RH 2013:3
+[2026-02-12T15:24:41.222Z]       - RH 2013:4
+[2026-02-12T15:24:41.222Z]       - RH 2013:5
+[2026-02-12T15:24:41.222Z]       ... and 74 more
+[2026-02-12T15:24:41.222Z]   Year 2012:
+[2026-02-12T15:24:41.301Z]     Found 146 cases
+[2026-02-12T15:24:41.301Z]       - RH 2012:1
+[2026-02-12T15:24:41.301Z]       - RH 2012:2
+[2026-02-12T15:24:41.301Z]       - RH 2012:3
+[2026-02-12T15:24:41.301Z]       - RH 2012:4
+[2026-02-12T15:24:41.301Z]       - RH 2012:5
+[2026-02-12T15:24:41.301Z]       ... and 141 more
+[2026-02-12T15:24:41.302Z]   Year 2011:
+[2026-02-12T15:24:41.367Z]     Found 93 cases
+[2026-02-12T15:24:41.367Z]       - RH 2011:1
+[2026-02-12T15:24:41.367Z]       - RH 2011:2
+[2026-02-12T15:24:41.367Z]       - RH 2011:3
+[2026-02-12T15:24:41.368Z]       - RH 2011:4
+[2026-02-12T15:24:41.368Z]       - RH 2011:5
+[2026-02-12T15:24:41.368Z]       ... and 88 more
+[2026-02-12T15:24:41.368Z] 
+[2026-02-12T15:24:41.368Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:41.368Z] Full Archive Scraping Complete
+[2026-02-12T15:24:41.368Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:41.368Z]   Courts processed:   6
+[2026-02-12T15:24:41.368Z]   Years processed:    76
+[2026-02-12T15:24:41.368Z]   Cases found:        4827
+[2026-02-12T15:24:41.368Z]   Cases fetched:      0
+[2026-02-12T15:24:41.368Z]   Cases inserted:     0
+[2026-02-12T15:24:41.368Z]   Cases updated:      0
+[2026-02-12T15:24:41.368Z]   Cases failed:       0
+[2026-02-12T15:24:41.368Z]   Cases skipped:      0
+[2026-02-12T15:24:41.368Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:41.368Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu-full-archive.log
+[2026-02-12T15:24:41.368Z] 
+[2026-02-12T15:24:45.232Z] Lagen.nu Full Archive Scraper
+[2026-02-12T15:24:45.233Z]   Database: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/data/database.db
+[2026-02-12T15:24:45.233Z]   Year range: 2011-2026
+[2026-02-12T15:24:45.233Z]   Limit: none
+[2026-02-12T15:24:45.233Z]   Dry run: true
+[2026-02-12T15:24:45.233Z] 
+[2026-02-12T15:24:45.240Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:45.240Z] Processing: Högsta förvaltningsdomstolen (HFD)
+[2026-02-12T15:24:45.240Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:24:45.240Z]   Year 2026:
+[2026-02-12T15:24:48.503Z] ERROR: Failed to process hfd year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:48.507Z]   Year 2025:
+[2026-02-12T15:24:51.754Z] ERROR: Failed to process hfd year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:51.755Z]   Year 2024:
+[2026-02-12T15:24:54.846Z] ERROR: Failed to process hfd year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:54.847Z]   Year 2023:
+[2026-02-12T15:24:54.999Z]     Found 36 cases
+[2026-02-12T15:24:55.000Z]       - HFD 2023:1
+[2026-02-12T15:24:55.000Z]       - HFD 2023:2
+[2026-02-12T15:24:55.000Z]       - HFD 2023:3
+[2026-02-12T15:24:55.000Z]       - HFD 2023:4
+[2026-02-12T15:24:55.000Z]       - HFD 2023:5
+[2026-02-12T15:24:55.000Z]       ... and 31 more
+[2026-02-12T15:24:55.000Z]   Year 2022:
+[2026-02-12T15:24:55.118Z]     Found 54 cases
+[2026-02-12T15:24:55.118Z]       - HFD 2022:1
+[2026-02-12T15:24:55.118Z]       - HFD 2022:2
+[2026-02-12T15:24:55.118Z]       - HFD 2022:3
+[2026-02-12T15:24:55.119Z]       - HFD 2022:4
+[2026-02-12T15:24:55.119Z]       - HFD 2022:5
+[2026-02-12T15:24:55.119Z]       ... and 49 more
+[2026-02-12T15:24:55.119Z]   Year 2021:
+[2026-02-12T15:24:55.210Z]     Found 72 cases
+[2026-02-12T15:24:55.210Z]       - HFD 2021:1
+[2026-02-12T15:24:55.210Z]       - HFD 2021:2
+[2026-02-12T15:24:55.210Z]       - HFD 2021:3
+[2026-02-12T15:24:55.210Z]       - HFD 2021:4
+[2026-02-12T15:24:55.210Z]       - HFD 2021:5
+[2026-02-12T15:24:55.210Z]       ... and 67 more
+[2026-02-12T15:24:55.210Z]   Year 2020:
+[2026-02-12T15:24:55.403Z]     Found 70 cases
+[2026-02-12T15:24:55.403Z]       - HFD 2020:1
+[2026-02-12T15:24:55.403Z]       - HFD 2020:2
+[2026-02-12T15:24:55.403Z]       - HFD 2020:3
+[2026-02-12T15:24:55.403Z]       - HFD 2020:4
+[2026-02-12T15:24:55.403Z]       - HFD 2020:5
+[2026-02-12T15:24:55.403Z]       ... and 65 more
+[2026-02-12T15:24:55.404Z]   Year 2019:
+[2026-02-12T15:24:55.492Z]     Found 72 cases
+[2026-02-12T15:24:55.493Z]       - HFD 2019:1
+[2026-02-12T15:24:55.493Z]       - HFD 2019:2
+[2026-02-12T15:24:55.493Z]       - HFD 2019:3
+[2026-02-12T15:24:55.493Z]       - HFD 2019:4
+[2026-02-12T15:24:55.493Z]       - HFD 2019:5
+[2026-02-12T15:24:55.493Z]       ... and 67 more
+[2026-02-12T15:24:55.493Z]   Year 2018:
+[2026-02-12T15:24:55.613Z]     Found 83 cases
+[2026-02-12T15:24:55.613Z]       - HFD 2018:1
+[2026-02-12T15:24:55.613Z]       - HFD 2018:2
+[2026-02-12T15:24:55.613Z]       - HFD 2018:3
+[2026-02-12T15:24:55.613Z]       - HFD 2018:4
+[2026-02-12T15:24:55.613Z]       - HFD 2018:5
+[2026-02-12T15:24:55.613Z]       ... and 78 more
+[2026-02-12T15:24:55.613Z]   Year 2017:
+[2026-02-12T15:24:55.713Z]     Found 74 cases
+[2026-02-12T15:24:55.713Z]       - HFD 2017:1
+[2026-02-12T15:24:55.713Z]       - HFD 2017:2
+[2026-02-12T15:24:55.713Z]       - HFD 2017:3
+[2026-02-12T15:24:55.713Z]       - HFD 2017:4
+[2026-02-12T15:24:55.713Z]       - HFD 2017:5
+[2026-02-12T15:24:55.713Z]       ... and 69 more
+[2026-02-12T15:24:55.713Z]   Year 2016:
+[2026-02-12T15:24:55.850Z]     Found 89 cases
+[2026-02-12T15:24:55.850Z]       - HFD 2016:1
+[2026-02-12T15:24:55.850Z]       - HFD 2016:2
+[2026-02-12T15:24:55.851Z]       - HFD 2016:3
+[2026-02-12T15:24:55.851Z]       - HFD 2016:4
+[2026-02-12T15:24:55.851Z]       - HFD 2016:5
+[2026-02-12T15:24:55.851Z]       ... and 84 more
+[2026-02-12T15:24:55.851Z]   Year 2015:
+[2026-02-12T15:24:55.944Z]     Found 81 cases
+[2026-02-12T15:24:55.944Z]       - HFD 2015:1
+[2026-02-12T15:24:55.944Z]       - HFD 2015:2
+[2026-02-12T15:24:55.944Z]       - HFD 2015:3
+[2026-02-12T15:24:55.944Z]       - HFD 2015:4
+[2026-02-12T15:24:55.944Z]       - HFD 2015:5
+[2026-02-12T15:24:55.944Z]       ... and 76 more
+[2026-02-12T15:24:55.944Z]   Year 2014:
+[2026-02-12T15:24:56.026Z]     Found 82 cases
+[2026-02-12T15:24:56.027Z]       - HFD 2014:1
+[2026-02-12T15:24:56.027Z]       - HFD 2014:2
+[2026-02-12T15:24:56.027Z]       - HFD 2014:3
+[2026-02-12T15:24:56.027Z]       - HFD 2014:4
+[2026-02-12T15:24:56.027Z]       - HFD 2014:5
+[2026-02-12T15:24:56.027Z]       ... and 77 more
+[2026-02-12T15:24:56.027Z]   Year 2013:
+[2026-02-12T15:24:56.082Z]     Found 87 cases
+[2026-02-12T15:24:56.082Z]       - HFD 2013:1
+[2026-02-12T15:24:56.083Z]       - HFD 2013:2
+[2026-02-12T15:24:56.083Z]       - HFD 2013:3
+[2026-02-12T15:24:56.083Z]       - HFD 2013:4
+[2026-02-12T15:24:56.083Z]       - HFD 2013:5
+[2026-02-12T15:24:56.083Z]       ... and 82 more
+[2026-02-12T15:24:56.083Z]   Year 2012:
+[2026-02-12T15:24:56.141Z]     Found 75 cases
+[2026-02-12T15:24:56.141Z]       - HFD 2012:1
+[2026-02-12T15:24:56.141Z]       - HFD 2012:2
+[2026-02-12T15:24:56.141Z]       - HFD 2012:3
+[2026-02-12T15:24:56.141Z]       - HFD 2012:4
+[2026-02-12T15:24:56.141Z]       - HFD 2012:5
+[2026-02-12T15:24:56.141Z]       ... and 70 more
+[2026-02-12T15:24:56.141Z]   Year 2011:
+[2026-02-12T15:24:56.373Z]     Found 90 cases
+[2026-02-12T15:24:56.374Z]       - HFD 2011:1
+[2026-02-12T15:24:56.374Z]       - HFD 2011:2
+[2026-02-12T15:24:56.374Z]       - HFD 2011:3
+[2026-02-12T15:24:56.374Z]       - HFD 2011:4
+[2026-02-12T15:24:56.374Z]       - HFD 2011:5
+[2026-02-12T15:24:56.374Z]       ... and 85 more
+[2026-02-12T15:24:56.374Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:24:56.374Z] Processing: Högsta domstolen (NJA)
+[2026-02-12T15:24:56.374Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:24:56.374Z]   Year 2026:
+[2026-02-12T15:24:59.560Z] ERROR: Failed to process nja year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:24:59.561Z]   Year 2025:
+[2026-02-12T15:25:02.660Z] ERROR: Failed to process nja year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:02.661Z]   Year 2024:
+[2026-02-12T15:25:05.829Z] ERROR: Failed to process nja year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:05.829Z]   Year 2023:
+[2026-02-12T15:25:08.990Z] ERROR: Failed to process nja year 2023
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:08.990Z]   Year 2022:
+[2026-02-12T15:25:09.181Z]     Found 94 cases
+[2026-02-12T15:25:09.182Z]       - NJA 2022 s. 3
+[2026-02-12T15:25:09.182Z]       - NJA 2022 s. 14
+[2026-02-12T15:25:09.182Z]       - NJA 2022 s. 23
+[2026-02-12T15:25:09.182Z]       - NJA 2022 s. 42
+[2026-02-12T15:25:09.182Z]       - NJA 2022 s. 62
+[2026-02-12T15:25:09.182Z]       ... and 89 more
+[2026-02-12T15:25:09.182Z]   Year 2021:
+[2026-02-12T15:25:09.354Z]     Found 101 cases
+[2026-02-12T15:25:09.354Z]       - NJA 2021 s. 3
+[2026-02-12T15:25:09.355Z]       - NJA 2021 s. 10
+[2026-02-12T15:25:09.355Z]       - NJA 2021 s. 32
+[2026-02-12T15:25:09.355Z]       - NJA 2021 s. 46
+[2026-02-12T15:25:09.355Z]       - NJA 2021 s. 56
+[2026-02-12T15:25:09.355Z]       ... and 96 more
+[2026-02-12T15:25:09.355Z]   Year 2020:
+[2026-02-12T15:25:09.512Z]     Found 93 cases
+[2026-02-12T15:25:09.512Z]       - NJA 2020 s. 3
+[2026-02-12T15:25:09.512Z]       - NJA 2020 s. 115
+[2026-02-12T15:25:09.512Z]       - NJA 2020 s. 134
+[2026-02-12T15:25:09.513Z]       - NJA 2020 s. 141
+[2026-02-12T15:25:09.513Z]       - NJA 2020 s. 147
+[2026-02-12T15:25:09.513Z]       ... and 88 more
+[2026-02-12T15:25:09.513Z]   Year 2019:
+[2026-02-12T15:25:09.626Z]     Found 87 cases
+[2026-02-12T15:25:09.626Z]       - NJA 2019 s. 3
+[2026-02-12T15:25:09.626Z]       - NJA 2019 s. 15
+[2026-02-12T15:25:09.626Z]       - NJA 2019 s. 23
+[2026-02-12T15:25:09.626Z]       - NJA 2019 s. 43
+[2026-02-12T15:25:09.626Z]       - NJA 2019 s. 47
+[2026-02-12T15:25:09.626Z]       ... and 82 more
+[2026-02-12T15:25:09.626Z]   Year 2018:
+[2026-02-12T15:25:09.702Z]     Found 93 cases
+[2026-02-12T15:25:09.702Z]       - NJA 2018 s. 3
+[2026-02-12T15:25:09.703Z]       - NJA 2018 s. 9
+[2026-02-12T15:25:09.703Z]       - NJA 2018 s. 19
+[2026-02-12T15:25:09.703Z]       - NJA 2018 s. 49
+[2026-02-12T15:25:09.703Z]       - NJA 2018 s. 61
+[2026-02-12T15:25:09.703Z]       ... and 88 more
+[2026-02-12T15:25:09.703Z]   Year 2017:
+[2026-02-12T15:25:09.775Z]     Found 108 cases
+[2026-02-12T15:25:09.775Z]       - NJA 2017 s. 3
+[2026-02-12T15:25:09.776Z]       - NJA 2017 s. 9
+[2026-02-12T15:25:09.776Z]       - NJA 2017 s. 45
+[2026-02-12T15:25:09.776Z]       - NJA 2017 s. 55
+[2026-02-12T15:25:09.776Z]       - NJA 2017 s. 61
+[2026-02-12T15:25:09.776Z]       ... and 103 more
+[2026-02-12T15:25:09.776Z]   Year 2016:
+[2026-02-12T15:25:09.838Z]     Found 104 cases
+[2026-02-12T15:25:09.838Z]       - NJA 2016 s. 3
+[2026-02-12T15:25:09.838Z]       - NJA 2016 s. 18
+[2026-02-12T15:25:09.838Z]       - NJA 2016 s. 30
+[2026-02-12T15:25:09.838Z]       - NJA 2016 s. 39
+[2026-02-12T15:25:09.839Z]       - NJA 2016 s. 51
+[2026-02-12T15:25:09.839Z]       ... and 99 more
+[2026-02-12T15:25:09.839Z]   Year 2015:
+[2026-02-12T15:25:09.890Z]     Found 97 cases
+[2026-02-12T15:25:09.890Z]       - NJA 2015 s. 3
+[2026-02-12T15:25:09.890Z]       - NJA 2015 s. 24
+[2026-02-12T15:25:09.890Z]       - NJA 2015 s. 31
+[2026-02-12T15:25:09.890Z]       - NJA 2015 s. 41
+[2026-02-12T15:25:09.890Z]       - NJA 2015 s. 45
+[2026-02-12T15:25:09.890Z]       ... and 92 more
+[2026-02-12T15:25:09.890Z]   Year 2014:
+[2026-02-12T15:25:10.057Z]     Found 87 cases
+[2026-02-12T15:25:10.057Z]       - NJA 2014 s. 3
+[2026-02-12T15:25:10.058Z]       - NJA 2014 s. 14
+[2026-02-12T15:25:10.058Z]       - NJA 2014 s. 23
+[2026-02-12T15:25:10.058Z]       - NJA 2014 s. 27
+[2026-02-12T15:25:10.058Z]       - NJA 2014 s. 29
+[2026-02-12T15:25:10.058Z]       ... and 82 more
+[2026-02-12T15:25:10.058Z]   Year 2013:
+[2026-02-12T15:25:10.132Z]     Found 113 cases
+[2026-02-12T15:25:10.132Z]       - NJA 2013 s. 3
+[2026-02-12T15:25:10.132Z]       - NJA 2013 s. 7
+[2026-02-12T15:25:10.132Z]       - NJA 2013 s. 22
+[2026-02-12T15:25:10.132Z]       - NJA 2013 s. 31
+[2026-02-12T15:25:10.132Z]       - NJA 2013 s. 38
+[2026-02-12T15:25:10.132Z]       ... and 108 more
+[2026-02-12T15:25:10.133Z]   Year 2012:
+[2026-02-12T15:25:10.189Z]     Found 96 cases
+[2026-02-12T15:25:10.190Z]       - NJA 2012 s. 3
+[2026-02-12T15:25:10.190Z]       - NJA 2012 s. 16
+[2026-02-12T15:25:10.190Z]       - NJA 2012 s. 22
+[2026-02-12T15:25:10.190Z]       - NJA 2012 s. 30
+[2026-02-12T15:25:10.190Z]       - NJA 2012 s. 35
+[2026-02-12T15:25:10.190Z]       ... and 91 more
+[2026-02-12T15:25:10.190Z]   Year 2011:
+[2026-02-12T15:25:10.261Z]     Found 83 cases
+[2026-02-12T15:25:10.261Z]       - NJA 2011 s. 3
+[2026-02-12T15:25:10.261Z]       - NJA 2011 s. 10
+[2026-02-12T15:25:10.261Z]       - NJA 2011 s. 13
+[2026-02-12T15:25:10.261Z]       - NJA 2011 s. 15
+[2026-02-12T15:25:10.261Z]       - NJA 2011 s. 24
+[2026-02-12T15:25:10.261Z]       ... and 78 more
+[2026-02-12T15:25:10.261Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:10.261Z] Processing: Arbetsdomstolen (AD)
+[2026-02-12T15:25:10.261Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:25:10.261Z]   Year 2026:
+[2026-02-12T15:25:13.382Z] ERROR: Failed to process ad year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:13.383Z]   Year 2025:
+[2026-02-12T15:25:16.515Z] ERROR: Failed to process ad year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:16.516Z]   Year 2024:
+[2026-02-12T15:25:19.681Z] ERROR: Failed to process ad year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:19.681Z]   Year 2023:
+[2026-02-12T15:25:19.832Z]     Found 57 cases
+[2026-02-12T15:25:19.832Z]       - AD 2023 nr 1
+[2026-02-12T15:25:19.832Z]       - AD 2023 nr 2
+[2026-02-12T15:25:19.832Z]       - AD 2023 nr 3
+[2026-02-12T15:25:19.832Z]       - AD 2023 nr 4
+[2026-02-12T15:25:19.832Z]       - AD 2023 nr 5
+[2026-02-12T15:25:19.832Z]       ... and 52 more
+[2026-02-12T15:25:19.832Z]   Year 2022:
+[2026-02-12T15:25:20.031Z]     Found 60 cases
+[2026-02-12T15:25:20.031Z]       - AD 2022 nr 1
+[2026-02-12T15:25:20.032Z]       - AD 2022 nr 2
+[2026-02-12T15:25:20.032Z]       - AD 2022 nr 3
+[2026-02-12T15:25:20.032Z]       - AD 2022 nr 4
+[2026-02-12T15:25:20.032Z]       - AD 2022 nr 5
+[2026-02-12T15:25:20.032Z]       ... and 55 more
+[2026-02-12T15:25:20.032Z]   Year 2021:
+[2026-02-12T15:25:20.123Z]     Found 69 cases
+[2026-02-12T15:25:20.123Z]       - AD 2021 nr 1
+[2026-02-12T15:25:20.124Z]       - AD 2021 nr 2
+[2026-02-12T15:25:20.124Z]       - AD 2021 nr 3
+[2026-02-12T15:25:20.124Z]       - AD 2021 nr 4
+[2026-02-12T15:25:20.124Z]       - AD 2021 nr 5
+[2026-02-12T15:25:20.124Z]       ... and 64 more
+[2026-02-12T15:25:20.124Z]   Year 2020:
+[2026-02-12T15:25:20.190Z]     Found 70 cases
+[2026-02-12T15:25:20.191Z]       - AD 2020 nr 1
+[2026-02-12T15:25:20.191Z]       - AD 2020 nr 2
+[2026-02-12T15:25:20.191Z]       - AD 2020 nr 3
+[2026-02-12T15:25:20.191Z]       - AD 2020 nr 4
+[2026-02-12T15:25:20.191Z]       - AD 2020 nr 5
+[2026-02-12T15:25:20.191Z]       ... and 65 more
+[2026-02-12T15:25:20.191Z]   Year 2019:
+[2026-02-12T15:25:20.247Z]     Found 57 cases
+[2026-02-12T15:25:20.247Z]       - AD 2019 nr 1
+[2026-02-12T15:25:20.247Z]       - AD 2019 nr 2
+[2026-02-12T15:25:20.247Z]       - AD 2019 nr 3
+[2026-02-12T15:25:20.248Z]       - AD 2019 nr 4
+[2026-02-12T15:25:20.248Z]       - AD 2019 nr 5
+[2026-02-12T15:25:20.248Z]       ... and 52 more
+[2026-02-12T15:25:20.248Z]   Year 2018:
+[2026-02-12T15:25:20.304Z]     Found 81 cases
+[2026-02-12T15:25:20.304Z]       - AD 2018 nr 1
+[2026-02-12T15:25:20.305Z]       - AD 2018 nr 2
+[2026-02-12T15:25:20.305Z]       - AD 2018 nr 3
+[2026-02-12T15:25:20.305Z]       - AD 2018 nr 4
+[2026-02-12T15:25:20.305Z]       - AD 2018 nr 5
+[2026-02-12T15:25:20.305Z]       ... and 76 more
+[2026-02-12T15:25:20.305Z]   Year 2017:
+[2026-02-12T15:25:20.388Z]     Found 67 cases
+[2026-02-12T15:25:20.389Z]       - AD 2017 nr 1
+[2026-02-12T15:25:20.389Z]       - AD 2017 nr 2
+[2026-02-12T15:25:20.389Z]       - AD 2017 nr 3
+[2026-02-12T15:25:20.389Z]       - AD 2017 nr 4
+[2026-02-12T15:25:20.389Z]       - AD 2017 nr 5
+[2026-02-12T15:25:20.389Z]       ... and 62 more
+[2026-02-12T15:25:20.389Z]   Year 2016:
+[2026-02-12T15:25:20.568Z]     Found 77 cases
+[2026-02-12T15:25:20.568Z]       - AD 2016 nr 1
+[2026-02-12T15:25:20.569Z]       - AD 2016 nr 2
+[2026-02-12T15:25:20.569Z]       - AD 2016 nr 3
+[2026-02-12T15:25:20.569Z]       - AD 2016 nr 4
+[2026-02-12T15:25:20.569Z]       - AD 2016 nr 5
+[2026-02-12T15:25:20.569Z]       ... and 72 more
+[2026-02-12T15:25:20.569Z]   Year 2015:
+[2026-02-12T15:25:20.637Z]     Found 76 cases
+[2026-02-12T15:25:20.637Z]       - AD 2015 nr 1
+[2026-02-12T15:25:20.637Z]       - AD 2015 nr 2
+[2026-02-12T15:25:20.637Z]       - AD 2015 nr 3
+[2026-02-12T15:25:20.637Z]       - AD 2015 nr 4
+[2026-02-12T15:25:20.637Z]       - AD 2015 nr 5
+[2026-02-12T15:25:20.637Z]       ... and 71 more
+[2026-02-12T15:25:20.637Z]   Year 2014:
+[2026-02-12T15:25:20.694Z]     Found 91 cases
+[2026-02-12T15:25:20.694Z]       - AD 2014 nr 1
+[2026-02-12T15:25:20.695Z]       - AD 2014 nr 2
+[2026-02-12T15:25:20.695Z]       - AD 2014 nr 3
+[2026-02-12T15:25:20.695Z]       - AD 2014 nr 4
+[2026-02-12T15:25:20.695Z]       - AD 2014 nr 5
+[2026-02-12T15:25:20.695Z]       ... and 86 more
+[2026-02-12T15:25:20.695Z]   Year 2013:
+[2026-02-12T15:25:20.749Z]     Found 94 cases
+[2026-02-12T15:25:20.750Z]       - AD 2013 nr 1
+[2026-02-12T15:25:20.750Z]       - AD 2013 nr 2
+[2026-02-12T15:25:20.750Z]       - AD 2013 nr 3
+[2026-02-12T15:25:20.750Z]       - AD 2013 nr 4
+[2026-02-12T15:25:20.750Z]       - AD 2013 nr 5
+[2026-02-12T15:25:20.750Z]       ... and 89 more
+[2026-02-12T15:25:20.750Z]   Year 2012:
+[2026-02-12T15:25:20.827Z]     Found 91 cases
+[2026-02-12T15:25:20.827Z]       - AD 2012 nr 1
+[2026-02-12T15:25:20.828Z]       - AD 2012 nr 2
+[2026-02-12T15:25:20.828Z]       - AD 2012 nr 3
+[2026-02-12T15:25:20.828Z]       - AD 2012 nr 4
+[2026-02-12T15:25:20.828Z]       - AD 2012 nr 5
+[2026-02-12T15:25:20.828Z]       ... and 86 more
+[2026-02-12T15:25:20.828Z]   Year 2011:
+[2026-02-12T15:25:20.903Z]     Found 95 cases
+[2026-02-12T15:25:20.903Z]       - AD 2011 nr 1
+[2026-02-12T15:25:20.903Z]       - AD 2011 nr 2
+[2026-02-12T15:25:20.903Z]       - AD 2011 nr 3
+[2026-02-12T15:25:20.903Z]       - AD 2011 nr 4
+[2026-02-12T15:25:20.903Z]       - AD 2011 nr 5
+[2026-02-12T15:25:20.903Z]       ... and 90 more
+[2026-02-12T15:25:20.903Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:20.903Z] Processing: Mark- och miljööverdomstolen (MÖD)
+[2026-02-12T15:25:20.903Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:25:20.903Z]   Year 2026:
+[2026-02-12T15:25:24.152Z] ERROR: Failed to process mod year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:24.153Z]   Year 2025:
+[2026-02-12T15:25:27.311Z] ERROR: Failed to process mod year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:27.312Z]   Year 2024:
+[2026-02-12T15:25:30.453Z] ERROR: Failed to process mod year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:30.453Z]   Year 2023:
+[2026-02-12T15:25:30.582Z]     Found 6 cases
+[2026-02-12T15:25:30.582Z]       - MÖD 2023:1
+[2026-02-12T15:25:30.582Z]       - MÖD 2023:2
+[2026-02-12T15:25:30.582Z]       - MÖD 2023:3
+[2026-02-12T15:25:30.582Z]       - MÖD 2023:4
+[2026-02-12T15:25:30.582Z]       - MÖD 2023:5
+[2026-02-12T15:25:30.582Z]       ... and 1 more
+[2026-02-12T15:25:30.582Z]   Year 2022:
+[2026-02-12T15:25:30.730Z]     Found 29 cases
+[2026-02-12T15:25:30.730Z]       - MÖD 2022:1
+[2026-02-12T15:25:30.730Z]       - MÖD 2022:2
+[2026-02-12T15:25:30.730Z]       - MÖD 2022:3
+[2026-02-12T15:25:30.730Z]       - MÖD 2022:4
+[2026-02-12T15:25:30.730Z]       - MÖD 2022:5
+[2026-02-12T15:25:30.730Z]       ... and 24 more
+[2026-02-12T15:25:30.731Z]   Year 2021:
+[2026-02-12T15:25:30.804Z]     Found 35 cases
+[2026-02-12T15:25:30.804Z]       - MÖD 2021:1
+[2026-02-12T15:25:30.804Z]       - MÖD 2021:2
+[2026-02-12T15:25:30.804Z]       - MÖD 2021:3
+[2026-02-12T15:25:30.804Z]       - MÖD 2021:4
+[2026-02-12T15:25:30.804Z]       - MÖD 2021:5
+[2026-02-12T15:25:30.804Z]       ... and 30 more
+[2026-02-12T15:25:30.804Z]   Year 2020:
+[2026-02-12T15:25:30.976Z]     Found 54 cases
+[2026-02-12T15:25:30.976Z]       - MÖD 2020:1
+[2026-02-12T15:25:30.977Z]       - MÖD 2020:2
+[2026-02-12T15:25:30.977Z]       - MÖD 2020:3
+[2026-02-12T15:25:30.977Z]       - MÖD 2020:4
+[2026-02-12T15:25:30.977Z]       - MÖD 2020:5
+[2026-02-12T15:25:30.977Z]       ... and 49 more
+[2026-02-12T15:25:30.977Z]   Year 2019:
+[2026-02-12T15:25:31.102Z]     Found 36 cases
+[2026-02-12T15:25:31.103Z]       - MÖD 2019:1
+[2026-02-12T15:25:31.103Z]       - MÖD 2019:2
+[2026-02-12T15:25:31.103Z]       - MÖD 2019:3
+[2026-02-12T15:25:31.103Z]       - MÖD 2019:4
+[2026-02-12T15:25:31.103Z]       - MÖD 2019:5
+[2026-02-12T15:25:31.103Z]       ... and 31 more
+[2026-02-12T15:25:31.103Z]   Year 2018:
+[2026-02-12T15:25:31.155Z]     Found 28 cases
+[2026-02-12T15:25:31.155Z]       - MÖD 2018:1
+[2026-02-12T15:25:31.155Z]       - MÖD 2018:2
+[2026-02-12T15:25:31.155Z]       - MÖD 2018:3
+[2026-02-12T15:25:31.155Z]       - MÖD 2018:4
+[2026-02-12T15:25:31.155Z]       - MÖD 2018:5
+[2026-02-12T15:25:31.155Z]       ... and 23 more
+[2026-02-12T15:25:31.155Z]   Year 2017:
+[2026-02-12T15:25:31.246Z]     Found 70 cases
+[2026-02-12T15:25:31.246Z]       - MÖD 2017:1
+[2026-02-12T15:25:31.246Z]       - MÖD 2017:2
+[2026-02-12T15:25:31.246Z]       - MÖD 2017:3
+[2026-02-12T15:25:31.246Z]       - MÖD 2017:4
+[2026-02-12T15:25:31.246Z]       - MÖD 2017:5
+[2026-02-12T15:25:31.246Z]       ... and 65 more
+[2026-02-12T15:25:31.247Z]   Year 2016:
+[2026-02-12T15:25:31.305Z]     Found 43 cases
+[2026-02-12T15:25:31.305Z]       - MÖD 2016:1
+[2026-02-12T15:25:31.305Z]       - MÖD 2016:2
+[2026-02-12T15:25:31.305Z]       - MÖD 2016:3
+[2026-02-12T15:25:31.305Z]       - MÖD 2016:4
+[2026-02-12T15:25:31.305Z]       - MÖD 2016:5
+[2026-02-12T15:25:31.305Z]       ... and 38 more
+[2026-02-12T15:25:31.305Z]   Year 2015:
+[2026-02-12T15:25:31.400Z]     Found 53 cases
+[2026-02-12T15:25:31.400Z]       - MÖD 2015:1
+[2026-02-12T15:25:31.401Z]       - MÖD 2015:2
+[2026-02-12T15:25:31.401Z]       - MÖD 2015:3
+[2026-02-12T15:25:31.401Z]       - MÖD 2015:4
+[2026-02-12T15:25:31.401Z]       - MÖD 2015:5
+[2026-02-12T15:25:31.401Z]       ... and 48 more
+[2026-02-12T15:25:31.401Z]   Year 2014:
+[2026-02-12T15:25:31.531Z]     Found 53 cases
+[2026-02-12T15:25:31.531Z]       - MÖD 2014:1
+[2026-02-12T15:25:31.531Z]       - MÖD 2014:2
+[2026-02-12T15:25:31.531Z]       - MÖD 2014:3
+[2026-02-12T15:25:31.532Z]       - MÖD 2014:4
+[2026-02-12T15:25:31.532Z]       - MÖD 2014:5
+[2026-02-12T15:25:31.532Z]       ... and 48 more
+[2026-02-12T15:25:31.532Z]   Year 2013:
+[2026-02-12T15:25:31.609Z]     Found 50 cases
+[2026-02-12T15:25:31.609Z]       - MÖD 2013:1
+[2026-02-12T15:25:31.610Z]       - MÖD 2013:2
+[2026-02-12T15:25:31.610Z]       - MÖD 2013:3
+[2026-02-12T15:25:31.610Z]       - MÖD 2013:4
+[2026-02-12T15:25:31.610Z]       - MÖD 2013:5
+[2026-02-12T15:25:31.610Z]       ... and 45 more
+[2026-02-12T15:25:31.610Z]   Year 2012:
+[2026-02-12T15:25:31.661Z]     Found 59 cases
+[2026-02-12T15:25:31.661Z]       - MÖD 2012:1
+[2026-02-12T15:25:31.661Z]       - MÖD 2012:2
+[2026-02-12T15:25:31.661Z]       - MÖD 2012:3
+[2026-02-12T15:25:31.661Z]       - MÖD 2012:4
+[2026-02-12T15:25:31.661Z]       - MÖD 2012:5
+[2026-02-12T15:25:31.661Z]       ... and 54 more
+[2026-02-12T15:25:31.661Z]   Year 2011:
+[2026-02-12T15:25:31.716Z]     Found 52 cases
+[2026-02-12T15:25:31.716Z]       - MÖD 2011:1
+[2026-02-12T15:25:31.716Z]       - MÖD 2011:2
+[2026-02-12T15:25:31.716Z]       - MÖD 2011:3
+[2026-02-12T15:25:31.716Z]       - MÖD 2011:4
+[2026-02-12T15:25:31.716Z]       - MÖD 2011:5
+[2026-02-12T15:25:31.716Z]       ... and 47 more
+[2026-02-12T15:25:31.716Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:31.716Z] Processing: Migrationsöverdomstolen (MIG)
+[2026-02-12T15:25:31.716Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:25:31.716Z]   Year 2026:
+[2026-02-12T15:25:34.841Z] ERROR: Failed to process mig year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:34.841Z]   Year 2025:
+[2026-02-12T15:25:37.975Z] ERROR: Failed to process mig year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:37.975Z]   Year 2024:
+[2026-02-12T15:25:41.089Z] ERROR: Failed to process mig year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:41.089Z]   Year 2023:
+[2026-02-12T15:25:41.577Z]     Found 12 cases
+[2026-02-12T15:25:41.577Z]       - MIG 2023:1
+[2026-02-12T15:25:41.577Z]       - MIG 2023:2
+[2026-02-12T15:25:41.577Z]       - MIG 2023:3
+[2026-02-12T15:25:41.577Z]       - MIG 2023:4
+[2026-02-12T15:25:41.577Z]       - MIG 2023:5
+[2026-02-12T15:25:41.577Z]       ... and 7 more
+[2026-02-12T15:25:41.578Z]   Year 2022:
+[2026-02-12T15:25:41.684Z]     Found 9 cases
+[2026-02-12T15:25:41.685Z]       - MIG 2022:2
+[2026-02-12T15:25:41.685Z]       - MIG 2022:3
+[2026-02-12T15:25:41.685Z]       - MIG 2022:4
+[2026-02-12T15:25:41.685Z]       - MIG 2022:5
+[2026-02-12T15:25:41.685Z]       - MIG 2022:6
+[2026-02-12T15:25:41.685Z]       ... and 4 more
+[2026-02-12T15:25:41.685Z]   Year 2021:
+[2026-02-12T15:25:41.832Z]     Found 20 cases
+[2026-02-12T15:25:41.832Z]       - MIG 2021:1
+[2026-02-12T15:25:41.832Z]       - MIG 2021:2
+[2026-02-12T15:25:41.832Z]       - MIG 2021:3
+[2026-02-12T15:25:41.833Z]       - MIG 2021:4
+[2026-02-12T15:25:41.833Z]       - MIG 2021:5
+[2026-02-12T15:25:41.833Z]       ... and 15 more
+[2026-02-12T15:25:41.833Z]   Year 2020:
+[2026-02-12T15:25:41.886Z]     Found 25 cases
+[2026-02-12T15:25:41.886Z]       - MIG 2020:1
+[2026-02-12T15:25:41.887Z]       - MIG 2020:2
+[2026-02-12T15:25:41.887Z]       - MIG 2020:3
+[2026-02-12T15:25:41.887Z]       - MIG 2020:4
+[2026-02-12T15:25:41.887Z]       - MIG 2020:5
+[2026-02-12T15:25:41.887Z]       ... and 20 more
+[2026-02-12T15:25:41.887Z]   Year 2019:
+[2026-02-12T15:25:42.092Z]     Found 26 cases
+[2026-02-12T15:25:42.093Z]       - MIG 2019:1
+[2026-02-12T15:25:42.093Z]       - MIG 2019:2
+[2026-02-12T15:25:42.093Z]       - MIG 2019:3
+[2026-02-12T15:25:42.093Z]       - MIG 2019:4
+[2026-02-12T15:25:42.093Z]       - MIG 2019:5
+[2026-02-12T15:25:42.093Z]       ... and 21 more
+[2026-02-12T15:25:42.093Z]   Year 2018:
+[2026-02-12T15:25:42.176Z]     Found 23 cases
+[2026-02-12T15:25:42.176Z]       - MIG 2018:1
+[2026-02-12T15:25:42.176Z]       - MIG 2018:2
+[2026-02-12T15:25:42.176Z]       - MIG 2018:3
+[2026-02-12T15:25:42.176Z]       - MIG 2018:4
+[2026-02-12T15:25:42.176Z]       - MIG 2018:5
+[2026-02-12T15:25:42.176Z]       ... and 18 more
+[2026-02-12T15:25:42.176Z]   Year 2017:
+[2026-02-12T15:25:42.269Z]     Found 29 cases
+[2026-02-12T15:25:42.269Z]       - MIG 2017:1
+[2026-02-12T15:25:42.269Z]       - MIG 2017:2
+[2026-02-12T15:25:42.269Z]       - MIG 2017:3
+[2026-02-12T15:25:42.269Z]       - MIG 2017:4
+[2026-02-12T15:25:42.270Z]       - MIG 2017:5
+[2026-02-12T15:25:42.270Z]       ... and 24 more
+[2026-02-12T15:25:42.270Z]   Year 2016:
+[2026-02-12T15:25:42.327Z]     Found 30 cases
+[2026-02-12T15:25:42.327Z]       - MIG 2016:1
+[2026-02-12T15:25:42.327Z]       - MIG 2016:2
+[2026-02-12T15:25:42.327Z]       - MIG 2016:3
+[2026-02-12T15:25:42.327Z]       - MIG 2016:4
+[2026-02-12T15:25:42.327Z]       - MIG 2016:5
+[2026-02-12T15:25:42.327Z]       ... and 25 more
+[2026-02-12T15:25:42.327Z]   Year 2015:
+[2026-02-12T15:25:42.495Z]     Found 27 cases
+[2026-02-12T15:25:42.496Z]       - MIG 2015:1
+[2026-02-12T15:25:42.496Z]       - MIG 2015:2
+[2026-02-12T15:25:42.496Z]       - MIG 2015:3
+[2026-02-12T15:25:42.496Z]       - MIG 2015:4
+[2026-02-12T15:25:42.496Z]       - MIG 2015:5
+[2026-02-12T15:25:42.496Z]       ... and 22 more
+[2026-02-12T15:25:42.496Z]   Year 2014:
+[2026-02-12T15:25:42.559Z]     Found 30 cases
+[2026-02-12T15:25:42.559Z]       - MIG 2014:1
+[2026-02-12T15:25:42.559Z]       - MIG 2014:2
+[2026-02-12T15:25:42.559Z]       - MIG 2014:3
+[2026-02-12T15:25:42.559Z]       - MIG 2014:4
+[2026-02-12T15:25:42.559Z]       - MIG 2014:5
+[2026-02-12T15:25:42.559Z]       ... and 25 more
+[2026-02-12T15:25:42.559Z]   Year 2013:
+[2026-02-12T15:25:42.637Z]     Found 26 cases
+[2026-02-12T15:25:42.637Z]       - MIG 2013:1
+[2026-02-12T15:25:42.637Z]       - MIG 2013:2
+[2026-02-12T15:25:42.637Z]       - MIG 2013:3
+[2026-02-12T15:25:42.637Z]       - MIG 2013:4
+[2026-02-12T15:25:42.637Z]       - MIG 2013:5
+[2026-02-12T15:25:42.637Z]       ... and 21 more
+[2026-02-12T15:25:42.637Z]   Year 2012:
+[2026-02-12T15:25:42.701Z]     Found 21 cases
+[2026-02-12T15:25:42.701Z]       - MIG 2012:1
+[2026-02-12T15:25:42.701Z]       - MIG 2012:2
+[2026-02-12T15:25:42.701Z]       - MIG 2012:3
+[2026-02-12T15:25:42.701Z]       - MIG 2012:4
+[2026-02-12T15:25:42.701Z]       - MIG 2012:5
+[2026-02-12T15:25:42.701Z]       ... and 16 more
+[2026-02-12T15:25:42.701Z]   Year 2011:
+[2026-02-12T15:25:42.795Z]     Found 30 cases
+[2026-02-12T15:25:42.795Z]       - MIG 2011:1
+[2026-02-12T15:25:42.795Z]       - MIG 2011:2
+[2026-02-12T15:25:42.795Z]       - MIG 2011:3
+[2026-02-12T15:25:42.795Z]       - MIG 2011:4
+[2026-02-12T15:25:42.795Z]       - MIG 2011:5
+[2026-02-12T15:25:42.795Z]       ... and 25 more
+[2026-02-12T15:25:42.795Z] 
+══════════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:42.795Z] Processing: Riksdagens ombudsmän (RH)
+[2026-02-12T15:25:42.795Z] ══════════════════════════════════════════════════════════════════════
+
+[2026-02-12T15:25:42.795Z]   Year 2026:
+[2026-02-12T15:25:45.962Z] ERROR: Failed to process rh year 2026
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:45.962Z]   Year 2025:
+[2026-02-12T15:25:49.066Z] ERROR: Failed to process rh year 2025
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:49.067Z]   Year 2024:
+[2026-02-12T15:25:52.203Z] ERROR: Failed to process rh year 2024
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:52.203Z]   Year 2023:
+[2026-02-12T15:25:55.335Z] ERROR: Failed to process rh year 2023
+  Error: HTTP 404: Not Found
+  Stack: Error: HTTP 404: Not Found
+    at fetchWithRetry (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/lib/lagennu-parser.ts:69:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchDatasetPage (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:184:10)
+    at async scrapeFullArchive (/Users/jeffreyvonrotz/Projects/swedish-law-mcp/scripts/ingest-lagennu-full-archive.ts:371:24)
+[2026-02-12T15:25:55.336Z]   Year 2022:
+[2026-02-12T15:25:55.478Z]     Found 46 cases
+[2026-02-12T15:25:55.478Z]       - RH 2022:1
+[2026-02-12T15:25:55.478Z]       - RH 2022:2
+[2026-02-12T15:25:55.478Z]       - RH 2022:3
+[2026-02-12T15:25:55.479Z]       - RH 2022:4
+[2026-02-12T15:25:55.479Z]       - RH 2022:5
+[2026-02-12T15:25:55.479Z]       ... and 41 more
+[2026-02-12T15:25:55.479Z]   Year 2021:
+[2026-02-12T15:25:55.667Z]     Found 55 cases
+[2026-02-12T15:25:55.668Z]       - RH 2021:1
+[2026-02-12T15:25:55.668Z]       - RH 2021:2
+[2026-02-12T15:25:55.668Z]       - RH 2021:3
+[2026-02-12T15:25:55.668Z]       - RH 2021:4
+[2026-02-12T15:25:55.668Z]       - RH 2021:5
+[2026-02-12T15:25:55.668Z]       ... and 50 more
+[2026-02-12T15:25:55.668Z]   Year 2020:
+[2026-02-12T15:25:55.803Z]     Found 43 cases
+[2026-02-12T15:25:55.803Z]       - RH 2020:1
+[2026-02-12T15:25:55.803Z]       - RH 2020:2
+[2026-02-12T15:25:55.803Z]       - RH 2020:3
+[2026-02-12T15:25:55.803Z]       - RH 2020:4
+[2026-02-12T15:25:55.803Z]       - RH 2020:5
+[2026-02-12T15:25:55.803Z]       ... and 38 more
+[2026-02-12T15:25:55.803Z]   Year 2019:
+[2026-02-12T15:25:55.852Z]     Found 49 cases
+[2026-02-12T15:25:55.852Z]       - RH 2019:1
+[2026-02-12T15:25:55.852Z]       - RH 2019:2
+[2026-02-12T15:25:55.853Z]       - RH 2019:3
+[2026-02-12T15:25:55.853Z]       - RH 2019:4
+[2026-02-12T15:25:55.853Z]       - RH 2019:5
+[2026-02-12T15:25:55.853Z]       ... and 44 more
+[2026-02-12T15:25:55.853Z]   Year 2018:
+[2026-02-12T15:25:55.926Z]     Found 48 cases
+[2026-02-12T15:25:55.926Z]       - RH 2018:1
+[2026-02-12T15:25:55.926Z]       - RH 2018:2
+[2026-02-12T15:25:55.926Z]       - RH 2018:3
+[2026-02-12T15:25:55.927Z]       - RH 2018:4
+[2026-02-12T15:25:55.927Z]       - RH 2018:5
+[2026-02-12T15:25:55.927Z]       ... and 43 more
+[2026-02-12T15:25:55.927Z]   Year 2017:
+[2026-02-12T15:25:55.984Z]     Found 62 cases
+[2026-02-12T15:25:55.984Z]       - RH 2017:1
+[2026-02-12T15:25:55.984Z]       - RH 2017:2
+[2026-02-12T15:25:55.984Z]       - RH 2017:3
+[2026-02-12T15:25:55.984Z]       - RH 2017:4
+[2026-02-12T15:25:55.984Z]       - RH 2017:5
+[2026-02-12T15:25:55.985Z]       ... and 57 more
+[2026-02-12T15:25:55.985Z]   Year 2016:
+[2026-02-12T15:25:56.138Z]     Found 85 cases
+[2026-02-12T15:25:56.138Z]       - RH 2016:1
+[2026-02-12T15:25:56.138Z]       - RH 2016:2
+[2026-02-12T15:25:56.138Z]       - RH 2016:3
+[2026-02-12T15:25:56.138Z]       - RH 2016:4
+[2026-02-12T15:25:56.138Z]       - RH 2016:5
+[2026-02-12T15:25:56.138Z]       ... and 80 more
+[2026-02-12T15:25:56.138Z]   Year 2015:
+[2026-02-12T15:25:56.186Z]     Found 71 cases
+[2026-02-12T15:25:56.186Z]       - RH 2015:1
+[2026-02-12T15:25:56.186Z]       - RH 2015:2
+[2026-02-12T15:25:56.186Z]       - RH 2015:3
+[2026-02-12T15:25:56.186Z]       - RH 2015:4
+[2026-02-12T15:25:56.186Z]       - RH 2015:5
+[2026-02-12T15:25:56.186Z]       ... and 66 more
+[2026-02-12T15:25:56.186Z]   Year 2014:
+[2026-02-12T15:25:56.274Z]     Found 68 cases
+[2026-02-12T15:25:56.274Z]       - RH 2014:1
+[2026-02-12T15:25:56.274Z]       - RH 2014:2
+[2026-02-12T15:25:56.274Z]       - RH 2014:3
+[2026-02-12T15:25:56.274Z]       - RH 2014:4
+[2026-02-12T15:25:56.274Z]       - RH 2014:5
+[2026-02-12T15:25:56.275Z]       ... and 63 more
+[2026-02-12T15:25:56.275Z]   Year 2013:
+[2026-02-12T15:25:56.333Z]     Found 79 cases
+[2026-02-12T15:25:56.333Z]       - RH 2013:1
+[2026-02-12T15:25:56.333Z]       - RH 2013:2
+[2026-02-12T15:25:56.334Z]       - RH 2013:3
+[2026-02-12T15:25:56.334Z]       - RH 2013:4
+[2026-02-12T15:25:56.334Z]       - RH 2013:5
+[2026-02-12T15:25:56.334Z]       ... and 74 more
+[2026-02-12T15:25:56.334Z]   Year 2012:
+[2026-02-12T15:25:56.418Z]     Found 146 cases
+[2026-02-12T15:25:56.418Z]       - RH 2012:1
+[2026-02-12T15:25:56.418Z]       - RH 2012:2
+[2026-02-12T15:25:56.418Z]       - RH 2012:3
+[2026-02-12T15:25:56.418Z]       - RH 2012:4
+[2026-02-12T15:25:56.418Z]       - RH 2012:5
+[2026-02-12T15:25:56.418Z]       ... and 141 more
+[2026-02-12T15:25:56.419Z]   Year 2011:
+[2026-02-12T15:25:56.471Z]     Found 93 cases
+[2026-02-12T15:25:56.471Z]       - RH 2011:1
+[2026-02-12T15:25:56.471Z]       - RH 2011:2
+[2026-02-12T15:25:56.471Z]       - RH 2011:3
+[2026-02-12T15:25:56.471Z]       - RH 2011:4
+[2026-02-12T15:25:56.471Z]       - RH 2011:5
+[2026-02-12T15:25:56.471Z]       ... and 88 more
+[2026-02-12T15:25:56.471Z] 
+[2026-02-12T15:25:56.471Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:56.471Z] Full Archive Scraping Complete
+[2026-02-12T15:25:56.471Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:56.471Z]   Courts processed:   6
+[2026-02-12T15:25:56.471Z]   Years processed:    76
+[2026-02-12T15:25:56.471Z]   Cases found:        4827
+[2026-02-12T15:25:56.471Z]   Cases fetched:      0
+[2026-02-12T15:25:56.471Z]   Cases inserted:     0
+[2026-02-12T15:25:56.471Z]   Cases updated:      0
+[2026-02-12T15:25:56.471Z]   Cases failed:       0
+[2026-02-12T15:25:56.471Z]   Cases skipped:      0
+[2026-02-12T15:25:56.472Z] ═══════════════════════════════════════════════════════════════════
+[2026-02-12T15:25:56.472Z]   Log file: /Users/jeffreyvonrotz/Projects/swedish-law-mcp/logs/ingest-lagennu-full-archive.log
+[2026-02-12T15:25:56.472Z] 

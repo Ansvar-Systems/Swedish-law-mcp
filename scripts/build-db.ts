@@ -104,6 +104,44 @@ interface PendingPrepWork {
   summary?: string;
 }
 
+interface EUDocumentSeed {
+  id: string;
+  type: 'directive' | 'regulation';
+  year: number;
+  number: number;
+  community?: string;
+  celex_number?: string;
+  title?: string;
+  title_sv?: string;
+  short_name?: string;
+  adoption_date?: string;
+  entry_into_force_date?: string;
+  in_force?: boolean;
+  amended_by?: string;
+  repeals?: string;
+  url_eur_lex?: string;
+  description?: string;
+}
+
+interface EUReferenceSeed {
+  source_type: 'provision' | 'document' | 'case_law';
+  source_id: string;
+  document_id: string;
+  provision_ref?: string;
+  eu_document_id: string;
+  eu_article?: string;
+  reference_type: string;
+  reference_context?: string;
+  full_citation?: string;
+  is_primary_implementation?: boolean;
+  implementation_status?: string;
+}
+
+interface EUSeedData {
+  eu_documents: EUDocumentSeed[];
+  eu_references: EUReferenceSeed[];
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 // Database schema
 // ─────────────────────────────────────────────────────────────────────────────
@@ -330,6 +368,146 @@ CREATE TRIGGER definitions_au AFTER UPDATE ON definitions BEGIN
   INSERT INTO definitions_fts(rowid, term, definition)
   VALUES (new.id, new.term, new.definition);
 END;
+
+-- =============================================================================
+-- EU REFERENCES SCHEMA
+-- =============================================================================
+-- Tracks cross-references between Swedish law and EU directives/regulations
+
+-- EU Documents (directives and regulations)
+CREATE TABLE eu_documents (
+  id TEXT PRIMARY KEY,
+  type TEXT NOT NULL CHECK (type IN ('directive', 'regulation')),
+  year INTEGER NOT NULL CHECK (year >= 1957 AND year <= 2100),
+  number INTEGER NOT NULL CHECK (number > 0),
+  community TEXT CHECK (community IN ('EU', 'EG', 'EEG', 'Euratom')),
+  celex_number TEXT,
+  title TEXT,
+  title_sv TEXT,
+  short_name TEXT,
+  adoption_date TEXT,
+  entry_into_force_date TEXT,
+  in_force BOOLEAN DEFAULT 1,
+  amended_by TEXT,
+  repeals TEXT,
+  url_eur_lex TEXT,
+  description TEXT,
+  last_updated TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_eu_documents_type_year ON eu_documents(type, year DESC);
+CREATE INDEX idx_eu_documents_celex ON eu_documents(celex_number);
+
+-- EU References (links Swedish provisions to EU documents)
+CREATE TABLE eu_references (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source_type TEXT NOT NULL CHECK (source_type IN ('provision', 'document', 'case_law')),
+  source_id TEXT NOT NULL,
+  document_id TEXT NOT NULL REFERENCES legal_documents(id),
+  provision_id INTEGER REFERENCES legal_provisions(id),
+  eu_document_id TEXT NOT NULL REFERENCES eu_documents(id),
+  eu_article TEXT,
+  reference_type TEXT NOT NULL CHECK (reference_type IN (
+    'implements', 'supplements', 'applies', 'references', 'complies_with',
+    'derogates_from', 'amended_by', 'repealed_by', 'cites_article'
+  )),
+  reference_context TEXT,
+  full_citation TEXT,
+  is_primary_implementation BOOLEAN DEFAULT 0,
+  implementation_status TEXT CHECK (implementation_status IN ('complete', 'partial', 'pending', 'unknown')),
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+  last_verified TEXT,
+  UNIQUE(source_id, eu_document_id, eu_article)
+);
+
+CREATE INDEX idx_eu_references_document ON eu_references(document_id, eu_document_id);
+CREATE INDEX idx_eu_references_eu_document ON eu_references(eu_document_id, document_id);
+CREATE INDEX idx_eu_references_provision ON eu_references(provision_id, eu_document_id);
+CREATE INDEX idx_eu_references_primary ON eu_references(eu_document_id, is_primary_implementation)
+  WHERE is_primary_implementation = 1;
+
+-- EU Reference Keywords (implementation keywords found in Swedish law)
+CREATE TABLE eu_reference_keywords (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  eu_reference_id INTEGER NOT NULL REFERENCES eu_references(id) ON DELETE CASCADE,
+  keyword TEXT NOT NULL,
+  position INTEGER,
+  UNIQUE(eu_reference_id, keyword)
+);
+
+-- =============================================================================
+-- EU REFERENCES VIEWS
+-- =============================================================================
+
+-- View: Swedish statutes implementing each EU directive
+CREATE VIEW v_eu_implementations AS
+SELECT
+  ed.id AS eu_document_id,
+  ed.type,
+  ed.year,
+  ed.number,
+  ed.title,
+  ed.short_name,
+  ld.id AS sfs_number,
+  ld.title AS swedish_title,
+  ld.short_name AS swedish_short_name,
+  er.reference_type,
+  er.is_primary_implementation,
+  er.implementation_status
+FROM eu_documents ed
+JOIN eu_references er ON ed.id = er.eu_document_id
+JOIN legal_documents ld ON er.document_id = ld.id
+WHERE ed.type = 'directive'
+ORDER BY ed.year DESC, ed.number, ld.id;
+
+-- View: EU regulations applied in Swedish law
+CREATE VIEW v_eu_regulations_applied AS
+SELECT
+  ed.id AS eu_document_id,
+  ed.year,
+  ed.number,
+  ed.title,
+  ed.short_name,
+  COUNT(DISTINCT er.document_id) AS swedish_statute_count,
+  COUNT(er.id) AS total_references
+FROM eu_documents ed
+JOIN eu_references er ON ed.id = er.eu_document_id
+WHERE ed.type = 'regulation'
+GROUP BY ed.id
+ORDER BY total_references DESC;
+
+-- View: Swedish statutes with most EU references
+CREATE VIEW v_statutes_by_eu_references AS
+SELECT
+  ld.id AS sfs_number,
+  ld.title,
+  ld.short_name,
+  COUNT(DISTINCT er.eu_document_id) AS eu_document_count,
+  COUNT(er.id) AS total_references,
+  SUM(CASE WHEN ed.type = 'directive' THEN 1 ELSE 0 END) AS directive_count,
+  SUM(CASE WHEN ed.type = 'regulation' THEN 1 ELSE 0 END) AS regulation_count
+FROM legal_documents ld
+JOIN eu_references er ON ld.id = er.document_id
+JOIN eu_documents ed ON er.eu_document_id = ed.id
+WHERE ld.type = 'statute'
+GROUP BY ld.id
+ORDER BY total_references DESC;
+
+-- View: GDPR implementations in Swedish law
+CREATE VIEW v_gdpr_implementations AS
+SELECT
+  ld.id AS sfs_number,
+  ld.title,
+  lp.provision_ref,
+  lp.content,
+  er.eu_article,
+  er.reference_type
+FROM eu_documents ed
+JOIN eu_references er ON ed.id = er.eu_document_id
+JOIN legal_documents ld ON er.document_id = ld.id
+LEFT JOIN legal_provisions lp ON er.provision_id = lp.id
+WHERE ed.id = 'regulation:2016/679'
+ORDER BY ld.id, lp.provision_ref;
 `;
 
 function normalizeWhitespace(text: string): string {
@@ -494,6 +672,24 @@ function buildDatabase(): void {
     VALUES (?, ?, ?, ?, ?)
   `);
 
+  const insertEUDocument = db.prepare(`
+    INSERT INTO eu_documents (
+      id, type, year, number, community, celex_number,
+      title, title_sv, short_name, adoption_date, entry_into_force_date,
+      in_force, amended_by, repeals, url_eur_lex, description
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+
+  const insertEUReference = db.prepare(`
+    INSERT INTO eu_references (
+      source_type, source_id, document_id, provision_id,
+      eu_document_id, eu_article, reference_type, reference_context,
+      full_citation, is_primary_implementation, implementation_status
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+
   // Load seed files
   if (!fs.existsSync(SEED_DIR)) {
     console.log(`No seed directory at ${SEED_DIR} — creating empty database.`);
@@ -502,7 +698,7 @@ function buildDatabase(): void {
   }
 
   const seedFiles = fs.readdirSync(SEED_DIR)
-    .filter(f => f.endsWith('.json') && !f.startsWith('.') && !f.startsWith('_'));
+    .filter(f => f.endsWith('.json') && !f.startsWith('.') && !f.startsWith('_') && f !== 'eu-references.json' && f !== 'eurlex-documents.json');
 
   if (seedFiles.length === 0) {
     console.log('No seed files found. Database created with empty schema.');
@@ -661,6 +857,239 @@ function buildDatabase(): void {
         );
       }
       console.log(`  Loaded ${xrefs.length} cross-references`);
+    }
+
+    // Load EU references file if it exists
+    const euRefsPath = path.join(SEED_DIR, 'eu-references.json');
+    if (fs.existsSync(euRefsPath)) {
+      console.log('  Loading EU references...');
+      const euData = JSON.parse(fs.readFileSync(euRefsPath, 'utf-8')) as EUSeedData;
+
+      // Insert common EU documents with full metadata
+      const commonEUDocs: EUDocumentSeed[] = [
+        {
+          id: 'regulation:2016/679',
+          type: 'regulation',
+          year: 2016,
+          number: 679,
+          community: 'EU',
+          celex_number: '32016R0679',
+          title: 'Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data',
+          title_sv: 'Europaparlamentets och rådets förordning (EU) 2016/679 om skydd för fysiska personer med avseende på behandling av personuppgifter',
+          short_name: 'GDPR',
+          adoption_date: '2016-04-27',
+          entry_into_force_date: '2018-05-25',
+          in_force: true,
+          url_eur_lex: 'https://eur-lex.europa.eu/eli/reg/2016/679/oj',
+          description: 'General Data Protection Regulation - comprehensive data protection law for the EU',
+        },
+        {
+          id: 'directive:95/46',
+          type: 'directive',
+          year: 1995,
+          number: 46,
+          community: 'EG',
+          celex_number: '31995L0046',
+          title: 'Directive 95/46/EC on the protection of individuals with regard to the processing of personal data',
+          title_sv: 'Direktiv 95/46/EG om skydd för enskilda vid behandling av personuppgifter',
+          short_name: 'Data Protection Directive',
+          adoption_date: '1995-10-24',
+          entry_into_force_date: '1995-10-24',
+          in_force: false,
+          url_eur_lex: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31995L0046',
+          description: 'Repealed by GDPR on 2018-05-25',
+          amended_by: '["regulation:2016/679"]',
+        },
+        {
+          id: 'regulation:910/2014',
+          type: 'regulation',
+          year: 2014,
+          number: 910,
+          community: 'EU',
+          celex_number: '32014R0910',
+          title: 'Regulation (EU) No 910/2014 on electronic identification and trust services for electronic transactions',
+          title_sv: 'Europaparlamentets och rådets förordning (EU) nr 910/2014 om elektronisk identifiering och betrodda tjänster',
+          short_name: 'eIDAS',
+          adoption_date: '2014-07-23',
+          entry_into_force_date: '2016-07-01',
+          in_force: true,
+          url_eur_lex: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910',
+          description: 'Electronic identification and trust services regulation',
+        },
+        {
+          id: 'directive:2016/680',
+          type: 'directive',
+          year: 2016,
+          number: 680,
+          community: 'EU',
+          celex_number: '32016L0680',
+          title: 'Directive (EU) 2016/680 on the protection of natural persons with regard to the processing of personal data by competent authorities',
+          title_sv: 'Direktiv (EU) 2016/680 om skydd för fysiska personer med avseende på behöriga myndigheters behandling av personuppgifter',
+          short_name: 'Police Directive',
+          adoption_date: '2016-04-27',
+          entry_into_force_date: '2018-05-06',
+          in_force: true,
+          url_eur_lex: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L0680',
+          description: 'Law Enforcement Directive - data protection in criminal law enforcement',
+        },
+      ];
+
+      // Merge common EU docs with seed data, preferring common docs
+      // Also track EUR-Lex docs to avoid swapping their year/number
+      const commonDocIds = new Set(commonEUDocs.map(d => d.id));
+
+      // Load EUR-Lex documents if available
+      // EUR-Lex documents already have correct year/number values (no swapping needed)
+      const eurlexDocIds = new Set<string>();
+      let eurlexDocs: EUDocumentSeed[] = [];
+      const eurlexPath = path.join(SEED_DIR, 'eurlex-documents.json');
+      if (fs.existsSync(eurlexPath)) {
+        console.log('  Loading EUR-Lex documents...');
+        const eurlexData = JSON.parse(fs.readFileSync(eurlexPath, 'utf-8')) as any[];
+        eurlexDocs = eurlexData.map(doc => {
+          eurlexDocIds.add(doc.id);
+          return {
+            id: doc.id,
+            type: doc.type,
+            year: doc.year,
+            number: doc.number,
+            community: doc.community,
+            celex_number: doc.celex_number,
+            title: doc.title,
+            title_sv: doc.title_sv,
+            adoption_date: doc.date_document,
+            in_force: doc.in_force,
+            url_eur_lex: doc.url,
+          };
+        });
+        console.log(`    Loaded ${eurlexDocs.length} EUR-Lex documents`);
+      }
+
+      // Fix EU document format issues from seed data:
+      // The seed data has year/number swapped for regulations due to parser extracting from
+      // Swedish text format "förordning (EU) nr 910/2014" as if it were year/number.
+      // EU regulations use number/year format, so we need to fix the IDs and swap the values.
+      const fixedSeedDocs = euData.eu_documents
+        .filter(d => !commonDocIds.has(d.id) && !eurlexDocIds.has(d.id))
+        .map(doc => {
+          // Parse the ID to extract actual number and year
+          const match = doc.id.match(/^(directive|regulation):(\d+)\/(\d+)$/);
+          if (!match) return doc;
+
+          const [, type, firstNum, secondNum] = match;
+          let first = parseInt(firstNum);
+          let second = parseInt(secondNum);
+
+          // Normalize 2-digit years to 4-digit
+          if (second < 100) {
+            second = second < 50 ? 2000 + second : 1900 + second;
+          }
+
+          // For regulations, the ID format is number/year, but the parser stored them as year/number
+          // We need to swap the values in the year and number fields
+          if (type === 'regulation') {
+            return {
+              ...doc,
+              year: second,  // Year is in the second position of the ID
+              number: first, // Number is in the first position of the ID
+            };
+          }
+
+          // For directives, the format is year/number which is correct
+          return {
+            ...doc,
+            year: first,
+            number: second,
+          };
+        });
+
+      const allEUDocs = [
+        ...commonEUDocs,
+        ...fixedSeedDocs,
+        ...eurlexDocs,
+      ];
+
+      // Insert all EU documents
+      for (const doc of allEUDocs) {
+        // Validate year before inserting
+        if (doc.year < 1957 || doc.year > 2100) {
+          console.log(`    WARNING: Skipping ${doc.id} - invalid year ${doc.year}`);
+          continue;
+        }
+
+        insertEUDocument.run(
+          doc.id,
+          doc.type,
+          doc.year,
+          doc.number,
+          doc.community ?? null,
+          doc.celex_number ?? null,
+          doc.title ?? null,
+          doc.title_sv ?? null,
+          doc.short_name ?? null,
+          doc.adoption_date ?? null,
+          doc.entry_into_force_date ?? null,
+          (doc.in_force ?? true) ? 1 : 0,
+          doc.amended_by ?? null,
+          doc.repeals ?? null,
+          doc.url_eur_lex ?? null,
+          doc.description ?? null
+        );
+      }
+
+      console.log(`    Inserted ${allEUDocs.length} EU documents`);
+
+      // Build provision_id lookup map for references
+      const provisionIdMap = new Map<string, number>();
+      const provisions = db.prepare(`
+        SELECT id, document_id, provision_ref
+        FROM legal_provisions
+      `).all() as { id: number; document_id: string; provision_ref: string }[];
+
+      for (const prov of provisions) {
+        const key = `${prov.document_id}:${prov.provision_ref}`;
+        provisionIdMap.set(key, prov.id);
+      }
+
+      // Insert EU references
+      let insertedRefs = 0;
+      let skippedRefs = 0;
+      for (const ref of euData.eu_references) {
+        // Resolve provision_id if this is a provision-level reference
+        let provisionId: number | null = null;
+        if (ref.source_type === 'provision' && ref.provision_ref) {
+          const key = `${ref.document_id}:${ref.provision_ref}`;
+          provisionId = provisionIdMap.get(key) ?? null;
+
+          if (!provisionId) {
+            console.log(`    WARNING: No provision found for ${key}`);
+            skippedRefs++;
+            continue;
+          }
+        }
+
+        try {
+          insertEUReference.run(
+            ref.source_type,
+            ref.source_id,
+            ref.document_id,
+            provisionId,
+            ref.eu_document_id,
+            ref.eu_article ?? null,
+            ref.reference_type,
+            ref.reference_context ?? null,
+            ref.full_citation ?? null,
+            (ref.is_primary_implementation ?? false) ? 1 : 0,
+            ref.implementation_status ?? null
+          );
+          insertedRefs++;
+        } catch (error) {
+          console.log(`    ERROR inserting EU reference for ${ref.source_id} -> ${ref.eu_document_id}: ${error}`);
+          skippedRefs++;
+        }
+      }
+
+      console.log(`    Inserted ${insertedRefs} EU references (${skippedRefs} skipped)`);
     }
   });
 

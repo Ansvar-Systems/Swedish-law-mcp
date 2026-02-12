@@ -1,0 +1,34 @@
+{
+  "id": "2008:583",
+  "type": "statute",
+  "title": "Lag (2008:583) om gruppundantag för konkurrensbegränsande forsknings- och utvecklingsavtal",
+  "status": "in_force",
+  "issued_date": "2008-06-18",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2008-583",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Denna lag tillämpas på forsknings- och utvecklingsavtal som innehåller sådana konkurrensbegränsningar som omfattas av"
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "title": "Det som i lagen sägs om avtal ska även tillämpas på beslut av",
+      "content": "Termer och uttryck i denna lag har samma betydelse som i förordning (EU) 2023/1066 av den 1 juni 2023 om tillämpningen av artikel 101.3 i fördraget om Europeiska unionens funktionssätt på vissa grupper av forsknings- och utvecklingsavtal. Lag (2024:708)."
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "content": "De villkor och begränsningar som följer av artikel 3-9 i förordning (EU) 2023/1066 ska tillämpas på konkurrensbegränsande forsknings- och utvecklingsavtal. I de fall det i artiklarna anges att en omständighet gäller på den inre marknaden ska dock motsvarande i stället gälla i landet. När det i artiklarna hänvisas till artikel 2 gäller i stället undantaget i 4 §. Lag (2024:708)."
+    },
+    {
+      "provision_ref": "2:4",
+      "chapter": "2",
+      "section": "4",
+      "content": "Konkurrensbegränsande forsknings- och utvecklingsavtal som uppfyller förutsättningarna i artikel 3-9 i förordning (EU) 2023/1066 och som inte har följder som är oförenliga med"
+    }
+  ]
+}

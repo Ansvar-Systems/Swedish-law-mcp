@@ -1,0 +1,40 @@
+{
+  "id": "2024:535",
+  "type": "statute",
+  "title": "Lag (2024:535) om straffrättsliga förfaranden inom försvarssamarbetet med Amerikas förenta stater",
+  "status": "in_force",
+  "issued_date": "2024-06-20",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2024-535",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Denna lag innehåller bestämmelser som genomför delar av artiklarna 12 och 13 i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Om en medlem av en amerikansk styrka eller en anhörig till en sådan medlem berövas friheten efter beslut av en domstol eller myndighet ska den som ansvarar för verkställigheten av beslutet utan dröjsmål underrätta de amerikanska försvarsmyndigheterna om frihetsberövandet."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "En medlem av en amerikansk styrka eller en anhörig till en sådan medlem som är anhållen eller häktad ska på begäran av en amerikansk försvarsmyndighet placeras i en sådan myndighets förvar till dess att det straffrättsliga förfarandet vid den svenska myndigheten eller domstolen har avslutats. En anhörig till en medlem av en amerikansk styrka, som är svensk medborgare eller, utan att vara svensk medborgare, var bosatt här när han eller hon fick ställning som anhörig, får dock inte placeras i amerikansk försvarsmyndighets förvar utan att han eller hon samtycker till det. Regeringen får meddela föreskrifter om handläggningen av en sådan begäran som avses i första stycket."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "För att ett mål i vilket en medlem av en amerikansk styrka eller en anhörig till en sådan medlem är tilltalad ska få avgöras utan huvudförhandling krävs, utöver att förutsättningarna enligt rättegångsbalken är uppfyllda, att den tilltalade samtycker till det. För att ett mål i vilket en medlem av en amerikansk styrka eller en anhörig till en sådan medlem ska få avgöras i den tilltalades utevaro krävs, utöver att förutsättningarna enligt rättegångsbalken i övrigt är uppfyllda, 1. att den tilltalade samtycker till det, eller 2. att den tilltalade inte har inställt sig till huvudförhandlingen efter att ha delgetts kallelse därtill och, när det gäller en medlem av en amerikansk styrka, olovligen har avvikit från de amerikanska försvarsmyndigheterna."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "En medlem av en amerikansk styrka eller en anhörig till en sådan medlem som döms till fängelse får endast placeras i en kriminalvårdsanstalt som Sverige och Amerikas förenta stater har kommit överens om."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "De amerikanska försvarsmyndigheterna har rätt att, under de förutsättningar som anges i häkteslagen (2010:611), besöka en medlem av en amerikansk styrka eller en anhörig till en sådan medlem som är gripen, anhållen eller häktad. De amerikanska försvarsmyndigheterna har också rätt att, under de förutsättningar som anges i fängelselagen (2010:610), besöka en medlem av en amerikansk styrka eller en anhörig till en sådan medlem som är intagen i kriminalvårdsanstalt."
+    }
+  ]
+}

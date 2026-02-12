@@ -1,0 +1,145 @@
+{
+  "id": "2021:709",
+  "type": "statute",
+  "title": "Lag (2021:709) med kompletterande bestämmelser om straffrättsligt samarbete mellan Europeiska unionen och Förenade kungariket",
+  "status": "in_force",
+  "issued_date": "2021-06-23",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2021-709",
+  "provisions": [
+    {
+      "provision_ref": "1:1",
+      "chapter": "1",
+      "section": "1",
+      "content": "Denna lag innehåller bestämmelser som kompletterar avdelning VII om överlämnande (artiklarna 596-632) i del 3 om brottsbekämpning och straffrättsligt samarbete i avtalet om handel och samarbete mellan Europeiska unionen och Europeiska atomenergigemenskapen, å ena sidan, och Förenade konungariket Storbritannien och Nordirland, å andra sidan, i denna lag kallat avtalet. Lagen (2025:520) om internationell verkställighet i brottmål innehåller bestämmelser som kompletterar avdelning XI om frysning och förverkande (artiklarna 656-689) i del 3 om brottsbekämpning och straffrättsligt samarbete i avtalet. Lag (2025:531)."
+    },
+    {
+      "provision_ref": "1:2",
+      "chapter": "1",
+      "section": "2",
+      "content": "Termer och uttryck i denna lag har samma betydelse som i avtalet."
+    },
+    {
+      "provision_ref": "2:1",
+      "chapter": "2",
+      "section": "1",
+      "title": "Behörig rättslig myndighet",
+      "content": "Behörig rättslig myndighet enligt artikel 598 d i avtalet är åklagare. Återförande av en person som har överlämnats till Sverige"
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "content": "Om en person har överlämnats till Sverige på villkor att han eller hon återförs till Förenade kungariket, tillämpas"
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "title": "Transport i Sverige",
+      "content": "Vid transport i Sverige av den som överlämnats hit tillämpas 8 kap. 3 § lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder."
+    },
+    {
+      "provision_ref": "3:1",
+      "chapter": "3",
+      "section": "1",
+      "title": "Behöriga rättsliga myndigheter",
+      "content": "Behöriga rättsliga myndigheter enligt artikel 598 c i avtalet är åklagare och allmän domstol. Hinder mot överlämnande"
+    },
+    {
+      "provision_ref": "3:2",
+      "chapter": "3",
+      "section": "2",
+      "content": "En svensk medborgare får inte överlämnas."
+    },
+    {
+      "provision_ref": "3:3",
+      "chapter": "3",
+      "section": "3",
+      "content": "Ett överlämnande får vägras om den gärning som arresteringsordern avser är ett politiskt brott. Ett överlämnande får dock inte vägras om den gärning som arresteringsordern avser omfattas av artikel 602.2 i avtalet."
+    },
+    {
+      "provision_ref": "3:4",
+      "chapter": "3",
+      "section": "4",
+      "content": "Överlämnande får inte beviljas 1. om den utfärdande myndigheten inte lämnar sådana garantier som enligt artikel 604 b i avtalet krävs för att överlämnande ska få beviljas, eller 2. om den eftersökte enligt artikel 614 i avtalet ska överlämnas eller utlämnas till en annan stat eller överlämnas till Internationella brottmålsdomstolen."
+    },
+    {
+      "provision_ref": "3:5",
+      "chapter": "3",
+      "section": "5",
+      "content": "I frågor om hinder mot överlämnande tillämpas 2 kap. 3 § 1, 5 och 6 lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder. Lag (2024:47). Förfarandet vid överlämnande"
+    },
+    {
+      "provision_ref": "3:6",
+      "chapter": "3",
+      "section": "6",
+      "content": "Under det inledande förfarandet om överlämnande och under utredningen tillämpas 4 kap. 1 § andra stycket och 3 § första stycket lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder. En efterlysning som är registrerad i ett system för eftersökning av personer och som gäller utlämning eller överlämnande till Förenade kungariket ska jämställas med en arresteringsorder i avvaktan på att en sådan översänds. Vid utredningen tillämpas bestämmelserna om förundersökning i brottmål, om inte annat anges i avtalet eller i denna lag. Beslut om kompletteringar enligt artikel 613.2 i avtalet fattas av åklagare."
+    },
+    {
+      "provision_ref": "3:7",
+      "chapter": "3",
+      "section": "7",
+      "content": "I frågor om offentlig försvarare för den eftersökte tillämpas 4 kap. 8 § och 5 kap. 8 § lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder."
+    },
+    {
+      "provision_ref": "3:8",
+      "chapter": "3",
+      "section": "8",
+      "content": "I frågor om samtycke och medgivande tillämpas 4 kap. 9 § lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder."
+    },
+    {
+      "provision_ref": "3:9",
+      "chapter": "3",
+      "section": "9",
+      "content": "Vid prövningen av frågan om överlämnande tillämpas 5 kap. 1 och 2 §§, 4 § första och andra styckena, 5 § och 9 § utom första stycket första meningen lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder. Om garantier som avses i artikel 604 b i avtalet har lämnats av den utfärdande myndigheten, ska rätten i beslutet om överlämnande ange att det är ett villkor för överlämnande att garantierna kommer att uppfyllas. Ett beslut om att inte bevilja ett överlämnande enligt artikel 601.1 f i avtalet får inte överklagas. Tvångsmedel"
+    },
+    {
+      "provision_ref": "3:10",
+      "chapter": "3",
+      "section": "10",
+      "content": "I frågor om gripande, anhållande och häktning samt reseförbud och anmälningsskyldighet tillämpas bestämmelserna i"
+    },
+    {
+      "provision_ref": "3:11",
+      "chapter": "3",
+      "section": "11",
+      "content": "I frågor om beslag och husrannsakan tillämpas bestämmelserna i 4 kap. 7 § och 5 kap. 6 § andra stycket lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder. Verkställighet av beslut om överlämnande"
+    },
+    {
+      "provision_ref": "3:12",
+      "chapter": "3",
+      "section": "12",
+      "content": "Rätten kan i samband med ett beslut om att den eftersökte ska överlämnas, bestämma att - verkställigheten ska skjutas upp med stöd av artikel 621.4 eller artikel 622.1 i avtalet, eller - den eftersökte tillfälligt ska överlämnas enligt artikel 622.2 i avtalet. Efter att rätten har beslutat om överlämnande kan åklagaren bestämma att verkställigheten ska skjutas upp med stöd av artikel 621.3 eller artikel 621.4 i avtalet."
+    },
+    {
+      "provision_ref": "3:13",
+      "chapter": "3",
+      "section": "13",
+      "content": "Vid verkställighet av ett beslut om överlämnande tillämpas 6 kap. 4 och 5 §§ lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder. Överförande av verkställighet av en frihetsberövande påföljd till Sverige"
+    },
+    {
+      "provision_ref": "3:14",
+      "chapter": "3",
+      "section": "14",
+      "content": "Verkställigheten av en frihetsberövande påföljd ska överföras till Sverige enligt bestämmelserna i 3 kap. 10-21 §§ och 7 kap. 2, 5, 6, 8 och 10 §§ lagen (2025:520) om internationell verkställighet i brottmål om - rätten med stöd av artikel 601.1 f i avtalet vägrat överlämna den eftersökte, eller - någon har överlämnats från Sverige på villkor att han eller hon ska återföras hit enligt artikel 604 b i avtalet. Vid tillämpning av 3 kap. 14 § lagen om internationell verkställighet i brottmål krävs inte någon begäran från behörig myndighet i Förenade kungariket för att tvångsmedel ska få användas. När rätten med stöd av artikel 601.1 f i avtalet vägrat överlämna den eftersökte, ska ett beslut om att överföra verkställigheten av den frihetsberövande påföljden inte meddelas om Förenade kungariket motsätter sig att verkställigheten överförs. Lag (2025:531). Utvidgat överlämnande, vidareöverlämnande och vidareutlämning"
+    },
+    {
+      "provision_ref": "3:15",
+      "chapter": "3",
+      "section": "15",
+      "content": "Bestämmelserna i 1-3, 6, 7 och 9 §§ tillämpas i frågor om tillstånd till utvidgat överlämnande enligt artikel 625.4 eller till vidareöverlämnande enligt artikel 626.3 i avtalet. Ett tillstånd till vidareöverlämnande enligt artikel 626.3 i avtalet ska även kunna avse ett överlämnande eller en utlämning från Förenade kungariket till Island eller Norge."
+    },
+    {
+      "provision_ref": "3:16",
+      "chapter": "3",
+      "section": "16",
+      "content": "Vid tillstånd till vidareutlämning enligt artikel 626.5 i avtalet tillämpas 6 kap. 9 § lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder. Tillstånd till transport genom Sverige"
+    },
+    {
+      "provision_ref": "3:17",
+      "chapter": "3",
+      "section": "17",
+      "content": "Vid en begäran om tillstånd till transport genom Sverige tillämpas 8 kap. 2 § lagen (2003:1156) om överlämnande från Sverige enligt en europeisk arresteringsorder."
+    }
+  ]
+}

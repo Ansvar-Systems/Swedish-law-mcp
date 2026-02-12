@@ -1,0 +1,1251 @@
+{
+  "id": "2010:751",
+  "type": "statute",
+  "title": "Lag (2010:751) om betaltjänster",
+  "status": "in_force",
+  "issued_date": "2010-06-23",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2010-751",
+  "provisions": [
+    {
+      "provision_ref": "1:1",
+      "chapter": "1",
+      "section": "1",
+      "title": "Lagens tillämpningsområde",
+      "content": "I denna lag finns bestämmelser om betaltjänster som tillhandahålls i Sverige och utförs inom Europeiska ekonomiska samarbetsområdet (EES). I denna lag finns också bestämmelser om betalningsinstitut, registrerade betaltjänstleverantörer, betalkonto och skyldighet för kreditinstitut att tillhandahålla kontanttjänster. Lag (2019:1226)."
+    },
+    {
+      "provision_ref": "1:1 a",
+      "chapter": "1",
+      "section": "1 a",
+      "content": "När en betalningstransaktion genomförs i en valuta som inte är någon av EES-ländernas valutor och både betalarens och betalningsmottagarens betaltjänstleverantörer hör hemma inom EES, gäller inte 4 kap. 4 § första stycket 2,"
+    },
+    {
+      "provision_ref": "1:10",
+      "chapter": "1",
+      "section": "10",
+      "content": "8 och 16 § första stycket 1 och 5 kap. 38-41 §§, 42 § första stycket, 43 och 44 §§. Detsamma gäller om det bara är en betaltjänstleverantör i betalningstransaktionen och denne hör hemma inom EES. När antingen betalarens eller betalningsmottagarens betaltjänstleverantör i en betalningstransaktion hör hemma utanför EES, gäller inte 4 kap. 4 § första stycket 2, 10 § 8 och 24 samt 16 § första stycket 1 och 5 kap. 1 § andra stycket, 28-30, 38, 40, 47-53 och 55 §§. Lag (2018:175). Definitioner 2 § Med betaltjänster avses i denna lag 1. tjänster som gör det möjligt att sätta in kontanter på ett betalkonto samt de åtgärder som krävs för förvaltning av kontot, 2. tjänster som gör det möjligt att ta ut kontanter från ett betalkonto samt de åtgärder som krävs för förvaltning av kontot, 3. genomförande av betalningstransaktioner, inklusive överföring av medel på ett betalkonto, genom a) autogiro, b) kontokort eller andra betalningsinstrument, eller c) kontobaserade betalningar, 4. genomförande av betalningstransaktioner som avses i 3, när medlen täcks av en betaltjänstanvändares kreditutrymme, 5. utgivning av betalningsinstrument eller inlösen av transaktionsbelopp där ett betalningsinstrument har använts, 6. penningöverföring, 7. betalningsinitieringstjänster, eller 8. kontoinformationstjänster. Lag (2022:1728). 3 § Med betaltjänstleverantörer avses i denna lag följande tillhandahållare av betaltjänster: 1. kreditinstitut, 2. institut för elektroniska pengar och de företag som har undantagits från tillståndsplikt enligt lagen (2011:755) om elektroniska pengar, 3. betalningsinstitut och de fysiska eller juridiska personer som har undantagits från tillståndsplikt enligt 2 kap. 3 §, 4. statliga och kommunala myndigheter, när de inte ägnar sig åt myndighetsutövning, 5. utländska fysiska och juridiska personer samt myndigheter inom EES, som motsvarar dem i 1-4 med undantag för sådana fysiska eller juridiska personer som har undantagits från tillståndsplikt enligt nationella bestämmelser som genomför betaltjänstdirektivet, 6. Europeiska centralbanken och nationella centralbanker i andra EES-länder, när de inte agerar i egenskap av monetär eller offentlig myndighet, 7. postgiroinstitut inom EES som enligt nationell lagstiftning har rätt att tillhandahålla betaltjänster, 8. filialer till utländska kreditinstitut från länder utanför EES, och 9. filialer till institut för elektroniska pengar från länder utanför EES. Lag (2018:175). 4 § I denna lag betyder autentisering: ett förfarande där en betaltjänstanvändares personliga behörighetsfunktioner används och genom vilket en betaltjänstleverantör kan kontrollera betaltjänstanvändarens identitet eller ett betalningsinstruments giltighet, autogiro: en betaltjänst för debitering av en betalares betalkonto, där initiativet till en betalningstransaktion tas av betalningsmottagaren på grundval av betalarens samtycke till mottagaren, mottagarens betaltjänstleverantör eller betalarens egen betaltjänstleverantör, bankdag: en dag på vilken en betaltjänstleverantör har öppet för verksamhet i den utsträckning som krävs för genomförande av en betalningstransaktion, betalare: en fysisk eller juridisk person som är antingen betalkontoinnehavare och som godkänner en betalningsorder från detta betalkonto, eller en fysisk eller juridisk person som lämnar en betalningsorder, betalkonto: ett konto som innehas i en eller flera betaltjänstanvändares namn och som är avsett för genomförandet av betalningstransaktioner, betalkontodirektivet: Europaparlamentets och rådets direktiv 2014/92/EU av den 23 juli 2014 om jämförbarhet för avgifter som avser betalkonto, byte av betalkonto och tillgång till betalkonto med grundläggande funktioner, i den ursprungliga lydelsen, betalningsinstitut: ett aktiebolag eller en ekonomisk förening som har fått tillstånd att tillhandahålla betaltjänster enligt"
+    },
+    {
+      "provision_ref": "1:11",
+      "chapter": "1",
+      "section": "11",
+      "title": "Tvingande bestämmelser i konsumentförhållanden",
+      "content": "Avtalsvillkor som i jämförelse med bestämmelserna i denna lag är till nackdel för en konsument är utan verkan mot denne, om inte annat anges i lagen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "2:1",
+      "chapter": "2",
+      "section": "1",
+      "title": "Tillståndsplikt",
+      "content": "För att tillhandahålla en eller flera betaltjänster krävs tillstånd av Finansinspektionen, om inte något annat framgår av 2 eller 3 §. När det gäller svenska tillhandahållare av betaltjänster, får tillstånd ges endast ett svenskt aktiebolag eller en svensk ekonomisk förening. Särskilda bestämmelser om utländska företag hemmahörande inom EES finns i 3 kap. 26 §. Lag (2018:175). Undantag från tillståndsplikt"
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "content": "Tillstånd enligt denna lag behövs inte för 1. kreditinstitut, 2. institut för elektroniska pengar enligt lagen (2011:755) om elektroniska pengar, 3. statliga och kommunala myndigheter, när de inte ägnar sig åt myndighetsutövning, 4. utländska fysiska och juridiska personer samt myndigheter inom EES, motsvarande dem i 1-3 med undantag av sådana fysiska eller juridiska personer som har undantagits från tillståndsplikt enligt nationella bestämmelser som genomför betaltjänstdirektivet, 5. Europeiska centralbanken och nationella centralbanker i andra EES-länder, när de inte agerar i egenskap av monetär eller offentlig myndighet, 6. postgiroinstitut inom EES som enligt nationell lagstiftning har rätt att tillhandahålla betaltjänster, 7. filialer till utländska kreditinstitut från länder utanför EES, och 8. filialer till institut för elektroniska pengar från länder utanför EES. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "content": "En fysisk eller juridisk person som avser att bara tillhandahålla kontoinformationstjänster får ansöka hos Finansinspektionen om att undantas från tillståndsplikt enligt 1 §. Inspektionen ska besluta om ett sådant undantag om 1. den som ska ingå i ett bolags eller en förenings styrelse, vara verkställande direktör eller ansvarig för betaltjänstverksamheten inte har dömts för brott som rör finansiering av terrorism eller penningtvätt eller annan ekonomisk brottslighet, 2. det finns skäl att anta att den planerade verksamheten kommer att drivas enligt tillämpliga delar av denna lag och andra författningar som reglerar verksamheten, 3. den som ska ingå i ett företags styrelse, vara verkställande direktör, ansvarig för betaltjänstverksamheten eller vara ersättare för någon av dem, har tillräcklig insikt och erfarenhet för att delta i ledningen av företaget eller ansvara för betaltjänstverksamheten och även i övrigt är lämplig för en sådan uppgift, och 4. personen har en ansvarsförsäkring som täcker det geografiska området där verksamheten drivs eller har en annan jämförbar garanti som täcker den skadeståndsskyldighet som kan uppkomma till följd av verksamheten. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "2:4",
+      "chapter": "2",
+      "section": "4",
+      "content": "Finansinspektionen ska registrera dem som har beviljats undantag enligt 3 §. En registrerad betaltjänstleverantör ska underrätta Finansinspektionen om sådana förändringar som påverkar dess möjlighet att uppfylla villkoren för undantag enligt 3 §. Bestämmelser om register finns i 8 kap. 5 §."
+    },
+    {
+      "provision_ref": "2:5",
+      "chapter": "2",
+      "section": "5",
+      "content": "En registrerad betaltjänstleverantör som inte längre uppfyller villkoret i 3 § 1 ska ansöka om tillstånd enligt 1 §. Ansökan ska göras inom 30 dagar från den dag då villkoret inte längre uppfylldes. En registrerad betaltjänstleverantör ska avföras ur registret om leverantören anmäler att den inte längre tillhandahåller betaltjänster eller om det på annat sätt framgår att leverantörens verksamhet med betaltjänster har upphört. Lag (2025:253). Förutsättningar för tillstånd"
+    },
+    {
+      "provision_ref": "2:6",
+      "chapter": "2",
+      "section": "6",
+      "content": "Tillstånd att tillhandahålla betaltjänster ska ges, om 1. bolagsordningen eller stadgarna inte strider mot denna lag eller någon annan författning, 2. det finns skäl att anta att den planerade verksamheten kommer att drivas a) med tillräckliga styr- och kontrollformer för verksamheten med betaltjänster, och b) i enlighet med denna lag och andra författningar som reglerar företagets verksamhet, 3. det finns skäl att anta att den som har ett kvalificerat innehav i företaget är lämplig att utöva ett väsentligt inflytande över ledningen av företaget, 4. den som ska ingå i företagets styrelse, vara verkställande direktör eller vara ersättare för någon av dem, har tillräcklig insikt och erfarenhet för att delta i ledningen av ett sådant företag och även i övrigt är lämplig för en sådan uppgift, 5. den som är ansvarig för betaltjänstverksamheten eller ersättare för denna person har tillräcklig insikt och erfarenhet för en sådan uppgift, och även i övrigt är lämplig för uppgiften, och 6. företaget, om det ska tillhandahålla betalningsinitieringstjänster eller endast kontoinformationstjänster, har en ansvarsförsäkring som täcker det geografiska område inom vilket företaget driver sin verksamhet, eller annan jämförbar garanti som täcker den skadeståndsskyldighet som kan uppkomma till följd av verksamheten. I fråga om europabolag och europakooperativ som har ett sådant förvaltningssystem som avses i artiklarna 39-42 i rådets förordning (EG) nr 2157/2001 av den 8 oktober 2001 om stadga för europabolag eller artiklarna 37-41 i rådets förordning (EG) nr 1435/2003 av den 22 juli 2003 om stadga för europeiska kooperativa föreningar (SCE-föreningar) ska bestämmelserna som avser styrelsen i första stycket 4 om lämplighetsprövning tillämpas på tillsynsorganet. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "2:7",
+      "chapter": "2",
+      "section": "7",
+      "content": "Vid bedömningen enligt 6 § första stycket 3 av om en innehavare är lämplig ska dennes anseende och kapitalstyrka beaktas. Det ska också beaktas om det finns skäl att anta att 1. innehavaren kommer att motverka att betaltjänstverksamheten drivs på ett sätt som är förenligt med kraven i denna lag och andra författningar som reglerar företagets verksamhet, 2. innehavet har samband med eller kan öka risken för a) penningtvätt enligt 1 kap. 6 § lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism, eller b) finansiering av terrorism enligt 6 § terroristbrottslagen (2022:666) eller försök till sådant brott, avseende terroristbrott enligt 4 § samma lag. Om företaget har eller kan förväntas komma att få nära förbindelser med någon annan, får tillstånd enligt 1 § ges bara om förbindelserna inte hindrar en effektiv tillsyn av företaget. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "2:8",
+      "chapter": "2",
+      "section": "8",
+      "content": "Bestämmelserna om ägarprövning i kreditinstitut i 14 kap. lagen (2004:297) om bank- och finansieringsrörelse ska tillämpas även för betalningsinstitut. Prövning av ansökan"
+    },
+    {
+      "provision_ref": "2:9",
+      "chapter": "2",
+      "section": "9",
+      "content": "Finansinspektionen ska meddela beslut i fråga om tillstånd att tillhandahålla betaltjänster eller om undantag från tillståndsplikt inom tre månader från den dag då en fullständig ansökan inkom och ansökningsavgiften betalats. Om beslut inte meddelats i rätt tid, ska tillstånd anses ha meddelats eller undantag anses ha beviljats av Finansinspektionen. Bemyndiganden"
+    },
+    {
+      "provision_ref": "2:10",
+      "chapter": "2",
+      "section": "10",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om vad som utgör tillräckliga styr- och kontrollformer för verksamheten med betaltjänster enligt 6 § första stycket 2."
+    },
+    {
+      "provision_ref": "3:1",
+      "chapter": "3",
+      "section": "1",
+      "title": "Startkapital",
+      "content": "Ett betalningsinstitut ska när det påbörjar sin verksamhet ha ett startkapital som vid tidpunkten för beslut i fråga om tillstånd motsvarar 1. minst 20 000 euro, om tillståndet omfattar betaltjänster enligt 1 kap. 2 § 6, 2. minst 50 000 euro, om tillståndet omfattar betaltjänster enligt 1 kap. 2 § 7, eller 3. minst 125 000 euro, om tillståndet omfattar någon av betaltjänsterna enligt 1 kap. 2 § 1-5. Lag (2018:175). Kapitalkrav"
+    },
+    {
+      "provision_ref": "3:2",
+      "chapter": "3",
+      "section": "2",
+      "content": "Ett betalningsinstitut ska vid varje tidpunkt ha en kapitalbas som motsvarar minst startkapitalet enligt 1 § eller ett kapitalkrav beräknat enligt 3 eller 4 §. Betalningsinstitutets kapitalbas får inte underskrida det högsta av dessa två belopp. Om betalningsinstitutet endast tillhandahåller betalningsinitieringstjänster gäller enbart kravet att institutet vid varje tidpunkt ska ha en kapitalbas som motsvarar minst startkapitalet enligt 1 §. Vid beräkningen av kapitalbasen tillämpas tillsynsförordningen. Minst 75 procent av primärkapitalet ska vara i form av kärnprimärkapital, och supplementärkapitalet får uppgå till högst en tredjedel av primärkapitalet. Ett betalningsinstitut som tillhör samma grupp som ett annat betalningsinstitut, eller ett kreditinstitut, ett värdepappersföretag, ett fondbolag, ett försäkringsföretag, ett tjänstepensionsföretag, en AIF-förvaltare som förvaltar specialfonder eller ett institut för elektroniska pengar får inte vid beräkning av kapitalbasen ta med sådana poster som ingår i beräkningen av något av dessa företags kapitalbas. Ett betalningsinstitut som driver annan verksamhet i enlighet med 5 § får inte vid beräkningen av kapitalbasen ta med sådana poster som ingår i beräkningen av kapitalbasen i sådan annan verksamhet. För ett betalningsinstitut som har bytt redovisningsvaluta gäller att kapitalbasen inte får understiga det högsta av de belopp som följer av 6 och 7 §§ lagen (2000:35) om byte av redovisningsvaluta i finansiella företag. Lag (2019:764)."
+    },
+    {
+      "provision_ref": "3:3",
+      "chapter": "3",
+      "section": "3",
+      "content": "Kapitalkravet enligt 2 § beräknas enligt en metod som utgår från 1. en andel av institutets fasta omkostnader, 2. betalningsvolymen i förhållande till betaltjänstverksamhetens art och omfattning, eller 3. summan av ränteinkomster, ränteutgifter, mottagen kommission och mottagna avgifter samt övriga rörelseintäkter, i förhållande till betaltjänstverksamhetens art och omfattning. Beslut om vilken metod som ett betalningsinstitut ska tillämpa i varje enskilt fall meddelas av Finansinspektionen."
+    },
+    {
+      "provision_ref": "3:4",
+      "chapter": "3",
+      "section": "4",
+      "content": "På grundval av en utvärdering av betalningsinstitutets riskhanteringsprocesser och interna kontrollmekanismer får Finansinspektionen besluta att kapitalkravet, beräknat enligt 3 §, ska höjas eller sänkas. Höjningen eller sänkningen får inte överstiga 20 procent av detta belopp. Vinstutdelning"
+    },
+    {
+      "provision_ref": "3:4 a",
+      "chapter": "3",
+      "section": "4 a",
+      "content": "Bestämmelserna om vinstutdelning på begäran av en aktieägarminoritet i 18 kap. 11 § aktiebolagslagen (2005:551) gäller inte för betalningsinstitut. Lag (2023:615). Närliggande tjänster och annan verksamhet"
+    },
+    {
+      "provision_ref": "3:5",
+      "chapter": "3",
+      "section": "5",
+      "content": "Utöver att tillhandahålla betaltjänster får ett betalningsinstitut eller en registrerad betaltjänstleverantör tillhandahålla närliggande tjänster och driva annan verksamhet. Finansinspektionen får förbjuda ett betalningsinstitut eller en registrerad betaltjänstleverantör att driva annan verksamhet. Ett sådant beslut får meddelas om verksamheten försämrar eller kan komma att försämra betalningsinstitutets eller den registrerade betaltjänstleverantörens finansiella sundhet eller Finansinspektionens möjligheter att utöva tillsyn över institutet eller leverantören. Inlåning och kreditgivning i betaltjänstverksamheten"
+    },
+    {
+      "provision_ref": "3:6",
+      "chapter": "3",
+      "section": "6",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör får i sin verksamhet med betaltjänster inte 1. ta emot insättningar eller andra återbetalningspliktiga medel från allmänheten, eller 2. erbjuda andra konton än betalkonton som uteslutande används för betalningstransaktioner. Ett betalningsinstitut får i sin verksamhet med betaltjänster bevilja kredit för sådana betaltjänster som avses i 1 kap. 2 § 4 eller 5 om 1. krediten endast utnyttjas i samband med genomförande av en betalningstransaktion, 2. krediten inte beviljas ur medel som innehas för att genomföra en betalningstransaktion, och 3. kredit via betalningsinstrument som lämnats inom ramen för gränsöverskridande verksamhet inom EES återbetalas inom 12 månader. Betalningsinstitut får endast bevilja kredit enligt andra stycket om institutets kapitalbas är tillfredsställande med hänsyn till det totala kreditbeloppet. Lag (2025:253). Skyddskrav"
+    },
+    {
+      "provision_ref": "3:7",
+      "chapter": "3",
+      "section": "7",
+      "content": "Ett betalningsinstitut ska vidta särskilda åtgärder för att skydda en betaltjänstanvändares medel som mottagits för genomförande av betalningstransaktioner. Sådana medel ska 1. hållas avskilda från betalningsinstitutets egna tillgångar och medel som innehas för annans räkning än betaltjänstanvändares, eller 2. omfattas av en försäkring eller garanti a) som tillhandahålls av ett försäkringsföretag eller ett kreditinstitut som inte ingår i samma koncern som betalningsinstitutet, och b) som ger samma skydd för betaltjänstanvändaren som om medlen hålls åtskilda enligt 1. Medel för genomförande av transaktioner enligt första stycket 1, som fortfarande innehas av betalningsinstitutet vid slutet av bankdagen efter den dag då medlen mottogs, ska deponeras på ett särskilt konto hos ett kreditinstitut eller ett utländskt kreditinstitut eller investeras i likvida tillgångar med låg risk. Första och andra styckena gäller även i de fall då ett betalningsinstitut tar emot medel där en andel ska användas för framtida betalningstransaktioner och återstoden för andra tjänster än betaltjänster. Om det inte går att fastställa hur stor andel av användares medel som kommer att användas till betalningstransaktionerna, får ett betalningsinstitut, om det är möjligt att på grundval av historiska uppgifter och efter tillstånd av Finansinspektionen, göra en uppskattning av denna andel. Lag (2025:253). Bevarande av uppgifter"
+    },
+    {
+      "provision_ref": "3:8",
+      "chapter": "3",
+      "section": "8",
+      "content": "Ett betalningsinstitut ska bevara samtliga relevanta uppgifter som rör sådana förhållanden som regleras i 2, 3, 7 och 8 kap. i minst fem år. Arbetsordning och instruktioner om arbetsfördelningen mellan bolagsorganen"
+    },
+    {
+      "provision_ref": "3:8 a",
+      "chapter": "3",
+      "section": "8 a",
+      "content": "Skyldigheten enligt 8 kap. 46 a § aktiebolagslagen (2005:551) för styrelsen i ett publikt aktiebolag att årligen fastställa en skriftlig arbetsordning för sitt arbete gäller även för styrelsen i ett betalningsinstitut eller en registrerad betaltjänstleverantör som är ett privat aktiebolag. Detta gäller dock inte i fråga om bolag vars styrelse har endast en ledamot. Skyldigheten enligt 8 kap. 46 b § aktiebolagslagen för styrelsen i ett publikt aktiebolag att i skriftliga instruktioner ange arbetsfördelningen mellan bolagsorganen gäller även för styrelsen i ett betalningsinstitut eller en registrerad betaltjänstleverantör som är ett privat aktiebolag. Styrelsens ordförande ska bevaka att styrelsen fullgör de uppgifter som anges i denna paragraf. Lag (2014:553). Revision och redovisning"
+    },
+    {
+      "provision_ref": "3:9",
+      "chapter": "3",
+      "section": "9",
+      "content": "Ett betalningsinstitut ska ha minst en revisor som utses av stämman. Bara den som är auktoriserad eller godkänd revisor får vara revisor. Minst en revisor som stämman utsett ska vara auktoriserad revisor. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "3:10",
+      "chapter": "3",
+      "section": "10",
+      "content": "Ett betalningsinstitut som även bedriver annan verksamhet än tillhandahållande av betaltjänster enligt 1 kap. 2 § ska lämna separata redovisningsuppgifter över den verksamhet som omfattar betaltjänster. Huvudkontor och hemvist"
+    },
+    {
+      "provision_ref": "3:11",
+      "chapter": "3",
+      "section": "11",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör som är en juridisk person ska ha sitt huvudkontor i Sverige. En fysisk person som är registrerad betaltjänstleverantör ska ha sin hemvist i Sverige. Tystnadsplikt"
+    },
+    {
+      "provision_ref": "3:12",
+      "chapter": "3",
+      "section": "12",
+      "content": "Den som är eller har varit knuten till ett betalningsinstitut eller en registrerad betaltjänstleverantör som anställd eller uppdragstagare får inte obehörigen röja eller utnyttja vad han eller hon i anställningen eller under uppdraget i verksamheten med betaltjänster har fått veta om enskildas förhållanden till institutet eller leverantören. Ansvar enligt 20 kap. 3 § brottsbalken ska inte följa för den som bryter mot förbudet. I det allmännas verksamhet tillämpas i stället bestämmelserna i offentlighets- och sekretesslagen (2009:400). I 6 kap. 9 § finns särskilda bestämmelser om tystnadsplikt vid behandling av personuppgifter i register som förs av en betaltjänstleverantör eller den som ansvarar för ett betalningssystem enligt 6 kap. 1 §. I 5 a § kreditupplysningslagen (1973:1173) finns bestämmelser om att det som gäller om tystnadsplikt enligt första stycket inte hindrar att uppgifter i vissa fall utväxlas för kreditupplysningsändamål. Åtgärder mot penningtvätt och finansiering av terrorism"
+    },
+    {
+      "provision_ref": "3:13",
+      "chapter": "3",
+      "section": "13",
+      "content": "Bestämmelser om skyldighet för fysiska eller juridiska personer som tillhandahåller betaltjänster att medverka till att förhindra penningtvätt och finansiering av terrorism finns i lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism. Lag (2025:253). Uppgiftsskyldighet"
+    },
+    {
+      "provision_ref": "3:13 a",
+      "chapter": "3",
+      "section": "13 a",
+      "content": "Betalningsinstitut och registrerade betaltjänstleverantörer ska på begäran av Polismyndigheten, Skatteverket, Säkerhetspolisen eller Tullverket lämna uppgifter om enskildas förhållanden till företaget, om uppgifterna behövs i ett enskilt fall i myndighetens verksamhet för att förebygga, förhindra eller upptäcka brottslig verksamhet som innefattar brott för vilket det i straffskalan ingår fängelse i ett år eller mer. Uppgifterna ska lämnas utan dröjsmål och i elektronisk form. Ett betalningsinstitut eller en registrerad betaltjänstleverantör eller den som är verksam i någon av de verksamheterna får inte obehörigen röja för kunden eller för någon utomstående att en myndighet har gjort en begäran eller att uppgifter har lämnats enligt första stycket. Bestämmelser om ansvar för den som bryter mot tystnadsplikten enligt andra stycket finns i 20 kap. 3 § brottsbalken. Lag (2025:181)."
+    },
+    {
+      "provision_ref": "3:14",
+      "chapter": "3",
+      "section": "14",
+      "content": "Betalningsinstitut och registrerade betaltjänstleverantörer är skyldiga att lämna ut sådana uppgifter som avses i 12 § första stycket, om det 1. under en utredning enligt bestämmelserna om förundersökning i brottmål begärs av undersökningsledaren, 2. under en utredning om självständigt förverkande begärs av åklagaren, 3. i ett ärende om rättslig hjälp i brottmål begärs av åklagaren på framställning av en annan stat eller en mellanfolklig domstol, eller 4. i ett ärende om erkännande och verkställighet av en europeisk utredningsorder begärs av åklagaren. Uppgifterna ska lämnas ut utan dröjsmål och i elektronisk form. Lag (2024:862). Meddelandeförbud"
+    },
+    {
+      "provision_ref": "3:15",
+      "chapter": "3",
+      "section": "15",
+      "content": "Den undersökningsledare eller åklagare som begär uppgifter enligt 14 § får besluta att betalningsinstitutet eller den registrerade betaltjänstleverantören samt dess styrelseledamöter och anställda inte får röja för kunden eller för någon utomstående att uppgifter har lämnats enligt 14 § eller att det pågår en förundersökning, en utredning om självständigt förverkande, ett ärende om rättslig hjälp i brottmål eller ett ärende om erkännande och verkställighet av en europeisk utredningsorder. Ett sådant förbud får meddelas om det krävs för att en utredning om brott eller självständigt förverkande inte ska äventyras eller för att uppfylla en internationell överenskommelse som är bindande för Sverige. Förbudet ska vara tidsbegränsat, med möjlighet till förlängning, och får inte avse längre tid än vad som är motiverat med hänsyn till syftet med förbudet. I ett ärende om rättslig hjälp i brottmål eller om erkännande och verkställighet av en europeisk utredningsorder får dock förbudet tidsbegränsas bara om den stat eller mellanfolkliga domstol som ansökt om rättslig hjälp eller den utländska myndighet som har utfärdat utredningsordern samtycker till detta. Om ett förbud inte längre är motiverat med hänsyn till syftet med förbudet, ska undersökningsledaren eller åklagaren besluta att förbudet ska upphöra. I fråga om europabolag och europakooperativ som har ett sådant förvaltningssystem som avses i artiklarna 39-42 i rådets förordning (EG) nr 2157/2001 eller artiklarna 37-41 i rådets förordning (EG) nr 1435/2003 ska det som anges om styrelseledamöter i första stycket tillämpas på ledamöter i tillsynsorganet. Lag (2024:862). Ansvarsbestämmelse"
+    },
+    {
+      "provision_ref": "3:16",
+      "chapter": "3",
+      "section": "16",
+      "content": "Till böter döms den som uppsåtligen eller av grov oaktsamhet bryter mot ett meddelandeförbud enligt 15 §. Tillhandahållande av betaltjänster genom ombud"
+    },
+    {
+      "provision_ref": "3:17",
+      "chapter": "3",
+      "section": "17",
+      "content": "Om ett betalningsinstitut vill tillhandahålla betaltjänster genom ombud, ska betalningsinstitutet anmäla ombudet för registrering hos Finansinspektionen. En sådan anmälan behöver inte göras när det gäller kontoinformationstjänster. Anmälan ska innehålla 1. ombudets namn, adress och personnummer eller motsvarande samt ombudets unika identifikationskod eller identifikationsnummer om sådana uppgifter finns, 2. om ombudet är en juridisk person, dessutom namn, personnummer eller motsvarande samt adress för var och en som ingår i ombudets styrelse eller är dess verkställande direktör, 3. uppgifter som visar att de personer som avses i 2 är lämpliga för en sådan uppgift eller, om ombudet är en fysisk person, att han eller hon är lämplig att tillhandahålla betaltjänster, 4. ombudets interna regler för hur ombudet ska leva upp till de krav som anges i lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism, och 5. uppgifter om vilka betaltjänster ombudet har i uppdrag att tillhandahålla. Om anmälan uppfyller kraven i andra stycket ska Finansinspektionen registrera ombudet i det register som inspektionen för enligt 8 kap. 5 §. Beslut i fråga om registrering ska fattas inom två månader från det att anmälan togs emot. Ombudet får inte tillhandahålla betaltjänster innan registrering enligt tredje stycket har gjorts. Lag (2025:253). Tillhandahållande av betaltjänster i ett annat land inom EES genom ombud"
+    },
+    {
+      "provision_ref": "3:18",
+      "chapter": "3",
+      "section": "18",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör som vill tillhandahålla betaltjänster genom ombud i ett annat land inom EES, ska underrätta Finansinspektionen om detta. Underrättelsen ska innehålla 1. uppgifter om betaltjänstleverantörens namn och adress, 2. uppgift om i vilket land verksamheten ska drivas, och 3. de uppgifter som anges i 17 § andra stycket. Betaltjänstleverantören ska underrätta Finansinspektionen om vilken dag tillhandahållandet av betaltjänster genom ombudet påbörjas i det andra landet. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "3:18 a",
+      "chapter": "3",
+      "section": "18 a",
+      "content": "Inom en månad från det att en underrättelse enligt 18 § första eller tredje stycket togs emot ska Finansinspektionen lämna över den till den behöriga myndigheten i det land där ombudet ska verka. Finansinspektionen ska inom tre månader från det att en underrättelse enligt 18 § första stycket togs emot underrätta den behöriga myndigheten i det andra landet och betaltjänstleverantören om sitt beslut i fråga om registrering. Om Finansinspektionen och den behöriga myndigheten i det andra landet inte har samma uppfattning i frågan om registrering, ska underrättelsen även innehålla skälen för beslutet. Finansinspektionen ska vägra att registrera ett ombud eller återkalla en utförd registrering, om det inte är lämpligt att betaltjänstleverantören anlitar ombudet. Finansinspektionen ska vid denna bedömning beakta den information som inspektionen tagit emot från den behöriga myndigheten i det andra landet. Lag (2018:175). Svenska betaltjänstleverantörers filialverksamhet inom EES"
+    },
+    {
+      "provision_ref": "3:19",
+      "chapter": "3",
+      "section": "19",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör som avser att tillhandahålla betaltjänster genom en filial i ett annat land inom EES ska underrätta Finansinspektionen innan verksamheten påbörjas. Underrättelsen ska innehålla 1. uppgifter om betaltjänstleverantörens namn och adress, 2. uppgift om i vilket land filialen ska inrättas, 3. uppgifter om vilka betaltjänster filialen avser att tillhandahålla, och 4. en beskrivning av filialens organisatoriska struktur och vilka som är ansvariga för ledningen av filialen. Betaltjänstleverantören ska underrätta Finansinspektionen om vilken dag tillhandahållandet av betaltjänster genom filialen påbörjas i det andra landet. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "3:20",
+      "chapter": "3",
+      "section": "20",
+      "content": "Inom en månad från det att en underrättelse enligt 19 § första eller tredje stycket togs emot ska Finansinspektionen lämna över den till den behöriga myndigheten i det land där filialen ska inrättas. Finansinspektionen ska inom tre månader från det att en underrättelse enligt 19 § första stycket togs emot underrätta den behöriga myndigheten i det andra landet och betaltjänstleverantören om sitt beslut i fråga om registrering. Om Finansinspektionen och den behöriga myndigheten i det andra landet inte har samma uppfattning i frågan om registrering, ska underrättelsen även innehålla skälen för beslutet. Finansinspektionen ska vägra att registrera en filial eller återkalla en utförd registrering, om det inte är lämpligt att betaltjänstleverantören inrättar filialen. Finansinspektionen ska vid denna bedömning beakta den information som inspektionen tagit emot från den behöriga myndigheten i det andra landet. Lag (2018:175). Svenska betaltjänstleverantörers gränsöverskridande verksamhet inom EES"
+    },
+    {
+      "provision_ref": "3:21",
+      "chapter": "3",
+      "section": "21",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör som avser att från Sverige tillhandahålla betaltjänster i ett annat land inom EES ska underrätta Finansinspektionen innan verksamheten påbörjas. Underrättelsen ska innehålla 1. uppgifter om betaltjänstleverantörens namn och adress, 2. uppgift om i vilket land leverantören ska driva sin verksamhet, och 3. uppgifter om vilka betaltjänster leverantören avser att tillhandahålla. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "3:22",
+      "chapter": "3",
+      "section": "22",
+      "content": "Inom en månad från det att en underrättelse enligt 21 § togs emot ska Finansinspektionen lämna över den till den behöriga myndigheten i det land där verksamheten ska bedrivas. Svenska betaltjänstleverantörers filialverksamhet utanför EES"
+    },
+    {
+      "provision_ref": "3:23",
+      "chapter": "3",
+      "section": "23",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör får efter tillstånd av Finansinspektionen inrätta en filial i ett land utanför EES. Ansökan om tillstånd ska innehålla 1. en plan för den avsedda verksamheten med uppgifter om filialens organisation och de tjänster som den avser att tillhandahålla, och 2. uppgifter om i vilket land filialen ska inrättas, om filialens adress och ansvariga ledning. Lag (2025:253). Informationskrav"
+    },
+    {
+      "provision_ref": "3:24",
+      "chapter": "3",
+      "section": "24",
+      "content": "Betalningsinstitut ska säkerställa att ombud som agerar för deras räkning informerar betaltjänstanvändarna om detta förhållande. Detta gäller inte för kontoinformationstjänster. Ett betalningsinstitut som driver betaltjänstverksamhet genom en filial enligt detta kapitel ska säkerställa att filialen informerar betaltjänstanvändarna om detta förhållande. Lag (2025:253). Skyldighet att underrätta Finansinspektionen om ändringar i verksamheten"
+    },
+    {
+      "provision_ref": "3:25",
+      "chapter": "3",
+      "section": "25",
+      "content": "Om ett betalningsinstitut eller en registrerad betaltjänstleverantör avser att ändra den verksamhet som avses i 18, 19, 21 eller 23 § ska institutet eller leverantören underrätta Finansinspektionen innan ändringen genomförs. Detsamma gäller om ett betalningsinstitut avser att ändra den verksamhet som avses i 17 §. Om ändringen rör ett betalningsinstituts verksamhet i ett annat land, ska Finansinspektionen inom en månad från det att underrättelsen togs emot underrätta den behöriga myndigheten i det andra landet om ändringen. Lag (2025:253). Särskilda bestämmelser om utländska företag hemmahörande inom EES"
+    },
+    {
+      "provision_ref": "3:26",
+      "chapter": "3",
+      "section": "26",
+      "content": "Ett utländskt företag som hör hemma inom EES och som i hemlandet har tillstånd att tillhandahålla betaltjänster behöver inte tillstånd enligt 2 kap. för att tillhandahålla betaltjänster i Sverige. Ett utländskt företag som hör hemma inom EES och som i hemlandet har undantagits från tillståndsplikt för att tillhandahålla betaltjänster behöver inte tillstånd enligt 2 kap. för att tillhandahålla kontoinformationstjänster i Sverige. Ett utländskt företag som avses i första och andra styckena får tillhandahålla betaltjänster genom ombud eller filial i Sverige efter det att Finansinspektionen har tagit emot ett beslut från den behöriga myndigheten i det land där företaget hör hemma om att ombudet eller filialen har registrerats av den myndigheten. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "3:27",
+      "chapter": "3",
+      "section": "27",
+      "content": "När Finansinspektionen har tagit emot en underrättelse från en myndighet i ett annat land inom EES om att ett utländskt företag avser att tillhandahålla betaltjänster i Sverige ska inspektionen, efter en bedömning av underrättelsen, inom en månad lämna relevanta uppgifter till den behöriga myndigheten i det andra landet om det utländska företagets planerade tillhandahållande av betaltjänster här i landet. Om de planerade betaltjänsterna ska tillhandahållas genom ett ombud eller en filial, ska det av uppgifterna särskilt framgå 1. om Finansinspektionen har skälig anledning att anta att anlitandet av ombudet eller filialen kan öka risken för penningtvätt eller finansiering av terrorism, och 2. om ombudet är lämpligt att tillhandahålla betaltjänsterna. Lag (2025:634). Uppdragsavtal"
+    },
+    {
+      "provision_ref": "3:28",
+      "chapter": "3",
+      "section": "28",
+      "content": "Ett betalningsinstitut eller en registrerad betaltjänstleverantör får uppdra åt någon annan att utföra ett visst arbete eller vissa operativa funktioner som ingår i dess verksamhet med betaltjänster. Betalningsinstitutet ska anmäla sådana uppdragsavtal till Finansinspektionen. En sådan anmälan behöver inte göras när det gäller kontoinformationstjänster. Uppdrag åt någon annan att utföra sådana funktioner som är av väsentlig betydelse för betaltjänstverksamheten får bara ges om betalningsinstitutet eller den registrerade betaltjänstleverantören ansvarar för att 1. verksamheten drivs av uppdragstagaren under kontrollerade och säkerhetsmässigt betryggande former, och 2. uppdraget inte väsentligt försämrar kvaliteten på betalningsinstitutets eller den registrerade betaltjänstleverantörens internkontroll och Finansinspektionens möjligheter att övervaka att betalningsinstitutet eller den registrerade betaltjänstleverantören följer de regler som gäller för verksamheten. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "3:28 a",
+      "chapter": "3",
+      "section": "28 a",
+      "content": "Om ett betalningsinstitut avser att ändra den uppdragsverksamhet som avses i 28 §, ska institutet anmäla detta till Finansinspektionen innan ändringen genomförs. Om ändringen rör ett betalningsinstituts verksamhet i ett annat land inom EES, ska Finansinspektionen inom en månad från det att anmälan togs emot underrätta den behöriga myndigheten i det andra landet om ändringen. Lag (2025:253). Bemyndiganden"
+    },
+    {
+      "provision_ref": "3:29",
+      "chapter": "3",
+      "section": "29",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om 1. beräkningen av kapitalkrav enligt 2 § första stycket, 2. hur betalningsinstitut ska hantera medel enligt 6 §, 3. hur betalningsinstitut ska hantera de medel för genomförandet av betalningstransaktioner som avses i 7 § andra stycket och hur stor andel av medlen hos betalningsinstitut som omfattas av skyddskraven enligt 7 § tredje stycket, 4. vilka uppgifter som ska anses relevanta enligt 8 §, 5. hur uppgifter enligt 13 a § första stycket och 14 § ska lämnas, och 6. vad ett betalningsinstitut eller en registrerad betaltjänstleverantör ska iaktta och vilka krav betalningsinstitutet eller den registrerade betaltjänstleverantören ska uppfylla vid uppdragsavtal enligt 28 §. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "4:1",
+      "chapter": "4",
+      "section": "1",
+      "title": "Avgifter för information",
+      "content": "En betaltjänstleverantör får inte ta ut någon avgift av en betaltjänstanvändare för att tillhandahålla information enligt detta kapitel. En betaltjänstleverantör får dock, om leverantören och betaltjänstanvändaren kommit överens om det, ta ut avgifter för information som lämnas på begäran av användaren och som är mer omfattande eller ges mer frekvent än enligt detta kapitel eller för information som ges med hjälp av andra kommunikationsmedel än de som anges i ett ramavtal. Avgifter enligt andra stycket ska vara skäliga och motsvara betaltjänstleverantörens faktiska kostnader. Information om avgifter i vissa fall Information om extra avgifter eller nedsättning av avgift"
+    },
+    {
+      "provision_ref": "4:2",
+      "chapter": "4",
+      "section": "2",
+      "content": "Om betalningsmottagaren erbjuder en nedsättning av en avgift vid användning av ett visst betalningsinstrument, ska mottagaren informera betalaren om detta innan betalningstransaktionen påbörjas. Om en betaltjänstleverantör begär en avgift vid användning av ett visst betalningsinstrument, ska denne informera betaltjänstanvändaren om det sammanlagda avgiftsbeloppet innan betalningstransaktionen påbörjas. Om sådan information inte lämnas är betaltjänstanvändaren inte skyldig att betala avgiften. Lag (2018:175). Valuta och valutaväxling"
+    },
+    {
+      "provision_ref": "4:3",
+      "chapter": "4",
+      "section": "3",
+      "content": "Om valutaväxling erbjuds före påbörjandet av betalningstransaktionen på platsen för försäljningen eller av betalningsmottagaren, ska den som erbjuder betalaren denna tjänst informera betalaren om alla avgifter för tjänsten samt om den växelkurs som ska användas. Detsamma gäller om valutaväxling erbjuds i en uttagsautomat. Betalaren ska godkänna valutaväxlingstjänsten innan betalningstransaktionen genomförs. Lag (2018:175). Informationsskyldighet vid enstaka betaltjänster Information om konsumenters rättigheter"
+    },
+    {
+      "provision_ref": "4:3 a",
+      "chapter": "4",
+      "section": "3 a",
+      "content": "En betaltjänstleverantör ska se till att informationsmaterial om konsumenters rättigheter som utarbetats av Europeiska kommissionen görs tillgängligt för betaltjänstanvändare i enlighet med föreskrifter som har meddelats med stöd av 22 §. Lag (2018:175). Förhandsinformation"
+    },
+    {
+      "provision_ref": "4:4",
+      "chapter": "4",
+      "section": "4",
+      "content": "Innan ett avtal om en enstaka betalningstransaktion ingås, ska betaltjänstleverantören informera betaltjänstanvändaren om 1. vilka uppgifter som användaren ska uppge för att en betalningsorder ska kunna utföras korrekt, 2. hur lång tid det som längst tar att genomföra transaktionen, och 3. det sammanlagda avgiftsbeloppet som användaren ska betala till leverantören för transaktionen. Betaltjänstleverantören ska även ge betaltjänstanvändaren detaljerad information om avgiftsbeloppet enligt första stycket 3, när de olika avgifterna lätt kan särskiljas och redovisas separat. Om betalningstransaktionen innebär valutaväxling ska leverantören ge användaren information om den faktiska växelkurs eller referensväxelkurs som ska gälla för betalningstransaktionen. Leverantören ska också göra information enligt 10 § tillgänglig för användaren."
+    },
+    {
+      "provision_ref": "4:4 a",
+      "chapter": "4",
+      "section": "4 a",
+      "content": "Innan en betalningsorder initieras ska leverantören av betalningsinitieringstjänster, utöver vad som anges i 4 §, informera betaltjänstanvändaren om 1. leverantörens namn och adress samt besöksadressen till huvudkontoret, 2. besöksadressen till leverantörens ombud eller filial i det land inom EES där betaltjänsten erbjuds, om tjänsterna tillhandahålls genom ombud eller filial, 3. övriga kontaktuppgifter som är relevanta för kommunikation med leverantören, och 4. kontaktuppgifter till Finansinspektionen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "4:4 b",
+      "chapter": "4",
+      "section": "4 b",
+      "content": "Innan ett avtal om ett enstaka tillhandahållande av en kontoinformationstjänst ingås, ska leverantören av kontoinformationstjänster informera betaltjänstanvändaren om 1. vilka uppgifter användaren ska lämna för att kontoinformationstjänsten ska kunna utföras korrekt, 2. hur lång tid det längst tar att utföra tjänsten, och 3. det sammanlagda avgiftsbeloppet som användaren ska betala till leverantören för tjänsten. Leverantören ska ge betaltjänstanvändaren detaljerad information om avgiftsbeloppet enligt första stycket 3, om de olika avgifterna lätt kan särskiljas och redovisas separat. Leverantören ska göra information enligt 10 § tillgänglig för användaren. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "4:5",
+      "chapter": "4",
+      "section": "5",
+      "content": "Information enligt 4-4 b §§ ska tillhandahållas på ett lättillgängligt sätt och vara tydlig och lätt att förstå. Den ska vara på svenska eller på något annat språk som parterna kommer överens om. På begäran av betaltjänstanvändaren ska informationen tillhandahållas på papper eller något annat varaktigt medium. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "4:6",
+      "chapter": "4",
+      "section": "6",
+      "content": "Om ett avtal om en enstaka betalningstransaktion ingås på distans på begäran av betaltjänstanvändaren, och detta gör att betaltjänstleverantören inte kan uppfylla kraven i 4, 4 a och 5 §§, ska dessa krav i stället uppfyllas av denne omedelbart efter det att betaltjänsten har genomförts. Lag (2018:175). Information till betalaren"
+    },
+    {
+      "provision_ref": "4:7",
+      "chapter": "4",
+      "section": "7",
+      "content": "Så snart som möjligt efter det att en betalningsorder har tagits emot ska betalarens kontoförvaltande betaltjänstleverantör tillhandahålla betalaren följande information: 1. en uppgift som gör det möjligt att identifiera betalningstransaktionen samt, när det är lämpligt, uppgifter som avser betalningsmottagaren, 2. transaktionens belopp i den valuta som används i betalningsordern, 3. det avgiftsbelopp som betalaren ska betala till leverantören för transaktionen, och 4. datum när betalningsordern togs emot. Leverantören ska även ge betalaren detaljerad information om avgiftsbeloppet enligt första stycket 3, när de olika avgifterna lätt kan särskiljas och redovisas separat. Om betalningstransaktionen innebär valutaväxling ska leverantören ge betalaren information om den faktiska växelkurs eller referensväxelkurs som ska gälla för transaktionen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "4:7 a",
+      "chapter": "4",
+      "section": "7 a",
+      "content": "Leverantören av en betalningsinitieringstjänst ska tillhandahålla betalaren följande information omedelbart efter det att en betalningsorder initierats: 1. en bekräftelse på att betalningsordern initierats med betalarens kontoförvaltande betaltjänstleverantör, 2. en uppgift som gör det möjligt att identifiera betalningstransaktionen, 3. den information som överförts tillsammans med betalningstransaktionen, 4. transaktionens belopp, och 5. det avgiftsbelopp som ska betalas till leverantören av betalningsinitieringstjänster för transaktionen. Leverantören ska ge betalaren detaljerad information om avgiftsbeloppet enligt första stycket 5, om de olika avgifterna lätt kan särskiljas och redovisas separat. Uppgift enligt första stycket 2 ska göras tillgänglig för betalarens kontoförvaltande betaltjänstleverantör. Lag (2018:175). Information till betalningsmottagaren"
+    },
+    {
+      "provision_ref": "4:8",
+      "chapter": "4",
+      "section": "8",
+      "content": "Så snart som möjligt efter det att betalningstransaktionen har genomförts ska betalningsmottagarens betaltjänstleverantör tillhandahålla mottagaren följande information: 1. uppgifter som gör det möjligt för mottagaren att identifiera transaktionen och, när det är lämpligt, uppgift om betalaren samt information som har bifogats transaktionen, 2. transaktionens belopp i den valuta som används i betalningsordern, 3. det avgiftsbelopp som mottagaren ska betala till leverantören för transaktionen, och 4. valuteringsdagen för krediteringen. Leverantören ska även ge betalningsmottagaren detaljerad information om avgiftsbeloppet enligt första stycket 3, när de olika avgifterna lätt kan särskiljas och redovisas separat. Om betalningstransaktionen innebär valutaväxling ska leverantören ge betalningsmottagaren information om den växelkurs som har använts vid transaktionen samt transaktionens belopp före valutaväxling."
+    },
+    {
+      "provision_ref": "4:8 a",
+      "chapter": "4",
+      "section": "8 a",
+      "content": "Leverantören av en betalningsinitieringstjänst ska tillhandahålla betalningsmottagaren följande information omedelbart efter det att en betalningsorder har initierats: 1. en uppgift som gör det möjligt för betalningsmottagaren att identifiera betalaren och betalningstransaktionen, och 2. den information som överförts tillsammans med betalningstransaktionen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "4:9",
+      "chapter": "4",
+      "section": "9",
+      "content": "Betaltjänstleverantören är inte skyldig att lämna eller göra information tillgänglig enligt 4 och 5-8 §§, om sådan information redan ges eller kommer att ges till betaltjänstanvändaren på grundval av ett ramavtal mellan användaren och en annan betaltjänstleverantör. Lag (2018:175). Informationsskyldighet vid ramavtal Förhandsinformation"
+    },
+    {
+      "provision_ref": "4:10",
+      "chapter": "4",
+      "section": "10",
+      "content": "I rimlig tid innan ett ramavtal ingås ska betaltjänstleverantören ge betaltjänstanvändaren följande information: 1. leverantörens namn och adress och, i tillämpliga fall, adress till dess ombud eller filial, 2. uppgift om att leverantören har tillstånd att tillhandahålla betaltjänster och att leverantören, dess filialer och ombud har registrerats hos behörig myndighet, 3. en beskrivning av det huvudsakliga innehållet i den betaltjänst som tillhandahålls, 4. vilka uppgifter användaren ska lämna för att en betalningsorder eller en kontoinformationstjänst ska kunna utföras korrekt, 5. hur ett godkännande att initiera en betalningsorder eller genomföra en betalningstransaktion ges samt hur det kan återkallas enligt 5 kap. 35-37 §§, 6. när en betalningsorder ska anses mottagen enligt 5 kap. 31 § första stycket, 7. tidpunkter för mottagande av en order enligt 5 kap. 31 § tredje stycket, om sådana har fastställts av leverantören, 8. hur lång tid det som längst tar att genomföra en transaktion eller en kontoinformationstjänst, 9. möjligheten att avtala om begränsningar i användningen av betalningsinstrumentet enligt 19 §, 10. när det gäller kortbaserade betalningsinstrument, information om de rättigheter som följer av artikel 8.2 i Europaparlamentets och rådets förordning (EU) 2015/751 av den 29 april 2015 om förmedlingsavgifter för kortbaserade betalningstransaktioner, 11. vilka avgifter användaren ska betala till leverantören och, när det är tillämpligt, detaljuppgifter om dessa, 12. de räntor och växelkurser som ska tillämpas eller, om referensräntesatser och referensväxelkurser ska användas, metoden för beräkning av den faktiska räntan och relevant dag, index eller underlag för att bestämma referensräntan eller referensväxelkursen, 13. sådan omedelbar tillämpning av ändrade räntesatser eller växelkurser som kan avtalas om enligt 14 § samt de informationskrav som är förenade med detta, 14. i förekommande fall, de kommunikationsmedel som ska användas för överföring av information och underrättelser mellan parterna, inklusive tekniska krav på användarens utrustning, 15. hur ofta och på vilket sätt information enligt denna lag ska lämnas till eller göras tillgänglig för användaren, 16. vilket språk som ska användas i ramavtalet samt på vilket språk kommunikationen mellan leverantören och användaren ska ske, 17. användarens rätt att få ramavtalets villkor samt information enligt 13 §, 18. de åtgärder som användaren ska vidta för att skydda betalningsinstrumentet och hur användaren ska anmäla att ett betalningsinstrument kommit bort eller obehörigen använts, 19. vilka åtgärder betaltjänstleverantören vidtar för att på ett säkert sätt underrätta betaltjänstanvändaren om obehörig användning och säkerhetsrisker, 20. i förekommande fall, under vilka omständigheter leverantören förbehåller sig rätten att spärra ett betalningsinstrument enligt 5 kap. 4 §, 21. betalarens ansvar enligt 5 a kap., 22. hur och inom vilken tidsfrist användaren ska underrätta leverantören om felaktigt genomförda betalningstransaktioner eller obehöriga transaktioner, 23. leverantörens ansvar för initiering eller genomförande av transaktioner enligt 5 kap. 47-53 §§, 24. villkoren för återbetalning enligt 5 kap. 28-30 §§, 25. i förekommande fall, uppgift om att användaren ska anses ha godkänt de ändrade villkoren enligt 14 § om användaren inte före den dag då de föreslås träda i kraft underrättar leverantören om att användaren inte godkänner dem, 26. avtalets löptid, 27. uppsägningstider och avgifter för uppsägning enligt 14 § tredje stycket eller 15 §, 28. eventuella avtalsbestämmelser om vilket lands lag som ska tillämpas för ramavtalet och om vilken domstol som är behörig, och 29. vilka förfaranden för klagomål och prövning utanför domstol som finns för användaren. Lag (2018:175). Tillgång till information och villkor enligt ramavtalet"
+    },
+    {
+      "provision_ref": "4:11",
+      "chapter": "4",
+      "section": "11",
+      "content": "Information enligt 10 § ska tillhandahållas på papper eller annat varaktigt medium, uttryckas på ett lättillgängligt sätt och vara tydlig och lätt att förstå. Den ska vara på svenska eller på annat språk som parterna kommer överens om."
+    },
+    {
+      "provision_ref": "4:12",
+      "chapter": "4",
+      "section": "12",
+      "content": "Om ett ramavtal ingås på distans på begäran av betaltjänstanvändaren, och detta gör att betaltjänstleverantören inte kan uppfylla kraven i 10 och 11 §§, ska dessa krav i stället uppfyllas av denne omedelbart efter det att ramavtalet har ingåtts."
+    },
+    {
+      "provision_ref": "4:13",
+      "chapter": "4",
+      "section": "13",
+      "content": "Betaltjänstanvändaren har under avtalsförhållandet alltid rätt att på begäran få avtalsvillkoren för ramavtalet samt den information som anges i 10 § i en handling eller i någon annan läsbar och varaktig form som är tillgänglig för användaren. Ändringar av villkoren enligt ramavtalet"
+    },
+    {
+      "provision_ref": "4:14",
+      "chapter": "4",
+      "section": "14",
+      "content": "En betaltjänstleverantör och en betaltjänstanvändare kan komma överens om att en användare ska bli bunden av en villkorsändring som leverantören föreslår, om användaren inte före den dag då ändringen föreslås träda i kraft meddelar leverantören att han inte accepterar det nya villkoret. Leverantören måste föreslå ändringar, på det sätt som anges i 11 §, minst två månader innan de ska börja tillämpas. Ändrade räntesatser eller växelkurser får tillämpas omedelbart, om leverantören och användaren kommit överens om detta och ändringen grundas på den avtalade referensräntesatsen eller referensväxelkursen. Användaren ska dock snarast möjligt på det sätt som anges i 11 § underrättas om att leverantören tillämpar en ny räntesats, om inte parterna har avtalat att informationen ska lämnas eller göras tillgänglig med en viss regelbundenhet eller på ett visst sätt. Användaren har rätt att med omedelbar verkan och avgiftsfritt säga upp ramavtalet före den dag då ändringen föreslås bli tillämplig. Användaren ska informeras om detta när leverantören föreslår ändringen. Uppsägning av ramavtal"
+    },
+    {
+      "provision_ref": "4:15",
+      "chapter": "4",
+      "section": "15",
+      "content": "Betaltjänstanvändaren får säga upp ramavtalet med omedelbar verkan, såvida inte parterna har kommit överens om en uppsägningstid. Betaltjänstleverantören får inte göra gällande en längre uppsägningstid för användaren än en månad. Om leverantören säger upp ett ramavtal som ingåtts på obestämd tid, ska uppsägningstiden vara minst två månader. Ett ramavtal som har ingåtts för en bestämd tid av mer än sex månader eller på obestämd tid ska kunna sägas upp avgiftsfritt av användaren efter sex månader. När leverantören får ta ut en avgift för uppsägningen, ska avgiften motsvara de faktiska kostnader som uppsägningen medför för leverantören. Periodiska avgifter för betaltjänster ska betalas endast för tiden fram till det att avtalet upphör att gälla. Om sådana avgifter har betalats i förskott, ska de betalas tillbaka i motsvarande omfattning. Lag (2018:175). Information innan en betalningstransaktion enligt ett ramavtal genomförs"
+    },
+    {
+      "provision_ref": "4:16",
+      "chapter": "4",
+      "section": "16",
+      "content": "När en betalare tar initiativ till en betalningstransaktion som omfattas av ett ramavtal ska betaltjänstleverantören, på begäran av betalaren, lämna följande uppgifter till betalaren innan transaktionen genomförs: 1. hur lång tid det som längst tar att genomföra transaktionen, och 2. det avgiftsbelopp som betalaren ska betala till leverantören för transaktionen. Leverantören ska även ge betalaren detaljerad information om avgiftsbeloppet enligt första stycket 2, när de olika avgifterna lätt kan särskiljas och redovisas separat. Information till betalaren om en betalningstransaktion enligt ett ramavtal"
+    },
+    {
+      "provision_ref": "4:17",
+      "chapter": "4",
+      "section": "17",
+      "content": "Efter det att betalarens betalkonto har debiterats eller, om betalaren inte använder något betalkonto, efter det att betalaren lämnat en betalningsorder till betaltjänstleverantören ska denne utan onödigt dröjsmål och på det sätt som anges i 11 §, tillhandahålla följande information till betalaren: 1. uppgifter som gör det möjligt att identifiera betalningstransaktionen samt, när det är lämpligt, uppgifter som avser betalningsmottagaren, 2. transaktionens belopp i den valuta som används i betalningsordern, 3. det avgiftsbelopp som betalaren ska betala till leverantören för transaktionen, och 4. uppgift om valuteringsdag för debitering eller datum när betalningsordern togs emot. Leverantören ska även ge betalaren detaljerad information om avgiftsbeloppet enligt första stycket 3, när de olika avgifterna lätt kan särskiljas och redovisas separat. Om betalningstransaktionen innebär valutaväxling ska leverantören ge betalaren information om den faktiska växelkurs eller referensväxelkurs som ska gälla för transaktionen. Ramavtal får innehålla villkor att den information som avses i första stycket inte ska behöva göras tillgänglig mer än en gång i månaden. Den ska lämnas eller göras tillgänglig på ett överenskommet sätt så att betalaren kan lagra och återskapa informationen oförändrad. På begäran av betalaren ska betaltjänstleverantören en gång i månaden avgiftsfritt tillhandahålla information enligt första stycket i pappersform. Information till betalningsmottagaren om en betalningstransaktion enligt ett ramavtal"
+    },
+    {
+      "provision_ref": "4:18",
+      "chapter": "4",
+      "section": "18",
+      "content": "När en betalningstransaktion har genomförts ska betalningsmottagarens betaltjänstleverantör utan onödigt dröjsmål och på det sätt som anges i 11 §, tillhandahålla följande information till betalningsmottagaren: 1. en uppgift som gör det möjligt att identifiera transaktionen samt, när det är lämpligt, information som överförts tillsammans med betalningstransaktionen, 2. transaktionens belopp i den valuta som krediteras betalningsmottagarens betalkonto, 3. det avgiftsbelopp som mottagaren ska betala till leverantören för transaktionen och den ränta som betalningsmottagaren eventuellt ska betala, och 4. valuteringsdagen för krediteringen. Leverantören ska även ge betalningsmottagaren detaljerad information om avgiftsbeloppet enligt första stycket 3, när de olika avgifterna lätt kan särskiljas och redovisas separat. Om betalningstransaktionen innebär valutaväxling ska leverantören ge betalningsmottagaren information om den växelkurs som har använts vid transaktionen samt transaktionens belopp före valutaväxling. Ramavtal får innehålla villkor att den information som avses i första stycket inte ska behöva göras tillgänglig mer än en gång i månaden. Den ska lämnas eller göras tillgänglig på ett överenskommet sätt så att betalningsmottagaren kan lagra och återskapa informationen oförändrad. På begäran av betalningsmottagaren ska betaltjänstleverantören en gång i månaden avgiftsfritt tillhandahålla denna information i pappersform. Undantag från kraven på information"
+    },
+    {
+      "provision_ref": "4:19",
+      "chapter": "4",
+      "section": "19",
+      "content": "En betaltjänstleverantör är inte skyldig att lämna information enligt 10 och 16 §§ vid tillhandahållande av betaltjänster som genomförs med användning av elektroniska pengar eller betalningsinstrument som enligt ramavtal bara 1. kan användas för enskilda betalningstransaktioner till ett belopp motsvarande högst 30 euro, 2. kan användas för betalningar upp till ett totalt belopp motsvarande högst 150 euro, eller 3. lagrar medel som inte vid något tillfälle överstiger ett belopp motsvarande 150 euro. En betaltjänstleverantör är dock skyldig att, innan betaltjänster enligt första stycket tillhandahålls, lämna information till betalaren om 1. hur betalningsinstrumentet kan användas, 2. ansvar för obehöriga betalningstransaktioner, 3. avgifter, och 4. var betalaren på ett lättillgängligt sätt kan finna den information som anges i 10 §. För betaltjänster enligt första stycket får betaltjänstanvändaren och betaltjänstleverantören komma överens om att leverantören inte behöver följa bestämmelserna om 1. hur villkor i ramavtal ändras enligt 14 §, eller 2. information till betaltjänstanvändare vid enskilda betalningstransaktioner enligt 17 och 18 §§. I de fall som avses i tredje stycket 2 ska betaltjänstleverantören dock tillhandahålla eller göra tillgänglig en hänvisning som gör det möjligt för betaltjänstanvändaren att identifiera betalningstransaktionen, betalningstransaktionens belopp och avgifter. Om betalningsinstrumentet används anonymt eller om leverantören av andra skäl inte har tekniska möjligheter att tillhandahålla informationen, behöver leverantören inte tillhandahålla eller göra tillgänglig en sådan hänvisning. Leverantören ska dock ge betalaren möjlighet att kontrollera det belopp som har lagrats på betalningsinstrumentet. Möjlighet att avvika från bestämmelserna"
+    },
+    {
+      "provision_ref": "4:20",
+      "chapter": "4",
+      "section": "20",
+      "content": "En betaltjänstleverantör får komma överens med en betaltjänstanvändare som inte är konsument om avvikelser från bestämmelserna i detta kapitel. Lag (2018:175). Ytterligare bestämmelser om informationskrav i vissa fall"
+    },
+    {
+      "provision_ref": "4:20 a",
+      "chapter": "4",
+      "section": "20 a",
+      "content": "Ytterligare bestämmelser om informationskrav för betaltjänstleverantörer och parter som tillhandahåller valutaväxlingstjänster i en uttagsautomat eller på försäljningsstället finns i Europaparlamentets och rådets förordning (EU) 2021/1230 av den 14 juli 2021 om gränsöverskridande betalningar i unionen. Lag (2024:392). Påföljd vid utebliven information"
+    },
+    {
+      "provision_ref": "4:21",
+      "chapter": "4",
+      "section": "21",
+      "content": "Om information inte lämnas i enlighet med 3-6, 10-13 och 19 §§, ska även marknadsföringslagen (2008:486) tillämpas, med undantag av bestämmelserna i 29-36 §§ om marknadsstörningsavgift. Sådan information ska anses vara väsentlig enligt 10 § tredje stycket den lagen. Lag (2018:175). Bevisbörda"
+    },
+    {
+      "provision_ref": "4:21 a",
+      "chapter": "4",
+      "section": "21 a",
+      "content": "En betaltjänstleverantör ska kunna styrka att information har lämnats i enlighet med detta kapitel. Lag (2022:723). Bemyndiganden"
+    },
+    {
+      "provision_ref": "4:22",
+      "chapter": "4",
+      "section": "22",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om hur betaltjänstleverantörer ska göra det informationsmaterial om konsumenters rättigheter som avses i 3 a § tillgängligt för betaltjänstanvändare. Lag (2018:175). 4 a kap. Betalkonto Skyldighet att tillhandahålla betalkonto med grundläggande funktioner 1 § Ett kreditinstitut eller en filial till ett utländskt kreditinstitut får inte vägra en konsument som är lagligen bosatt inom EES att öppna ett betalkonto med sådana grundläggande funktioner enligt 2 § som institutet eller filialen tillhandahåller andra konsumenter. Första stycket gäller inte om det skulle strida mot lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism eller om det finns särskilda skäl mot att tillhandahålla konsumenten ett betalkonto. Lag (2022:1704). Grundläggande funktioner 2 § Med grundläggande funktioner avses 1. tjänster som krävs för att öppna, inneha och avsluta ett betalkonto, 2. tjänster som gör det möjligt att sätta in medel på ett betalkonto, 3. tjänster som gör det möjligt att inom EES över disk eller i uttagsautomater ta ut kontanter från ett betalkonto, och 4. utförande av följande betalningstransaktioner inom EES: a) autogirering, b) betalningar genom ett debetkort, inbegripet betalningar online, samt c) betalningar, inbegripet stående överföringar, vid terminaler, över disk och via onlinetjänster. Ett kreditinstitut eller en filial till ett utländskt kreditinstitut som tillhandahåller en konsument ett betalkonto med grundläggande funktioner får inte begränsa det antal gånger konsumenten får använda de tjänster som är knutna till betalkontot. Lag (2022:1704). Behandlingen av en ansökan om betalkonto med grundläggande funktioner 3 § Ett kreditinstitut eller en filial till ett utländskt kreditinstitut ska behandla en ansökan från en konsument om betalkonto med grundläggande funktioner skyndsamt. Institutet eller filialen ska avgöra ärendet så snart som möjligt och senast inom tio bankdagar efter det att institutet eller filialen tagit emot en fullständig ansökan. Om institutet eller filialen avslår en ansökan, ska institutet eller filialen omedelbart underrätta konsumenten om beslutet och lämna information om vart han eller hon kan vända sig för att framföra klagomål eller få beslutet rättsligt prövat. Underrättelsen ska vara skriftlig och utan kostnad för konsumenten. Om det är möjligt, ska skälen för beslutet framgå av underrättelsen. Lag (2022:1704). Avgifter för betalkonto med grundläggande funktioner 4 § Ett kreditinstitut eller en filial till ett utländskt kreditinstitut får ta ut rimliga avgifter från en konsument för att tillhandahålla ett betalkonto med grundläggande funktioner. Lag (2022:1704). Förteckning över de mest representativa tjänsterna som är knutna till betalkonton i Sverige 4 a § Finansinspektionen ska ta fram och på sin webbplats offentliggöra en förteckning över de mest representativa tjänsterna som är knutna till betalkonton i Sverige och vid behov uppdatera den. I förteckningen ska de termer som har fastställts i enlighet med artikel 3.4 i betalkontodirektivet användas. Lag (2019:407). Information om tjänster och avgifter 4 b § En betaltjänstleverantör ska i sin information till konsumenter använda termerna i den förteckning som avses i 4 a §. Om betaltjänstleverantören i informationen använder namn på varumärken för att beteckna sina tjänster, ska motsvarande termer i förteckningen tydligt anges. Lag (2019:407). 5 § En betaltjänstleverantör ska i rimlig tid innan den ingår ett avtal om betalkonto ge konsumenten en sådan förteckning som avses i 4 a § och, i den utsträckning betaltjänst- leverantören tillhandahåller dessa tjänster, informera konsumenten om avgifterna för dem. Informationen ska lämnas i pappersform eller på annat varaktigt medium. Betaltjänstleverantören ska också hålla förteckningen och en ordlista som minst omfattar de begrepp som fastställts i förteckningen tillgängliga för konsumenten. Betaltjänstleverantören ska, utöver de informationskrav som följer av 4 kap. minst en gång per år ge konsumenten kostnadsfri information om aktuella avgifter och räntesatser för de tjänster som är knutna till betalkontot. Betaltjänstleverantören och konsumenten ska komma överens om på vilket sätt avgifterna ska redovisas. Redovisningen ska lämnas i pappersform om konsumenten begär det. Lag (2019:407). 5 a § När ett betalkonto erbjuds tillsammans med en annan produkt eller tjänst som en del av ett paket, ska betaltjänstleverantören informera konsumenten om huruvida det är möjligt att köpa de olika komponenterna separat och, i förekommande fall, förse konsumenten med uppgifter om kostnaderna och avgifterna för varje komponent. Lag (2019:407). Tillämpning av marknadsföringslagen 5 b § Om information inte lämnas i enlighet med 4 b, 5 och 5 a §§ ska marknadsföringslagen (2008:486) tillämpas, med undantag av bestämmelserna i 29-36 §§ om marknadsstörningsavgift. Vid tillämpningen av 10 § tredje stycket den lagen ska sådan information anses vara väsentlig. Lag (2019:407). Byte av betalkonto 6 § En betaltjänstleverantör ska ha rutiner för en konsuments byte av betalkonto i samma valuta mellan betaltjänstleverantören och en annan betaltjänstleverantör i Sverige. Rutinerna ska säkerställa att ett sådant byte kan genomföras snabbt och utan onödiga olägenheter för konsumenten. Betaltjänstleverantören ska informera konsumenten om rutinerna. Den betaltjänstleverantör som konsumenten vill öppna ett betalkonto hos ska på begäran av konsumenten kontakta den betaltjänstleverantör som konsumenten har ett betalkonto hos och se till att bytet genomförs. Bytet ska vara genomfört inom den tidsram som anges i artikel 10 i betalkontodirektivet. Om en konsument meddelar sin betaltjänstleverantör att han eller hon vill öppna ett betalkonto i ett annat land inom EES, ska betaltjänstleverantören bistå med viss information, överföring av medel och stängning av betalkontot. Detta ska ske inom den tidsram som anges i artikel 11 i betalkontodirektivet. Lag (2019:407). 7 § Avgifter, utöver de som avses i 4 kap. 15 §, som en betaltjänstleverantör tar ut av en konsument i samband med byte av betalkonto, ska vara rimliga och i linje med betaltjänstleverantörens faktiska kostnader. Vid byte av betalkonto får den betaltjänstleverantör som en konsument har ett betalkonto hos inte ta ut någon avgift för information om betalningstransaktioner. Lag (2019:407). 8 § En betaltjänstleverantör ska ersätta en konsument för ren förmögenhetsskada som uppstår som en direkt följd av att betaltjänstleverantören inte har fullgjort sina skyldigheter enligt 6 §. Ansvar enligt första stycket inträder inte i fall av osedvanliga eller oförutsägbara omständigheter som den som åberopar omständigheterna inte har något inflytande över och vars konsekvenser hade varit omöjliga att avvärja trots alla ansträngningar. Ansvar inträder inte heller då en betaltjänstleverantör handlar i enlighet med svensk lag eller unionsrätt. Lag (2017:342). Uppsägning av ett avtal om betalkonto med grundläggande funktioner 9 § Ett kreditinstitut eller en filial till ett utländskt kreditinstitut får säga upp ett avtal om betalkonto med grundläggande funktioner bara om 1. konsumenten avsiktligt har använt betalkontot för olagliga ändamål, 2. det inte har förekommit några transaktioner på betalkontot under de senaste 24 månaderna, 3. konsumenten har lämnat felaktiga uppgifter när betalkontot öppnades, och korrekta uppgifter skulle ha lett till att han eller hon inte hade fått öppna ett sådant konto, eller 4. det finns särskilda skäl. Om institutet eller filialen säger upp avtalet, ska institutet eller filialen underrätta konsumenten om detta och om vart han eller hon kan vända sig för att framföra klagomål eller få uppsägningen rättsligt prövad. Underrättelsen ska vara skriftlig och utan kostnad för konsumenten. Om det är möjligt, ska skälen för uppsägningen framgå av underrättelsen. Om institutet eller filialen säger upp avtalet med stöd av första stycket 2 eller 4, ska institutet eller filialen underrätta konsumenten minst två månader innan uppsägningen träder i kraft. En uppsägning med stöd av första stycket 1 eller 3 får omedelbar verkan. Lag (2022:1704). Bemyndiganden 10 § Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om 1. den information och redovisning som en betaltjänstleverantör ska lämna eller hålla tillgänglig enligt 5 §, 2. rutiner för byte av betalkonto enligt 6 §, och 3. vilka uppgifter om betalkonton med grundläggande funktioner som en betaltjänstleverantör ska lämna till Finansinspektionen. Lag (2017:342)."
+    },
+    {
+      "provision_ref": "5:1",
+      "chapter": "5",
+      "section": "1",
+      "title": "Avgifter",
+      "content": "En betaltjänstleverantör får inte ta ut någon avgift av en betaltjänstanvändare för fullgörandet av sin informationsskyldighet samt av skydds- och korrigeringsåtgärder enligt detta kapitel förutom i de fall som anges i 32, 37 och 45 §§. När avgifter får tas ut enligt någon av dessa bestämmelser ska de vara skäliga och motsvara betaltjänstleverantörens faktiska kostnader. I förhållandet mellan betalaren och betalningsmottagaren ska betalaren svara för de avgifter som betalarens betaltjänstleverantör tar ut och betalningsmottagaren svara för de avgifter som mottagarens betaltjänstleverantör tar ut. Betaltjänstleverantören får inte hindra en betalningsmottagare från att erbjuda betalaren en nedsättning vid användning av ett visst betalningsinstrument. En betalningsmottagare får inte ta ut någon avgift av betalaren vid användning av ett betalningsinstrument. Lag (2018:175). Elektroniska pengar och betalningsinstrument som avser låga belopp"
+    },
+    {
+      "provision_ref": "5:2",
+      "chapter": "5",
+      "section": "2",
+      "content": "För elektroniska pengar och sådana betalningsinstrument som avses i 4 kap. 19 § första stycket får betaltjänstleverantören och betaltjänstanvändaren i ramavtal komma överens om 1. att leverantören inte behöver underrätta användaren att betalningsordern har avvisats, om det av sammanhanget klart framgår att den inte har utförts, 2. att betalaren inte får återkalla betalningsordern efter att ha godkänt att den genomförs, 3. andra tidsgränser för genomförandet än de som anges i 40-44 §§, eller 4. att det inte ska vara möjligt att spärra betalningsinstrumentet. Lag (2018:175). Godkännande av en betalningstransaktion"
+    },
+    {
+      "provision_ref": "5:3",
+      "chapter": "5",
+      "section": "3",
+      "content": "En betalningstransaktion ska betraktas som godkänd om betalaren uttryckligen har lämnat sitt samtycke till att den genomförs. Samtycket ska lämnas antingen direkt till den kontoförvaltande betaltjänstleverantören eller via betalningsmottagaren eller, i förekommande fall, leverantören av betalningsinitieringstjänsten. En betaltjänstleverantör ska kunna styrka att ett sådant samtycke har lämnats. Lag (2022:723). Begränsning av betalningsinstrumentets användning"
+    },
+    {
+      "provision_ref": "5:4",
+      "chapter": "5",
+      "section": "4",
+      "content": "I ramavtal mellan betalaren och betaltjänstleverantören får leverantören förbehålla sig rätten att spärra betalningsinstrumentet när det finns 1. risk för en icke säker användning av betalningsinstrumentet, 2. misstanke om att betalningsinstrumentet obehörigen använts, eller 3. i fråga om betalningsinstrument med kreditutrymme, en väsentligt ökad risk för att betalaren inte kan betala. En betaltjänstleverantör som spärrar ett betalningsinstrument enligt första stycket ska informera betalaren om spärren och skälen till denna. Betalaren ska informeras innan betalningsinstrumentet spärras eller så snart som möjligt efter det att spärren har införts. Någon information till betalaren får dock inte lämnas om det skulle vara oförenligt med annan lag eller om det är motiverat av säkerhetsskäl att inte göra detta. Betaltjänstleverantören ska häva spärren av betalningsinstrumentet eller ersätta det med ett nytt betalningsinstrument så snart det inte längre finns skäl att låta spärren kvarstå. Betaltjänstleverantörens respektive betaltjänstanvändarens skyldigheter avseende ett betalningsinstrument"
+    },
+    {
+      "provision_ref": "5:5",
+      "chapter": "5",
+      "section": "5",
+      "content": "Betaltjänstleverantören ska 1. se till att villkoren för utgivning och användning av betalningsinstrument är objektiva, icke-diskriminerande och proportionella, 2. se till att de personliga behörighetsfunktioner som är knutna till betalningsinstrumentet inte görs tillgängliga av leverantören för andra än den betaltjänstanvändare som har rätt att använda betalningsinstrumentet, 3. inte skicka betalningsinstrument till någon som inte har beställt det, förutom då ett betalningsinstrument som redan innehas av användaren ska ersättas, 4. se till att användare när som helst har möjlighet att på lämpligt sätt anmäla till leverantören att ett betalningsinstrument har kommit bort eller obehörigen använts eller begära att en spärr hävs enligt 4 § fjärde stycket, och 5. förhindra användning av betalningsinstrumentet när en anmälan enligt 4 har lämnats. En betaltjänstleverantör ska under 18 månader efter det att en anmälan eller en begäran enligt första stycket 4 lämnats bevara information som gör det möjligt för betaltjänstanvändaren att visa att en anmälan eller begäran har lämnats. Sådan information ska lämnas till användaren om användaren begär det. En anmälan enligt första stycket 4 ska vara avgiftsfri för betaltjänstanvändaren. Betaltjänstleverantören får dock ta ut en avgift för de kostnader som är direkt hänförliga till ersättandet av betalningsinstrumentet. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:6",
+      "chapter": "5",
+      "section": "6",
+      "content": "Betaltjänstanvändaren är skyldig att 1. skydda de personliga behörighetsfunktioner som är knutna till betalningsinstrumentet, 2. vid vetskap om att betalningsinstrumentet har kommit bort eller obehörigen använts snarast anmäla detta till betaltjänstleverantören, och 3. i övrigt följa de villkor som enligt avtalet gäller för användning av betalningsinstrumentet. Av 5 a kap. 3 § framgår att en betaltjänstanvändare kan bli ansvarig om skyldigheterna i första stycket har åsidosatts. Lag (2018:175). Rätten att använda betalningsinitieringstjänster"
+    },
+    {
+      "provision_ref": "5:7",
+      "chapter": "5",
+      "section": "7",
+      "content": "Betaltjänstanvändaren har rätt att använda betalningsinitieringstjänster om det berörda betalkontot är tillgängligt online. Denna rätt gäller oberoende av om det finns ett avtal om detta mellan leverantören av betalningsinitieringstjänster och den kontoförvaltande betaltjänstleverantören. Lag (2018:175). Betaltjänstleverantörens skyldigheter vid tillhandahållandet av betalningsinitieringstjänster"
+    },
+    {
+      "provision_ref": "5:8",
+      "chapter": "5",
+      "section": "8",
+      "content": "Vid tillhandahållandet av betalningsinitieringstjänster får leverantören inte 1. vid någon tidpunkt inneha betalarens medel, 2. lagra känsliga betalningsuppgifter som tillhör betaltjänstanvändaren, 3. begära andra uppgifter av betaltjänstanvändaren än sådana som krävs för att tillhandahålla betalningsinitieringstjänsten, 4. använda, ha tillgång till eller lagra uppgifter för andra ändamål än för att tillhandahålla den betalningsinitieringstjänst som uttryckligen begärs av betalaren, eller 5. ändra beloppet, uppgift om betalaren eller något annat inslag i transaktionen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:9",
+      "chapter": "5",
+      "section": "9",
+      "content": "Leverantören av en betalningsinitieringstjänst ska säkerställa 1. att betaltjänstanvändarens personliga behörighetsfunktioner inte är tillgängliga för andra än leverantören samt användaren och utgivaren av behörighetsfunktionerna, och att dessa uppgifter överförs genom leverantören på ett säkert och effektivt sätt, och 2. att eventuell övrig information om betaltjänstanvändaren som leverantören har fått vid tillhandahållandet av tjänsten endast lämnas till betalningsmottagaren och med användarens uttryckliga godkännande. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:10",
+      "chapter": "5",
+      "section": "10",
+      "content": "Leverantören av en betalningsinitieringstjänst ska identifiera sig gentemot betaltjänstanvändarens kontoförvaltande betaltjänstleverantör varje gång en betalning initieras. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:11",
+      "chapter": "5",
+      "section": "11",
+      "content": "När den kontoförvaltande betaltjänstleverantören har tagit emot en betalningsorder från leverantören av betalningsinitieringstjänster och betalaren uttryckligen godkänt betalningstransaktionen i enlighet med 3 §, ska den kontoförvaltande betaltjänstleverantören ge leverantören av betalningsinitieringstjänsten all tillgänglig information om initieringen och genomförandet av betalningstransaktionen. Informationen ska lämnas omedelbart efter det att betalningsordern har tagits emot från leverantören av betalningsinitieringstjänsten. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:12",
+      "chapter": "5",
+      "section": "12",
+      "content": "Den kontoförvaltande betaltjänstleverantören ska behandla en betalningsorder som tas emot från en leverantör av betalningsinitieringstjänsten på samma sätt som en betalningsorder som tas emot direkt från betalaren när det gäller val av tidpunkt, prioritering och avgifter, om det inte finns objektiva skäl för en annan behandling. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:13",
+      "chapter": "5",
+      "section": "13",
+      "content": "Den kontoförvaltande betaltjänstleverantören och leverantören av betalningsinitieringstjänster ska tillämpa säker kommunikation när de kommunicerar med varandra. Leverantören av betalningsinitieringstjänster ska tillämpa säker kommunikation även när den kommunicerar med betalaren och betalningsmottagaren. Lag (2018:175). Rätten att använda kontoinformationstjänster"
+    },
+    {
+      "provision_ref": "5:14",
+      "chapter": "5",
+      "section": "14",
+      "content": "Betaltjänstanvändaren har rätt att använda kontoinformationstjänster om det berörda betalkontot är tillgängligt online. Denna rätt gäller oberoende av om det finns ett avtal om detta mellan leverantören av kontoinformationstjänster och den kontoförvaltande betaltjänstleverantören. Lag (2018:175). Betaltjänstleverantörens skyldigheter vid tillhandahållandet av kontoinformationstjänster"
+    },
+    {
+      "provision_ref": "5:15",
+      "chapter": "5",
+      "section": "15",
+      "content": "Vid tillhandahållandet av kontoinformationstjänster får leverantören inte 1. tillhandahålla tjänster utan betaltjänstanvändarens uttryckliga godkännande, 2. begära känsliga betalningsuppgifter som är kopplade till betalkontot, eller 3. använda, ha tillgång till eller lagra uppgifter för andra ändamål än för att genomföra den kontoinformationstjänst som uttryckligen begärs av betaltjänstanvändaren. Leverantören har endast rätt till tillgång till information från angivna betalkonton och sådana betalningstransaktioner som hör till kontona. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:16",
+      "chapter": "5",
+      "section": "16",
+      "content": "Leverantören av en kontoinformationstjänst ska säkerställa att betaltjänstanvändarens personliga behörighetsfunktioner inte är tillgängliga för andra än leverantören samt användaren och utgivaren av dem och att dessa uppgifter överförs genom leverantören på ett säkert och effektivt sätt. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:17",
+      "chapter": "5",
+      "section": "17",
+      "content": "Leverantören av en kontoinformationstjänst ska för varje kommunikationssession identifiera sig gentemot den kontoförvaltande betaltjänstleverantören. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:18",
+      "chapter": "5",
+      "section": "18",
+      "content": "Den kontoförvaltande betaltjänstleverantören ska behandla en begäran om uppgifter som överförs via en leverantör av kontoinformationstjänster på samma sätt som en begäran direkt från betaltjänstanvändaren, om det inte finns objektiva skäl för en annan behandling. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:19",
+      "chapter": "5",
+      "section": "19",
+      "content": "Den kontoförvaltande betaltjänstleverantören och leverantören av kontoinformationstjänster ska tillämpa säker kommunikation när de kommunicerar med varandra. Lag (2018:175). Skyldighet att ge åtkomst eller tillträde till betalkonto"
+    },
+    {
+      "provision_ref": "5:20",
+      "chapter": "5",
+      "section": "20",
+      "content": "Den kontoförvaltande betaltjänstleverantören får vägra en leverantör av en betalningsinitieringstjänst åtkomst till ett betalkonto endast om den kontoförvaltande leverantören av skäl som är objektivt motiverade och tillräckligt underbyggda gör bedömningen att leverantören av initieringstjänsten obehörigen har fått åtkomst till kontot eller obehörigen har initierat en betalningstransaktion från kontot. Den kontoförvaltande betaltjänstleverantören får vägra en leverantör av en kontoinformationstjänst tillträde till ett betalkonto endast om den kontoförvaltande leverantören av skäl som är objektivt motiverade och tillräckligt underbyggda gör bedömningen att leverantören av informationstjänsten obehörigen har fått tillträde till kontot. Den kontoförvaltande betaltjänstleverantören ska medge åtkomst eller tillträde till betalkontot så snart det inte längre finns skäl för vägran. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:21",
+      "chapter": "5",
+      "section": "21",
+      "content": "Innan den kontoförvaltande betaltjänstleverantören enligt 20 § vägrar åtkomst eller tillträde till ett betalkonto ska leverantören på avtalat sätt underrätta betaltjänstanvändaren. I underrättelsen ska skälen för vägran anges. Om användaren inte kan underrättas innan åtkomst eller tillträde vägras, ska en underrättelse lämnas så snart som möjligt efter vägran. Betaltjänstanvändaren får inte underrättas enligt första stycket om en underrättelse är oförenlig med andra föreskrifter. Detsamma gäller om det är motiverat av säkerhetsskäl att inte lämna underrättelsen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:22",
+      "chapter": "5",
+      "section": "22",
+      "content": "Den kontoförvaltande betaltjänstleverantören ska omedelbart underrätta Finansinspektionen om en vägran enligt 20 §. I underrättelsen ska skälen för vägran anges. Lag (2018:175). Besked om tillgängliga medel"
+    },
+    {
+      "provision_ref": "5:23",
+      "chapter": "5",
+      "section": "23",
+      "content": "Den kontoförvaltande betaltjänstleverantören ska, på begäran av en betaltjänstleverantör som har gett ut ett kortbaserat betalningsinstrument, omedelbart ge ett klart besked om huruvida det belopp som krävs för genomförande av en kortbaserad betalningstransaktion är tillgängligt på betalarens betalkonto eller inte, om 1. betalarens betalkonto är tillgängligt online vid tidpunkten för begäran, och 2. betalaren uttryckligen har godkänt att den kontoförvaltande betaltjänstleverantören lämnar ett sådant besked. Begäran ger inte den kontoförvaltande betaltjänstleverantören rätt att reservera medel på betalarens betalkonto. På begäran av betalaren ska den kontoförvaltande betaltjänstleverantören underrätta betalaren om identiteten på den betaltjänstleverantör som begärt ett besked som avses i första stycket samt om det svar som lämnats. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:24",
+      "chapter": "5",
+      "section": "24",
+      "content": "Den betaltjänstleverantör som har gett ut ett kortbaserat betalningsinstrument får begära ett sådant besked som avses i 23 § om 1. betalaren uttryckligen har godkänt att en sådan begäran görs, och 2. betalaren har initierat betalningstransaktionen genom att använda ett kortbaserat betalningsinstrument som getts ut av betaltjänstleverantören. Betaltjänstleverantören får inte lagra eller använda det svar som den kontoförvaltande betaltjänstleverantören lämnar för andra syften än för att genomföra transaktionen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:25",
+      "chapter": "5",
+      "section": "25",
+      "content": "Den betaltjänstleverantör som enligt 24 § begär ett besked ska tillämpa säker kommunikation och innan beskedet begärs autentisera sig gentemot den kontoförvaltande betaltjänstleverantören. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:26",
+      "chapter": "5",
+      "section": "26",
+      "content": "Bestämmelserna i 23-25 §§ gäller inte för betalningstransaktioner som initieras genom kortbaserade betalningsinstrument där det lagras elektroniska pengar, definierade i 1 kap. 2 § 2 lagen (2011:755) om elektroniska pengar. Lag (2018:175). Reservering av medel"
+    },
+    {
+      "provision_ref": "5:27",
+      "chapter": "5",
+      "section": "27",
+      "content": "Om en kortbaserad betalningstransaktion initieras av eller via betalningsmottagaren och det exakta beloppet inte är känt vid tidpunkten för betalarens godkännande av genomförandet av transaktionen, får betalarens betaltjänstleverantör reservera medel på betalarens betalkonto endast för täckning av transaktionen och om betalaren har godkänt det exakta belopp som reservationen avser. Betalarens betaltjänstleverantör ska frigöra de medel som har reserverats på betalarens betalkonto så snart det kan ske efter att leverantören tagit emot information om betalningstransaktionens exakta belopp eller tagit emot betalningsordern. Lag (2018:175). Återbetalning av betalningstransaktioner som initierats av eller via en betalningsmottagare"
+    },
+    {
+      "provision_ref": "5:28",
+      "chapter": "5",
+      "section": "28",
+      "content": "En betalare har rätt till återbetalning från sin betaltjänstleverantör om betalningstransaktionen initierats av eller via betalningsmottagaren, och 1. betalningstransaktionens exakta belopp inte angavs i samband med att den godkändes, och 2. betalningstransaktionens belopp överstiger det belopp som betalaren rimligen kunde ha förväntat sig med hänsyn till sitt tidigare utgiftsmönster, villkoren i ramavtalet och andra relevanta omständigheter. På begäran av betaltjänstleverantören ska betalaren informera leverantören om sådana omständigheter som avses i första stycket 2. Återbetalningen ska uppgå till hela beloppet av den genomförda transaktionen. Valuteringsdagen för kreditering av betalarens betalkonto ska bestämmas till senast den dag då beloppet debiterades kontot. Om betalaren och betaltjänstleverantören har avtalat om att en referensväxelkurs ska tillämpas på betalningstransaktionen, och den avtalade referensväxelkursen har använts, får betalaren inte hävda att förutsättningarna i första stycket 2 är uppfyllda på grund av den växelkurs som tillämpats. De villkor för återbetalning som anges i första stycket 1 och 2 gäller inte för autogireringar som omfattas av Europaparlamentets och rådets förordning (EU) nr 260/2012 av den 14 mars 2012 om antagande av tekniska och affärsmässiga krav för betalningar och autogireringar i euro och om ändring av förordning (EG) nr 924/2009. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:29",
+      "chapter": "5",
+      "section": "29",
+      "content": "En betalare och en betaltjänstleverantör får i ett ramavtal komma överens om att betalaren inte har rätt till återbetalning när denne har gett sitt godkännande, direkt till leverantören, till att en betalningstransaktion genomförs och antingen leverantören eller betalningsmottagaren lämnade information om den kommande transaktionen eller gjorde sådan information tillgänglig för betalaren minst fyra veckor före den sista betalningsdagen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:30",
+      "chapter": "5",
+      "section": "30",
+      "content": "En betaltjänstleverantör är inte skyldig att återbetala beloppet till betalaren om betalaren inte begärde återbetalning inom åtta veckor från det att medlen debiterades kontot. Inom tio bankdagar från mottagandet av begäran om återbetalning ska betaltjänstleverantören antingen återbetala det belopp som transaktionen avser eller ange skälen för att återbetalning vägras med uppgift om vart betalaren kan vända sig för att få ärendet prövat. Lag (2018:175). Tidpunkten för mottagande av en betalningsorder"
+    },
+    {
+      "provision_ref": "5:31",
+      "chapter": "5",
+      "section": "31",
+      "content": "Tidpunkten för mottagande av en betalningsorder är den tidpunkt då ordern tas emot av betalarens betaltjänstleverantör. Om tidpunkten för mottagande inte är en bankdag för leverantören, ska betalningsordern anses ha tagits emot under nästföljande bankdag. En betaltjänstanvändare som initierar en betalningsorder och en betaltjänstleverantör får komma överens om att tidpunkten för mottagandet av en betalningsorder ska vara en annan än den som anges i första stycket. Om den överenskomna tidpunkten inte är en bankdag för betalarens betaltjänstleverantör, ska betalningsordern anses ha tagits emot under nästföljande bankdag. En betaltjänstleverantör får fastställa en tidpunkt nära bankdagens slut då en betalningsorder senast tas emot. En betalningsorder som tas emot efter den tidpunkten ska anses ha tagits emot under nästföljande bankdag. Lag (2018:175). Vägran att utföra en betalningsorder eller initiera en betalningstransaktion"
+    },
+    {
+      "provision_ref": "5:32",
+      "chapter": "5",
+      "section": "32",
+      "content": "En betaltjänstleverantör som vägrar att utföra en betalningsorder eller initiera en betalningstransaktion ska underrätta betaltjänstanvändaren om detta på avtalat sätt snarast möjligt och senast inom de tidsfrister som anges i 40 och 41 §§. Av underrättelsen ska framgå 1. om möjligt, skälen för vägran, och 2. vilket förfarande som tillämpas för att rätta till fel som kan ha föranlett vägran. Betaltjänstleverantören får ta ut en avgift för en underrättelse enligt första stycket om 1. det finns skälig grund för vägran, och 2. leverantören får ta ut sådan avgift enligt ett ramavtal med betaltjänstanvändaren. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:33",
+      "chapter": "5",
+      "section": "33",
+      "content": "Om villkoren i betaltjänstleverantörens ramavtal med betalaren är uppfyllda, får betalarens betaltjänstleverantör inte vägra att utföra en godkänd betalningsorder, oavsett om den har initierats av betalaren eller betalningsmottagaren, såvida inte utförandet av betalningsordern skulle strida mot annan lag. Detta gäller även om betalaren initierat betalningsordern via en leverantör av betalningsinitieringstjänster. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:34",
+      "chapter": "5",
+      "section": "34",
+      "content": "Vid tillämpning av 40, 41 och 47-53 §§ ska en betalningsorder som betaltjänstleverantören har vägrat att utföra anses inte ha blivit mottagen av leverantören. Lag (2018:175). Återkallelse av betalningsorder"
+    },
+    {
+      "provision_ref": "5:35",
+      "chapter": "5",
+      "section": "35",
+      "content": "När en betalningstransaktion initieras av betalaren, får denne inte återkalla en betalningsorder efter det att den har tagits emot av betalarens betaltjänstleverantör. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:36",
+      "chapter": "5",
+      "section": "36",
+      "content": "När en betalningstransaktion initieras av en leverantör av betalningsinitieringstjänster eller av eller via betalningsmottagaren får betalaren inte återkalla betalningsordern efter det att betalaren har gett sitt godkännande att initiera betalningstransaktionen till leverantören av betalningsinitieringstjänster eller gett sitt godkännande till att genomföra transaktionen till mottagaren. Vid autogiro får betalaren, trots första stycket och utan att det påverkar rätten till återbetalning, återkalla betalningsordern senast i slutet av den bankdag som föregår den dag som avtalats för debitering av medlen. Om en betaltjänstanvändare och en betaltjänstleverantör har avtalat enligt 31 § om den tidpunkt vid vilken en betalningsorder ska anses vara mottagen, får användaren trots första stycket återkalla en betalningsorder senast i slutet av den bankdag som föregår den avtalade dagen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:37",
+      "chapter": "5",
+      "section": "37",
+      "content": "Efter de tidpunkter som anges i 35 och 36 §§ får betalningsordern återkallas endast om detta har avtalats mellan betaltjänstanvändaren och berörd betaltjänstleverantör. För att återkallelse efter de tidpunkter som anges i 36 § första och andra styckena ska få ske i fråga om en betalningstransaktion som har initierats av betalningsmottagaren, krävs att även betalningsmottagaren godkänner återkallelsen. Betaltjänstleverantören får ta ut en avgift för återkallande enligt första stycket om möjligheten att ta ut sådan avgift framgår av ramavtalet med den betaltjänstanvändare som återkallat betalningsordern. Lag (2018:175). Överförda och mottagna belopp"
+    },
+    {
+      "provision_ref": "5:38",
+      "chapter": "5",
+      "section": "38",
+      "content": "Betaltjänstleverantören får göra avdrag från det belopp som ska överföras endast under de förutsättningar som anges i andra och tredje styckena. Betalningsmottagaren och mottagarens betaltjänstleverantör får avtala om att leverantören får dra av sina egna avgifter från det överförda beloppet innan det krediteras mottagaren. Betalningstransaktionens belopp utan avdrag för avgifter och avgifterna ska då redovisas var för sig i den information som lämnas till betalningsmottagaren. Om andra avgifter än de som avses i andra stycket dras av från det överförda beloppet, ska betalarens betaltjänstleverantör se till att betalningsmottagaren får hela det belopp som angavs i betalningsordern. Om betalningstransaktionen initierats av eller via mottagaren, ska mottagarens betaltjänstleverantör se till att mottagaren får hela det belopp som angavs i betalningsordern. Lag (2018:175). Genomförandetid och valuteringsdag"
+    },
+    {
+      "provision_ref": "5:39",
+      "chapter": "5",
+      "section": "39",
+      "content": "Bestämmelserna i 40-44 §§ gäller för betalningstransaktioner i Sverige som genomförs i euro eller i svenska kronor. Bestämmelserna i 40-44 §§ gäller också för betalningstransaktioner där det sker en växling mellan euro och svenska kronor, om 1. växlingen sker i Sverige, och 2. när det gäller en transaktion till eller från ett annat land, överföringen av medlen mellan länderna sker i euro. Bestämmelserna i 40-44 §§ är även tillämpliga på andra betalningstransaktioner än de som anges i första och andra styckena. Bestämmelserna i 40, 41, 43 och 44 §§ är dock inte tillämpliga, om annat har avtalats mellan betaltjänstanvändaren och betaltjänstleverantören. Om användaren och leverantören, med avvikelse från 40 § första stycket, avtalar om när kreditering av betalningsmottagarens leverantörs konto senast ska ske, får tidpunkten inte vara senare än fyra bankdagar efter det att betalningsordern mottagits enligt 31 §. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:40",
+      "chapter": "5",
+      "section": "40",
+      "content": "När en betalningsorder har mottagits enligt 31 §, ska betalarens betaltjänstleverantör se till att betalningstransaktionens belopp krediteras betalningsmottagarens betaltjänstleverantörs konto senast vid slutet av nästföljande bankdag. För betalningstransaktioner som initierats på papper får betaltjänstleverantören förlänga tiden med en bankdag. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:41",
+      "chapter": "5",
+      "section": "41",
+      "content": "En betalningsorder som har initierats av eller via en betalningsmottagare ska genomföras inom de tidsfrister som har överenskommits mellan betalningsmottagaren och dennes betaltjänstleverantör. För autogiro gäller att en betalningsorder ska lämnas i sådan tid att betalningstransaktionen kan slutföras på den överenskomna förfallodagen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:42",
+      "chapter": "5",
+      "section": "42",
+      "content": "Betalningsmottagarens betaltjänstleverantör ska valutera betalningstransaktionens belopp och göra det tillgängligt på mottagarens betalkonto. Valuteringsdagen för kreditering av betalningsmottagarens betalkonto ska bestämmas till senast den bankdag då betalningstransaktionens belopp krediteras mottagarens betaltjänstleverantörs konto. Betalningsmottagarens betaltjänstleverantör ska säkerställa att betalningstransaktionens belopp ställs till mottagarens förfogande så snart som möjligt efter det att beloppet krediteras mottagarens leverantörs konto. Detta gäller även betalningar inom en och samma betaltjänstleverantör. Valuteringsdagen för debitering av betalarens betalkonto ska bestämmas till tidigast den dag då betalningstransaktionens belopp debiteras detta betalkonto. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:43",
+      "chapter": "5",
+      "section": "43",
+      "content": "Om betalningsmottagaren inte har något betalkonto hos betaltjänstleverantören som tar emot medlen, ska leverantören göra dem tillgängliga för mottagaren inom den tid som anges i 40 och 41 §§. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:44",
+      "chapter": "5",
+      "section": "44",
+      "content": "Om en konsument sätter in kontanter på ett betalkonto hos en betaltjänstleverantör ska leverantören se till att beloppet görs tillgängligt och valuteras så snart som möjligt efter den tidpunkt då medlen togs emot. Om den som sätter in kontanter på ett betalkonto inte är konsument, ska beloppet göras tillgängligt och valuteras senast nästföljande bankdag. Lag (2018:175). Ansvar för genomförandet av en betalningstransaktion Betalningsorder med unik identifikationskod"
+    },
+    {
+      "provision_ref": "5:45",
+      "chapter": "5",
+      "section": "45",
+      "content": "Om en betalningsorder lämnas med hjälp av en unik identifikationskod, ska betalarens betaltjänstleverantör anses ha utfört betalningsordern korrekt såvitt avser den betalningsmottagare som angetts i identifikationskoden. Om den unika identifikationskod som angetts av betaltjänstanvändaren är felaktig, ska betaltjänstleverantören inte vara ansvarig enligt 47-53 §§ för att betalningstransaktionen inte har genomförts eller för brister i genomförandet av transaktionen. Betaltjänstleverantören till den betaltjänstanvändare som lämnade betalningsordern ska dock vidta skäliga åtgärder för att få tillbaka de medel som betalningstransaktionen avsåg. Leverantören får ta ut en avgift av användaren för de åtgärder som vidtas, om ett ramavtal med användaren medger det. Betalningsmottagarens betaltjänstleverantör ska bistå leverantören och lämna all tillgänglig information som är relevant för att medlen ska kunna återfås. Om det inte är möjligt att få tillbaka de medel som betalningstransaktionen avsåg trots att betalarens betaltjänstleverantör har vidtagit skäliga åtgärder enligt tredje stycket, ska betaltjänstleverantören på skriftlig begäran ge betalaren all tillgänglig information som denne behöver för att kunna inleda ett rättsligt förfarande för att få tillbaka medlen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:46",
+      "chapter": "5",
+      "section": "46",
+      "content": "Även om en betaltjänstanvändare lämnar information till betaltjänstleverantören utöver den som anges i 4 kap. 4 § första stycket 1 eller 10 § 4 är leverantören bara ansvarig för genomförandet av en betalningstransaktion i enlighet med den unika identifikationskod som användaren har angett. Lag (2018:175). Betalningstransaktioner som initierats av betalaren"
+    },
+    {
+      "provision_ref": "5:47",
+      "chapter": "5",
+      "section": "47",
+      "content": "Betalarens betaltjänstleverantör ansvarar gentemot betalaren för att en betalningsorder som betalaren har initierat utförs korrekt. Betaltjänstleverantören ska kunna styrka att betalningsordern har utförts korrekt. Om betalarens betaltjänstleverantör kan styrka att mottagarens leverantör har tagit emot betalningstransaktionens belopp enligt 40 §, ansvarar mottagarens leverantör gentemot mottagaren för att transaktionen genomförs korrekt. Lag (2022:723)."
+    },
+    {
+      "provision_ref": "5:48",
+      "chapter": "5",
+      "section": "48",
+      "content": "Om betalarens betaltjänstleverantör ansvarar för genomförandet av en betalningstransaktion enligt 47 § första stycket, ska leverantören så snart det kan ske betala tillbaka beloppet i en transaktion som inte genomförts eller genomförts bristfälligt till betalaren eller återställa det debiterade betalkontots ställning till den som det skulle ha haft om den bristfälligt genomförda transaktionen inte hade ägt rum. Valuteringsdagen för kreditering av betalarens betalkonto ska bestämmas till senast den dag då beloppet debiterades kontot. Om betalningsmottagarens betaltjänstleverantör ansvarar för genomförandet av en transaktion enligt 47 § andra stycket ska leverantören så snart som möjligt ställa transaktionens belopp till betalningsmottagarens förfogande eller kreditera mottagarens betalkonto med motsvarande belopp. Valuteringsdagen för kreditering av betalningsmottagarens betalkonto ska bestämmas till senast den dag då beloppet skulle ha valuterats om transaktionen hade genomförts korrekt. Om en betalningstransaktion inte genomförs i enlighet med 40 §, ska betalningsmottagarens betaltjänstleverantör, på begäran av betalarens betaltjänstleverantör, se till att valuteringsdagen för kreditering av betalningsmottagarens konto bestäms till senast den dag då beloppet skulle ha valuterats om betalningstransaktionen hade genomförts korrekt. Det är den kontoförvaltande betaltjänstleverantören som ska återställa det debiterade betalkontots ställning enligt första stycket även om en leverantör av en betalningsinitieringstjänst har initierat den felaktigt genomförda transaktionen. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:49",
+      "chapter": "5",
+      "section": "49",
+      "content": "Om en betalningstransaktion som initierats av betalaren inte genomförs eller genomförs bristfälligt, ska betalarens betaltjänstleverantör, oavsett om denne har ansvar för det inträffade, på begäran av betalaren så snart som möjligt försöka spåra den initierade betalningstransaktionen och underrätta betalaren om resultatet. Detta ska vara avgiftsfritt för betalaren. Lag (2018:175). Betalningstransaktioner som initierats av eller via betalningsmottagaren"
+    },
+    {
+      "provision_ref": "5:50",
+      "chapter": "5",
+      "section": "50",
+      "content": "Betalningsmottagarens betaltjänstleverantör ansvarar gentemot mottagaren för att betalningstransaktionens belopp ställs till mottagarens förfogande enligt 42 § och för att en betalningsorder som initierats av eller via mottagaren överförs korrekt till betalarens betaltjänstleverantör i enlighet med 41 §. Betalningsmottagarens betaltjänstleverantör ska kunna styrka att betalningsordern har utförts korrekt. Om betalningsmottagarens betaltjänstleverantör har försökt att överföra en betalningsorder i enlighet med första stycket men misslyckats, ska leverantören så snart som möjligt överföra den berörda betalningsordern på nytt till betalarens betaltjänstleverantör. Om betalningsmottagarens betaltjänstleverantör inte har överfört en betalningsorder enligt första stycket, ska betalningstransaktionens belopp valuteras på mottagarens betalkonto senast den dag då beloppet skulle ha valuterats om betalningsordern hade överförts korrekt. Lag (2022:723)."
+    },
+    {
+      "provision_ref": "5:51",
+      "chapter": "5",
+      "section": "51",
+      "content": "Betalarens betaltjänstleverantör ansvarar gentemot betalaren för en inte genomförd eller bristfälligt genomförd betalningstransaktion som initierats av eller via betalningsmottagaren, utom då mottagarens betaltjänstleverantör ansvarar gentemot mottagaren enligt 50 §. En betalares betaltjänstleverantör som är ansvarig enligt första stycket ska betala tillbaka betalningstransaktionens belopp till betalaren eller återställa det debiterade betalkontot till den ställning som kontot skulle ha haft om den bristfälligt genomförda transaktionen inte hade ägt rum. Valuteringsdagen för kreditering av betalarens betalkonto ska bestämmas till senast den dag då beloppet debiterades kontot. Andra stycket gäller inte om en betalningstransaktion inte genomförs i enlighet med 40 § men betalarens betaltjänstleverantör kan visa att betalningsmottagarens betaltjänstleverantör ändå har tagit emot beloppet. Betalningsmottagarens betaltjänstleverantör ska då valutera beloppet på betalningsmottagarens betalkonto senast den dag då beloppet skulle ha valuterats om transaktionen hade genomförts korrekt. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:52",
+      "chapter": "5",
+      "section": "52",
+      "content": "Om en betalningstransaktion som initierats av eller via betalningsmottagaren inte genomförs eller genomförs bristfälligt, ska mottagarens betaltjänstleverantör, oavsett dennes ansvar för det inträffade, på begäran av mottagaren så snart som möjligt försöka spåra den initierade betalningstransaktionen och underrätta mottagaren om resultatet. Detta ska vara avgiftsfritt för mottagaren. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:53",
+      "chapter": "5",
+      "section": "53",
+      "content": "Betaltjänstleverantörerna ansvarar gentemot sina respektive betaltjänstanvändare för sådana avgifter och räntor som användare ska betala till följd av att betalningstransaktionen inte genomförts eller genomförts bristfälligt. Lag (2018:175). Meddelande om felaktigt genomförda betalningstransaktioner"
+    },
+    {
+      "provision_ref": "5:54",
+      "chapter": "5",
+      "section": "54",
+      "content": "Betaltjänstleverantören får kräva att betaltjänstanvändaren ansvarar för betalningstransaktionens belopp, om användaren inte underrättar leverantören så snart det kan ske efter att ha fått vetskap om att transaktionen genomförts på ett felaktigt sätt. Detsamma gäller om leverantören har lämnat information om transaktionen till användaren eller gjort informationen tillgänglig för denne enligt bestämmelserna i 4 kap. och användaren inte underrättar leverantören inom 13 månader från det att beloppet belastat kontot. Det är den kontoförvaltande betaltjänstleverantören som ska underrättas enligt första stycket även om en leverantör av betalningsinitieringstjänster har initierat den felaktigt genomförda betalningstransaktionen. Lag (2018:175). Rätt till återkrav"
+    },
+    {
+      "provision_ref": "5:55",
+      "chapter": "5",
+      "section": "55",
+      "content": "Om en betaltjänstleverantör eller mellanhand som inte är ansvarig mot betaltjänstanvändaren enligt 47-53 §§ eller 5 a kap. har orsakat att en betalningstransaktion inte genomförts eller genomförts bristfälligt eller att en obehörig betalningstransaktion genomförts, ska leverantören eller mellanhanden ersätta den betaltjänstleverantör som är ansvarig mot betaltjänstanvändaren för de förluster, inbegripet belopp som betalats till betaltjänstanvändaren, som uppkommit hos denna betaltjänstleverantör enligt 47-53 §§ eller 5 a kap. Ersättningen ska motsvara de förluster, inbegripet belopp som betalats till betaltjänstanvändare, som uppkommit hos betaltjänstleverantören enligt 47-53 §§ och 5 a kap. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "5:56",
+      "chapter": "5",
+      "section": "56",
+      "content": "Om en leverantör av betalningsinitieringstjänster har orsakat att en betalningstransaktion inte har genomförts eller genomförts bristfälligt eller att en obehörig betalningstransaktion genomförts, ska leverantören ersätta den kontoförvaltande betaltjänstleverantören för de förluster, inbegripet belopp som betalats till betaltjänstanvändaren, som uppkommit hos betaltjänstleverantören enligt 47-53 §§ och 5 a kap. Lag (2018:175). Befrielse från ansvar"
+    },
+    {
+      "provision_ref": "5:57",
+      "chapter": "5",
+      "section": "57",
+      "content": "Ansvar enligt detta kapitel inträder inte i fall av osedvanliga eller oförutsägbara omständigheter som den som åberopar omständigheterna inte har något inflytande över och vars konsekvenser hade varit omöjliga att avvärja trots alla ansträngningar. Ansvar enligt detta kapitel inträder inte heller då en betaltjänstleverantör handlar i enlighet med svensk lag eller unionsrätt. Lag (2018:175). Hantering av klagomål"
+    },
+    {
+      "provision_ref": "5:58",
+      "chapter": "5",
+      "section": "58",
+      "content": "En betaltjänstleverantör ska ha lämpliga och effektiva förfaranden för hantering av klagomål från betaltjänstanvändare. Lag (2018:175). Möjlighet att avvika från bestämmelserna"
+    },
+    {
+      "provision_ref": "5:59",
+      "chapter": "5",
+      "section": "59",
+      "content": "En betaltjänstleverantör får komma överens med en betaltjänstanvändare som inte är konsument om avvikelser från bestämmelserna i 1 § första stycket, 3 § andra stycket, 28- 30 §§, 35-37 och 47 §§, 48 § första-tredje styckena, 49-53 §§ och 54 § första stycket. Lag (2022:723). Bemyndiganden"
+    },
+    {
+      "provision_ref": "5:60",
+      "chapter": "5",
+      "section": "60",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om hur betaltjänstleverantörer ska hantera de klagomål som avses i 58 §. Lag (2018:175). 5 a kap. Obehöriga transaktioner Betaltjänstleverantörens skyldighet att återställa kontot 1 § Har det genomförts en obehörig transaktion från en kontohavares konto, ska kontohavarens betaltjänstleverantör återställa kontot till den ställning som det skulle ha haft om transaktionen inte hade genomförts, om inte annat följer av 2-6 §§. Återställandet ska ske omedelbart och senast i slutet av den bankdag som inträffar efter det att betaltjänstleverantören har fått kännedom om transaktionen. Om det finns anledning att misstänka att transaktionen är behörig, har betaltjänstleverantören dock rätt till en skälig tid för att undersöka saken. Valuteringsdagen ska bestämmas till senast den dag då beloppet debiterades. Om kontot inte återställs omedelbart eller senast i slutet av den bankdag som inträffar efter det att betaltjänstleverantören har fått kännedom om transaktionen, ska leverantören skriftligen underrätta Finansinspektionen om anledningen. Den kontoförvaltande betaltjänstleverantören ska återställa kontot, även om den obehöriga transaktionen har initierats av en leverantör av betalnings-initieringstjänster. Lag (2018:175). Kontohavarens ansvar 2 § Om obehöriga transaktioner från en kontohavares konto har kunnat genomföras till följd av att kontohavaren inte har skyddat sin personliga behörighetsfunktion, ansvarar kontohavaren för beloppet, dock högst 400 kronor. Lag (2018:175). 3 § Om obehöriga transaktioner från en kontohavares konto har kunnat genomföras till följd av att en skyldighet enligt"
+    },
+    {
+      "provision_ref": "6:1",
+      "chapter": "6",
+      "section": "1",
+      "title": "Tillämpningsområde",
+      "content": "Om en betaltjänstleverantör eller den som ansvarar för ett betalningssystem granskar betalningstransaktioner för att kunna upptäcka sådana transaktioner som leverantören eller den ansvarige för betalningssystemet misstänker eller har skälig grund att misstänka utgör ett led i bedrägeri i samband med tillhandahållande eller användning av betaltjänster, får leverantören eller den som ansvarar för ett betalningssystem behandla personuppgifter samt föra register enligt 2-9 §§. Lag (2018:329). Personuppgiftsbehandling"
+    },
+    {
+      "provision_ref": "6:2",
+      "chapter": "6",
+      "section": "2",
+      "content": "Om det är nödvändigt för granskning av betalningstransaktioner enligt 1 § får följande personuppgifter behandlas: 1. uppgifter om identitet i betaltjänstanvändares pass eller annan identitetshandling, och 2. unika beteckningar som identifierar en viss person som betaltjänstanvändare. Ändamål för register"
+    },
+    {
+      "provision_ref": "6:3",
+      "chapter": "6",
+      "section": "3",
+      "content": "Register får föras av en betaltjänstleverantör eller den som har ansvar för ett betalningssystem, om det är nödvändigt för granskning av betalningstransaktioner enligt 1 §. Innehåll"
+    },
+    {
+      "provision_ref": "6:4",
+      "chapter": "6",
+      "section": "4",
+      "content": "Ett register som avses i 1 § får endast innehålla 1. namn och person-, samordnings- eller organisationsnummer, 2. betalkontonummer eller motsvarande, 3. sådana unika beteckningar som avses i 2 § 2, och 4. de övriga uppgifter som framkommit vid granskning av betalningstransaktioner enligt 1 §. Utlämnande av uppgifter"
+    },
+    {
+      "provision_ref": "6:5",
+      "chapter": "6",
+      "section": "5",
+      "content": "Om misstanke om bedrägeri kvarstår efter närmare analys, får uppgifter om alla omständigheter som kan tyda på bedrägeri i samband med tillhandahållande eller användning av betaltjänster lämnas till Polismyndigheten eller Åklagarmyndigheten. Uppgifter i ett register som avses i 1 § får lämnas ut till betaltjänstleverantörer och de som har ansvar för ett betalningssystem när uppgifterna har lämnats till Polismyndigheten eller Åklagarmyndigheten. Utlämnande av uppgifter enligt andra stycket får ske trots"
+    },
+    {
+      "provision_ref": "6:6",
+      "chapter": "6",
+      "section": "6",
+      "content": "Uppgifter ur ett register som avses i 1 § som har lämnats till Polismyndigheten eller Åklagarmyndigheten i enlighet med 5 § första stycket får inte lämnas ut till den registrerade. Lag (2014:664). Gallring"
+    },
+    {
+      "provision_ref": "6:7",
+      "chapter": "6",
+      "section": "7",
+      "content": "En uppgift i ett register som avses i 1 § ska gallras 1. om Polismyndigheten eller Åklagarmyndigheten beslutar att inte inleda eller att lägga ner en utredning om bedrägeri i samband med tillhandahållande eller användning av betaltjänster, 2. om en förundersökning har avslutats utan att åtal väckts med anledning av de lämnade uppgifterna, 3. om en domstol har meddelat dom eller beslut med anledning av de lämnade uppgifterna och domen eller beslutet vunnit laga kraft, 4. senast tre år efter det att uppgifter lämnats till Polismyndigheten eller Åklagarmyndigheten med stöd av 5 § första stycket, eller 5. senast tre år efter det att uppgifter insamlats, om uppgifterna inte dessförinnan lämnats till Polismyndigheten eller Åklagarmyndigheten med stöd av 5 § första stycket. En betaltjänstleverantör eller en ansvarig för ett betalningssystem som får kännedom om en omständighet som innebär att en uppgift ska gallras enligt första stycket 1, 2 eller 3 ska underrätta dem som leverantören eller den ansvarige för betalningssystemet har lämnat ut uppgiften till enligt 5 § andra stycket. Lag (2014:664)."
+    },
+    {
+      "provision_ref": "6:8",
+      "chapter": "6",
+      "section": "8",
+      "content": "Har upphävts genom lag (2018:329). Tystnadsplikt"
+    },
+    {
+      "provision_ref": "6:9",
+      "chapter": "6",
+      "section": "9",
+      "content": "Den som är verksam hos en betaltjänstleverantör eller hos den som har ansvar för ett betalningssystem får inte obehörigen röja uppgifter i ett register som avses i 1 § eller uppgifter som lämnats ut med stöd av 5 § andra stycket. Ansvar enligt 20 kap. 3 § brottsbalken ska inte följa för den som bryter mot förbudet."
+    },
+    {
+      "provision_ref": "7:1",
+      "chapter": "7",
+      "section": "1",
+      "content": "Den eller de som har ansvar för ett betalningssystem ska se till att reglerna om tillträde till betalningssystemet är objektiva, icke-diskriminerande och proportionella. Reglerna får inte hindra tillträde i större utsträckning än vad som är nödvändigt för att skydda mot risker i verksamheten och för att skydda betalningssystemets finansiella och operativa stabilitet. Reglerna om tillträde till betalningssystem får inte begränsa faktiskt deltagande i andra betalningssystem eller diskriminera betaltjänstleverantörer på grund av den juridiska form i vilken deras verksamhet bedrivs."
+    },
+    {
+      "provision_ref": "7:2",
+      "chapter": "7",
+      "section": "2",
+      "content": "En betaltjänstleverantör enligt 1 kap. 3 § som är en juridisk person får inte nekas tillträde till ett betalningssystem, om betaltjänstleverantören uppfyller sådana krav för tillträde till betalningssystemet som uppställts i enlighet med 1 §."
+    },
+    {
+      "provision_ref": "7:3",
+      "chapter": "7",
+      "section": "3",
+      "content": "Bestämmelserna i 1 och 2 §§ gäller inte för betalningssystem i vilka en betaltjänstleverantör verkar eller kan verka både som betalarens och betalningsmottagarens betaltjänstleverantör samt är ensamt ansvarig för betalningssystemets ledning, och denne betaltjänstleverantör tillåter andra betaltjänstleverantörer att delta i betalningssystemet utan att dessa kan förhandla om avgifter mellan sig avseende betalningssystemet. Lag (2024:1370)."
+    },
+    {
+      "provision_ref": "7:4",
+      "chapter": "7",
+      "section": "4",
+      "content": "Om en deltagare i ett betalningssystem enligt lagen (1999:1309) om system för avveckling av förpliktelser på finansmarknaden tillåter en betaltjänstleverantör som inte är deltagare i systemet att sända överföringsorder genom systemet, ska deltagaren på ett objektivt, icke-diskriminerande och proportionellt sätt ge även andra betaltjänstleverantörer som begär det motsvarande möjlighet. För sådant indirekt tillträde gäller vad som anges i 1 §. Om en deltagare nekar en betaltjänstleverantör sådant tillträde till betalningssystem som avses i första stycket, ska deltagaren ge betaltjänstleverantören skälen för detta. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "7:5",
+      "chapter": "7",
+      "section": "5",
+      "content": "Ett kreditinstitut ska på objektiva, icke-diskriminerande och proportionella grunder ge betaltjänstleverantörer som begär det tillgång till kreditinstitutets betalkontotjänster. Sådan tillgång ska ges i den omfattning som krävs för att betaltjänstleverantörer obehindrat och effektivt ska kunna tillhandahålla sina betaltjänster. Om ett kreditinstitut nekar en betaltjänstleverantör tillgång till institutets betalkontotjänster, ska institutet meddela Finansinspektionen och ange skälen för detta. Lag (2018:175). 7 a kap. Marknadsföring av betaltjänster online 1 § Om en konsument som köper varor eller tjänster online kan välja ett betalningssätt som innebär att en kredit inte lämnas, ska betaltjänstleverantören se till att ett sådant betalningssätt visas först. Ett betalningssätt som innebär att en kredit lämnas får inte heller vara förvalt om det finns andra betalningssätt. Lag (2020:176). 2 § Ett handlande som strider mot 1 § ska vid tillämpningen av 5, 23 och 26 §§ marknadsföringslagen (2008:486) anses vara otillbörligt mot konsumenter. Lag (2020:176)."
+    },
+    {
+      "provision_ref": "8:1",
+      "chapter": "8",
+      "section": "1",
+      "title": "Tillsynens omfattning",
+      "content": "Finansinspektionen har tillsyn över att denna lag, Europaparlamentets och rådets förordning (EU) nr 260/2012 och Europaparlamentets och rådets förordning (EU) 2021/1230 följs. För betalningsinstitut och registrerade betaltjänstleverantörer omfattar tillsynen även att deras verksamhet drivs enligt andra författningar som reglerar deras verksamhet, bolagsordning, stadgar samt interna instruktioner som har sin grund i en författning som reglerar deras verksamhet. I fråga om tillsynen över övriga betaltjänstleverantörer enligt 1 kap. 3 § gäller bestämmelserna i de lagar som reglerar deras verksamhet, om inte annat följer av denna lag. Finansinspektionen ska samråda med Konkurrensverket innan en tillsynsåtgärd eller ett ingripande vidtas mot 1. någon som har ansvar för betalningssystem för överträdelse av 7 kap. 1 och 2 §§, 2. en deltagare i ett betalningssystem för överträdelse av"
+    },
+    {
+      "provision_ref": "8:2",
+      "chapter": "8",
+      "section": "2",
+      "content": "Betalningsinstitut, registrerade betaltjänstleverantörer, den som har ansvar för ett betalningssystem, den som är anmälningsskyldig enligt 1 kap. 9 § och utländska företag som tillhandahåller betaltjänster i Sverige från en filial eller genom ett ombud enligt 3 kap. 26 § ska lämna Finansinspektionen de upplysningar om sin verksamhet och därmed sammanhängande omständigheter som inspektionen begär. Utländska företag som tillhandahåller betaltjänster i Sverige genom ett ombud enligt 3 kap. 26 § ska utse en central kontaktpunkt här i landet om Finansinspektionen begär det. Lag (2018:175)."
+    },
+    {
+      "provision_ref": "8:2 a",
+      "chapter": "8",
+      "section": "2 a",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer meddelar föreskrifter om att vissa uppgifter som enligt 2 § ska lämnas till Finansinspektionen i stället ska lämnas till Statistiska centralbyrån. Lag (2014:493). Platsundersökning"
+    },
+    {
+      "provision_ref": "8:3",
+      "chapter": "8",
+      "section": "3",
+      "content": "Finansinspektionen får när det är nödvändigt genomföra en undersökning hos 1. ett betalningsinstitut, 2. en registrerad betaltjänstleverantör, och 3. utländska företag som tillhandahåller betaltjänster i Sverige enligt 3 kap. 26 §. Om det behövs för tillsynen av ett betalningsinstitut eller en registrerad betaltjänstleverantör, får Finansinspektionen genomföra en undersökning hos 1. en filial till institutet, 2. ett ombud till institutet eller leverantören, och 3. ett företag som har fått i uppdrag att utföra visst arbete eller vissa funktioner åt institutet eller leverantören. En undersökning hos en registrerad betaltjänstleverantör får endast omfatta den verksamhet som avser tillhandahållande av betaltjänster. Lag (2018:175). Särskilt om tillsyn över att bestämmelserna i 4 a kap. följs"
+    },
+    {
+      "provision_ref": "8:3 a",
+      "chapter": "8",
+      "section": "3 a",
+      "content": "Finansinspektionen får förelägga var och en att lämna upplysningar och tillhandahålla de handlingar som behövs i ett ärende om tillämpningen av någon av bestämmelserna i 4 a kap. 1-8 §§. Lag (2020:341)."
+    },
+    {
+      "provision_ref": "8:3 b",
+      "chapter": "8",
+      "section": "3 b",
+      "content": "Om det är nödvändigt för tillsynen när det gäller de bestämmelser som anges i 3 a §, får Finansinspektionen köpa tjänster under dold identitet (testköp). Näringsidkaren ska underrättas om testköpet så snart det kan ske utan att åtgärden förlorar sin betydelse. Om det inte är oskäligt, får Finansinspektionen besluta att näringsidkaren ska ersätta inspektionen för vad som har betalats för tjänsten vid testköpet. Lag (2020:341)."
+    },
+    {
+      "provision_ref": "8:3 c",
+      "chapter": "8",
+      "section": "3 c",
+      "content": "Om en näringsidkare genom sitt agerande på internet bryter mot någon av bestämmelserna i 4 a kap. 1-8 §§ och inga andra effektiva medel är tillgängliga, får Finansinspektionen förelägga näringsidkaren, en värdtjänstleverantör eller en internetleverantör att upprätta ett varningsmeddelande som tydligt visas i samband med besök på webbplatsen. Ett föreläggande som avses i första stycket får bara meddelas om 1. överträdelsens allvar motiverar det, och 2. webbplatsen inte omfattas av tryckfrihetsförordningens eller yttrandefrihetsgrundlagens skydd. Varningsmeddelandet ska ange i vilket avseende agerandet bryter mot någon av bestämmelserna i 4 a kap. 1-8 §§ och i övrigt vara utformat på ändamålsenligt sätt. Lag (2020:341)."
+    },
+    {
+      "provision_ref": "8:3 d",
+      "chapter": "8",
+      "section": "3 d",
+      "content": "När ändrade förhållanden föranleder det, ska Finansinspektionen besluta att en skyldighet att upprätta ett varningsmeddelande inte längre ska gälla. Lag (2020:341). Samarbete mellan behöriga myndigheter"
+    },
+    {
+      "provision_ref": "8:4",
+      "chapter": "8",
+      "section": "4",
+      "content": "Finansinspektionen ska, i den utsträckning som följer av Sveriges medlemskap i Europeiska unionen, i sin till- synsverksamhet samarbeta och utbyta information med - andra behöriga myndigheter, - Europeiska centralbanken, - nationella centralbanker, - Europeiska kommissionen, och - Europeiska bankmyndigheten. En behörig myndighet inom EES får närvara vid en kontroll som utförs av Finansinspektionen. Finansinspektionen får delegera uppgiften att genomföra en kontroll på plats av en filial eller ombud till ett betalningsinstitut som står under dess tillsyn till en behörig myndighet i ett annat land inom EES. Lag (2019:731)."
+    },
+    {
+      "provision_ref": "8:4 a",
+      "chapter": "8",
+      "section": "4 a",
+      "content": "Finansinspektionen får hänskjuta frågor som rör samarbete mellan behöriga myndigheter, särskilt om informationsutbyte, till Europeiska bankmyndigheten för tvistlösning i enlighet med artikel 23 i betalkontodirektivet eller artikel 27 i betaltjänstdirektivet. Lag (2018:175). Register över betaltjänstverksamhet"
+    },
+    {
+      "provision_ref": "8:5",
+      "chapter": "8",
+      "section": "5",
+      "content": "Finansinspektionen ska föra ett register över betalningsinstitut, registrerade betaltjänstleverantörer, deras ombud och filialer samt över dem som avses i 1 kap."
+    },
+    {
+      "provision_ref": "8:10",
+      "chapter": "8",
+      "section": "10",
+      "content": ". Registret ska innehålla uppgifter om 1. vilka betaltjänster som betalningsinstitut, registrerade betaltjänstleverantörer, deras ombud och filialer har rätt att tillhandahålla, 2. den verksamhet som drivs av den som avses i 1 kap. 10 §, 3. tillstånd som har återkallats, 4. vilka registrerade betaltjänstleverantörer som inte längre uppfyller villkoren för registrering enligt 2 kap. 3 §. Registret ska hållas tillgängligt hos Finansinspektionen. Finansinspektionen ska så snart det kan ske underrätta Europeiska bankmyndigheten om den information som förs in i registret enligt första stycket och om skälen till att ett tillstånd återkallats eller till att en registrerad betaltjänstleverantör inte längre uppfyller villkoren för registrering enligt 2 kap. 3 §. Lag (2018:175). Revision 6 § En revisor eller en särskild granskare ska omedelbart rapportera till Finansinspektionen om han eller hon vid fullgörandet av sitt uppdrag i ett betalningsinstitut får kännedom om förhållanden som 1. kan utgöra en väsentlig överträdelse av någon författning som reglerar institutets verksamhet, 2. kan påverka institutets fortsatta drift negativt, eller 3. kan leda till att revisorn avstyrker att balansräkningen eller resultaträkningen fastställs eller till anmärkning enligt 9 kap. 33 eller 34 § aktiebolagslagen (2005:551) eller"
+    },
+    {
+      "provision_ref": "8:11",
+      "chapter": "8",
+      "section": "11",
+      "title": "I fråga om europabolag och europakooperativ som har ett sådant",
+      "content": "Finansinspektionen ska återkalla betalningsinstitutets tillstånd om 1. institutet har fått tillståndet genom att lämna oriktiga uppgifter eller på något annat otillbörligt sätt, 2. institutet inte inom ett år från det att tillståndet beviljades har börjat driva sådan verksamhet som tillståndet avser, 3. institutet under en sammanhängande tid av sex månader inte har drivit sådan verksamhet som tillståndet avser, 4. det skulle utgöra ett hot mot betalningssystemets stabilitet om institutet fortsatte att bedriva sin betaltjänstverksamhet, 5. institutet har förklarat sig avstå från tillståndet, 6. institutet har överlåtit hela sin verksamhet som avser betaltjänster, eller 7. institutet försatts i konkurs eller beslut fattats om att institutet ska träda i tvångslikvidation. I de fall som avses i första stycket 1-4 får i stället varning meddelas om det är tillräckligt."
+    },
+    {
+      "provision_ref": "8:12",
+      "chapter": "8",
+      "section": "12",
+      "content": "Om tillståndet återkallas får Finansinspektionen besluta om hur avvecklingen av verksamheten ska ske. Ett beslut om återkallelse får förenas med förbud att fortsätta verksamheten."
+    },
+    {
+      "provision_ref": "8:13",
+      "chapter": "8",
+      "section": "13",
+      "content": "Om en behörig myndighet i ett annat land har underrättat Finansinspektionen om att ett betalningsinstitut överträtt föreskrifter i det landet, ska inspektionen vidta de åtgärder som anges i 8-11 §§ mot institutet, om det föreligger någon omständighet som anges där. Finansinspektionen ska så snart det kan ske underrätta den behöriga myndigheten i det andra landet och de behöriga myndigheterna i övriga berörda länder inom EES om vilka åtgärder som vidtas. Lag (2018:175). Sanktionsavgift"
+    },
+    {
+      "provision_ref": "8:14",
+      "chapter": "8",
+      "section": "14",
+      "content": "Om ett betalningsinstitut har fått anmärkning eller varning enligt 8 § eller varning enligt 11 §, får Finansinspektionen besluta att institutet ska betala en sanktionsavgift. Avgiften tillfaller staten. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:15",
+      "chapter": "8",
+      "section": "15",
+      "content": "Sanktionsavgiften ska uppgå till lägst 5 000 kronor och högst 50 miljoner kronor. Avgiften får inte överstiga tio procent av betalningsinstitutets omsättning närmast föregående räkenskapsår. Om överträdelsen har skett under institutets första verksamhetsår eller om uppgifter om omsättningen annars saknas eller är bristfälliga, får omsättningen uppskattas. För ett betalningsinstitut som även bedriver annan verksamhet än tillhandahållande av betaltjänster enligt 1 kap. 2 § ska omsättningen enligt andra stycket avse endast verksamheten med betaltjänster. Avgiften får inte vara så stor att institutet därefter inte uppfyller kraven i 3 kap. 2 §. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:15 a",
+      "chapter": "8",
+      "section": "15 a",
+      "content": "När det är fråga om en överträdelse av lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism eller föreskrifter som har meddelats med stöd av den lagen eller en överträdelse av Europaparlamentets och rådets förordning (EU) 2023/1113, ska den sanktionsavgift som kan beslutas enligt 14 § uppgå till lägst 5 000 kronor och som högst fastställas till det högsta av 1. tio procent av betalningsinstitutets omsättning närmast föregående räkenskapsår eller, i förekommande fall, motsvarande omsättning på koncernnivå, 2. två gånger den vinst som institutet gjort till följd av regelöverträdelsen, om beloppet går att fastställa, eller 3. ett belopp i kronor motsvarande fem miljoner euro. Avgiften får inte vara så stor att institutet därefter inte uppfyller kraven i 3 kap. 2 §. Lag (2024:1164)."
+    },
+    {
+      "provision_ref": "8:15 b",
+      "chapter": "8",
+      "section": "15 b",
+      "content": "En sanktionsavgift för en fysisk person ska som högst fastställas till det högsta av 1. två gånger den vinst som den fysiska personen gjort till följd av regelöverträdelsen, om beloppet går att fastställa, eller 2. ett belopp som per den 25 juni 2015 i kronor motsvarade fem miljoner euro. Avgiften tillfaller staten. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:16",
+      "chapter": "8",
+      "section": "16",
+      "content": "När sanktionsavgiftens storlek fastställs, ska särskild hänsyn tas till sådana omständigheter som anges i 9 § första stycket och 9 a § samt till betalningsinstitutets eller den fysiska personens finansiella ställning och, om det går att fastställa, den vinst som gjorts genom överträdelsen. Lag (2017:652). Sanktionsföreläggande"
+    },
+    {
+      "provision_ref": "8:16 a",
+      "chapter": "8",
+      "section": "16 a",
+      "content": "Frågor om ingripanden mot fysiska personer enligt 8 a eller 8 b § tas upp av Finansinspektionen genom sanktionsföreläggande. Finansinspektionen ska då tillämpa bestämmelserna i 15 kap. 9 a-9 d §§ lagen (2004:297) om bank- och finansieringsrörelse. Lag (2024:1286). Förseningsavgift"
+    },
+    {
+      "provision_ref": "8:17",
+      "chapter": "8",
+      "section": "17",
+      "content": "Om ett betalningsinstitut eller en registrerad betaltjänstleverantör inte lämnar de upplysningar som föreskrivits med stöd av 27 § i tid, får Finansinspektionen besluta att institutet ska betala en förseningsavgift med högst 100 000 kronor. Avgiften tillfaller staten. Verkställighet av beslut om sanktionsavgift och förseningsavgift"
+    },
+    {
+      "provision_ref": "8:18",
+      "chapter": "8",
+      "section": "18",
+      "content": "En sanktionsavgift eller förseningsavgift ska betalas till Finansinspektionen inom trettio dagar från det att beslutet om den har fått laga kraft eller sanktionsföreläggande godkänts eller den längre tid som anges i beslutet. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:19",
+      "chapter": "8",
+      "section": "19",
+      "content": "Finansinspektionens beslut om sanktionsavgift eller förseningsavgift får verkställas enligt utsökningsbalkens bestämmelser, om avgiften inte har betalats inom den tid som anges i 18 §. Om sanktionsavgiften eller förseningsavgiften inte betalas inom den tid som anges i 18 §, ska inspektionen lämna den obetalda avgiften för indrivning. Bestämmelser om indrivning av statliga fordringar finns i lagen (1993:891) om indrivning av statliga fordringar m.m. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:20",
+      "chapter": "8",
+      "section": "20",
+      "content": "En sanktionsavgift eller förseningsavgift som har beslutats faller bort i den utsträckning verkställighet inte har skett inom fem år från det att beslutet fick laga kraft eller sanktionsföreläggandet godkändes. Lag (2017:652). Ingripande mot utländska företag"
+    },
+    {
+      "provision_ref": "8:21",
+      "chapter": "8",
+      "section": "21",
+      "content": "Finansinspektionen får förelägga ett utländskt företag som tillhandahåller betaltjänster i enlighet med 3 kap. 26 § att göra rättelse, om dess verksamhet med betaltjänster i Sverige inte drivs enligt gällande bestämmelser om åtgärder mot penningtvätt och finansiering av terrorism eller i enlighet med Europaparlamentets och rådets förordning (EU) 2023/1113. Om ett utländskt företag som i Sverige tillhandahåller betaltjänster från en filial eller genom ett ombud enligt 3 kap. 26 § inte driver denna verksamhet i enlighet med bestämmelserna i denna lag, ska Finansinspektionen så snart det kan ske underrätta den behöriga myndigheten i företagets hemland. Finansinspektionen får förelägga företaget att göra rättelse om dess verksamhet med betaltjänster i Sverige inte drivs i enlighet med 4 och 5-5 b kap. Om ett företag inte följer ett föreläggande enligt första eller andra stycket ska Finansinspektionen underrätta den behöriga myndigheten i företagets hemland. Om rättelse inte sker, får Finansinspektionen förbjuda företaget att påbörja nya betalningstransaktioner här i landet. Innan förbud meddelas ska inspektionen underrätta den behöriga myndigheten i företagets hemland. I brådskande fall får inspektionen meddela förbud utan föregående underrättelse till myndigheten i företagets hemland. Denna ska dock underrättas så snart det kan ske. Lag (2024:1164)."
+    },
+    {
+      "provision_ref": "8:22",
+      "chapter": "8",
+      "section": "22",
+      "content": "Om ett utländskt företag som driver verksamhet enligt"
+    },
+    {
+      "provision_ref": "8:23",
+      "chapter": "8",
+      "section": "23",
+      "title": "Ingripande mot registrerade betaltjänstleverantörer m.fl.",
+      "content": "Finansinspektionen ska förelägga en registrerad betaltjänstleverantör eller den som ansvarar för ett betalningssystem att inom en viss tid vidta åtgärder för att komma till rätta med situationen eller upphöra med verksamheten, om företaget har åsidosatt sina skyldigheter enligt - denna lag, - Europaparlamentets och rådets förordning (EU) nr 260/2012, - Europaparlamentets och rådets förordning (EU) 2021/1230, eller - andra författningar som reglerar dess verksamhet. Om en registrerad betaltjänstleverantör som avses i 2 kap. 5 § inte inkommer med ansökan om tillstånd, ska Finansinspektionen förelägga betaltjänstleverantören att inkomma med en ansökan. Om betaltjänstleverantören inte rättar sig efter föreläggandet ska inspektionen förelägga denne att upphöra med verksamheten. Om det är osäkert om tillståndsplikt föreligger beträffande viss betaltjänstverksamhet, får Finansinspektionen förelägga den som driver verksamheten att lämna de upplysningar om verksamheten som behövs för att bedöma om så är fallet. Lag (2024:392)."
+    },
+    {
+      "provision_ref": "8:23 a",
+      "chapter": "8",
+      "section": "23 a",
+      "content": "Vid en överträdelse av lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism eller föreskrifter som har meddelats med stöd av den lagen eller en överträdelse av Europaparlamentets och rådets förordning (EU) 2023/1113, som inte är ringa, får Finansinspektionen ingripa mot en registrerad betaltjänstleverantör som är en juridisk person genom beslut om sanktionsavgift som bestäms i enlighet med 15 a §. Om den registrerade betaltjänstleverantören är en fysisk person, får sanktionsavgift beslutas endast om överträdelsen är allvarlig, upprepad eller systematisk och personen i fråga uppsåtligen eller av grov oaktsamhet orsakat överträdelsen. Avgiften tillfaller staten. Lag (2024:1164)."
+    },
+    {
+      "provision_ref": "8:23 b",
+      "chapter": "8",
+      "section": "23 b",
+      "content": "Finansinspektionen ska ingripa mot någon som ingår i en registrerad betaltjänstleverantörs styrelse eller är dess verkställande direktör eller på motsvarande sätt företräder betaltjänstleverantören, eller är ersättare för någon av dem, om den registrerade betaltjänstleverantören har befunnits ansvarig för en överträdelse av lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism eller föreskrifter som har meddelats med stöd av den lagen eller en överträdelse av Europaparlamentets och rådets förordning (EU) 2023/1113. Ett ingripande enligt första stycket får ske bara om överträdelsen är allvarlig, upprepad eller systematisk och personen i fråga uppsåtligen eller av grov oaktsamhet orsakat överträdelsen. Finansinspektionen ska även ingripa mot någon som ingår i en registrerad betaltjänstleverantörs styrelse eller är dess verkställande direktör eller på motsvarande sätt företräder betaltjänstleverantören, eller är ersättare för någon av dem, om den registrerade betaltjänstleverantören har åsidosatt sina skyldigheter enligt någon av artiklarna 5-10, 11.1-11.10, 12- 14, 16.1, 16.2, 17, 18.1, 18.2, 19.1, 19.3, 19.4, 23-25, 26.1- 26.8, 27, 28.1-28.8, 29, 30.1-30.4, 31.12 eller 45 i Europaparlamentets och rådets förordning (EU) 2022/2554. Ett ingripande enligt tredje stycket får ske bara om den registrerade betaltjänstleverantörens överträdelse är allvarlig och den fysiska personen i fråga uppsåtligen eller av grov oaktsamhet orsakat överträdelsen. Ingripande får ske genom en eller båda av följande sanktioner: 1. beslut att personen i fråga under en viss tid, lägst tre och högst tio år, inte får upprätthålla en funktion som avses i första stycket hos en registrerad betaltjänstleverantör, eller 2. beslut om sanktionsavgift. Lag (2024:1286)."
+    },
+    {
+      "provision_ref": "8:23 c",
+      "chapter": "8",
+      "section": "23 c",
+      "content": "Vid beslut om ingripande enligt 23 a § andra stycket och 23 b § gäller 15 b och 16 a §§. I fråga om verkställighet av beslut om sanktionsavgift gäller 18-20 §§. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:23 d",
+      "chapter": "8",
+      "section": "23 d",
+      "content": "Vid valet av åtgärd eller sanktion enligt 23-23 b §§ och vid bestämmande av sanktionsavgiftens storlek ska Finansinspektionen ta hänsyn till de omständigheter som anges i 9 § första stycket, 9 a och 16 §§. Lag (2017:652)."
+    },
+    {
+      "provision_ref": "8:23 e",
+      "chapter": "8",
+      "section": "23 e",
+      "content": "Om en behörig myndighet i ett annat land har underrättat Finansinspektionen om att en registrerad betaltjänstleverantör överträtt föreskrifter i det landet, ska inspektionen vidta de åtgärder som anges i 23 § mot betaltjänstleverantören, om det föreligger någon omständighet som anges där. Finansinspektionen ska så snart det kan ske underrätta den behöriga myndigheten i det andra landet och de behöriga myndigheterna i övriga berörda länder inom EES om vilka åtgärder som vidtas. Lag (2025:253). Ingripande mot den som saknar tillstånd eller registrering"
+    },
+    {
+      "provision_ref": "8:24",
+      "chapter": "8",
+      "section": "24",
+      "content": "Om någon driver sådan verksamhet som omfattas av denna lag utan att vara berättigad till det, ska Finansinspektionen förelägga denne att upphöra med verksamheten. Finansinspektionen får även besluta om en sanktionsavgift. Om det är osäkert om lagen är tillämplig på en viss verksamhet, får inspektionen förelägga den som driver verksamheten att lämna de upplysningar om verksamheten som inspektionen behöver för att bedöma om så är fallet. Ett föreläggande enligt första eller andra stycket som avser ett utländskt företag får riktas mot såväl företaget som den som i Sverige är verksam för företagets räkning. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "8:24 a",
+      "chapter": "8",
+      "section": "24 a",
+      "content": "Vid beslut om sanktionsavgift enligt 24 § första stycket gäller 15 § i fråga om juridiska personer och 15 b och 16 a §§ och 23 a § andra stycket i fråga om fysiska personer. I fråga om verkställighet av beslut om sanktionsavgift gäller 18-20 §§. Lag (2025:253)."
+    },
+    {
+      "provision_ref": "8:24 b",
+      "chapter": "8",
+      "section": "24 b",
+      "content": "Vid bestämmande av sanktionsavgiftens storlek ska Finansinspektionen ta hänsyn till de omständigheter som anges i 9 § första stycket, 9 a och 16 §§. Lag (2025:253). Vite"
+    },
+    {
+      "provision_ref": "8:25",
+      "chapter": "8",
+      "section": "25",
+      "content": "Om Finansinspektionen meddelar föreläggande eller förbud enligt denna lag, får inspektionen förelägga vite. Sanktionsavgift och vite"
+    },
+    {
+      "provision_ref": "8:25 a",
+      "chapter": "8",
+      "section": "25 a",
+      "content": "En sanktionsavgift får inte beslutas om överträdelsen omfattas av ett föreläggande som har förenats med vite och en ansökan om utdömande av vitet har gjorts. Lag (2025:253). Överklagande"
+    },
+    {
+      "provision_ref": "8:26",
+      "chapter": "8",
+      "section": "26",
+      "content": "Finansinspektionens beslut enligt 23 § tredje stycket och 24 § andra stycket och beslut om sanktionsföreläggande får inte överklagas. Andra beslut av Finansinspektionen enligt denna lag får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten. Finansinspektionen får bestämma att ett beslut om förbud, föreläggande eller återkallelse ska gälla omedelbart. Lag (2018:843). Bemyndiganden"
+    },
+    {
+      "provision_ref": "8:27",
+      "chapter": "8",
+      "section": "27",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om vilka upplysningar ett företag ska lämna till Finansinspektionen enligt 2 § första stycket och när upplysningarna ska lämnas. Regeringen får meddela föreskrifter om avgifter enligt 7 §. Lag (2020:183)."
+    },
+    {
+      "provision_ref": "9:1",
+      "chapter": "9",
+      "section": "1",
+      "title": "Platser för kontantuttag och dagskasseinsättningar",
+      "content": "Sådana kreditinstitut och filialer till utländska kreditinstitut som till konsumenter tillhandahåller betalkonton med grundläggande funktioner, ska tillhandahålla tjänster som gör det möjligt att ta ut kontanter från dessa konton (platser för kontantuttag) i betryggande utsträckning i hela landet. Sådana kreditinstitut och filialer till utländska kreditinstitut som till företag tillhandahåller betalkonton, ska tillhandahålla tjänster som gör det möjligt att sätta in kontanter på dessa konton (platser för dagskasseinsättningar) i betryggande utsträckning i hela landet. Första och andra styckena gäller endast institut och filialer som den 1 juli närmast föregående år hade mer än 70 miljarder kronor i inlåning från allmänheten. Lag (2019:1226). Tillsyn"
+    },
+    {
+      "provision_ref": "9:2",
+      "chapter": "9",
+      "section": "2",
+      "content": "Post- och telestyrelsen ska utöva tillsyn över att kreditinstitut och filialer till utländska kreditinstitut uppfyller sina skyldigheter enligt 1 §. Lag (2019:1226). Uppgiftsskyldighet"
+    },
+    {
+      "provision_ref": "9:3",
+      "chapter": "9",
+      "section": "3",
+      "content": "Post- och telestyrelsen får besluta att förelägga företag som tillhandahåller platser för kontantuttag eller dagskasseinsättningar att lämna de uppgifter som behövs för att styrelsen ska kunna utöva tillsyn enligt 2 §. Ett beslut om föreläggande får förenas med vite. Lag (2019:1226). Överlämnande"
+    },
+    {
+      "provision_ref": "9:4",
+      "chapter": "9",
+      "section": "4",
+      "content": "Om ett kreditinstitut eller en filial till ett utländskt kreditinstitut inte uppfyller sina skyldigheter enligt 1 §, ska Post- och telestyrelsen överlämna ärendet till Finansinspektionen. Lag (2019:1226). Ingripande"
+    },
+    {
+      "provision_ref": "9:5",
+      "chapter": "9",
+      "section": "5",
+      "content": "Om ett överlämnat ärende enligt 4 § gäller ett kreditinstitut, får Finansinspektionen förelägga institutet att vidta rättelse inom en viss tid. Om institutet inte följer föreläggandet, får inspektionen besluta att institutet ska betala en sanktionsavgift. Avgiften tillfaller staten. Finansinspektionen får avstå från ingripande om överträdelsen är ursäktlig. Bestämmelser om ingripande mot filialer till utländska kreditinstitut finns i 15 kap. lagen (2004:297) om bank- och finansieringsrörelse. Lag (2019:1226). Undantag"
+    },
+    {
+      "provision_ref": "9:6",
+      "chapter": "9",
+      "section": "6",
+      "content": "Post- och telestyrelsen ska inte överlämna ett ärende enligt 4 § och Finansinspektionen ska inte ingripa enligt 5 §, om det med beaktande av samtliga platser för kontantuttag respektive dagskasseinsättningar 1. finns tillgång till sådana platser i betryggande utsträckning i hela landet, eller 2. endast är ett ringa antal personer som inte har sådan tillgång som avses i 1. Lag (2019:1226). Beräkning av sanktionsavgiften"
+    },
+    {
+      "provision_ref": "9:7",
+      "chapter": "9",
+      "section": "7",
+      "content": "Sanktionsavgiften ska beräknas till produkten av 1. det antal personer, avrundat nedåt till närmaste tusental, som inte har tillgång till platser för kontantuttag respektive dagskasseinsättningar i betryggande utsträckning i hela landet (avvikelsen), 2. institutets inlåning från allmänheten i förhållande till den genomsnittliga inlåningen från allmänheten den 1 juli närmast föregående år för samtliga kreditinstitut och filialer till utländska kreditinstitut som omfattas av 1 § första och andra styckena, och 3. 5 000 kronor. Lag (2019:1226)."
+    },
+    {
+      "provision_ref": "9:8",
+      "chapter": "9",
+      "section": "8",
+      "content": "Sanktionsavgiften ska fastställas till det belopp som beräknats enligt 7 § och får inte överstiga det högsta av 1. tio procent av kreditinstitutets omsättning närmast föregående räkenskapsår eller, i förekommande fall, motsvarande omsättning på koncernnivå, 2. två gånger den vinst som institutet gjort till följd av överträdelsen, om beloppet går att fastställa, eller 3. ett belopp som i svenska kronor motsvarar fem miljoner euro. Om överträdelsen har skett under institutets första verksamhetsår eller om uppgifter om omsättningen annars saknas eller är bristfälliga, får omsättningen uppskattas. Avgiften får inte vara så stor att institutet därefter inte uppfyller skyldigheterna enligt 6 kap. 1 § lagen (2004:297) om bank- och finansieringsrörelse. Lag (2019:1226)."
+    },
+    {
+      "provision_ref": "9:9",
+      "chapter": "9",
+      "section": "9",
+      "content": "Om ett kreditinstitut varken uppfyller sina skyldigheter enligt 1 § första stycket eller 1 § andra stycket, ska en sanktionsavgift beslutas för varje överträdelse. Lag (2019:1226)."
+    },
+    {
+      "provision_ref": "9:10",
+      "chapter": "9",
+      "section": "10",
+      "content": "Bestämmelser om verkställighet av beslut om sanktionsavgift finns i 15 kap. lagen (2004:297) om bank- och finansieringsrörelse. Lag (2019:1226). Överklagande"
+    },
+    {
+      "provision_ref": "9:11",
+      "chapter": "9",
+      "section": "11",
+      "content": "Post- och telestyrelsens beslut om föreläggande enligt 3 § får överklagas till allmän förvaltningsdomstol. Andra beslut av Post- och telestyrelsen enligt denna lag får inte överklagas. Prövningstillstånd krävs vid överklagande till kammarrätten. Lag (2019:1226)."
+    },
+    {
+      "provision_ref": "9:12",
+      "chapter": "9",
+      "section": "12",
+      "content": "Bestämmelser om överklagande av Finansinspektionens beslut enligt detta kapitel finns i 17 kap. lagen (2004:297) om bank- och finansieringsrörelse. Lag (2019:1226). Bemyndigande"
+    },
+    {
+      "provision_ref": "9:13",
+      "chapter": "9",
+      "section": "13",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får, för tillämpningen av 1 §, meddela föreskrifter om det högsta antal personer som får ha ett visst längsta vägavstånd i kilometer mellan folkbokföringsadressen och den närmaste platsen för kontantuttag respektive dagskasseinsättning. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om hur avvikelsen enligt 7 § 1 ska fastställas. Lag (2019:1226)."
+    },
+    {
+      "provision_ref": "9:14",
+      "chapter": "9",
+      "section": "14",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om vilka uppgifter ett företag ska lämna enligt 3 § första stycket och till vilken myndighet uppgifterna ska lämnas. Lag (2019:1226). Övergångsbestämmelser 2010:751 1. Denna lag träder i kraft den 1 augusti 2010. 2. Genom lagen upphävs lagen (1999:268) om betalningsöverföringar inom Europeiska ekonomiska samarbetsområdet. 3. Juridiska personer som inlett verksamhet med betaltjänster före den 25 december 2007 får fortsätta med verksamheten till utgången av april 2011 utan krav på tillstånd enligt denna lag. Om Finansinspektionen bedömer att förutsättningarna för tillstånd enligt 2 kap. 6 och 7 §§ är uppfyllda för en sådan juridisk person ska Finansinspektionen meddela tillstånd oavsett om den juridiska personen har ansökt om tillstånd eller inte. Finansinspektionen ska informera den berörda juridiska personen innan tillstånd meddelas. 4. Finansiella institut som inlett verksamhet med betalningsförmedling före den 25 december 2007 och som är dotterföretag till ett moderföretag som omfattas av gruppbaserad tillsyn enligt 9 kap. lagen (2006:1371) om kapitaltäckning och stora exponeringar, och har underrättat Finansinspektionen om detta senast den 25 september 2010, ska inte omfattas av krav på tillstånd enligt 2 kap. 5. Fysiska eller juridiska personer som inlett verksamhet med betaltjänster före den 25 december 2007 och uppfyller kraven för undantag från tillståndsplikt i 2 kap. 3 § får fortsätta med verksamheten till utgången av april 2011 utan att ha beviljats undantag enligt denna lag. 6. Fysiska eller juridiska personer som inlett verksamhet med betaltjänster den 25 december 2007 eller senare och som vid lagens ikraftträdande driver verksamhet som fordrar tillstånd eller undantag från tillståndsplikt enligt denna lag får fortsätta att driva verksamheten om en ansökan om tillstånd eller undantag från tillståndsplikt enligt denna lag har getts in före den 1 augusti 2010, till dess att ansökan prövats slutligt, dock längst till den 1 november 2010. 7. Till och med utgången av december 2011 får kreditering av en betalningsmottagares betaltjänstleverantörs konto, med avvikelse från 5 kap. 18 §, ske inom en tid av högst tre bankdagar efter det att en betalningsorder har mottagits i enlighet med 5 kap. 9 §. För betalningstransaktioner som initierats på papper får kreditering under samma förutsättningar, med avvikelse från 5 kap. 18 §, ske inom en tid av högst fyra bankdagar. 8. Sådana ändringar i ramavtal som avser förhållanden enligt 4 kap. 10-19 §§ och som syftar till att införa villkor i enlighet med de krav som följer av nämnda paragrafer ska, oavsett vad som stadgas i avtalet, kunna genomföras genom att betaltjänstleverantören meddelar betaltjänstanvändaren om ändringarna minst en månad före den dag då de föreslås börja tillämpas. Ändringar som gynnar betaltjänstanvändaren får genomföras utan att meddelas denne i förväg. Om betaltjänstanvändaren inte godkänner de föreslagna ändringarna ska användaren meddela leverantören detta före det datum då ändringen föreslås träda i kraft. 2017:342 Denna lag träder i kraft den dag som regeringen bestämmer i fråga om 4 a kap. 5 § och i övrigt den 1 juni 2017. 2017:652 1. Denna lag träder i kraft den 1 augusti 2017. 2. Äldre bestämmelser gäller för överträdelser som inträffat före ikraftträdandet. 2018:175 1. Denna lag träder i kraft den dag som regeringen bestämmer i fråga om 5 kap. 10, 13, 17, 19 och 25 §§ och 5 b kap. 4 § och i övrigt den 1 maj 2018. 2. Genom lagen upphävs lagen (2010:738) om obehöriga transaktioner med betalningsinstrument. I fråga om avtal som ingåtts före ikraftträdandet av denna lag gäller den upphävda lagen. 3. Den som vid ikraftträdandet av denna lag har tillstånd att driva verksamhet som betalningsinstitut får fortsätta verksamheten till och med den 1 november 2018. För att fortsätta verksamheten efter det datumet krävs ett nytt tillstånd. Om en ansökan om tillstånd har getts in till Finansinspektionen före den 1 november 2018, får den berörda personen dock fortsätta med verksamheten till dess att ansökan har prövats slutligt. Om Finansinspektionen bedömer att förutsättningarna för tillstånd är uppfyllda ska Finansinspektionen meddela tillstånd oavsett om någon ansökan om det gjorts eller inte. Finansinspektionen ska informera den berörda personen innan tillstånd meddelas. 4. Den som vid ikraftträdandet av denna lag är beviljad ett undantag enligt 2 kap. 3 § får fortsätta verksamheten till och med den 1 maj 2019. För att fortsätta verksamheten efter det datumet krävs ett nytt undantag eller tillstånd. Om en ansökan om tillstånd eller undantag från tillståndsplikt har getts in till Finansinspektionen före den 1 maj 2019, får den berörda personen dock fortsätta med verksamheten till dess att ansökan har prövats slutligt. Om Finansinspektionen bedömer att förutsättningarna för att bevilja undantag är uppfyllda, ska inspektionen bevilja undantag oavsett om någon ansökan om det gjorts eller inte. Finansinspektionen ska informera den berörda personen innan undantag beviljas. 5. Den som vid ikraftträdandet av denna lag har tillstånd att som betalningsinstitut tillhandahålla betaltjänster som avses i 1 kap. 2 § 6 i den äldre lydelsen får fortsätta verksamheten till och med den 1 maj 2020. För att fortsätta verksamheten efter det datumet krävs ett nytt tillstånd. Om en ansökan om tillstånd har getts in till Finansinspektionen före den 1 maj 2020, får den berörda personen dock fortsätta med verksamheten till dess att ansökan har prövats slutligt. Om Finansinspektionen finner att den berörda personen uppfyller kraven i 3 kap. 1-3 §§, ska inspektionen meddela tillstånd att tillhandahålla sådana betaltjänster som avses i"
+    }
+  ]
+}

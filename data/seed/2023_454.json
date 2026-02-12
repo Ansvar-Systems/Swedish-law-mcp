@@ -1,0 +1,71 @@
+{
+  "id": "2023:454",
+  "type": "statute",
+  "title": "Lag (2023:454) om transaktionskonto vid Utbetalningsmyndigheten",
+  "status": "in_force",
+  "issued_date": "2023-06-22",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2023-454",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Inledande bestämmelser",
+      "content": "Denna lag innehåller bestämmelser om Utbetalningsmyndighetens system med transaktionskonto och om de utbetalningar som ska ske genom detta system."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Utbetalningsmyndigheten ska administrera ett system med transaktionskonto för utbetalningar från statliga myndigheter. De myndigheter som omfattas av systemet är Arbetsförmedlingen, Centrala studiestödsnämnden, Försäkringskassan, Pensionsmyndigheten och Skatteverket."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Med beslutande myndighet avses i lagen den myndighet som har beslutat att en utbetalning som omfattas av systemet med transaktionskonto ska ske. Med kreditinstitut avses i lagen kreditinstitut enligt lagen (2004:297) om bank- och finansieringsrörelse samt utländska kreditinstitut enligt samma lag om institutet har filial i Sverige. Transaktionskonto"
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Utbetalningsmyndigheten ska registrera ett transaktionskonto för den som ska ta emot en utbetalning från systemet med transaktionskonto."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "Ett belopp ska registreras på mottagarens transaktionskonto så snart Utbetalningsmyndigheten får ett underlag för utbetalningen från den beslutande myndigheten."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "Det belopp som har registrerats på ett transaktionskonto ska betalas ut den dag som den beslutande myndigheten har bestämt."
+    },
+    {
+      "provision_ref": "7",
+      "section": "7",
+      "content": "En utbetalning ska anses verkställd av den beslutande myndigheten den dag som beloppet ska betalas ut, även om utbetalningen inte har kunnat genomföras."
+    },
+    {
+      "provision_ref": "8",
+      "section": "8",
+      "content": "Ett tillgodohavande på ett transaktionskonto ska betalas till ett konto hos ett kreditinstitut. Kontot ska tillhöra mottagaren av utbetalningen. Om Utbetalningsmyndigheten saknar uppgift om ett sådant konto, eller om det annars på grund av särskilda förhållanden finns behov av det, får utbetalning ske på annat sätt."
+    },
+    {
+      "provision_ref": "9",
+      "section": "9",
+      "content": "Ett belopp på ett transaktionskonto får inte överlåtas innan det ska betalas ut. Preskription"
+    },
+    {
+      "provision_ref": "10",
+      "section": "10",
+      "content": "Ett tillgodohavande som inte kan betalas ut ska stå kvar på transaktionskontot. Ett tillgodohavande preskriberas tio år från den tidpunkt som anges i 6 §, om inte preskriptionen avbryts dessförinnan. Ett tillgodohavande som har preskriberats tillfaller staten. Utmätning"
+    },
+    {
+      "provision_ref": "11",
+      "section": "11",
+      "content": "Ett belopp som har registrerats på ett transaktionskonto får utmätas trots att det inte får överlåtas enligt 9 §. Rätt att meddela föreskrifter"
+    },
+    {
+      "provision_ref": "12",
+      "section": "12",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om 1. vilka slags utbetalningar som ska administreras via systemet med transaktionskonto, och 2. hur utbetalningar som ska administreras via systemet med transaktionskonto ska göras. Övergångsbestämmelser 2023:454 1. Denna lag träder i kraft den 1 januari 2024. 2. Senast den 1 januari 2027 ska alla utbetalningar som omfattas av lagen administreras via systemet med transaktionskonto."
+    }
+  ]
+}

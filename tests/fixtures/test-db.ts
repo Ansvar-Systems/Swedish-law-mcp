@@ -191,6 +191,51 @@ CREATE TRIGGER definitions_ad AFTER DELETE ON definitions BEGIN
   INSERT INTO definitions_fts(definitions_fts, rowid, term, definition)
   VALUES ('delete', old.id, old.term, old.definition);
 END;
+
+CREATE TABLE IF NOT EXISTS eu_documents (
+  id TEXT PRIMARY KEY,
+  type TEXT NOT NULL CHECK(type IN ('directive', 'regulation')),
+  year INTEGER NOT NULL,
+  number INTEGER NOT NULL,
+  community TEXT CHECK(community IN ('EU', 'EG', 'EEG', 'Euratom')),
+  celex_number TEXT,
+  title TEXT,
+  title_sv TEXT,
+  short_name TEXT,
+  adoption_date TEXT,
+  entry_into_force_date TEXT,
+  in_force BOOLEAN DEFAULT 1,
+  amended_by TEXT,
+  repeals TEXT,
+  url_eur_lex TEXT,
+  description TEXT,
+  last_updated TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS eu_references (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source_type TEXT NOT NULL CHECK(source_type IN ('provision', 'document', 'case_law')),
+  source_id TEXT NOT NULL,
+  document_id TEXT NOT NULL REFERENCES legal_documents(id),
+  provision_id INTEGER REFERENCES legal_provisions(id),
+  eu_document_id TEXT NOT NULL REFERENCES eu_documents(id),
+  eu_article TEXT,
+  reference_type TEXT NOT NULL CHECK(reference_type IN (
+    'implements', 'supplements', 'applies', 'references', 'complies_with',
+    'derogates_from', 'amended_by', 'repealed_by', 'cites_article'
+  )),
+  reference_context TEXT,
+  full_citation TEXT,
+  is_primary_implementation BOOLEAN DEFAULT 0,
+  implementation_status TEXT CHECK(implementation_status IN ('complete', 'partial', 'pending', 'unknown')),
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+  last_verified TEXT,
+  UNIQUE(source_id, eu_document_id, eu_article)
+);
+
+CREATE INDEX IF NOT EXISTS idx_eu_references_document ON eu_references(document_id, eu_document_id);
+CREATE INDEX IF NOT EXISTS idx_eu_references_eu_document ON eu_references(eu_document_id, document_id);
+CREATE INDEX IF NOT EXISTS idx_eu_references_provision ON eu_references(provision_id, eu_document_id);
 `;
 
 const SAMPLE_DOCUMENTS = [
@@ -255,6 +300,107 @@ const SAMPLE_CROSS_REFS = [
   { source_document_id: 'NJA 2020', source_provision_ref: null, target_document_id: '2018:218', target_provision_ref: '4:1', ref_type: 'references' },
 ];
 
+const SAMPLE_EU_DOCUMENTS = [
+  {
+    id: 'regulation:2016/679',
+    type: 'regulation',
+    year: 2016,
+    number: 679,
+    community: 'EU',
+    celex_number: '32016R0679',
+    title: 'Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data',
+    title_sv: 'Europaparlamentets och rådets förordning (EU) 2016/679 om skydd för fysiska personer med avseende på behandling av personuppgifter',
+    short_name: 'GDPR',
+    adoption_date: '2016-04-27',
+    entry_into_force_date: '2018-05-25',
+    in_force: 1,
+    url_eur_lex: 'https://eur-lex.europa.eu/eli/reg/2016/679/oj',
+    description: 'General Data Protection Regulation',
+  },
+  {
+    id: 'directive:95/46',
+    type: 'directive',
+    year: 1995,
+    number: 46,
+    community: 'EG',
+    celex_number: '31995L0046',
+    title: 'Directive 95/46/EC on the protection of individuals with regard to the processing of personal data',
+    title_sv: 'Direktiv 95/46/EG om skydd för enskilda vid behandling av personuppgifter',
+    short_name: 'Data Protection Directive',
+    adoption_date: '1995-10-24',
+    entry_into_force_date: '1995-10-24',
+    in_force: 0, // Repealed by GDPR
+    amended_by: '["regulation:2016/679"]',
+    url_eur_lex: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31995L0046',
+    description: 'Repealed by GDPR on 2018-05-25',
+  },
+];
+
+const SAMPLE_EU_REFERENCES = [
+  // DSL (2018:218) supplements GDPR
+  {
+    source_type: 'document',
+    source_id: '2018:218',
+    document_id: '2018:218',
+    provision_id: null,
+    eu_document_id: 'regulation:2016/679',
+    eu_article: null,
+    reference_type: 'supplements',
+    full_citation: 'GDPR (EU) 2016/679',
+    is_primary_implementation: 1,
+    implementation_status: 'complete',
+  },
+  // DSL 2:1 references GDPR Article 6.1.e
+  {
+    source_type: 'provision',
+    source_id: '2018:218:2:1',
+    document_id: '2018:218',
+    provision_id: 4, // provision_ref 2:1
+    eu_document_id: 'regulation:2016/679',
+    eu_article: '6.1.e',
+    reference_type: 'cites_article',
+    full_citation: 'GDPR Article 6.1.e',
+    is_primary_implementation: 0,
+  },
+  // DSL 2:2 references GDPR Article 9.2.g
+  {
+    source_type: 'provision',
+    source_id: '2018:218:2:2',
+    document_id: '2018:218',
+    provision_id: 5, // provision_ref 2:2
+    eu_document_id: 'regulation:2016/679',
+    eu_article: '9.2.g',
+    reference_type: 'cites_article',
+    full_citation: 'GDPR Article 9.2.g',
+    is_primary_implementation: 0,
+  },
+  // DSL 3:2 references GDPR Articles 83-84
+  {
+    source_type: 'provision',
+    source_id: '2018:218:3:2',
+    document_id: '2018:218',
+    provision_id: 7, // provision_ref 3:2
+    eu_document_id: 'regulation:2016/679',
+    eu_article: '83,84',
+    reference_type: 'cites_article',
+    full_citation: 'GDPR Articles 83 and 84',
+    is_primary_implementation: 0,
+  },
+  // PUL (1998:204) implemented old Data Protection Directive (now repealed)
+  {
+    source_type: 'document',
+    source_id: '1998:204',
+    document_id: '1998:204',
+    provision_id: null,
+    eu_document_id: 'directive:95/46',
+    eu_article: null,
+    reference_type: 'implements',
+    full_citation: 'Directive 95/46/EC',
+    is_primary_implementation: 1,
+    implementation_status: 'complete',
+  },
+];
+
 export function createTestDatabase(): Database.Database {
   const db = new Database(':memory:');
   db.pragma('foreign_keys = ON');
@@ -315,6 +461,53 @@ function insertSampleData(db: Database.Database): void {
   for (const xref of SAMPLE_CROSS_REFS) {
     insertXRef.run(xref.source_document_id, xref.source_provision_ref, xref.target_document_id, xref.target_provision_ref, xref.ref_type);
   }
+
+  const insertEUDoc = db.prepare(`
+    INSERT INTO eu_documents (
+      id, type, year, number, community, celex_number, title, title_sv, short_name,
+      adoption_date, entry_into_force_date, in_force, amended_by, url_eur_lex, description
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+  for (const euDoc of SAMPLE_EU_DOCUMENTS) {
+    insertEUDoc.run(
+      euDoc.id,
+      euDoc.type,
+      euDoc.year,
+      euDoc.number,
+      euDoc.community,
+      euDoc.celex_number,
+      euDoc.title,
+      euDoc.title_sv,
+      euDoc.short_name,
+      euDoc.adoption_date,
+      euDoc.entry_into_force_date,
+      euDoc.in_force,
+      euDoc.amended_by || null,
+      euDoc.url_eur_lex,
+      euDoc.description
+    );
+  }
+
+  const insertEURef = db.prepare(`
+    INSERT INTO eu_references (
+      source_type, source_id, document_id, provision_id, eu_document_id, eu_article,
+      reference_type, full_citation, is_primary_implementation, implementation_status
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+  for (const euRef of SAMPLE_EU_REFERENCES) {
+    insertEURef.run(
+      euRef.source_type,
+      euRef.source_id,
+      euRef.document_id,
+      euRef.provision_id,
+      euRef.eu_document_id,
+      euRef.eu_article,
+      euRef.reference_type,
+      euRef.full_citation,
+      euRef.is_primary_implementation,
+      euRef.implementation_status || null
+    );
+  }
 }
 
 export const sampleData = {
@@ -325,4 +518,6 @@ export const sampleData = {
   preparatoryWorks: SAMPLE_PREPARATORY_WORKS,
   definitions: SAMPLE_DEFINITIONS,
   crossRefs: SAMPLE_CROSS_REFS,
+  euDocuments: SAMPLE_EU_DOCUMENTS,
+  euReferences: SAMPLE_EU_REFERENCES,
 };

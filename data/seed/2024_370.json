@@ -1,0 +1,27 @@
+{
+  "id": "2024:370",
+  "type": "statute",
+  "title": "Lag (2024:370) om prövning av ärenden enligt EU:s förordning om marknader för kryptotillgångar",
+  "status": "repealed",
+  "issued_date": "2024-05-30",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2024-370",
+  "description": "Upphävd 2024-12-30 genom SFS 2024:1159",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Lagens syfte",
+      "content": "Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2023/1114 av den 31 maj 2023 om marknader för kryptotillgångar och om ändring av förordningarna (EU) nr 1093/2010 och (EU) nr 1095/2010 samt direktiven 2013/36/EU och (EU) 2019/1937, i denna lag kallad EU-förordningen. Behörig myndighet"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Finansinspektionen är behörig myndighet enligt EU- förordningen. Avgifter"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Finansinspektionen får ta ut avgifter för prövning av ansökningar och anmälningar enligt EU-förordningen. Regeringen får meddela föreskrifter om avgifterna."
+    }
+  ]
+}

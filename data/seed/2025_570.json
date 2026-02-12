@@ -1,0 +1,51 @@
+{
+  "id": "2025:570",
+  "type": "statute",
+  "title": "Lag (2025:570) om offentliggörande av information om datacenters energiprestanda",
+  "status": "in_force",
+  "issued_date": "2025-05-28",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2025-570",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Lagens innehåll",
+      "content": "I denna lag finns bestämmelser om att den som äger eller förvaltar ett datacenter ska offentliggöra uppgifter om datacentrets energiprestanda. Ord och uttryck"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "I denna lag avses med datacenter en byggnad eller en grupp av byggnader som används för att inrymma, ansluta och driva datorsystem, servrar och kringutrustning för datalagring, databehandling, datadistribution och relaterad verksamhet. Krav på att offentliggöra information om energiprestanda"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Den som äger eller förvaltar ett datacenter med ett installerat it-effektbehov på minst 500 kilowatt ska årligen offentliggöra uppgifter om datacentrets energiprestanda genom att rapportera uppgifterna till den databas som avses i artikel 12 i Europaparlamentets och rådets direktiv (EU) 2023/1791 av den 13 september 2023 om energieffektivitet och om ändring av förordning (EU) 2023/955, i den ursprungliga lydelsen. Rapporteringsskyldigheten gäller inte för uppgifter som omfattas av sekretess enligt offentlighets- och sekretesslagen (2009:400). Bestämmelser om rapportering finns i kommissionens delegerade förordning (EU) 2024/1364 av den 14 mars 2024 om den första delen av inrättandet av ett gemensamt unionssystem för bedömning av datacentraler."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Skyldigheten att rapportera enligt 3 § gäller inte för datacenter 1. som används för säkerhetskänslig verksamhet, 2. som används för försvars- eller krisberedskapsändamål, eller 3. där tjänster tillhandahålls uteslutande för säkerhetskänslig verksamhet eller försvars- eller krisberedskapsändamål. Tillsyn"
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "Den myndighet som regeringen bestämmer (tillsynsmyndigheten) har tillsyn över att denna lag och kommissionens delegerade förordning (EU) 2024/1364 följs. Tillsynen omfattar inte sådana datacenter som avses i 4 §."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "Tillsynsmyndigheten har i den utsträckning som behövs för tillsynen rätt att 1. på begäran få upplysningar och ta del av handlingar från den som äger eller förvaltar ett datacenter, och 2. få tillträde till områden, lokaler och andra utrymmen inom datacentret, dock inte bostäder."
+    },
+    {
+      "provision_ref": "7",
+      "section": "7",
+      "content": "Tillsynsmyndigheten får meddela de förelägganden som behövs för att denna lag och kommissionens delegerade förordning (EU) 2024/1364 ska följas. Ett föreläggande får förenas med vite. Överklagande"
+    },
+    {
+      "provision_ref": "8",
+      "section": "8",
+      "content": "Tillsynsmyndighetens beslut enligt denna lag får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    }
+  ]
+}

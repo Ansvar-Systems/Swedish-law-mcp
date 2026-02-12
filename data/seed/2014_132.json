@@ -1,0 +1,25 @@
+{
+  "id": "2014:132",
+  "type": "statute",
+  "title": "Lag (2014:132) om mobilitetsstöd som komplement till färdtjänst",
+  "status": "in_force",
+  "issued_date": "2014-03-20",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2014-132",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "En kommun får som komplement till färdtjänst lämna ekonomiskt stöd för anskaffning och anpassning av ett motorfordon till en person med funktionsnedsättning (mobilitetsstöd), för att öka hans eller hennes möjligheter att förflytta sig."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "En kommun får lämna mobilitetsstöd under förutsättning att den som ska få stödet - samtycker till stödet, och - har tillstånd till färdtjänst enligt lagen (1997:736) om färdtjänst, men - inte har rätt till bilstöd enligt socialförsäkringsbalken. Regeringen eller efter regeringens bemyndigande en kommun får meddela föreskrifter om ytterligare förutsättningar för beviljande av mobilitetsstöd."
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "En kommun som med stöd av 4 § andra stycket lagen (1997:736) om färdtjänst har överlåtit sina uppgifter i fråga om färdtjänsten till den regionala kollektivtrafikmyndigheten i länet får även överlåta till myndigheten att fatta beslut i enskilda ärenden om lämnande av mobilitetsstöd."
+    }
+  ]
+}

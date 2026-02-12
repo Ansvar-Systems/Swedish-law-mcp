@@ -1,7 +1,7 @@
 {
   "name": "@ansvar/swedish-law-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for Swedish statutes and regulations - Query Swedish law directly from Claude",
+  "version": "1.1.0",
+  "description": "Production-grade Swedish legal research MCP server with comprehensive statute coverage and EU law cross-references",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -21,6 +21,7 @@
     "test:coverage": "vitest run --coverage",
     "ingest": "tsx scripts/ingest-riksdagen.ts",
     "ingest:relevant": "tsx scripts/ingest-relevant-laws.ts",
+    "ingest:auto-all": "tsx scripts/auto-ingest-all-statutes.ts",
     "ingest:cases": "tsx scripts/ingest-lagennu-cases.ts",
     "ingest:cases:full-archive": "tsx scripts/ingest-lagennu-full-archive.ts",
     "sync:cases": "tsx scripts/sync-lagennu-cases.ts",
@@ -29,6 +30,10 @@
     "check-updates": "tsx scripts/check-updates.ts",
     "extract:definitions": "tsx scripts/extract-definitions.ts",
     "audit:seeds": "tsx scripts/audit-seeds.ts",
+    "fetch:eurlex": "tsx scripts/fetch-eurlex-metadata.ts",
+    "import:eurlex-documents": "tsx scripts/import-eurlex-documents.ts",
+    "migrate:eu-references": "tsx scripts/migrate-eu-references.ts",
+    "verify:eu-coverage": "tsx scripts/verify-eu-coverage.ts",
     "lint": "eslint src tests",
     "prepublishOnly": "npm run build",
     "postinstall": "test -d dist || npm run build || true"
@@ -41,6 +46,7 @@
     "@types/better-sqlite3": "^7.6.13",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.15.29",
+    "fast-xml-parser": "^5.3.5",
     "jsdom": "^27.4.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",

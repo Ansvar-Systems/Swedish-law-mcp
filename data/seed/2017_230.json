@@ -1,0 +1,214 @@
+{
+  "id": "2017:230",
+  "type": "statute",
+  "title": "Lag (2017:230) om Pensionsmyndighetens försäkringsverksamhet i premiepensionssystemet",
+  "status": "in_force",
+  "issued_date": "2017-03-30",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2017-230",
+  "provisions": [
+    {
+      "provision_ref": "1:1",
+      "chapter": "1",
+      "section": "1",
+      "content": "I denna lag finns bestämmelser om Pensionsmyndighetens tillämpning av försäkringsrörelse- och redovisningsregler. I lagen finns också bestämmelser om Finansinspektionens tillsyn över myndigheten. De grundläggande bestämmelserna om Pensionsmyndighetens uppgifter finns i socialförsäkringsbalken."
+    },
+    {
+      "provision_ref": "2:1",
+      "chapter": "2",
+      "section": "1",
+      "title": "Försäkringstekniska avsättningars omfattning",
+      "content": "Pensionsmyndighetens försäkringstekniska avsättningar ska motsvara det belopp som krävs för att myndigheten vid varje tidpunkt ska kunna uppfylla alla åtaganden som skäligen kan förväntas uppkomma med anledning av försäkringsverksamheten i premiepensionssystemet. De försäkringstekniska avsättningarna ska motsvara myndighetens ansvarighet för 1. försäkringsfall, förvaltningskostnader och andra kostnader under resten av avtalsperioden för löpande försäkringar i livförsäkringsrörelse (livförsäkringsavsättning), 2. inträffade oreglerade försäkringsfall, kostnader för regleringen av dessa samt återbäring som ska betalas men inte har betalats ut (oreglerade skador), och 3. fondförsäkringar som pensionsspararna står placeringsrisken för (fondförsäkringsåtaganden där pensionsspararen bär placeringsrisken). Beräkning av livförsäkringsavsättning"
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "content": "Livförsäkringsavsättningen utgörs av det förväntade nuvärdet av de framtida kassaflöden som kan uppkomma med anledning av premiepensionsåtagandena. Den ska beräknas med en relevant riskfri räntestruktur."
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "content": "Beräkningen av livförsäkringsavsättningen ska grundas på antaganden om riskmått, räntesatser och driftskostnader som var för sig är ansvarsfulla, tillförlitliga och objektiva. Aktuarie"
+    },
+    {
+      "provision_ref": "2:4",
+      "chapter": "2",
+      "section": "4",
+      "content": "Den som ska utföra de försäkringstekniska utredningarna och beräkningarna i premiepensionsverksamheten ska ha kunskaper i försäkrings- och finansmatematik som är tillräckliga med hänsyn till uppgifterna. Utredningarna och beräkningarna ska göras under överinseende av en eller flera aktuarier, som ska ha den insikt och erfarenhet som krävs med hänsyn till omfattningen och arten av premiepensionsverksamheten."
+    },
+    {
+      "provision_ref": "3:1",
+      "chapter": "3",
+      "section": "1",
+      "title": "Skuldtäckning i försäkringsrörelse",
+      "content": "Pensionsmyndigheten ska ha tillgångar för skuldtäckning som uppgår till ett belopp som svarar mot försäkringstekniska avsättningar. Överskottsmål"
+    },
+    {
+      "provision_ref": "3:2",
+      "chapter": "3",
+      "section": "2",
+      "content": "Pensionsmyndigheten ska, utöver tillgångar som krävs för skuldtäckning enligt 1 §, ha tillgångar som uppgår minst till ett överskottsmål. Överskottsmålet ska beräknas med utgångspunkt i verksamhetens omfattning och art och definieras i Pensionsmyndighetens försäkringstekniska riktlinjer. Aktsamhet"
+    },
+    {
+      "provision_ref": "3:3",
+      "chapter": "3",
+      "section": "3",
+      "content": "Tillgångar ska investeras på ett aktsamt sätt enligt 4-8 §§. Tillgångar som svarar mot försäkringstekniska avsättningar"
+    },
+    {
+      "provision_ref": "3:4",
+      "chapter": "3",
+      "section": "4",
+      "content": "Tillgångar som svarar mot försäkringstekniska avsättningar ska investeras på ett sätt som är lämpligt med hänsyn till åtagandenas art och löptid. Riskkontroll"
+    },
+    {
+      "provision_ref": "3:5",
+      "chapter": "3",
+      "section": "5",
+      "content": "Investeringar får endast göras i sådana finansiella instrument och andra tillgångar vars risker Pensionsmyndigheten kan identifiera, mäta, övervaka, hantera, kontrollera och rapportera. Riskspridning"
+    },
+    {
+      "provision_ref": "3:6",
+      "chapter": "3",
+      "section": "6",
+      "content": "Investeringar i finansiella instrument och andra tillgångar ska göras så att lämplig riskspridning uppnås. Samtliga tillgångar ska, med beaktande av försäkringsåtagandena och förändringar i tillgångarnas framtida värde och avkastning, investeras så att betalningsberedskapen är tillfredsställande och den förväntade avkastningen tillräcklig. Derivatinstrument"
+    },
+    {
+      "provision_ref": "3:7",
+      "chapter": "3",
+      "section": "7",
+      "content": "Derivatinstrument får endast användas för att sänka risken eller för att i övrigt effektivisera förvaltningen av myndighetens tillgångar och skulder. Onoterade tillgångar"
+    },
+    {
+      "provision_ref": "3:8",
+      "chapter": "3",
+      "section": "8",
+      "content": "Investeringar i finansiella instrument och andra tillgångar som inte är upptagna till handel på en reglerad marknad ska hållas på aktsamma nivåer. Begränsning av innehav av aktier"
+    },
+    {
+      "provision_ref": "3:9",
+      "chapter": "3",
+      "section": "9",
+      "content": "Pensionsmyndigheten får inte förvärva så många aktier i ett svenskt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, att röstetalet för dem tillsammans med myndighetens övriga aktier i samma bolag överstiger fem procent av röstetalet för samtliga aktier i bolaget."
+    },
+    {
+      "provision_ref": "4:1",
+      "chapter": "4",
+      "section": "1",
+      "title": "Försäkringstekniska riktlinjer",
+      "content": "Pensionsmyndigheten ska upprätta och följa försäkringstekniska riktlinjer. Riktlinjerna ska innehålla principerna för hur 1. premier och förmåner bestäms, 2. försäkringstekniska avsättningar och överskottsmål beräknas, 3. försäkringar återköps, 4. återbäring till pensionsspararna och andra ersättningsberättigade fördelas, 5. belopp som ska utbetalas bestäms, 6. konsolideringsnivån styrs, och 7. underskott täcks. Med konsolideringsnivå avses kvoten mellan tillgångarnas marknadsvärden och fördelade förmånsvärden. Fördelade förmånsvärden utgör summan av garanterade åtaganden och preliminärt fördelad (allokerad) återbäring."
+    },
+    {
+      "provision_ref": "4:2",
+      "chapter": "4",
+      "section": "2",
+      "content": "Försäkringstekniska riktlinjer ska ges in till Finansinspektionen senast den dag de börjar användas. Tillsammans med riktlinjerna ska det lämnas en redogörelse för de konsekvenser som riktlinjerna får för Pensionsmyndigheten samt för pensionsspararna och andra ersättningsberättigade på grund av försäkringar. Första och andra styckena gäller också vid ändring av försäkringstekniska riktlinjer. Försäkringstekniskt beräkningsunderlag"
+    },
+    {
+      "provision_ref": "4:3",
+      "chapter": "4",
+      "section": "3",
+      "content": "Ett försäkringstekniskt beräkningsunderlag ska komplettera och närmare precisera de principer som anges i försäkringstekniska riktlinjer enligt 1 §. Beräkningsunderlaget ska åtminstone innehålla beskrivningar av 1. de beräkningsformler och metoder som används, och 2. de beräkningsparametrar som ingår i beräkningsformlerna. Placeringsriktlinjer"
+    },
+    {
+      "provision_ref": "4:4",
+      "chapter": "4",
+      "section": "4",
+      "content": "Pensionsmyndigheten ska upprätta och följa placeringsriktlinjer. Riktlinjerna ska innehålla principerna för placering av samtliga tillgångar och särskilt redovisa principerna för placering av de tillgångar som svarar mot försäkringstekniska avsättningar."
+    },
+    {
+      "provision_ref": "5:1",
+      "chapter": "5",
+      "section": "1",
+      "content": "I Pensionsmyndighetens årsredovisning ska en särskild redovisning för premiepensionsverksamheten ingå. För denna redovisning ska följande bestämmelser i lagen (1995:1560) om årsredovisning i försäkringsföretag tillämpas: - 1 kap. 2 § om hänvisningar till årsredovisningslagen (1995:1554), - 1 kap. 3 § om vissa definitioner, - 2 kap. 1 § om skyldighet att ta in en resultatanalys i årsredovisningen, - 2 kap. 2 § om årsredovisningens innehåll m.m. när det gäller hänvisningarna till bestämmelserna i 2 kap. 1-6 §§ årsredovisningslagen, med undantag av vad som där sägs om balansräkning, - 3 kap. i fråga om reglerna om resultaträkning, - 4 kap. 1 § om värderingsregler när det gäller hänvisningarna till bestämmelserna i 4 kap. 14 a-15 a §§ årsredovisningslagen, - 4 kap. 2 § 12-14 om hur värderingsreglerna ska tillämpas på ett försäkringsföretags tillgångar, - 4 kap. 4-9 §§ om värderingsregler, - 5 kap. 1 § om noter m.m. med undantag av hänvisningarna till 5 kap. 3, 4, 8, 11, 12, 16, 20, 21, 25, 28-30, 34, 36-45 och 48 §§ årsredovisningslagen, - 5 kap. 2-5 §§ om noter m.m., och - 6 kap. 2 och 3 §§ om förvaltningsberättelse och resultatanalys. Om myndigheten företräder staten som ägare av ett eller flera företag, i vilka staten har ett sådant inflytande som anges i"
+    },
+    {
+      "provision_ref": "5:2",
+      "chapter": "5",
+      "section": "2",
+      "title": "Vid tillämpningen av de bestämmelser som anges i första och",
+      "content": "Den särskilda redovisningen för premiepensionsverksamheten ska ges in till Finansinspektionen så snart det kan ske och senast inom sex månader från kalenderårets utgång."
+    },
+    {
+      "provision_ref": "6:1",
+      "chapter": "6",
+      "section": "1",
+      "content": "Pensionsmyndighetens försäkringsverksamhet i premiepensionssystemet ska stå under tillsyn av Finansinspektionen."
+    },
+    {
+      "provision_ref": "6:2",
+      "chapter": "6",
+      "section": "2",
+      "content": "Pensionsmyndigheten ska lämna Finansinspektionen de upplysningar om sin premiepensionsverksamhet som inspektionen begär."
+    },
+    {
+      "provision_ref": "6:3",
+      "chapter": "6",
+      "section": "3",
+      "content": "Styrelsen och myndighetens chef ska vid den tidpunkt som Finansinspektionen bestämmer hålla Pensionsmyndighetens tillgångar, räkenskapsmaterial och andra handlingar avseende premiepensionsverksamheten tillgängliga för granskning av befattningshavare hos inspektionen eller av någon annan som inspektionen har förordnat."
+    },
+    {
+      "provision_ref": "6:4",
+      "chapter": "6",
+      "section": "4",
+      "content": "Finansinspektionen får sammankalla Pensionsmyndighetens styrelse. Företrädare för inspektionen får närvara vid ett sådant styrelsesammanträde som inspektionen har sammankallat och delta i överläggningarna."
+    },
+    {
+      "provision_ref": "6:5",
+      "chapter": "6",
+      "section": "5",
+      "content": "Pensionsmyndigheten ska med avgifter bidra till att täcka kostnaderna för Finansinspektionens verksamhet."
+    },
+    {
+      "provision_ref": "6:6",
+      "chapter": "6",
+      "section": "6",
+      "content": "Finansinspektionen ska ingripa om 1. Pensionsmyndigheten har åsidosatt sina skyldigheter enligt denna lag, eller andra författningar som reglerar myndighetens premiepensionsverksamhet, eller enligt myndighetens försäkringstekniska riktlinjer, beräkningsunderlag eller placeringsriktlinjer, 2. de försäkringstekniska riktlinjerna eller beräkningsunderlaget inte längre är tillfredsställande med hänsyn till omfattningen och arten av myndighetens verksamhet, eller 3. försäkringsbeståndet inte är tillräckligt för behövlig riskutjämning."
+    },
+    {
+      "provision_ref": "6:7",
+      "chapter": "6",
+      "section": "7",
+      "content": "Ingripande med stöd av 6 § sker genom 1. föreläggande att göra rättelse inom viss tid, 2. förbud att verkställa beslut, eller 3. anmärkning."
+    },
+    {
+      "provision_ref": "6:8",
+      "chapter": "6",
+      "section": "8",
+      "content": "Finansinspektionen får avstå från ingripande om 1. en överträdelse är ringa eller ursäktlig, 2. Pensionsmyndigheten gör rättelse, eller 3. någon annan myndighet har vidtagit åtgärder mot Pensionsmyndigheten och dessa åtgärder bedöms tillräckliga."
+    },
+    {
+      "provision_ref": "7:1",
+      "chapter": "7",
+      "section": "1",
+      "title": "Hantering av överskott",
+      "content": "Överskott som uppstår i Pensionsmyndighetens försäkringsverksamhet i premiepensionssystemet ska tillföras pensionsspararna i form av återbäring. Överskottsmedlen får tas i anspråk endast om det kan ske utan att det riskerar myndighetens förmåga att betala ut de premiepensioner som pensionsspararna har rätt till. Överskottsmedlen ska tas i anspråk i en takt som främjar en jämn utveckling av premiepensionerna över tiden. Fördelningen av återbäringen mellan pensionsspararna ska göras med hänsyn tagen till i vilken utsträckning de medel som förvaltas för varje pensionssparares räkning har bidragit till uppkomsten av överskottet. Information"
+    },
+    {
+      "provision_ref": "7:2",
+      "chapter": "7",
+      "section": "2",
+      "content": "Pensionsmyndigheten ska se till att pensionsspararna får tillgång till den information de behöver för att ta till vara sin rätt i premiepensionssystemet."
+    },
+    {
+      "provision_ref": "8:1",
+      "chapter": "8",
+      "section": "1",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om 1. de försäkringstekniska avsättningarnas innehåll och beräkning enligt 2 kap. 1-3 §§, 2. vad som är tillräckliga kunskaper med hänsyn till uppgifterna för personer som utför de försäkringstekniska utredningarna och beräkningarna och vad som avses med insikt och erfarenhet för aktuarier enligt 2 kap. 4 §, 3. användning av derivatinstrument enligt 3 kap. 7 §, 4. vad de försäkringstekniska riktlinjerna enligt 4 kap. 1 § ska innehålla, 5. vad en redogörelse enligt 4 kap. 2 § andra stycket ska innehålla, 6. vad det försäkringstekniska beräkningsunderlaget enligt"
+    },
+    {
+      "provision_ref": "8:2",
+      "chapter": "8",
+      "section": "2",
+      "title": "Regeringen får meddela föreskrifter om sådana avgifter som",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om avvikelser och medge undantag i enskilda fall från de bestämmelser som anges i 2-4 kap. och"
+    },
+    {
+      "provision_ref": "9:1",
+      "chapter": "9",
+      "section": "1",
+      "content": "Finansinspektionens beslut enligt 6 kap. 4 § får inte överklagas. Andra beslut av Finansinspektionen i enskilda fall enligt denna lag får överklagas till allmän förvaltningsdomstol. Pensionsmyndigheten får överklaga Finansinspektionens beslut enligt andra stycket. Prövningstillstånd krävs vid överklagande till kammarrätten."
+    }
+  ]
+}

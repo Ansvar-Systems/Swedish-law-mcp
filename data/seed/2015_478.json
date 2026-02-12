@@ -1,0 +1,20 @@
+{
+  "id": "2015:478",
+  "type": "statute",
+  "title": "Lag (2015:478) med bemyndiganden att meddela föreskrifter om validering och om avgift för ansökan som avser kvalifikationer för livslångt lärande",
+  "status": "in_force",
+  "issued_date": "2015-06-25",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2015-478",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om validering av en persons kunnande. Lag (2022:911)."
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om skyldighet att betala avgift för en ansökan om att få ett beslut om vilken nivå en kvalifikation motsvarar i den nationella referensramen för kvalifikationer för livslångt lärande. Lag (2022:911)."
+    }
+  ]
+}

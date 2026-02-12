@@ -1,0 +1,41 @@
+{
+  "id": "2020:514",
+  "type": "statute",
+  "title": "Lag (2020:514) med kompletterande bestämmelser till EU:s plattformsförordning",
+  "status": "in_force",
+  "issued_date": "2020-06-17",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2020-514",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Tillämpningsområde",
+      "content": "Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2019/1150 av den 20 juni 2019 om främjande av rättvisa villkor och transparens för företagsanvändare av onlinebaserade förmedlingstjänster, här benämnd EU:s plattformsförordning. Ansvarig myndighet"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "Den myndighet som regeringen bestämmer ska stödja och kontrollera att EU:s plattformsförordning följs. Talan om förbud eller åläggande"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "De organisationer, sammanslutningar och offentliga organ som anges i artikel 14.1 i EU:s plattformsförordning kan vid Patent- och marknadsdomstolen väcka talan om sådant förbud eller åläggande som anges i artikeln."
+    },
+    {
+      "provision_ref": "4",
+      "section": "4",
+      "content": "Ett beslut om förbud eller åläggande får förenas med vite."
+    },
+    {
+      "provision_ref": "5",
+      "section": "5",
+      "content": "En talan om utdömande av vite förs vid Patent- och marknadsdomstolen av den som har väckt talan om förbudet eller åläggandet."
+    },
+    {
+      "provision_ref": "6",
+      "section": "6",
+      "content": "Delgivning av domar och beslut som innefattar ett vitesföreläggande får ske enligt 34-37 §§ delgivningslagen (2010:1932) endast om det med beaktande av vad som har framkommit i det enskilda delgivningsärendet eller vid andra delgivningsförsök med delgivningsmottagaren finns anledning att anta att han eller hon har avvikit eller på annat sätt håller sig undan."
+    }
+  ]
+}

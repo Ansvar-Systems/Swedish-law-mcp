@@ -29,6 +29,11 @@ import { validateCitationTool, ValidateCitationInput } from './tools/validate-ci
 import { buildLegalStance, BuildLegalStanceInput } from './tools/build-legal-stance.js';
 import { formatCitationTool, FormatCitationInput } from './tools/format-citation.js';
 import { checkCurrency, CheckCurrencyInput } from './tools/check-currency.js';
+import { getEUBasis, GetEUBasisInput } from './tools/get-eu-basis.js';
+import { getSwedishImplementations, GetSwedishImplementationsInput } from './tools/get-swedish-implementations.js';
+import { searchEUImplementations, SearchEUImplementationsInput } from './tools/search-eu-implementations.js';
+import { getProvisionEUBasis, GetProvisionEUBasisInput } from './tools/get-provision-eu-basis.js';
+import { validateEUCompliance, ValidateEUComplianceInput } from './tools/validate-eu-compliance.js';
 
 const SERVER_NAME = 'swedish-legal-citations';
 const SERVER_VERSION = '0.1.0';
@@ -301,6 +306,155 @@ Returns the document's status (in_force, amended, repealed, not_yet_in_force), d
       required: ['document_id'],
     },
   },
+  {
+    name: 'get_eu_basis',
+    description: `Get EU legal basis (directives and regulations) for a Swedish statute.
+
+Returns all EU directives and regulations that this statute implements, supplements, or references. Includes reference types, article citations, and whether each EU document is a primary implementation.
+
+Essential for understanding which EU law a Swedish statute is based on.`,
+    inputSchema: {
+      type: 'object',
+      properties: {
+        sfs_number: {
+          type: 'string',
+          description: 'SFS number (e.g., "2018:218")',
+        },
+        include_articles: {
+          type: 'boolean',
+          description: 'Include specific EU article references (default: false)',
+        },
+        reference_types: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'Filter by reference type (implements, supplements, applies, etc.)',
+        },
+      },
+      required: ['sfs_number'],
+    },
+  },
+  {
+    name: 'get_swedish_implementations',
+    description: `Find Swedish statutes implementing a specific EU directive or regulation.
+
+Given an EU document ID (e.g., "regulation:2016/679" for GDPR), returns all Swedish statutes that implement, supplement, or reference it. Shows implementation status and which articles are referenced.
+
+Essential for finding Swedish law corresponding to EU requirements.`,
+    inputSchema: {
+      type: 'object',
+      properties: {
+        eu_document_id: {
+          type: 'string',
+          description: 'EU document ID (e.g., "regulation:2016/679", "directive:95/46")',
+        },
+        primary_only: {
+          type: 'boolean',
+          description: 'Return only primary implementing statutes (default: false)',
+        },
+        in_force_only: {
+          type: 'boolean',
+          description: 'Return only in-force statutes (default: false)',
+        },
+      },
+      required: ['eu_document_id'],
+    },
+  },
+  {
+    name: 'search_eu_implementations',
+    description: `Search for EU directives and regulations with Swedish implementation information.
+
+Search by keyword, type, year range, or community. Returns matching EU documents with counts of Swedish statutes referencing them.
+
+Use this for exploratory searches like "data protection" or "privacy" to find relevant EU law.`,
+    inputSchema: {
+      type: 'object',
+      properties: {
+        query: {
+          type: 'string',
+          description: 'Keyword search (title, short name, CELEX, description)',
+        },
+        type: {
+          type: 'string',
+          enum: ['directive', 'regulation'],
+          description: 'Filter by document type',
+        },
+        year_from: {
+          type: 'number',
+          description: 'Filter by year (from)',
+        },
+        year_to: {
+          type: 'number',
+          description: 'Filter by year (to)',
+        },
+        community: {
+          type: 'string',
+          enum: ['EU', 'EG', 'EEG', 'Euratom'],
+          description: 'Filter by community',
+        },
+        has_swedish_implementation: {
+          type: 'boolean',
+          description: 'Filter by Swedish implementation existence',
+        },
+        limit: {
+          type: 'number',
+          description: 'Maximum results (default: 20, max: 100)',
+        },
+      },
+    },
+  },
+  {
+    name: 'get_provision_eu_basis',
+    description: `Get EU legal basis for a specific provision within a Swedish statute.
+
+Returns EU directives/regulations that a specific provision implements or references, with article-level precision. For example, DSL 2:1 references GDPR Article 6.1.c.
+
+Use this for pinpoint EU compliance checks at the provision level.`,
+    inputSchema: {
+      type: 'object',
+      properties: {
+        sfs_number: {
+          type: 'string',
+          description: 'SFS number (e.g., "2018:218")',
+        },
+        provision_ref: {
+          type: 'string',
+          description: 'Provision reference (e.g., "1:1" or "3:5")',
+        },
+      },
+      required: ['sfs_number', 'provision_ref'],
+    },
+  },
+  {
+    name: 'validate_eu_compliance',
+    description: `Validate EU compliance status for a Swedish statute or provision.
+
+Checks for:
+- References to repealed EU directives (e.g., Data Protection Directive 95/46/EC)
+- Missing implementation status
+- Outdated references
+
+Returns compliance status (compliant, partial, unclear, not_applicable) with warnings and recommendations.
+
+Note: This is Phase 1 validation. Full compliance checking against EU requirements will be added in future phases.`,
+    inputSchema: {
+      type: 'object',
+      properties: {
+        sfs_number: {
+          type: 'string',
+          description: 'SFS number (e.g., "2018:218")',
+        },
+        provision_ref: {
+          type: 'string',
+          description: 'Optional provision reference (e.g., "1:1")',
+        },
+        eu_document_id: {
+          type: 'string',
+          description: 'Optional: check compliance with specific EU document',
+        },
+      },
+      required: ['sfs_number'],
+    },
+  },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -483,6 +637,21 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         break;
       case 'check_currency':
         result = await checkCurrency(getDb(), args as unknown as CheckCurrencyInput);
+        break;
+      case 'get_eu_basis':
+        result = await getEUBasis(getDb(), args as unknown as GetEUBasisInput);
+        break;
+      case 'get_swedish_implementations':
+        result = await getSwedishImplementations(getDb(), args as unknown as GetSwedishImplementationsInput);
+        break;
+      case 'search_eu_implementations':
+        result = await searchEUImplementations(getDb(), args as unknown as SearchEUImplementationsInput);
+        break;
+      case 'get_provision_eu_basis':
+        result = await getProvisionEUBasis(getDb(), args as unknown as GetProvisionEUBasisInput);
+        break;
+      case 'validate_eu_compliance':
+        result = await validateEUCompliance(getDb(), args as unknown as ValidateEUComplianceInput);
         break;
       default:
         return {

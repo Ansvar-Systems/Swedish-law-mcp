@@ -1,0 +1,26 @@
+{
+  "id": "2019:547",
+  "type": "statute",
+  "title": "Lag (2019:547) om förbud mot användning av vissa uppgifter för att utreda brott",
+  "status": "in_force",
+  "issued_date": "2019-06-27",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2019-547",
+  "provisions": [
+    {
+      "provision_ref": "1",
+      "section": "1",
+      "title": "Förbud mot användning av uppgifter",
+      "content": "Uppgifter i underrättelser som Försvarets radioanstalt rapporterat till en annan myndighet i enlighet med lagen (2000:130) om försvarsunderrättelseverksamhet får inte användas för att utreda brott. Tillgång till uppgifter"
+    },
+    {
+      "provision_ref": "2",
+      "section": "2",
+      "content": "De brottsbekämpande myndigheterna ska se till att tillgången till sådana uppgifter som avses i 1 § begränsas till vad var och en behöver för att kunna fullgöra sina arbetsuppgifter. Det ska särskilt beaktas att uppgifterna inte får användas för att utreda brott. Tillsyn"
+    },
+    {
+      "provision_ref": "3",
+      "section": "3",
+      "content": "Bestämmelser om tillsyn över Polismyndighetens och Säker- hetspolisens tillämpning av denna lag finns i lagen (2007:980) om tillsyn över viss brottsbekämpande verksamhet."
+    }
+  ]
+}

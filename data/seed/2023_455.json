@@ -1,0 +1,108 @@
+{
+  "id": "2023:455",
+  "type": "statute",
+  "title": "Lag (2023:455) om Utbetalningsmyndighetens granskning av utbetalningar",
+  "status": "in_force",
+  "issued_date": "2023-06-22",
+  "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2023-455",
+  "provisions": [
+    {
+      "provision_ref": "1:1",
+      "chapter": "1",
+      "section": "1",
+      "content": "Denna lag innehåller bestämmelser om Utbetalningsmyndighetens granskningar i syfte att förebygga, förhindra och upptäcka felaktiga utbetalningar från välfärdssystemen. Lagen innehåller även bestämmelser om underrättelseskyldighet för Utbetalningsmyndigheten. Lag (2024:297)."
+    },
+    {
+      "provision_ref": "1:2",
+      "chapter": "1",
+      "section": "2",
+      "content": "Med en felaktig utbetalning avses i denna lag en ekonomisk förmån, ett ekonomiskt stöd, en skatt eller en avgift som beslutats, betalats ut eller tillgodoräknats felaktigt eller med ett för högt eller ett för lågt belopp. Med urvalsträff avses i denna lag en träff som myndighetens dataanalyser och urval har lett till."
+    },
+    {
+      "provision_ref": "2:1",
+      "chapter": "2",
+      "section": "1",
+      "title": "Inledande granskning",
+      "content": "Utbetalningsmyndigheten ska vid en inledande granskning gå igenom urvalsträffar i syfte att identifiera felaktiga utbetalningar."
+    },
+    {
+      "provision_ref": "2:2",
+      "chapter": "2",
+      "section": "2",
+      "content": "En inledande granskning ska leda till 1. att granskningen avslutas utan åtgärd, 2. att en underrättelse om en urvalsträff lämnas till en berörd myndighet eller arbetslöshetskassa för hantering, eller 3. att en fördjupad granskning inleds. Fördjupad granskning"
+    },
+    {
+      "provision_ref": "2:3",
+      "chapter": "2",
+      "section": "3",
+      "content": "Om det finns anledning för Utbetalningsmyndigheten att anta att det har skett en felaktig utbetalning får myndigheten inleda en fördjupad granskning genom att göra en närmare analys av urvalsträffen. I 9 och 10 §§ lagen (2023:456) om skyldighet att lämna uppgifter till Utbetalningsmyndigheten finns bestämmelser om skyldighet för statliga myndigheter, arbetslöshetskassor och kreditinstitut att lämna vissa uppgifter när Utbetalningsmyndigheten har inlett en fördjupad granskning."
+    },
+    {
+      "provision_ref": "2:4",
+      "chapter": "2",
+      "section": "4",
+      "content": "Vid bedömningen av vilka urvalsträffar som väljs ut för en fördjupad granskning ska Utbetalningsmyndigheten prioritera urvalsträffar där 1. det finns anledning att anta att fler än en myndighet eller arbetslöshetskassa berörs av det förhållande som ligger till grund för antagandet att det har skett en felaktig utbetalning, och 2. effektivitetsskäl talar för att granskningen utförs av Utbetalningsmyndigheten i stället för av berörda myndigheter eller arbetslöshetskassor."
+    },
+    {
+      "provision_ref": "2:5",
+      "chapter": "2",
+      "section": "5",
+      "content": "En fördjupad granskning ska avslutas om 1. det inte längre finns anledning att anta att en felaktig utbetalning har skett, eller 2. det är mer effektivt att granskningen fortsätter vid berörda myndigheter eller arbetslöshetskassor. En fördjupad granskning får också avslutas om det finns andra skäl för det."
+    },
+    {
+      "provision_ref": "2:6",
+      "chapter": "2",
+      "section": "6",
+      "content": "Utbetalningsmyndigheten ska dokumentera inledandet, avslutandet och resultatet av den fördjupade granskningen."
+    },
+    {
+      "provision_ref": "3:1",
+      "chapter": "3",
+      "section": "1",
+      "title": "Underrättelser om fördjupad granskning",
+      "content": "Utbetalningsmyndigheten ska underrätta den myndighet eller arbetslöshetskassa som har beslutat om utbetalningen när en fördjupad granskning inleds och avslutas samt om resultatet av granskningen. Underrättelser om felaktiga uppgifter eller andra förhållanden Bolagsverket"
+    },
+    {
+      "provision_ref": "3:2",
+      "chapter": "3",
+      "section": "2",
+      "content": "Utbetalningsmyndigheten ska underrätta Bolagsverket om det finns anledning att anta att en uppgift i verkets offentliga register om en enskild näringsidkare eller en juridisk person är felaktig. Motsvarande gäller i fråga om en uppgift om en företrädare eller en huvudman. Inspektionen för vård och omsorg"
+    },
+    {
+      "provision_ref": "3:3",
+      "chapter": "3",
+      "section": "3",
+      "content": "Utbetalningsmyndigheten ska underrätta Inspektionen för vård och omsorg om det finns anledning att anta att lämpligheten att bedriva verksamhet med personlig assistans kan ifrågasättas när det gäller någon som har tillstånd enligt 23 § lagen (1993:387) om stöd och service till vissa funktionshindrade. Migrationsverket"
+    },
+    {
+      "provision_ref": "3:4",
+      "chapter": "3",
+      "section": "4",
+      "content": "Utbetalningsmyndigheten ska underrätta Migrationsverket om det finns anledning att anta att ett beviljat tillstånd enligt utlänningslagen (2005:716) är felaktigt. Skatteverket"
+    },
+    {
+      "provision_ref": "3:5",
+      "chapter": "3",
+      "section": "5",
+      "content": "Utbetalningsmyndigheten ska underrätta Skatteverket om det finns anledning att anta att en registrering i beskattningsverksamheten är felaktig eller att ett beslut om skatt eller avgift är felaktigt. Vad som ska framgå av en underrättelse"
+    },
+    {
+      "provision_ref": "3:6",
+      "chapter": "3",
+      "section": "6",
+      "content": "Av en underrättelse enligt 1-5 §§ ska det framgå vilka omständigheter som ligger till grund för Utbetalningsmyndighetens antagande om felaktigheten och andra uppgifter som kan antas vara av betydelse för berörda myndigheters eller arbetslöshetskassors handläggning. Undantag från underrättelseskyldigheten"
+    },
+    {
+      "provision_ref": "3:7",
+      "chapter": "3",
+      "section": "7",
+      "content": "Underrättelseskyldigheten enligt 1-5 §§ gäller inte om det finns särskilda skäl. Underrättelseskyldighet vid felaktiga utbetalningar från välfärdssystemen"
+    },
+    {
+      "provision_ref": "3:8",
+      "chapter": "3",
+      "section": "8",
+      "content": "I lagen (2008:206) om underrättelseskyldighet vid felaktiga utbetalningar från välfärdssystemen finns ytterligare bestämmelser om underrättelseskyldighet för Utbetalningsmyndigheten."
+    }
+  ]
+}
