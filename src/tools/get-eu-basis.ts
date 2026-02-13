@@ -2,7 +2,7 @@
  * get_eu_basis — Retrieve EU legal basis for a Swedish statute.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import type { EUBasisDocument } from '../types/index.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 

@@ -39,11 +39,10 @@
     "postinstall": "test -d dist || npm run build || true"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.25.3",
-    "better-sqlite3": "^12.6.2"
+    "@ansvar/mcp-sqlite": "^1.0.3",
+    "@modelcontextprotocol/sdk": "^1.25.3"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.13",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.15.29",
     "fast-xml-parser": "^5.3.5",

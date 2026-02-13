@@ -5,7 +5,7 @@
  * actually exist in the database.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import { validateCitation as doValidate } from '../citation/validator.js';
 import { formatCitation } from '../citation/formatter.js';
 import type { ValidationResult } from '../types/index.js';

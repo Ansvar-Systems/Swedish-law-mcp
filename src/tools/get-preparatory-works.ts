@@ -2,7 +2,7 @@
  * get_preparatory_works — Retrieve preparatory works (forarbeten) for a statute.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface GetPreparatoryWorksInput {

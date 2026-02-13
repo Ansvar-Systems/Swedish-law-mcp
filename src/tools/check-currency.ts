@@ -2,7 +2,7 @@
  * check_currency — Check if a statute or provision is current (in force).
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import { extractRepealDateFromDescription, normalizeAsOfDate } from '../utils/as-of-date.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 

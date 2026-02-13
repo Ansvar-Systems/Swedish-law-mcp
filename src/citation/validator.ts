@@ -5,7 +5,7 @@
  * corresponds to an actual entry in the database.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import type { ValidationResult, ParsedCitation, DocumentStatus } from '../types/index.js';
 import { parseCitation } from './parser.js';
 

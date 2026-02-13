@@ -2,7 +2,7 @@
  * get_swedish_implementations — Find Swedish statutes implementing an EU directive/regulation.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import type { EUDocument, SwedishImplementation } from '../types/index.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
