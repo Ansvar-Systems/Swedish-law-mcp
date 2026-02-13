@@ -2,7 +2,7 @@
  * validate_eu_compliance — Check Swedish statute's EU compliance status.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface ValidateEUComplianceInput {

@@ -2,7 +2,7 @@
  * search_eu_implementations — Search for EU directives/regulations by keyword.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface SearchEUImplementationsInput {

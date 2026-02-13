@@ -7,7 +7,7 @@
  * was worded at any point in time, accounting for all amendments.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 
 export interface GetProvisionAtDateParams {
   /** SFS number of statute, e.g., "2018:218" */

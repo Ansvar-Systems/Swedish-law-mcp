@@ -17,7 +17,7 @@ import {
   ReadResourceRequestSchema,
   Tool,
 } from '@modelcontextprotocol/sdk/types.js';
-import Database from 'better-sqlite3';
+import Database from '@ansvar/mcp-sqlite';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -41,9 +41,9 @@ const SERVER_VERSION = '0.1.0';
 const DB_ENV_VAR = 'SWEDISH_LAW_DB_PATH';
 const DEFAULT_DB_PATH = '../data/database.db';
 
-let dbInstance: Database.Database | null = null;
+let dbInstance: InstanceType<typeof Database> | null = null;
 
-function getDb(): Database.Database {
+function getDb(): InstanceType<typeof Database> {
   if (!dbInstance) {
     const dbPath = process.env[DB_ENV_VAR] || getDefaultDbPath();
     console.error(`[${SERVER_NAME}] Opening database: ${dbPath}`);

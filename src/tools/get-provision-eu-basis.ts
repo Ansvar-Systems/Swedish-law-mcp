@@ -2,7 +2,7 @@
  * get_provision_eu_basis — Get EU legal basis for a specific provision.
  */
 
-import type { Database } from 'better-sqlite3';
+import type { Database } from '@ansvar/mcp-sqlite';
 import type { ProvisionEUReference } from '../types/index.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
