@@ -83,19 +83,39 @@
 
 ### Current Status
 
-| Status | Details |
-|--------|---------|
-| **Coverage** | Limited — supplementary research tool |
-| **Court Decisions** | Minimal database entries |
-| **Availability** | Case law search tool available but data incomplete |
-| **Future Plans** | Comprehensive court case archive planned |
+| Metric | Value |
+|--------|-------|
+| **Total Decisions** | ~4,825 (expanding to est. 12,000-18,000) |
+| **Source** | lagen.nu (Open Data from Domstolsverket) |
+| **Full-Text Search** | FTS5-indexed |
+
+### Court Coverage
+
+| Court | Swedish Name | Year Range | Est. Cases |
+|-------|-------------|------------|------------|
+| **Supreme Court** | Högsta domstolen (NJA) | 1981-present | ~5,000-6,000 |
+| **Supreme Administrative Court** | Högsta förvaltningsdomstolen (HFD) | 2011-present | ~500-800 |
+| **Labour Court** | Arbetsdomstolen (AD) | 1993-present | ~1,500-2,000 |
+| **Environmental Court of Appeal** | Mark- och miljööverdomstolen (MÖD) | 2011-present | ~80-100 |
+| **Migration Court of Appeal** | Migrationsöverdomstolen (MIG) | 2006-present | ~200-300 |
+| **Courts of Appeal** | Rättsfall från hovrätterna (RH) | 1993-present | ~200-400 |
+| **Patent and Market Court** | Patent- och marknadsöverdomstolen (PMÖD) | 2016-present | ~100-200 |
+
+### Case Law Features
+
+- RDF metadata from lagen.nu with CC-BY Domstolsverket license
+- Full-text search with FTS5 and BM25 ranking
+- Court and domain classification
+- Date range filtering
+- Incremental sync support
 
 ### Case Law Limitations
 
-- ⚠️ **Limited Coverage** — Not comprehensive for professional use
-- ❌ **No lower courts** — Tingsrätt, Hovrätt not included
-- ❌ **Incomplete archive** — Missing most decisions
-- ⚠️ **Supplementary Tool** — Use commercial databases (Karnov, Zeteo) for case law research
+- ⚠️ **Appellate courts only** — No Tingsrätt (district court) decisions (not in lagen.nu)
+- ⚠️ **Summaries only** — Full case opinions not always available
+- ⚠️ **Source-dependent** — Coverage depends on lagen.nu data availability
+- ⚠️ **Supplementary tool** — Use Karnov or Zeteo for comprehensive case law research
+- ❌ **No CJEU/ECtHR** — EU and ECHR court decisions not included
 
 ## Legal Definitions
 
@@ -274,16 +294,17 @@
 ### Priority Gaps
 
 1. **Lower courts** (Tingsrätt, Hovrätt) — not available in lagen.nu archive
-2. **EU law** — directives, regulations, CJEU case law
+2. **CJEU case law** — EU Court of Justice decisions not included
 3. **Historical statute versions** — pre-consolidation amendments
 4. **Full case opinions** — lagen.nu provides summaries only
-5. **Pre-2011 cases** — historical archive limited
 
 ### Planned Expansions
 
 - [x] **Statute expansion** — 717 statutes with 31,198 provisions (v1.1.0) ✅
 - [x] **EU law cross-references** — 668 references to 228 EU documents (v1.1.0) ✅
-- [ ] Court case law expansion (comprehensive archive)
+- [x] **Historical case law** — Full archive scraper now covers NJA from 1981, AD from 1993 ✅
+- [x] **PMÖD court** — Patent- och marknadsöverdomstolen added to scraper ✅
+- [ ] Lower court coverage (requires alternative data source)
 - [ ] Historical statute versions (amendment tracking)
 - [ ] English translations for key statutes
 - [ ] Expanded preparatory works (full text, not just metadata)
@@ -304,9 +325,10 @@ All data sourced from authoritative Swedish legal databases:
 
 3. **[Lagen.nu](https://lagen.nu)** — Court decisions, curated legal database
    - License: CC-BY Domstolsverket
-   - Access: RDF/XML feeds, web scraping
+   - Access: RDF/XML feeds, year-based archive scraping
    - Attribution: Included in all case law results
-   - Current Status: Limited coverage
+   - Courts: HFD, NJA, AD, MÖD, MIG, RH, PMÖD
+   - Archive: NJA from 1981, AD from 1993, HFD from 2011
 
 4. **[EUR-Lex](https://eur-lex.europa.eu/)** — Official EU legislation database
    - License: EU public domain
@@ -344,6 +366,6 @@ For coverage questions or data quality issues:
 ---
 
 <p align="center">
-  <sub>Last updated: 2026-02-12</sub><br>
+  <sub>Last updated: 2026-02-14</sub><br>
   <sub>Next major update: TBD (weekly auto-sync planned)</sub>
 </p>

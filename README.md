@@ -372,7 +372,7 @@ Priority areas:
 
 - [x] **Statute expansion** -- 785% growth from 81 to 717 statutes (v1.1.0)
 - [x] **EU law integration** -- 668 cross-references to 228 EU directives/regulations (v1.1.0)
-- [ ] Court case law expansion (comprehensive archive)
+- [ ] Court case law expansion (scraper updated, re-ingestion needed for 12K-18K cases)
 - [ ] Full EU text integration (via @ansvar/eu-regulations-mcp)
 - [ ] Lower court coverage (Tingsrätt, Hovrätt archives)
 - [ ] Historical statute versions (amendment tracking)

@@ -14,10 +14,11 @@
  *   - AD (Arbetsdomstolen) - Labour Court
  *   - MÖD (Mark- och miljööverdomstolen) - Environmental Court
  *   - MIG (Migrationsöverdomstolen) - Migration Court of Appeal
- *   - RH (Riksdagens ombudsmän) - Parliamentary Ombudsmen
+ *   - RH (Rättsfall från hovrätterna) - Courts of Appeal
+ *   - PMÖD (Patent- och marknadsöverdomstolen) - Patent and Market Court of Appeal
  *
  * Strategy:
- *   1. For each court, iterate through years (2011-2024)
+ *   1. For each court, iterate through years (per-court start year to current)
  *   2. Fetch dataset page: https://lagen.nu/dataset/dv?hfd=2023
  *   3. Extract all case links from the page
  *   4. Fetch RDF metadata for each case
@@ -28,9 +29,9 @@
  *
  * Options:
  *   --limit N          Process only first N cases total
- *   --court <code>     Process only specific court (hfd, nja, ad, mod, mig, rh)
+ *   --court <code>     Process only specific court (hfd, nja, ad, mod, mig, rh, pmod)
  *   --year <YYYY>      Process only specific year
- *   --start-year YYYY  Start from this year (default: 2011)
+ *   --start-year YYYY  Start from this year (default: per-court config)
  *   --end-year YYYY    End at this year (default: current year)
  *   --dry-run          Show what would be scraped without making changes
  *
@@ -113,8 +114,14 @@ const COURTS: CourtConfig[] = [
   {
     code: 'rh',
     shortCode: 'RH',
-    name: 'Riksdagens ombudsmän',
+    name: 'Rättsfall från hovrätterna',
     startYear: 1993,
+  },
+  {
+    code: 'pmod',
+    shortCode: 'PMÖD',
+    name: 'Patent- och marknadsöverdomstolen',
+    startYear: 2016,
   },
 ];
 
@@ -479,7 +486,7 @@ if (isMainModule) {
   const args = process.argv.slice(2);
 
   const options: ScrapeOptions = {
-    startYear: 2011,
+    startYear: 1950,
     endYear: new Date().getFullYear(),
     dryRun: false,
   };
