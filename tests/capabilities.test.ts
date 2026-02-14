@@ -203,13 +203,13 @@ describe('upgradeMessage', () => {
     expect(msg).toContain('expanded case law');
   });
 
-  it('should mention Professional tier', () => {
+  it('should explain size constraint', () => {
     const msg = upgradeMessage('anything');
-    expect(msg).toContain('Professional tier');
+    expect(msg).toContain('too large to serve from a free hosted endpoint');
   });
 
-  it('should include contact info', () => {
+  it('should mention consulting services', () => {
     const msg = upgradeMessage('anything');
-    expect(msg).toContain('hello@ansvar.ai');
+    expect(msg).toContain('Ansvar delivers consulting services');
   });
 });
