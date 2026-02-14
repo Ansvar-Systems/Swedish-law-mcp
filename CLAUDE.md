@@ -268,12 +268,12 @@ Sample data includes: DSL (2018:218), PUL (1998:204), 2 court decisions, 2 prepa
 
 ## Database Statistics (v1.1.0)
 
-- **Statutes:** 717 laws (785% growth from v1.0.0)
-- **Provisions:** 31,198 sections
+- **Statutes:** 750 laws (823% growth from v1.0.0)
+- **Provisions:** 31,641 sections
 - **Preparatory Works:** 3,625 documents
 - **EU Cross-References:** 668 references to 228 EU documents
-- **Legal Definitions:** 615 terms
-- **Database Size:** 64.8 MB
+- **Legal Definitions:** 1,210 terms
+- **Database Size:** 65.6 MB
 - **MCP Tools:** 13 (8 core + 5 EU integration)
 
 ## EU Law Integration
