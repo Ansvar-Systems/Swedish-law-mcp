@@ -31,6 +31,8 @@
     "sync:cases": "tsx scripts/sync-lagennu-cases.ts",
     "sync:cases:full": "tsx scripts/sync-lagennu-cases.ts --full",
     "sync:prep-works": "tsx scripts/ingest-preparatory-works.ts",
+    "ingest:cases:premium": "tsx scripts/ingest-case-law-premium.ts",
+    "ingest:riksdagen:premium": "tsx scripts/ingest-riksdagen-premium.ts",
     "check-updates": "tsx scripts/check-updates.ts",
     "extract:definitions": "tsx scripts/extract-definitions.ts",
     "audit:seeds": "tsx scripts/audit-seeds.ts",
@@ -47,10 +49,12 @@
     "@modelcontextprotocol/sdk": "^1.25.3"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.15.29",
     "@vercel/node": "^5.6.3",
     "@vitest/coverage-v8": "^4.0.18",
+    "better-sqlite3": "npm:@ansvar/mcp-sqlite@^1.0.3",
     "fast-xml-parser": "^5.3.5",
     "jsdom": "^27.4.0",
     "tsx": "^4.21.0",
