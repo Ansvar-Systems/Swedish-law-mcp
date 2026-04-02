@@ -97,9 +97,6 @@ export async function searchCaseLaw(
   };
 
   let results = runQuery(queryVariants.primary);
-  if (results.length === 0 && queryVariants.stemmed) {
-    results = runQuery(queryVariants.stemmed);
-  }
   if (results.length === 0 && queryVariants.fallback) {
     results = runQuery(queryVariants.fallback);
   }

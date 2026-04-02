@@ -2,8 +2,8 @@
  * Utilities for building robust FTS5 queries from natural-language input.
  *
  * If the user provides explicit FTS syntax (quotes, boolean operators, wildcards),
- * we preserve it. Otherwise we convert tokens to prefix terms so inflections like
- * "make" -> "maken" can match.
+ * we preserve it. Otherwise we convert tokens to stemmed prefix terms so
+ * inflections like "personliga" / "personligen" both match via "personlig*".
  */
 
 const EXPLICIT_FTS_SYNTAX_PATTERN = /["*():^]|\bAND\b|\bOR\b|\bNOT\b/iu;
@@ -23,14 +23,6 @@ function escapeExplicitQuery(query: string): string {
   return query.replace(/[()^:]/g, (char) => `"${char}"`);
 }
 
-function buildPrefixAndQuery(tokens: string[]): string {
-  return tokens.map(token => `${token}*`).join(' ');
-}
-
-function buildPrefixOrQuery(tokens: string[]): string {
-  return tokens.map(token => `${token}*`).join(' OR ');
-}
-
 /**
  * Trim inflectional suffixes to broaden prefix matching.
  *
@@ -47,13 +39,16 @@ function trimToStem(token: string): string {
   return token;
 }
 
-function buildStemmedPrefixAndQuery(tokens: string[]): string {
+function buildPrefixAndQuery(tokens: string[]): string {
   return tokens.map(token => `${trimToStem(token)}*`).join(' ');
+}
+
+function buildPrefixOrQuery(tokens: string[]): string {
+  return tokens.map(token => `${trimToStem(token)}*`).join(' OR ');
 }
 
 export interface FtsQueryVariants {
   primary: string;
-  stemmed?: string;
   fallback?: string;
 }
 
@@ -77,13 +72,8 @@ export function buildFtsQueryVariants(query: string): FtsQueryVariants {
     return { primary };
   }
 
-  const stemmed = buildStemmedPrefixAndQuery(tokens);
-  const hasStemmedDiff = stemmed !== primary;
-
   return {
     primary,
-    stemmed: hasStemmedDiff ? stemmed : undefined,
     fallback: buildPrefixOrQuery(tokens),
   };
 }
-
