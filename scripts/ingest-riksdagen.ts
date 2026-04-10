@@ -59,6 +59,10 @@ const KNOWN_STATUTES: Record<string, StatuteMetadata> = {
     in_force_date: '1998-10-24',
     status: 'repealed',
   },
+  '2016:732': {
+    title_en: 'Electrical Safety Act',
+    in_force_date: '2017-07-01',
+  },
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
