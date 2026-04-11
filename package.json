@@ -60,6 +60,13 @@
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   },
+  "overrides": {
+    "path-to-regexp": "^8.4.2",
+    "minimatch": "^10.2.5",
+    "undici": "^8.0.2",
+    "ajv": "^8.18.0",
+    "smol-toml": "^1.6.1"
+  },
   "engines": {
     "node": ">=18"
   },

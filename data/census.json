@@ -6,12 +6,12 @@
   "census_date": "2026-02-22",
   "agent": "claude-opus-4-6",
   "summary": {
-    "total_laws": 6041,
-    "ingestable": 6041,
+    "total_laws": 6051,
+    "ingestable": 6051,
     "ocr_needed": 0,
     "inaccessible": 0,
     "excluded": 0,
-    "total_provisions": 58570
+    "total_provisions": 59888
   },
   "laws": [
     {
@@ -4325,6 +4325,20 @@
       "ingested": true,
       "provision_count": 0,
       "ingestion_date": "2026-02-22"
+    },
+    {
+      "id": "1977:1166",
+      "title": "Arbetsmiljöförordning (1977:1166)",
+      "title_en": "Work Environment Ordinance",
+      "identifier": "1977:1166",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1977-1166",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 29,
+      "ingestion_date": "2026-04-10"
     },
     {
       "id": "1978:144",
@@ -27315,6 +27329,20 @@
       "ingestion_date": "2026-02-22"
     },
     {
+      "id": "1997:857",
+      "title": "Ellag (1997:857)",
+      "title_en": "Electricity Act",
+      "identifier": "1997:857",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1997-857",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 381,
+      "ingestion_date": "2026-04-10"
+    },
+    {
       "id": "1997:1024",
       "title": "Lag (1997:1024) om Skatteverkets brottsbekämpande verksamhet",
       "title_en": null,
@@ -28559,6 +28587,20 @@
       "ingested": true,
       "provision_count": 9,
       "ingestion_date": "2026-02-22"
+    },
+    {
+      "id": "1998:899",
+      "title": "Förordning (1998:899) om miljöfarlig verksamhet och hälsoskydd",
+      "title_en": "Ordinance on Environmentally Hazardous Activities and Health Protection",
+      "identifier": "1998:899",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-1998-899",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 103,
+      "ingestion_date": "2026-04-11"
     },
     {
       "id": "1998:1214",
@@ -37323,6 +37365,20 @@
       "ingested": true,
       "provision_count": 0,
       "ingestion_date": "2026-02-22"
+    },
+    {
+      "id": "2004:660",
+      "title": "Vattenförvaltningsförordning (2004:660)",
+      "title_en": "Water Management Ordinance",
+      "identifier": "2004:660",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2004-660",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 68,
+      "ingestion_date": "2026-04-11"
     },
     {
       "id": "2004:1006",
@@ -49687,6 +49743,20 @@
       "ingestion_date": "2026-02-22"
     },
     {
+      "id": "2010:1075",
+      "title": "Förordning (2010:1075) om brandfarliga och explosiva varor",
+      "title_en": "Ordinance on Flammable and Explosive Goods",
+      "identifier": "2010:1075",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2010-1075",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 40,
+      "ingestion_date": "2026-04-11"
+    },
+    {
       "id": "2010:1333",
       "title": "Lag (2010:1333) om avtal mellan Sverige och Bahamas om utbyte av upplysningar i skatteärenden",
       "title_en": null,
@@ -51533,6 +51603,20 @@
       "ingested": true,
       "provision_count": 0,
       "ingestion_date": "2026-02-22"
+    },
+    {
+      "id": "2011:338",
+      "title": "Plan- och byggförordning (2011:338)",
+      "title_en": "Planning and Building Ordinance",
+      "identifier": "2011:338",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2011-338",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 168,
+      "ingestion_date": "2026-04-10"
     },
     {
       "id": "2011:1029",
@@ -55973,6 +56057,34 @@
       "ingestion_date": "2026-02-22"
     },
     {
+      "id": "2013:250",
+      "title": "Industriutsläppsförordning (2013:250)",
+      "title_en": "Industrial Emissions Ordinance",
+      "identifier": "2013:250",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2013-250",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 118,
+      "ingestion_date": "2026-04-11"
+    },
+    {
+      "id": "2013:251",
+      "title": "Miljöprövningsförordning (2013:251)",
+      "title_en": "Environmental Assessment Ordinance",
+      "identifier": "2013:251",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2013-251",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 330,
+      "ingestion_date": "2026-04-11"
+    },
+    {
       "id": "2013:1051",
       "title": "Lag (2013:1051) om avgifter enligt EU:s förordning om tillsynskrav för kreditinstitut och värdepappersföretag",
       "title_en": null,
@@ -60005,6 +60117,20 @@
       "ingestion_date": "2026-02-22"
     },
     {
+      "id": "2015:236",
+      "title": "Förordning (2015:236) om åtgärder för att förebygga och begränsa följderna av allvarliga kemikalieolyckor",
+      "title_en": "Seveso Ordinance",
+      "identifier": "2015:236",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2015-236",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 21,
+      "ingestion_date": "2026-04-11"
+    },
+    {
       "id": "2015:1016",
       "title": "Lag (2015:1016) om resolution",
       "title_en": null,
@@ -62579,6 +62705,20 @@
       "ingested": true,
       "provision_count": 0,
       "ingestion_date": "2026-02-22"
+    },
+    {
+      "id": "2016:732",
+      "title": "Elsäkerhetslag (2016:732)",
+      "title_en": "Electrical Safety Act",
+      "identifier": "2016:732",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/sfs-2016-732",
+      "status": "in_force",
+      "category": "general",
+      "classification": "ingestable",
+      "classification_reason": "Full structured HTML available from Riksdagen",
+      "ingested": true,
+      "provision_count": 60,
+      "ingestion_date": "2026-04-10"
     },
     {
       "id": "2016:1013",
