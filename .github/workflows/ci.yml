@@ -53,6 +53,9 @@ jobs:
       - name: Install dependencies
         run: npm ci --ignore-scripts
 
+      - name: Build native modules
+        run: npm rebuild better-sqlite3
+
       - name: Security audit (production deps)
         run: npm audit --omit=dev --audit-level=high
 
@@ -143,6 +146,7 @@ jobs:
           node-version: '22'
           cache: 'npm'
       - run: npm ci --ignore-scripts
+      - run: npm rebuild better-sqlite3
       - run: npm run build
       - run: npm run build:db
       - run: npm run test:contract
@@ -159,6 +163,7 @@ jobs:
           node-version: '22'
           cache: 'npm'
       - run: npm ci --ignore-scripts
+      - run: npm rebuild better-sqlite3
       - run: npm run build
       - run: npm run build:db
       - run: CONTRACT_MODE=nightly npm run test:contract
