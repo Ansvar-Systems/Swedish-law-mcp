@@ -37,8 +37,8 @@ jobs:
 
     strategy:
       matrix:
-        # Test on multiple Node.js versions
-        node-version: [18, 20, 22]
+        # vitest 4 dropped Node 18 (rolldown needs node:util.styleText, added in 20.12)
+        node-version: [20, 22]
 
     steps:
       - name: Checkout
@@ -58,6 +58,9 @@ jobs:
 
       - name: Build TypeScript
         run: npm run build
+
+      - name: Build database from seeds
+        run: npm run build:db
 
       - name: Run tests
         run: npm test
@@ -141,6 +144,7 @@ jobs:
           cache: 'npm'
       - run: npm ci --ignore-scripts
       - run: npm run build
+      - run: npm run build:db
       - run: npm run test:contract
 
   contract-tests-nightly:
@@ -156,4 +160,5 @@ jobs:
           cache: 'npm'
       - run: npm ci --ignore-scripts
       - run: npm run build
+      - run: npm run build:db
       - run: CONTRACT_MODE=nightly npm run test:contract
