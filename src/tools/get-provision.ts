@@ -6,6 +6,12 @@ import type { Database } from '@ansvar/mcp-sqlite';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 import { buildProvisionCitation } from '../utils/citation.js';
+import { buildMetaFromDb } from '../utils/response-meta.js';
+
+const SE_LAW_DISCLAIMER =
+  'NOT LEGAL ADVICE. This tool is for research purposes only and does not constitute professional legal advice. Always verify citations with official sources before relying on them in legal matters. Users are solely responsible for verifying accuracy and currency of all information.';
+const SE_LAW_SOURCE_AUTHORITY =
+  'Riksdagen (official Swedish Parliament API) for statutes; lagen.nu (community-maintained, CC-BY Domstolsverket) for case law';
 
 export interface GetProvisionInput {
   document_id: string;
@@ -80,7 +86,11 @@ export async function getProvision(
     return {
       results: truncated ? all.slice(0, MAX_ALL_PROVISIONS) : all,
       ...(truncated && { _truncated: true, _hint: `Only first ${MAX_ALL_PROVISIONS} provisions returned. Use chapter+section to retrieve specific provisions.` }),
-      _metadata: generateResponseMetadata(db)
+      _meta: buildMetaFromDb(db, {
+        disclaimer: SE_LAW_DISCLAIMER,
+        sourceAuthority: SE_LAW_SOURCE_AUTHORITY,
+        jurisdiction: 'SE',
+      })
     };
   }
 
@@ -153,7 +163,11 @@ export async function getProvision(
       metadata: row.metadata ? JSON.parse(row.metadata) : null,
       cross_references: crossRefs,
     },
-    _metadata: generateResponseMetadata(db),
+    _meta: buildMetaFromDb(db, {
+      disclaimer: SE_LAW_DISCLAIMER,
+      sourceAuthority: SE_LAW_SOURCE_AUTHORITY,
+      jurisdiction: 'SE',
+    }),
     _citation: buildProvisionCitation(
       row.document_id,
       row.document_title,

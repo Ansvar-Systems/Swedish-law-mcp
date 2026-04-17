@@ -6,7 +6,21 @@ import type { Database } from '@ansvar/mcp-sqlite';
 import { buildFtsQueryVariants } from '../utils/fts-query.js';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import type { ToolResponse } from '../utils/metadata.js';
+import { buildMetaFromDb } from '../utils/response-meta.js';
+
+const SE_LAW_DISCLAIMER =
+  'NOT LEGAL ADVICE. This tool is for research purposes only and does not constitute professional legal advice. Always verify citations with official sources before relying on them in legal matters. Users are solely responsible for verifying accuracy and currency of all information.';
+const SE_LAW_SOURCE_AUTHORITY =
+  'Riksdagen (official Swedish Parliament API) for statutes; lagen.nu (community-maintained, CC-BY Domstolsverket) for case law';
+
+function buildSeMeta(db: Database) {
+  return buildMetaFromDb(db, {
+    disclaimer: SE_LAW_DISCLAIMER,
+    sourceAuthority: SE_LAW_SOURCE_AUTHORITY,
+    jurisdiction: 'SE',
+  });
+}
 
 export interface SearchLegislationInput {
   query: string;
@@ -39,7 +53,7 @@ export async function searchLegislation(
   if (!input.query || input.query.trim().length === 0) {
     return {
       results: [],
-      _metadata: generateResponseMetadata(db)
+      _meta: buildSeMeta(db)
     };
   }
 
@@ -57,10 +71,8 @@ export async function searchLegislation(
     if (!resolved) {
       return {
         results: [],
-        _metadata: {
-          ...generateResponseMetadata(db),
-          note: `No document found matching "${input.document_id}"`,
-        },
+        _meta: buildSeMeta(db),
+        _hint: `No document found matching "${input.document_id}"`,
       };
     }
   }
@@ -167,7 +179,7 @@ export async function searchLegislation(
   if (primaryResults.length > 0) {
     return {
       results: deduplicateResults(primaryResults, limit),
-      _metadata: generateResponseMetadata(db),
+      _meta: buildSeMeta(db),
     };
   }
 
@@ -176,17 +188,15 @@ export async function searchLegislation(
     if (fallbackResults.length > 0) {
       return {
         results: deduplicateResults(fallbackResults, limit),
-        _metadata: {
-          ...generateResponseMetadata(db),
-          query_strategy: 'broadened',
-        },
+        _meta: buildSeMeta(db),
+        _hint: 'query_strategy=broadened',
       };
     }
   }
 
   return {
     results: [],
-    _metadata: generateResponseMetadata(db),
+    _meta: buildSeMeta(db),
   };
 }
 
