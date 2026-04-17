@@ -4,7 +4,13 @@
 
 import type { Database } from '@ansvar/mcp-sqlite';
 import type { EUBasisDocument } from '../types/index.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import type { ToolResponse } from '../utils/metadata.js';
+import { buildMetaFromDb } from '../utils/response-meta.js';
+
+const SE_LAW_DISCLAIMER =
+  'NOT LEGAL ADVICE. This tool is for research purposes only and does not constitute professional legal advice. Always verify citations with official sources before relying on them in legal matters. Users are solely responsible for verifying accuracy and currency of all information.';
+const SE_LAW_SOURCE_AUTHORITY =
+  'Riksdagen (official Swedish Parliament API) for statutes; lagen.nu (community-maintained, CC-BY Domstolsverket) for case law';
 
 export interface GetEUBasisInput {
   sfs_number: string;
@@ -169,6 +175,10 @@ export async function getEUBasis(
 
   return {
     results: result,
-    _metadata: generateResponseMetadata(db),
+    _meta: buildMetaFromDb(db, {
+      disclaimer: SE_LAW_DISCLAIMER,
+      sourceAuthority: SE_LAW_SOURCE_AUTHORITY,
+      jurisdiction: 'SE',
+    }),
   };
 }

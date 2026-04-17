@@ -174,13 +174,20 @@ function getSourceAuthority(): SourceAuthority {
 
 /**
  * Wrapper type for tool responses that includes metadata.
+ *
+ * Envelope contract: emit `_meta` (canonical per Golden Standard §4.9b).
+ * Legacy `_metadata` is accepted for backward compat during the migration
+ * sweep; remove once all tools emit `_meta` via `buildMetaFromDb()`.
  */
 export interface ToolResponse<T> {
   /** Tool-specific results */
   results: T;
 
-  /** Professional-use metadata and warnings */
-  _metadata: ResponseMetadata;
+  /** Canonical response envelope (_meta per Golden Standard §4.9b). */
+  _meta?: import('./response-meta.js').MetaEnvelope;
+
+  /** Legacy envelope — deprecated, use _meta. Retained until all tools migrated. */
+  _metadata?: ResponseMetadata;
 
   /** Citation metadata for deterministic citation pipeline (optional) */
   _citation?: import('./citation.js').CitationMetadata;
