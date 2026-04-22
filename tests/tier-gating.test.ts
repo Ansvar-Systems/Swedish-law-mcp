@@ -32,7 +32,6 @@ function createProfessionalDb(): InstanceType<typeof Database> {
   db.exec(`
     CREATE TABLE case_law_full (id INTEGER PRIMARY KEY, full_text TEXT);
     CREATE TABLE preparatory_works_full (id INTEGER PRIMARY KEY, full_text TEXT);
-    CREATE TABLE agency_guidance (id INTEGER PRIMARY KEY, guidance TEXT);
   `);
   return db;
 }
@@ -56,7 +55,6 @@ describe('Tier gating', () => {
       const caps = detectCapabilities(db);
       expect(caps.has('expanded_case_law')).toBe(true);
       expect(caps.has('full_preparatory_works')).toBe(true);
-      expect(caps.has('agency_guidance')).toBe(true);
       db.close();
     });
   });

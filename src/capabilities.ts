@@ -18,7 +18,6 @@ export type Capability =
   | 'eu_references'
   | 'expanded_case_law'
   | 'full_preparatory_works'
-  | 'agency_guidance'
   | 'version_tracking';
 
 export type Tier = 'free' | 'professional' | 'unknown';
@@ -40,14 +39,12 @@ const CAPABILITY_TABLES: Record<Capability, string> = {
   eu_references: 'eu_references',
   expanded_case_law: 'case_law_full',
   full_preparatory_works: 'preparatory_works_full',
-  agency_guidance: 'agency_guidance',
   version_tracking: 'legal_provision_versions',
 };
 
 const PROFESSIONAL_CAPABILITIES: Capability[] = [
   'expanded_case_law',
   'full_preparatory_works',
-  'agency_guidance',
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
