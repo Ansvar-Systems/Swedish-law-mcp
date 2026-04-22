@@ -7,6 +7,7 @@ import { buildFtsQueryVariants } from '../utils/fts-query.js';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { buildDisplayRef } from '../utils/provision-display.js';
 
 export interface SearchLegislationInput {
   query: string;
@@ -23,6 +24,13 @@ export interface SearchLegislationResult {
   chapter: string | null;
   section: string;
   title: string | null;
+  /**
+   * Swedish-convention display label computed from chapter + section
+   * (e.g. "1 kap. 1 §" or "4 §"). Populated even when `title` is null so
+   * callers have a navigation label; source rubrik coverage is ~6% of
+   * the corpus by design.
+   */
+  display_ref: string;
   snippet: string;
   relevance: number;
   valid_from?: string | null;
@@ -160,7 +168,8 @@ export async function searchLegislation(
 
   const runQuery = (ftsQuery: string): SearchLegislationResult[] => {
     const bound = [ftsQuery, ...params];
-    return db.prepare(sql).all(...bound) as SearchLegislationResult[];
+    const rows = db.prepare(sql).all(...bound) as Omit<SearchLegislationResult, 'display_ref'>[];
+    return rows.map(r => ({ ...r, display_ref: buildDisplayRef(r.chapter, r.section) }));
   };
 
   const primaryResults = runQuery(queryVariants.primary);
