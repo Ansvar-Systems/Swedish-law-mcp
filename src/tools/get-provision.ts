@@ -6,6 +6,7 @@ import type { Database } from '@ansvar/mcp-sqlite';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 import { buildProvisionCitation } from '../utils/citation.js';
+import { buildDisplayRef } from '../utils/provision-display.js';
 
 export interface GetProvisionInput {
   document_id: string;
@@ -23,6 +24,13 @@ export interface ProvisionResult {
   chapter: string | null;
   section: string;
   title: string | null;
+  /**
+   * Swedish-convention display label computed from chapter + section —
+   * e.g. "1 kap. 1 §" or "4 §". Populated for every row so callers have
+   * a navigation label regardless of whether the source data carries a
+   * per-section rubrik. `title` stays null when no source rubrik exists.
+   */
+  display_ref: string;
   content: string;
   metadata: Record<string, unknown> | null;
   cross_references: CrossRefResult[];
@@ -150,6 +158,7 @@ export async function getProvision(
   return {
     results: {
       ...row,
+      display_ref: buildDisplayRef(row.chapter, row.section),
       metadata: row.metadata ? JSON.parse(row.metadata) : null,
       cross_references: crossRefs,
     },
@@ -237,6 +246,7 @@ function getAllProvisions(db: Database, documentId: string, asOfDate?: string, l
 
   return rows.map(row => ({
     ...row,
+    display_ref: buildDisplayRef(row.chapter, row.section),
     metadata: row.metadata ? JSON.parse(row.metadata) : null,
     cross_references: [],
   }));
