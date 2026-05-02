@@ -8,8 +8,7 @@
     "swedish-law-mcp": "dist/index.js"
   },
   "files": [
-    "dist",
-    "data/database.db"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
