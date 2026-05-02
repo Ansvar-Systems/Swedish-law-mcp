@@ -8,8 +8,7 @@
     "swedish-law-mcp": "dist/index.js"
   },
   "files": [
-    "dist",
-    "data/database.db"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
@@ -61,7 +60,7 @@
     "vitest": "^4.0.18"
   },
   "overrides": {
-    "path-to-regexp": "^8.4.2",
+    "path-to-regexp": "^8.4.1",
     "minimatch": "^10.2.5",
     "undici": "^8.0.2",
     "ajv": "^8.18.0",
