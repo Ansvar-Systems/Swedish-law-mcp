@@ -102,3 +102,9 @@ temp/
 .vercel
 database.db
 reports/
+
+# Pre-built data files removed per ADR-029 (source-only repositioning)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
