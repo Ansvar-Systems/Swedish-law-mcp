@@ -7,6 +7,7 @@ import { buildFtsQueryVariants } from '../utils/fts-query.js';
 import { normalizeAsOfDate } from '../utils/as-of-date.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { buildSearchItemCitation, type CitationMetadata } from '../utils/citation.js';
 
 export interface SearchLegislationInput {
   query: string;
@@ -27,6 +28,12 @@ export interface SearchLegislationResult {
   relevance: number;
   valid_from?: string | null;
   valid_to?: string | null;
+  _citation: CitationMetadata;
+}
+
+interface SearchLegislationRow extends Omit<SearchLegislationResult, '_citation'> {
+  document_url: string | null;
+  document_short_name: string | null;
 }
 
 const DEFAULT_LIMIT = 10;
@@ -75,6 +82,8 @@ export async function searchLegislation(
         SELECT
           lpv.document_id,
           ld.title as document_title,
+          ld.url as document_url,
+          ld.short_name as document_short_name,
           lpv.provision_ref,
           lpv.chapter,
           lpv.section,
@@ -111,6 +120,8 @@ export async function searchLegislation(
       SELECT
         document_id,
         document_title,
+        document_url,
+        document_short_name,
         provision_ref,
         chapter,
         section,
@@ -129,6 +140,8 @@ export async function searchLegislation(
       SELECT
         lp.document_id,
         ld.title as document_title,
+        ld.url as document_url,
+        ld.short_name as document_short_name,
         lp.provision_ref,
         lp.chapter,
         lp.section,
@@ -158,9 +171,9 @@ export async function searchLegislation(
 
   params.push(fetchLimit);
 
-  const runQuery = (ftsQuery: string): SearchLegislationResult[] => {
+  const runQuery = (ftsQuery: string): SearchLegislationRow[] => {
     const bound = [ftsQuery, ...params];
-    return db.prepare(sql).all(...bound) as SearchLegislationResult[];
+    return db.prepare(sql).all(...bound) as SearchLegislationRow[];
   };
 
   const primaryResults = runQuery(queryVariants.primary);
@@ -191,12 +204,12 @@ export async function searchLegislation(
 }
 
 /**
- * Deduplicate search results by document_title + provision_ref.
- * Duplicate document IDs (numeric vs slug) cause the same provision to appear twice.
- * Keeps the first (highest-ranked) occurrence.
+ * Deduplicate search results by document_title + provision_ref and attach
+ * per-item `_citation`. Duplicate document IDs (numeric vs slug) cause the
+ * same provision to appear twice; we keep the first (highest-ranked) occurrence.
  */
 function deduplicateResults(
-  rows: SearchLegislationResult[],
+  rows: SearchLegislationRow[],
   limit: number,
 ): SearchLegislationResult[] {
   const seen = new Set<string>();
@@ -205,7 +218,17 @@ function deduplicateResults(
     const key = `${row.document_title}::${row.provision_ref}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    deduped.push(row);
+    const { document_url, document_short_name, ...rest } = row;
+    deduped.push({
+      ...rest,
+      _citation: buildSearchItemCitation(
+        row.document_id,
+        row.document_title,
+        row.provision_ref,
+        document_url,
+        document_short_name,
+      ),
+    });
     if (deduped.length >= limit) break;
   }
   return deduped;
