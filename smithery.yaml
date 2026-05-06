@@ -4,8 +4,10 @@
 name: swedish-law-mcp
 title: Swedish Law MCP
 description: |
-  MCP server for Swedish statutes and regulations.
-  Query Swedish law directly from Claude, Cursor, or any MCP-compatible client.
+  MCP server for Swedish statutes, case law, preparatory works, and EU
+  cross-references. 6,041 statutes / 58,570 provisions, FTS5 search,
+  zero-hallucination citation validation. Free tier: statutes + EU links.
+  Premium tier: full case law (lagen.nu) + preparatory works (Riksdagen).
 
 author: Ansvar Systems
 authorUrl: https://ansvar.ai
@@ -36,15 +38,59 @@ startCommand:
       args: ['-y', '@ansvar/swedish-law-mcp']
     })
 
+# Tools: see TOOLS.md for full parameter schemas. Free-tier vs premium-tier
+# split is declared authoritatively in TOOLS.md § tier-boundary.
 tools:
-  - name: search_laws
-    description: Full-text search across Swedish statutes
+  - name: search_legislation
+    description: Full-text search across Swedish statutes and regulations (FTS5, BM25 ranking).
 
-  - name: get_section
-    description: Retrieve a specific section from a statute
+  - name: get_provision
+    description: Retrieve a specific provision from a Swedish statute by SFS number + chapter/section.
 
-  - name: list_statutes
-    description: List available statutes and their structure
+  - name: search_case_law
+    description: Search Swedish court decisions (rattsfall) — HD, HFD, AD, RH, MÖD, MIG, PMÖD. Coverage depends on tier.
 
-  - name: get_definitions
-    description: Look up official definitions from Swedish law
+  - name: get_preparatory_works
+    description: Get preparatory works (forarbeten) — propositions, SOUs, Ds documents — for a statute.
+
+  - name: validate_citation
+    description: Validate a Swedish legal citation against the database (zero-hallucination check).
+
+  - name: format_citation
+    description: Format a Swedish legal citation (full, short, or pinpoint form).
+
+  - name: build_legal_stance
+    description: Build comprehensive citations for a legal question across statutes, case law, and preparatory works.
+
+  - name: check_currency
+    description: Check if a Swedish statute or provision is in force (current or historical).
+
+  - name: get_eu_basis
+    description: Get the EU legal basis for a Swedish statute (CELEX-linked).
+
+  - name: get_provision_eu_basis
+    description: Get the EU legal basis for a specific provision.
+
+  - name: get_swedish_implementations
+    description: Find Swedish statutes implementing a given EU directive or regulation.
+
+  - name: search_eu_implementations
+    description: Search EU directives/regulations with Swedish implementation info.
+
+  - name: validate_eu_compliance
+    description: Validate EU compliance status for a Swedish statute or provision (reference validity).
+
+  - name: get_provision_history
+    description: Get the version history of a provision (premium — historical amendments).
+
+  - name: diff_provision
+    description: Diff two versions of a provision (premium).
+
+  - name: get_recent_changes
+    description: List recent changes to Swedish statutes (premium).
+
+  - name: list_sources
+    description: List all data sources used by this MCP with provenance metadata.
+
+  - name: about
+    description: Server metadata, dataset statistics, freshness, and provenance.

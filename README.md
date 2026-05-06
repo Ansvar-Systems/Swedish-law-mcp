@@ -11,7 +11,7 @@
 [![Database](https://img.shields.io/badge/database-pre--built-green)](docs/EU_INTEGRATION_GUIDE.md)
 [![Provisions](https://img.shields.io/badge/provisions-58%2C570-blue)](docs/EU_INTEGRATION_GUIDE.md)
 
-Query **2,415 Swedish statutes** -- from Dataskyddslagen and Brottsbalken to Aktiebolagslagen, Miljöbalken, and more -- directly from Claude, Cursor, or any MCP-compatible client.
+Query **6,041 Swedish statutes** with **58,570 provisions** -- from Dataskyddslagen and Brottsbalken to Aktiebolagslagen, Miljöbalken, and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
 If you're building legal tech, compliance tools, or doing Swedish legal research, this is your verified reference database.
 
@@ -35,46 +35,7 @@ This MCP server makes Swedish law **searchable, cross-referenceable, and AI-read
 
 ## Quick Start
 
-### Use Remotely (No Install Needed)
-
-> Connect directly to the hosted version — zero dependencies, nothing to install.
-
-**Endpoint:** `https://mcp.ansvar.eu/law-se/mcp`
-
-| Client | How to Connect |
-|--------|---------------|
-| **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add swedish-law --transport http https://mcp.ansvar.eu/law-se/mcp` |
-| **Claude Desktop** | Add to config (see below) |
-| **GitHub Copilot** | Add to VS Code settings (see below) |
-
-**Claude Desktop** — add to `claude_desktop_config.json`:
-
-```json
-{
-  "mcpServers": {
-    "swedish-law": {
-      "type": "url",
-      "url": "https://mcp.ansvar.eu/law-se/mcp"
-    }
-  }
-}
-```
-
-**GitHub Copilot** — add to VS Code `settings.json`:
-
-```json
-{
-  "github.copilot.chat.mcp.servers": {
-    "swedish-law": {
-      "type": "http",
-      "url": "https://mcp.ansvar.eu/law-se/mcp"
-    }
-  }
-}
-```
-
-### Use Locally (npm)
+### Use Locally (npm — recommended)
 
 ```bash
 npx @ansvar/swedish-law-mcp
@@ -109,6 +70,10 @@ npx @ansvar/swedish-law-mcp
 }
 ```
 
+### Hosted via Ansvar Gateway (B2B, OAuth)
+
+For organisations that want a single OAuth-gated endpoint covering this MCP plus the rest of the Ansvar fleet (multi-jurisdiction law, EU regulations, sector regulators, case law), use the [Ansvar Gateway](https://gateway.ansvar.eu) — a single MCP endpoint that routes and fans out across the full catalogue. Tier-gated (`premium`, `team`, `company`); requires an Ansvar account.
+
 ## Example Queries
 
 Once connected, just ask naturally:
@@ -129,7 +94,7 @@ Once connected, just ask naturally:
 
 | Category | Count | Details |
 |----------|-------|---------|
-| **Statutes** | 2,415 statutes | Comprehensive Swedish legislation |
+| **Statutes** | 6,041 statutes | Comprehensive Swedish legislation |
 | **Provisions** | 58,570 sections | Full-text searchable with FTS5 |
 | **Preparatory Works** | 6,735 documents | Propositions (Prop.) and SOUs |
 | **EU Cross-References** | 668 references | 228 EU directives and regulations |
