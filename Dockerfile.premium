@@ -1,60 +1,71 @@
-# Premium Swedish Law MCP Server
-# Baked-in database with full provision version history. Delivered via GHCR.
+# ═══════════════════════════════════════════════════════════════════════════
+# PREMIUM SWEDISH LAW MCP SERVER DOCKERFILE
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Mirrors Dockerfile (infrastructure standard §3) — same build/runtime
+# posture, same entry point. The ONLY difference is `ENV PREMIUM_ENABLED=true`
+# and that the baked-in database includes premium content (case law,
+# preparatory works, version history).
 #
 # Build:
+#   npm run build:db
+#   npm run ingest:cases:full-archive
+#   npm run build:db:paid
 #   docker buildx build --platform linux/amd64 -f Dockerfile.premium \
 #     -t ghcr.io/ansvar-systems/swedish-law-mcp-premium:latest .
 #
 # Run:
-#   docker run -p 8080:3000 -e PREMIUM_ENABLED=true \
-#     ghcr.io/ansvar-systems/swedish-law-mcp-premium:latest
+#   docker run -p 8080:3000 ghcr.io/ansvar-systems/swedish-law-mcp-premium:latest
+#
+# ═══════════════════════════════════════════════════════════════════════════
 
-# Build stage
-FROM node:24-alpine AS builder
+# ───────────────────────────────────────────────────────────────────────────
+# STAGE 1: BUILD
+# ───────────────────────────────────────────────────────────────────────────
+
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-COPY package.json package-lock.json* pnpm-lock.yaml* ./
+COPY package*.json ./
+
+RUN npm ci --ignore-scripts
+
 COPY tsconfig.json ./
-
-RUN npm install --ignore-scripts 2>/dev/null || npm install
-
-COPY src/ ./src/
-COPY api/ ./api/
+COPY src ./src
 
 RUN npm run build
 
-# Production stage
-FROM node:24-alpine AS production
+# ───────────────────────────────────────────────────────────────────────────
+# STAGE 2: RUNTIME
+# ───────────────────────────────────────────────────────────────────────────
+
+FROM node:20-alpine AS runtime
 
 WORKDIR /app
 
-COPY package.json ./
+COPY package*.json ./
 
-# Install production deps only (WASM SQLite — no native rebuild needed)
-RUN npm install --omit=dev --ignore-scripts 2>/dev/null || npm install --production
-RUN npm cache clean --force
+RUN npm ci --omit=dev
 
-# Non-root user
-RUN addgroup -g 1001 -S nodejs && adduser -S nodejs -u 1001
-
-# Copy built server
 COPY --from=builder /app/dist ./dist
-
-# Copy premium database (with provision version history)
 COPY data/database.db ./data/database.db
 
-RUN chown -R nodejs:nodejs /app
-
+# Non-root user (UID 1001 per infrastructure standard §3)
+RUN addgroup -g 1001 -S nodejs && adduser -u 1001 -S nodejs -G nodejs \
+    && chown -R nodejs:nodejs /app/data
 USER nodejs
 
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV PREMIUM_ENABLED=true
+# WASM SQLite loads the entire DB into memory — premium DB is larger
+ENV NODE_OPTIONS="--max-old-space-size=512"
+ENV SWEDISH_LAW_DB_PATH=/app/data/database.db
 
 EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:3000/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"
+  CMD node -e "fetch('http://localhost:'+(process.env.PORT||3000)+'/health').then(r=>{r.ok||process.exit(1)}).catch(()=>process.exit(1))"
 
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/http-server.js"]
