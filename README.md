@@ -11,7 +11,7 @@
 [![Database](https://img.shields.io/badge/database-pre--built-green)](docs/EU_INTEGRATION_GUIDE.md)
 [![Provisions](https://img.shields.io/badge/provisions-58%2C570-blue)](docs/EU_INTEGRATION_GUIDE.md)
 
-Query **2,415 Swedish statutes** -- from Dataskyddslagen and Brottsbalken to Aktiebolagslagen, Miljöbalken, and more -- directly from Claude, Cursor, or any MCP-compatible client.
+Query **6,041 Swedish statutes** with **58,570 provisions** -- from Dataskyddslagen and Brottsbalken to Aktiebolagslagen, Miljöbalken, and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
 If you're building legal tech, compliance tools, or doing Swedish legal research, this is your verified reference database.
 
@@ -35,46 +35,7 @@ This MCP server makes Swedish law **searchable, cross-referenceable, and AI-read
 
 ## Quick Start
 
-### Use Remotely (No Install Needed)
-
-> Connect directly to the hosted version — zero dependencies, nothing to install.
-
-**Endpoint:** `https://mcp.ansvar.eu/law-se/mcp`
-
-| Client | How to Connect |
-|--------|---------------|
-| **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add swedish-law --transport http https://mcp.ansvar.eu/law-se/mcp` |
-| **Claude Desktop** | Add to config (see below) |
-| **GitHub Copilot** | Add to VS Code settings (see below) |
-
-**Claude Desktop** — add to `claude_desktop_config.json`:
-
-```json
-{
-  "mcpServers": {
-    "swedish-law": {
-      "type": "url",
-      "url": "https://mcp.ansvar.eu/law-se/mcp"
-    }
-  }
-}
-```
-
-**GitHub Copilot** — add to VS Code `settings.json`:
-
-```json
-{
-  "github.copilot.chat.mcp.servers": {
-    "swedish-law": {
-      "type": "http",
-      "url": "https://mcp.ansvar.eu/law-se/mcp"
-    }
-  }
-}
-```
-
-### Use Locally (npm)
+### Use Locally (npm — recommended)
 
 ```bash
 npx @ansvar/swedish-law-mcp
@@ -109,6 +70,10 @@ npx @ansvar/swedish-law-mcp
 }
 ```
 
+### Hosted via Ansvar Gateway (B2B, OAuth)
+
+For organisations that want a single OAuth-gated endpoint covering this MCP plus the rest of the Ansvar fleet (multi-jurisdiction law, EU regulations, sector regulators, case law), use the [Ansvar Gateway](https://gateway.ansvar.eu) — a single MCP endpoint that routes and fans out across the full catalogue. Tier-gated (`premium`, `team`, `company`); requires an Ansvar account.
+
 ## Example Queries
 
 Once connected, just ask naturally:
@@ -129,7 +94,7 @@ Once connected, just ask naturally:
 
 | Category | Count | Details |
 |----------|-------|---------|
-| **Statutes** | 2,415 statutes | Comprehensive Swedish legislation |
+| **Statutes** | 6,041 statutes | Comprehensive Swedish legislation |
 | **Provisions** | 58,570 sections | Full-text searchable with FTS5 |
 | **Preparatory Works** | 6,735 documents | Propositions (Prop.) and SOUs |
 | **EU Cross-References** | 668 references | 228 EU directives and regulations |
@@ -180,7 +145,9 @@ Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
 
 ---
 
-## Available Tools (13)
+## Available Tools (18)
+
+See [TOOLS.md](TOOLS.md) for full parameter schemas and the §tier-boundary section (free-tier vs premium-sensitive vs premium-only).
 
 ### Core Legal Research Tools (8)
 
@@ -188,10 +155,10 @@ Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
 |------|-------------|
 | `search_legislation` | FTS5 search on 58,570 provisions with BM25 ranking |
 | `get_provision` | Retrieve specific provision by SFS + chapter/section |
-| `search_case_law` | FTS5 search on case law with court/date filters |
-| `get_preparatory_works` | Get linked propositions and SOUs for a statute |
+| `search_case_law` | FTS5 search on case law with court/date filters (premium-sensitive) |
+| `get_preparatory_works` | Get linked propositions and SOUs for a statute (premium-sensitive) |
 | `validate_citation` | Validate citation against database (zero-hallucination check) |
-| `build_legal_stance` | Aggregate citations from statutes, case law, prep works |
+| `build_legal_stance` | Aggregate citations from statutes, case law, prep works (premium-sensitive) |
 | `format_citation` | Format citations per Swedish conventions (full/short/pinpoint) |
 | `check_currency` | Check if statute is in force, amended, or repealed |
 
@@ -204,6 +171,21 @@ Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
 | `search_eu_implementations` | Search EU documents with Swedish implementation counts |
 | `get_provision_eu_basis` | Get EU law references for specific provision |
 | `validate_eu_compliance` | Check implementation status (future, requires EU MCP) |
+
+### Versioning Tools (3, premium-only)
+
+| Tool | Description |
+|------|-------------|
+| `get_provision_history` | Provision version history showing amendments over time |
+| `diff_provision` | Diff two versions of a provision |
+| `get_recent_changes` | Recent statute changes within a time window |
+
+### Server Metadata Tools (2)
+
+| Tool | Description |
+|------|-------------|
+| `list_sources` | Data provenance metadata per source |
+| `about` | Server stats, freshness, build date, tier, dataset summary |
 
 ---
 
@@ -247,7 +229,7 @@ A [daily GitHub Actions workflow](.github/workflows/check-updates.yml) monitors 
 
 | Source | Check | Method |
 |--------|-------|--------|
-| **Statute amendments** | Riksdagen API date comparison | All 2,415 statutes checked |
+| **Statute amendments** | Riksdagen API date comparison | All 6,041 statutes checked |
 | **New statutes** | Riksdagen SFS publications (90-day window) | Diffed against database |
 | **Case law** | lagen.nu feed entry count | Compared to database |
 | **Preparatory works** | Riksdagen proposition API (30-day window) | New props detected |
@@ -367,7 +349,7 @@ This server is part of **Ansvar's Compliance Suite** -- MCP servers that work to
 **Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS, and more. Full regulatory text with article-level search. `npx @ansvar/eu-regulations-mcp`
 
 ### @ansvar/swedish-law-mcp (This Project)
-**Query 2,415 Swedish statutes directly from Claude** -- DSL, BrB, ABL, MB, and more. Full provision text with EU cross-references. `npx @ansvar/swedish-law-mcp`
+**Query 6,041 Swedish statutes directly from Claude** -- DSL, BrB, ABL, MB, and more. Full provision text with EU cross-references. `npx @ansvar/swedish-law-mcp`
 
 ### [@ansvar/us-regulations-mcp](https://github.com/Ansvar-Systems/US_Compliance_MCP)
 **Query US federal and state compliance laws** -- HIPAA, CCPA, SOX, GLBA, FERPA, and more. `npm install @ansvar/us-regulations-mcp`
@@ -418,7 +400,7 @@ If you use this MCP server in academic research:
   title = {Swedish Law MCP Server: Production-Grade Legal Research Tool},
   year = {2025},
   url = {https://github.com/Ansvar-Systems/swedish-law-mcp},
-  note = {Comprehensive Swedish legal database with 2,415 statutes and EU law cross-references}
+  note = {Comprehensive Swedish legal database with 6,041 statutes and EU law cross-references}
 }
 ```
 
@@ -440,7 +422,7 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 We build AI-accelerated compliance and legal research tools for the European market. This MCP server started as our internal reference tool for Swedish law -- turns out everyone building for the Swedish market has the same research frustrations.
 
-So we're open-sourcing it. Navigating 2,415 statutes shouldn't require a law degree.
+So we're open-sourcing it. Navigating 6,041 statutes shouldn't require a law degree.
 
 **[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
 
