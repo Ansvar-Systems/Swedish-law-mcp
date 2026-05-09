@@ -39,7 +39,7 @@
     "import:eurlex-documents": "tsx scripts/import-eurlex-documents.ts",
     "migrate:eu-references": "tsx scripts/migrate-eu-references.ts",
     "verify:eu-coverage": "tsx scripts/verify-eu-coverage.ts",
-    "lint": "eslint src tests",
+    "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build",
     "postinstall": "test -d dist || npm run build || true",
     "ingest:fetch": "tsx scripts/ingest-fetch.ts",
