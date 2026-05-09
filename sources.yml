@@ -14,6 +14,7 @@ sources:
     api_documentation: "https://data.riksdagen.se/data/dokument/"
     update_frequency: "on_change"
     last_ingested: "2026-02-15"
+    last_verified: "2026-05-09"
     license_or_terms:
       type: "Government Open Data (Swedish PSI)"
       url: "https://data.riksdagen.se/"
@@ -32,6 +33,7 @@ sources:
     api_documentation: "https://lagen.nu/om/rattsinformation.html"
     update_frequency: "weekly"
     last_ingested: "2026-02-15"
+    last_verified: "2026-05-09"
     license_or_terms:
       type: "CC-BY Domstolsverket"
       url: "https://lagen.nu/om/rattsinformation.html"
