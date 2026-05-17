@@ -1,5 +1,13 @@
 # sources.yml — Data provenance metadata
 # Reference: docs/mcp-infrastructure-blueprint.md §3
+# License axis: SE-Statutory-PD (Swedish statutory public domain)
+# Statutory basis: Upphovsrättslagen (1960:729) §9 — författningar (laws and
+# regulations), beslut av myndighet (decisions of public authorities),
+# yttranden av svensk myndighet (official statements of Swedish authorities),
+# and official translations of these works enjoy no copyright protection.
+# Verified verbatim 2026-05-17.
+# Cross-ref: docs/audits/2026-05-17-eu-copyright-statutory-works-batch-3-BG-HR-SK-SI-SE.md
+# Catalog entry: infrastructure/attribution-licenses.json → "SE-Statutory-PD"
 
 schema_version: "1.0"
 mcp_name: "Swedish Law MCP"
@@ -16,9 +24,9 @@ sources:
     last_ingested: "2026-02-15"
     last_verified: "2026-05-09"
     license_or_terms:
-      type: "Government Open Data (Swedish PSI)"
-      url: "https://data.riksdagen.se/"
-      summary: "Swedish public sector information, free to reuse under PSI regulations"
+      type: "SE-Statutory-PD"
+      url: "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-1960729-om-upphovsratt-till-litterara-och_sfs-1960-729"
+      summary: "Swedish statutory public domain (Upphovsrättslagen 1960:729 §9). Författningar (laws and regulations), beslut av myndighet (decisions of public authorities), yttranden av svensk myndighet (official statements), and official translations enjoy no copyright protection. Statute-level basis on the underlying text; Riksdagen Open Data compilation is additionally redistributable under Swedish PSI regulations."
     coverage:
       scope: "All consolidated Swedish statutes (SFS), including chapters, sections, and provision text"
       limitations: "May lag official publication by 24-48 hours; no editorial annotations or commentary"

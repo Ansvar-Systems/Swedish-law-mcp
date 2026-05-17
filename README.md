@@ -410,9 +410,9 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Statutes & Propositions:** Swedish Government (public domain)
-- **Case Law:** CC-BY Domstolsverket (via lagen.nu)
-- **EU Metadata:** EUR-Lex (EU public domain)
+- **Statutes & Propositions:** `SE-Statutory-PD` -- Swedish statutory public domain. Upphovsrättslagen (1960:729) §9 excludes författningar (laws and regulations), beslut av myndighet (decisions of public authorities), yttranden av svensk myndighet (official statements), and official translations of these works from copyright protection. Verified verbatim 2026-05-17 -- see [`docs/audits/2026-05-17-eu-copyright-statutory-works-batch-3-BG-HR-SK-SI-SE.md`](https://github.com/Ansvar-Systems/Ansvar-Architecture-Documentation/blob/main/docs/audits/2026-05-17-eu-copyright-statutory-works-batch-3-BG-HR-SK-SI-SE.md). Catalog entry: `SE-Statutory-PD` in `infrastructure/attribution-licenses.json`.
+- **Case Law:** CC-BY Domstolsverket (via lagen.nu) -- court decisions also covered by Upphovsrättslagen §9, with Domstolsverket compilation under CC-BY
+- **EU Metadata:** EUR-Lex (EU public domain, Decision 2011/833/EU)
 
 ---
 
