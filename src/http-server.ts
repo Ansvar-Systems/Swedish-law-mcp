@@ -104,8 +104,22 @@ async function main() {
         }
 
         if (req.method === 'POST') {
-          const transport = new StreamableHTTPServerTransport({
+          // Register the transport in the sessions map AS SOON AS the
+          // session_id is minted (via onsessioninitialized) — not after
+          // handleRequest returns. handleRequest is async and yields to
+          // the event loop while processing initialize; if the client's
+          // next call arrives before the post-await session set runs,
+          // the lookup above falls through to this branch and creates a
+          // competing transport, whose onclose then fires and the first
+          // call sees ClosedResourceError on its next message. Symptom:
+          // "SessionStale/ClosedResourceError under sequential calls"
+          // (risk_assessment workflow smoke test, 2026-05-17).
+          let transport: StreamableHTTPServerTransport;
+          transport = new StreamableHTTPServerTransport({
             sessionIdGenerator: () => randomUUID(),
+            onsessioninitialized: (sessionId: string) => {
+              sessions.set(sessionId, transport);
+            },
           });
           const server = createMCPServer();
           await server.connect(transport);
@@ -113,7 +127,6 @@ async function main() {
             if (transport.sessionId) sessions.delete(transport.sessionId);
           };
           await transport.handleRequest(req, res);
-          if (transport.sessionId) sessions.set(transport.sessionId, transport);
           return;
         }
 
