@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/ansvar-systems/Swedish-law-mcp
+  repository: ghcr.io/ansvar-systems/swedish-law-mcp
   tag: latest
   pullPolicy: IfNotPresent
 
