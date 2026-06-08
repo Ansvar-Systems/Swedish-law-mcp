@@ -435,13 +435,18 @@ export async function ingest(sfsNumber: string, outputPath: string, options?: In
   const fallbackProvisions = parseStatuteText(rawText) as ProvisionOutput[];
   const fallbackDeduped = dedupeByProvisionRef(fallbackProvisions);
 
-  // If the strict parser suppresses many candidates and the generic parser yields
-  // materially better coverage, prefer the generic result for this statute.
+  // Fallback to the generic parser ONLY when the strict parser genuinely fails
+  // to extract anything. The earlier "prefer generic when strict suppresses
+  // many candidates" heuristic is now obsolete and harmful: the hardened
+  // riksdagen parser deliberately suppresses inline "N §" / "N kap." cross-
+  // references (pervasive in cross-reference-dense statutes), which used to be
+  // mistaken for under-parsing. Preferring the generic parser in those cases
+  // re-introduced over-splitting (phantom provisions) and mid-sentence body
+  // truncation — exactly the corruption this parser work removes. So the
+  // generic parser is now a true last resort for a total strict miss only.
   const shouldUseFallback = (
-    parseResult.diagnostics.ignored_chapter_markers === 0 &&
-    parseResult.diagnostics.suppressed_section_candidates >= 20 &&
-    fallbackDeduped.provisions.length >= strictDeduped.provisions.length + 10 &&
-    fallbackDeduped.provisions.length >= Math.ceil(strictDeduped.provisions.length * 1.25)
+    strictDeduped.provisions.length === 0 &&
+    fallbackDeduped.provisions.length > 0
   );
 
   const deduped = shouldUseFallback ? fallbackDeduped : strictDeduped;
