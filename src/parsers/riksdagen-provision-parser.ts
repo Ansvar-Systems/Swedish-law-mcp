@@ -71,6 +71,26 @@ function isLikelyTitle(line: string): boolean {
   );
 }
 
+/**
+ * True when the next non-empty line is a section marker ("N §").
+ *
+ * Riksdagen places a provision's Rubrik (heading) on its own line immediately
+ * before the section it introduces. Used to recognise the heading of an
+ * upcoming section that appears after the current section's body, so it is
+ * attached to the next section's title rather than bleeding into the current
+ * section's content.
+ */
+function nextNonEmptyIsSection(lines: string[], fromIdx: number): boolean {
+  for (let j = fromIdx + 1; j < lines.length; j++) {
+    const next = lines[j].trim();
+    if (!next) {
+      continue;
+    }
+    return SECTION_PATTERN.test(next);
+  }
+  return false;
+}
+
 export function parseRiksdagenProvisions(text: string): RiksdagenParseResult {
   const lines = text.split(/\r?\n/);
   const provisions: RiksdagenProvision[] = [];
@@ -122,7 +142,8 @@ export function parseRiksdagenProvisions(text: string): RiksdagenParseResult {
     currentContent.length = 0;
   }
 
-  for (const rawLine of lines) {
+  for (let li = 0; li < lines.length; li++) {
+    const rawLine = lines[li]!;
     const line = rawLine.trim();
     if (!line) {
       continue;
@@ -227,6 +248,23 @@ export function parseRiksdagenProvisions(text: string): RiksdagenParseResult {
 
     if (currentSection && currentContent.length === 0 && isLikelyTitle(line)) {
       currentTitle = line;
+      continue;
+    }
+
+    // A heading for the NEXT section, appearing after the current section's
+    // body. Riksdagen puts the Rubrik immediately before the upcoming "N §",
+    // so detect it by lookahead and carry it as the next section's pendingTitle
+    // instead of letting it bleed into the current section's content. Gated by
+    // title shape + no sentence-ending punctuation + an immediately-following
+    // section marker, so genuine body prose is never misattributed.
+    if (
+      currentSection &&
+      currentContent.length > 0 &&
+      isLikelyTitle(line) &&
+      !/[.:;,]$/u.test(line) &&
+      nextNonEmptyIsSection(lines, li)
+    ) {
+      pendingTitle = line;
       continue;
     }
 

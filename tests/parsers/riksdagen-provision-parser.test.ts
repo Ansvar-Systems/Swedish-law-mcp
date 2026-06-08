@@ -19,6 +19,35 @@ Lagens syfte
     expect(result.provisions[0].content).toBe('Denna lag gäller.');
   });
 
+  it('attaches a heading that appears between sections to the next section, not the previous body', () => {
+    // Reproduces the SFS 2018:672 ch.17 corpus defect: the Rubrik for §2 sits
+    // on its own line after §1's body and before "2 §". It must become §2's
+    // title, not bleed into §1's body (which left §2's title null).
+    const text = `
+17 kap. Likvidation
+
+Föreningsstämmans beslut om likvidation
+1 § Föreningsstämman får besluta att föreningen ska gå i likvidation.
+Majoritetskrav vid beslut om likvidation
+2 § Ett beslut av föreningsstämman om likvidation är giltigt om minst två tredjedelar.
+Styrelsens skyldighet att låta stämman pröva frågan
+3 § Styrelsen ska genast lägga fram frågan.
+`;
+
+    const result = parseRiksdagenProvisions(text);
+
+    expect(result.provisions).toHaveLength(3);
+    expect(result.provisions[0].provision_ref).toBe('17:1');
+    expect(result.provisions[0].title).toBe('Föreningsstämmans beslut om likvidation');
+    // §2's heading must NOT appear in §1's body
+    expect(result.provisions[0].content).toBe('Föreningsstämman får besluta att föreningen ska gå i likvidation.');
+    expect(result.provisions[1].provision_ref).toBe('17:2');
+    expect(result.provisions[1].title).toBe('Majoritetskrav vid beslut om likvidation');
+    expect(result.provisions[1].content).toBe('Ett beslut av föreningsstämman om likvidation är giltigt om minst två tredjedelar.');
+    expect(result.provisions[2].provision_ref).toBe('17:3');
+    expect(result.provisions[2].title).toBe('Styrelsens skyldighet att låta stämman pröva frågan');
+  });
+
   it('ignores spurious chapter markers when the next section does not restart at 1 §', () => {
     const text = `
 2 kap. Om svensk rätts tillämplighet
