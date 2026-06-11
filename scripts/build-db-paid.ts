@@ -54,32 +54,6 @@ CREATE TABLE IF NOT EXISTS preparatory_works_full (
 
 CREATE INDEX IF NOT EXISTS idx_prep_works_full_prep
   ON preparatory_works_full(prep_work_id);
-
--- Agency guidance documents (paid tier)
-CREATE TABLE IF NOT EXISTS agency_guidance (
-  id INTEGER PRIMARY KEY,
-  agency TEXT NOT NULL,
-  document_id TEXT NOT NULL UNIQUE,
-  title TEXT NOT NULL,
-  summary TEXT,
-  full_text TEXT,
-  issued_date TEXT,
-  url TEXT,
-  related_statute_id TEXT REFERENCES legal_documents(id)
-);
-
-CREATE INDEX IF NOT EXISTS idx_agency_guidance_agency
-  ON agency_guidance(agency);
-CREATE INDEX IF NOT EXISTS idx_agency_guidance_statute
-  ON agency_guidance(related_statute_id);
-
--- FTS5 for agency guidance search
-CREATE VIRTUAL TABLE IF NOT EXISTS agency_guidance_fts USING fts5(
-  title, summary, full_text,
-  content='agency_guidance',
-  content_rowid='id',
-  tokenize='unicode61'
-);
 `;
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -139,7 +113,7 @@ function buildPaidTier(): void {
   console.log(`    Preparatory works: ${prepCount.toLocaleString()}`);
 
   // Check paid tables for data
-  const paidTables = ['case_law_full', 'preparatory_works_full', 'agency_guidance'];
+  const paidTables = ['case_law_full', 'preparatory_works_full'];
   console.log(`\n  Paid-tier tables (stub — no data sources connected yet):`);
   for (const table of paidTables) {
     const row = db.prepare(`SELECT COUNT(*) as c FROM ${table}`).get() as { c: number };
@@ -178,7 +152,6 @@ function buildPaidTier(): void {
   console.log(`\n  NOTE: Paid-tier tables are empty stubs. To populate them:`);
   console.log(`    1. case_law_full -- needs full-text opinion source (future)`);
   console.log(`    2. preparatory_works_full -- needs Riksdagen full-text API (future)`);
-  console.log(`    3. agency_guidance -- needs agency document scrapers (future)`);
 }
 
 buildPaidTier();

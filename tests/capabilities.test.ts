@@ -29,7 +29,6 @@ function createPaidTierDb(): InstanceType<typeof Database> {
   db.exec(`
     CREATE TABLE case_law_full (id INTEGER PRIMARY KEY, full_text TEXT);
     CREATE TABLE preparatory_works_full (id INTEGER PRIMARY KEY, full_text TEXT);
-    CREATE TABLE agency_guidance (id INTEGER PRIMARY KEY, guidance TEXT);
   `);
   return db;
 }
@@ -70,12 +69,11 @@ describe('detectCapabilities', () => {
     // Paid capabilities should NOT be present
     expect(caps.has('expanded_case_law')).toBe(false);
     expect(caps.has('full_preparatory_works')).toBe(false);
-    expect(caps.has('agency_guidance')).toBe(false);
 
     expect(caps.size).toBe(3);
   });
 
-  it('should detect all capabilities on paid-tier DB (6 tables)', () => {
+  it('should detect all capabilities on paid-tier DB (5 tables)', () => {
     db = createPaidTierDb();
     const caps = detectCapabilities(db);
 
@@ -84,9 +82,8 @@ describe('detectCapabilities', () => {
     expect(caps.has('eu_references')).toBe(true);
     expect(caps.has('expanded_case_law')).toBe(true);
     expect(caps.has('full_preparatory_works')).toBe(true);
-    expect(caps.has('agency_guidance')).toBe(true);
 
-    expect(caps.size).toBe(6);
+    expect(caps.size).toBe(5);
   });
 
   it('should return empty set for empty database', () => {
@@ -187,7 +184,6 @@ describe('isProfessionalCapability', () => {
   it('should return true for paid capabilities', () => {
     expect(isProfessionalCapability('expanded_case_law')).toBe(true);
     expect(isProfessionalCapability('full_preparatory_works')).toBe(true);
-    expect(isProfessionalCapability('agency_guidance')).toBe(true);
   });
 
   it('should return false for free capabilities', () => {
